@@ -1,7 +1,7 @@
 <script context="module">
 	export const prerender = true;
 
-	import Birth from '../component/British/birth.svelte';
+	import Bmd from '../component/British/Bmd.svelte';
 	import Children from '../component/British/Children.svelte';
 	import Companies from '../component/British/Companies.svelte';
 	import Electoral from '../component/British/Electoral.svelte';
@@ -32,7 +32,7 @@
 	<br />
 	<section class="one">
 		<div class="grid sm:flex gap-4 mt-20">
-			<Birth />
+			<Bmd />
 			<Children />
 			<Companies />
 		</div>

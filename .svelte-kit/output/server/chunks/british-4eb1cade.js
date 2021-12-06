@@ -1,4 +1,4 @@
-import { c as create_ssr_component, v as validate_component } from "./app-6a68fa8d.js";
+import { c as create_ssr_component, v as validate_component } from "./app-6b8bf9b1.js";
 var Graves_svelte_svelte_type_style_lang = "";
 const css$c = {
   code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
@@ -222,12 +222,12 @@ const Children = create_ssr_component(($$result, $$props, $$bindings, slots) => 
 		</a></div>
 </div>`;
 });
-var birth_svelte_svelte_type_style_lang = "";
+var Bmd_svelte_svelte_type_style_lang = "";
 const css$1 = {
   code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
   map: null
 };
-const Birth = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+const Bmd = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$1);
   return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">B.M.D</h1>
 
@@ -256,7 +256,7 @@ const British = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 		British Family History Resourses
 	</h1>
 	<br>
-	<section class="${"one"}"><div class="${"grid sm:flex gap-4 mt-20 svelte-g219g3"}">${validate_component(Birth, "Birth").$$render($$result, {}, {}, {})}
+	<section class="${"one"}"><div class="${"grid sm:flex gap-4 mt-20 svelte-g219g3"}">${validate_component(Bmd, "Bmd").$$render($$result, {}, {}, {})}
 			${validate_component(Children, "Children").$$render($$result, {}, {}, {})}
 			${validate_component(Companies, "Companies").$$render($$result, {}, {}, {})}</div>
 

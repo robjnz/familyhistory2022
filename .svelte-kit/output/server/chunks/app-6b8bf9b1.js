@@ -1438,9 +1438,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-61244ab7.js",
+      file: assets + "/_app/start-7ef93851.js",
       css: [assets + "/_app/assets/start-1f089c51.css"],
-      js: [assets + "/_app/start-61244ab7.js", assets + "/_app/chunks/vendor-dad3c69f.js"]
+      js: [assets + "/_app/start-7ef93851.js", assets + "/_app/chunks/vendor-dad3c69f.js"]
     },
     fetched: void 0,
     floc: false,
@@ -1545,19 +1545,19 @@ const get_hooks = (hooks) => ({
   externalFetch: hooks.externalFetch || fetch
 });
 const module_lookup = {
-  "src/routes/__layout.svelte": () => import("./__layout-db7eea6e.js"),
-  ".svelte-kit/build/components/error.svelte": () => import("./error-0d79fb5a.js"),
-  "src/routes/index.svelte": () => import("./index-7a25200d.js"),
-  "src/routes/newzealand.svelte": () => import("./newzealand-fc4ee07e.js"),
-  "src/routes/australia.svelte": () => import("./australia-5a838185.js"),
-  "src/routes/austrian.svelte": () => import("./austrian-511c43fb.js"),
-  "src/routes/barbados.svelte": () => import("./barbados-6c3c1f52.js"),
-  "src/routes/belarus.svelte": () => import("./belarus-c325c7f8.js"),
-  "src/routes/belgium.svelte": () => import("./belgium-c450e4c4.js"),
-  "src/routes/bermuda.svelte": () => import("./bermuda-805e96af.js"),
-  "src/routes/british.svelte": () => import("./british-28efe97c.js")
+  "src/routes/__layout.svelte": () => import("./__layout-92b1055f.js"),
+  ".svelte-kit/build/components/error.svelte": () => import("./error-6224de03.js"),
+  "src/routes/index.svelte": () => import("./index-c1343a47.js"),
+  "src/routes/newzealand.svelte": () => import("./newzealand-868edf3a.js"),
+  "src/routes/australia.svelte": () => import("./australia-b95433ed.js"),
+  "src/routes/austrian.svelte": () => import("./austrian-d1b254ac.js"),
+  "src/routes/barbados.svelte": () => import("./barbados-c9fe9ad4.js"),
+  "src/routes/belarus.svelte": () => import("./belarus-e7d29d07.js"),
+  "src/routes/belgium.svelte": () => import("./belgium-8b3b7e4b.js"),
+  "src/routes/bermuda.svelte": () => import("./bermuda-cbebe546.js"),
+  "src/routes/british.svelte": () => import("./british-4eb1cade.js")
 };
-const metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-1800d970.js", "css": ["assets/pages/__layout.svelte-527e1b78.css"], "js": ["pages/__layout.svelte-1800d970.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-0eb0ae99.js", "css": [], "js": ["error.svelte-0eb0ae99.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-0f6dcdd5.js", "css": ["assets/pages/index.svelte-3b776db4.css"], "js": ["pages/index.svelte-0f6dcdd5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/newzealand.svelte": { "entry": "pages/newzealand.svelte-55e4c24e.js", "css": ["assets/pages/newzealand.svelte-4345acdd.css"], "js": ["pages/newzealand.svelte-55e4c24e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia.svelte": { "entry": "pages/australia.svelte-a93343f0.js", "css": ["assets/pages/australia.svelte-b349f3b9.css"], "js": ["pages/australia.svelte-a93343f0.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/austrian.svelte": { "entry": "pages/austrian.svelte-9cffc3ae.js", "css": ["assets/pages/bermuda.svelte-e76c3c5b.css"], "js": ["pages/austrian.svelte-9cffc3ae.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/barbados.svelte": { "entry": "pages/barbados.svelte-f6f292b5.js", "css": ["assets/pages/bermuda.svelte-e76c3c5b.css"], "js": ["pages/barbados.svelte-f6f292b5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belarus.svelte": { "entry": "pages/belarus.svelte-e0a853d5.js", "css": ["assets/pages/belarus.svelte-af50c5fc.css"], "js": ["pages/belarus.svelte-e0a853d5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belgium.svelte": { "entry": "pages/belgium.svelte-c6264256.js", "css": ["assets/pages/bermuda.svelte-e76c3c5b.css"], "js": ["pages/belgium.svelte-c6264256.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/bermuda.svelte": { "entry": "pages/bermuda.svelte-be2f2254.js", "css": ["assets/pages/bermuda.svelte-e76c3c5b.css"], "js": ["pages/bermuda.svelte-be2f2254.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/british.svelte": { "entry": "pages/british.svelte-78b76c88.js", "css": ["assets/pages/british.svelte-2a5d1767.css"], "js": ["pages/british.svelte-78b76c88.js", "chunks/vendor-dad3c69f.js"], "styles": [] } };
+const metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-1800d970.js", "css": ["assets/pages/__layout.svelte-527e1b78.css"], "js": ["pages/__layout.svelte-1800d970.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-0eb0ae99.js", "css": [], "js": ["error.svelte-0eb0ae99.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-0f6dcdd5.js", "css": ["assets/pages/index.svelte-3b776db4.css"], "js": ["pages/index.svelte-0f6dcdd5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/newzealand.svelte": { "entry": "pages/newzealand.svelte-55e4c24e.js", "css": ["assets/pages/newzealand.svelte-4345acdd.css"], "js": ["pages/newzealand.svelte-55e4c24e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia.svelte": { "entry": "pages/australia.svelte-a93343f0.js", "css": ["assets/pages/australia.svelte-b349f3b9.css"], "js": ["pages/australia.svelte-a93343f0.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/austrian.svelte": { "entry": "pages/austrian.svelte-9cffc3ae.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/austrian.svelte-9cffc3ae.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/barbados.svelte": { "entry": "pages/barbados.svelte-f6f292b5.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/barbados.svelte-f6f292b5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belarus.svelte": { "entry": "pages/belarus.svelte-e0a853d5.js", "css": ["assets/pages/belarus.svelte-af50c5fc.css"], "js": ["pages/belarus.svelte-e0a853d5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belgium.svelte": { "entry": "pages/belgium.svelte-c6264256.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/belgium.svelte-c6264256.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/bermuda.svelte": { "entry": "pages/bermuda.svelte-be2f2254.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/bermuda.svelte-be2f2254.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/british.svelte": { "entry": "pages/british.svelte-d025ba93.js", "css": ["assets/pages/british.svelte-2a5d1767.css"], "js": ["pages/british.svelte-d025ba93.js", "chunks/vendor-dad3c69f.js"], "styles": [] } };
 async function load_component(file) {
   const { entry, css: css2, js, styles } = metadata_lookup[file];
   return {

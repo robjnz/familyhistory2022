@@ -4696,16 +4696,16 @@ var init_shims = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/__layout-db7eea6e.js
-var layout_db7eea6e_exports = {};
-__export(layout_db7eea6e_exports, {
+// .svelte-kit/output/server/chunks/__layout-92b1055f.js
+var layout_92b1055f_exports = {};
+__export(layout_92b1055f_exports, {
   default: () => _layout
 });
 var css$a, Nav, css$9, TheFooter, css$8, Australasia, css$7, Caribbean, css$6, Europe, css$5, Jewish, css$4, Northamerica, css$3, Blog, css$2, General, css$1, Dropdown, css, _layout;
-var init_layout_db7eea6e = __esm({
-  ".svelte-kit/output/server/chunks/__layout-db7eea6e.js"() {
+var init_layout_92b1055f = __esm({
+  ".svelte-kit/output/server/chunks/__layout-92b1055f.js"() {
     init_shims();
-    init_app_6a68fa8d();
+    init_app_6b8bf9b1();
     css$a = {
       code: ".bg-teal-500.svelte-j03ddw{--tw-bg-opacity:1;background-color:rgba(20, 184, 166, var(--tw-bg-opacity))}.grid.svelte-j03ddw{display:-ms-grid;display:grid}.h-10.svelte-j03ddw{height:2.5rem}.text-4xl.svelte-j03ddw{font-size:2.25rem;line-height:2.5rem}.m-2.svelte-j03ddw{margin:0.5rem}.p-4.svelte-j03ddw{padding:1rem}.text-gray-200.svelte-j03ddw{--tw-text-opacity:1;color:rgba(229, 231, 235, var(--tw-text-opacity))}.gap-4.svelte-j03ddw{grid-gap:1rem;gap:1rem}.grid-cols-3.svelte-j03ddw{grid-template-columns:repeat(3, minmax(0, 1fr))}",
       map: null
@@ -4917,9 +4917,9 @@ ${validate_component(TheFooter, "TheFooter").$$render($$result, {}, {}, {})}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/error-0d79fb5a.js
-var error_0d79fb5a_exports = {};
-__export(error_0d79fb5a_exports, {
+// .svelte-kit/output/server/chunks/error-6224de03.js
+var error_6224de03_exports = {};
+__export(error_6224de03_exports, {
   default: () => Error2,
   load: () => load
 });
@@ -4927,10 +4927,10 @@ function load({ error: error2, status }) {
   return { props: { error: error2, status } };
 }
 var Error2;
-var init_error_0d79fb5a = __esm({
-  ".svelte-kit/output/server/chunks/error-0d79fb5a.js"() {
+var init_error_6224de03 = __esm({
+  ".svelte-kit/output/server/chunks/error-6224de03.js"() {
     init_shims();
-    init_app_6a68fa8d();
+    init_app_6b8bf9b1();
     Error2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { status } = $$props;
       let { error: error2 } = $$props;
@@ -4950,17 +4950,17 @@ ${error2.stack ? `<pre>${escape(error2.stack)}</pre>` : ``}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/index-7a25200d.js
-var index_7a25200d_exports = {};
-__export(index_7a25200d_exports, {
+// .svelte-kit/output/server/chunks/index-c1343a47.js
+var index_c1343a47_exports = {};
+__export(index_c1343a47_exports, {
   default: () => Routes,
   prerender: () => prerender
 });
 var css2, prerender, Routes;
-var init_index_7a25200d = __esm({
-  ".svelte-kit/output/server/chunks/index-7a25200d.js"() {
+var init_index_c1343a47 = __esm({
+  ".svelte-kit/output/server/chunks/index-c1343a47.js"() {
     init_shims();
-    init_app_6a68fa8d();
+    init_app_6b8bf9b1();
     css2 = {
       code: ".one.svelte-1quiifg{text-align:center;margin-top:50px;margin-left:100px;margin-right:100px}.grid.svelte-1quiifg{display:-ms-grid;display:grid}.h-96.svelte-1quiifg{height:24rem}.text-6xl.svelte-1quiifg{font-size:3.75rem;line-height:1}.text-3xl.svelte-1quiifg{font-size:1.875rem;line-height:2.25rem}.text-xl.svelte-1quiifg{font-size:1.25rem;line-height:1.75rem}.object-fill.svelte-1quiifg{-o-object-fit:fill;object-fit:fill}.p-4.svelte-1quiifg{padding:1rem}.text-left.svelte-1quiifg{text-align:left}.text-center.svelte-1quiifg{text-align:center}.text-purple-500.svelte-1quiifg{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.text-purple-400.svelte-1quiifg{--tw-text-opacity:1;color:rgba(167, 139, 250, var(--tw-text-opacity))}.text-gray-600.svelte-1quiifg{--tw-text-opacity:1;color:rgba(75, 85, 99, var(--tw-text-opacity))}.w-full.svelte-1quiifg{width:100%}.gap-4.svelte-1quiifg{grid-gap:1rem;gap:1rem}.grid-cols-2.svelte-1quiifg{grid-template-columns:repeat(2, minmax(0, 1fr))}",
       map: null
@@ -4994,17 +4994,17 @@ var init_index_7a25200d = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/newzealand-fc4ee07e.js
-var newzealand_fc4ee07e_exports = {};
-__export(newzealand_fc4ee07e_exports, {
+// .svelte-kit/output/server/chunks/newzealand-868edf3a.js
+var newzealand_868edf3a_exports = {};
+__export(newzealand_868edf3a_exports, {
   default: () => Newzealand,
   prerender: () => prerender2
 });
 var css$52, State, css$42, Historical, css$32, Gazette, css$22, Companies, css$12, Auckland, css3, prerender2, Newzealand;
-var init_newzealand_fc4ee07e = __esm({
-  ".svelte-kit/output/server/chunks/newzealand-fc4ee07e.js"() {
+var init_newzealand_868edf3a = __esm({
+  ".svelte-kit/output/server/chunks/newzealand-868edf3a.js"() {
     init_shims();
-    init_app_6a68fa8d();
+    init_app_6b8bf9b1();
     css$52 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5116,17 +5116,17 @@ var init_newzealand_fc4ee07e = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/australia-5a838185.js
-var australia_5a838185_exports = {};
-__export(australia_5a838185_exports, {
+// .svelte-kit/output/server/chunks/australia-b95433ed.js
+var australia_b95433ed_exports = {};
+__export(australia_b95433ed_exports, {
   default: () => Australia,
   prerender: () => prerender3
 });
 var css$23, Ausstate, css$13, Gen, css4, prerender3, Australia;
-var init_australia_5a838185 = __esm({
-  ".svelte-kit/output/server/chunks/australia-5a838185.js"() {
+var init_australia_b95433ed = __esm({
+  ".svelte-kit/output/server/chunks/australia-b95433ed.js"() {
     init_shims();
-    init_app_6a68fa8d();
+    init_app_6b8bf9b1();
     css$23 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5181,17 +5181,17 @@ var init_australia_5a838185 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/austrian-511c43fb.js
-var austrian_511c43fb_exports = {};
-__export(austrian_511c43fb_exports, {
+// .svelte-kit/output/server/chunks/austrian-d1b254ac.js
+var austrian_d1b254ac_exports = {};
+__export(austrian_d1b254ac_exports, {
   default: () => Austrian,
   prerender: () => prerender4
 });
 var css$24, Vienna, css$14, Auststate, css5, prerender4, Austrian;
-var init_austrian_511c43fb = __esm({
-  ".svelte-kit/output/server/chunks/austrian-511c43fb.js"() {
+var init_austrian_d1b254ac = __esm({
+  ".svelte-kit/output/server/chunks/austrian-d1b254ac.js"() {
     init_shims();
-    init_app_6a68fa8d();
+    init_app_6b8bf9b1();
     css$24 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5246,17 +5246,17 @@ var init_austrian_511c43fb = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/barbados-6c3c1f52.js
-var barbados_6c3c1f52_exports = {};
-__export(barbados_6c3c1f52_exports, {
+// .svelte-kit/output/server/chunks/barbados-c9fe9ad4.js
+var barbados_c9fe9ad4_exports = {};
+__export(barbados_c9fe9ad4_exports, {
   default: () => Barbados,
   prerender: () => prerender5
 });
 var css$33, Barbstate, css$25, Family, css$15, Genbarb, css6, prerender5, Barbados;
-var init_barbados_6c3c1f52 = __esm({
-  ".svelte-kit/output/server/chunks/barbados-6c3c1f52.js"() {
+var init_barbados_c9fe9ad4 = __esm({
+  ".svelte-kit/output/server/chunks/barbados-c9fe9ad4.js"() {
     init_shims();
-    init_app_6a68fa8d();
+    init_app_6b8bf9b1();
     css$33 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5331,17 +5331,17 @@ var init_barbados_6c3c1f52 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/belarus-c325c7f8.js
-var belarus_c325c7f8_exports = {};
-__export(belarus_c325c7f8_exports, {
+// .svelte-kit/output/server/chunks/belarus-e7d29d07.js
+var belarus_e7d29d07_exports = {};
+__export(belarus_e7d29d07_exports, {
   default: () => Belarus,
   prerender: () => prerender6
 });
 var css$26, Mogilev, css$16, Belstate, css7, prerender6, Belarus;
-var init_belarus_c325c7f8 = __esm({
-  ".svelte-kit/output/server/chunks/belarus-c325c7f8.js"() {
+var init_belarus_e7d29d07 = __esm({
+  ".svelte-kit/output/server/chunks/belarus-e7d29d07.js"() {
     init_shims();
-    init_app_6a68fa8d();
+    init_app_6b8bf9b1();
     css$26 = {
       code: ".bg-indigo-700.svelte-13tzqgo{--tw-bg-opacity:1;background-color:rgba(67, 56, 202, var(--tw-bg-opacity))}.hover\\:bg-indigo-800.svelte-13tzqgo:hover{--tw-bg-opacity:1;background-color:rgba(55, 48, 163, var(--tw-bg-opacity))}.rounded-lg.svelte-13tzqgo{border-radius:0.5rem}.h-32.svelte-13tzqgo{height:8rem}.h-8.svelte-13tzqgo{height:2rem}.text-2xl.svelte-13tzqgo{font-size:1.5rem;line-height:2rem}.text-sm.svelte-13tzqgo{font-size:0.875rem;line-height:1.25rem}.m-4.svelte-13tzqgo{margin:1rem}.m-2.svelte-13tzqgo{margin:0.5rem}.object-fill.svelte-13tzqgo{-o-object-fit:fill;object-fit:fill}.p-4.svelte-13tzqgo{padding:1rem}.p-6.svelte-13tzqgo{padding:1.5rem}.px-4.svelte-13tzqgo{padding-left:1rem;padding-right:1rem}.shadow-2xl.svelte-13tzqgo{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-right.svelte-13tzqgo{text-align:right}.text-white.svelte-13tzqgo{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-13tzqgo:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.text-indigo-100.svelte-13tzqgo{--tw-text-opacity:1;color:rgba(224, 231, 255, var(--tw-text-opacity))}.w-auto.svelte-13tzqgo{width:auto}.w-full.svelte-13tzqgo{width:100%}.transition-colors.svelte-13tzqgo{-webkit-transition-property:background-color, border-color, color, fill, stroke;-o-transition-property:background-color, border-color, color, fill, stroke;transition-property:background-color, border-color, color, fill, stroke;-webkit-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-o-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}.duration-150.svelte-13tzqgo{-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}",
       map: null
@@ -5396,17 +5396,17 @@ var init_belarus_c325c7f8 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/belgium-c450e4c4.js
-var belgium_c450e4c4_exports = {};
-__export(belgium_c450e4c4_exports, {
+// .svelte-kit/output/server/chunks/belgium-8b3b7e4b.js
+var belgium_8b3b7e4b_exports = {};
+__export(belgium_8b3b7e4b_exports, {
   default: () => Belgium,
   prerender: () => prerender7
 });
 var css$34, Genealogy, css$27, Ancestry, css$17, Belgstate, css8, prerender7, Belgium;
-var init_belgium_c450e4c4 = __esm({
-  ".svelte-kit/output/server/chunks/belgium-c450e4c4.js"() {
+var init_belgium_8b3b7e4b = __esm({
+  ".svelte-kit/output/server/chunks/belgium-8b3b7e4b.js"() {
     init_shims();
-    init_app_6a68fa8d();
+    init_app_6b8bf9b1();
     css$34 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5477,17 +5477,17 @@ var init_belgium_c450e4c4 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/bermuda-805e96af.js
-var bermuda_805e96af_exports = {};
-__export(bermuda_805e96af_exports, {
+// .svelte-kit/output/server/chunks/bermuda-cbebe546.js
+var bermuda_cbebe546_exports = {};
+__export(bermuda_cbebe546_exports, {
   default: () => Bermuda,
   prerender: () => prerender8
 });
 var css$35, Berstate, css$28, National, css$18, Berfamily, css9, prerender8, Bermuda;
-var init_bermuda_805e96af = __esm({
-  ".svelte-kit/output/server/chunks/bermuda-805e96af.js"() {
+var init_bermuda_cbebe546 = __esm({
+  ".svelte-kit/output/server/chunks/bermuda-cbebe546.js"() {
     init_shims();
-    init_app_6a68fa8d();
+    init_app_6b8bf9b1();
     css$35 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5562,17 +5562,17 @@ var init_bermuda_805e96af = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/british-28efe97c.js
-var british_28efe97c_exports = {};
-__export(british_28efe97c_exports, {
+// .svelte-kit/output/server/chunks/british-4eb1cade.js
+var british_4eb1cade_exports = {};
+__export(british_4eb1cade_exports, {
   default: () => British,
   prerender: () => prerender9
 });
-var css$c, Graves, css$b, Britstate, css$a2, Navy, css$92, Raf, css$82, Newspaper, css$72, Gazette2, css$62, Industral, css$53, Directories, css$43, Electoral, css$36, Companies2, css$29, Children, css$19, Birth, css10, prerender9, British;
-var init_british_28efe97c = __esm({
-  ".svelte-kit/output/server/chunks/british-28efe97c.js"() {
+var css$c, Graves, css$b, Britstate, css$a2, Navy, css$92, Raf, css$82, Newspaper, css$72, Gazette2, css$62, Industral, css$53, Directories, css$43, Electoral, css$36, Companies2, css$29, Children, css$19, Bmd, css10, prerender9, British;
+var init_british_4eb1cade = __esm({
+  ".svelte-kit/output/server/chunks/british-4eb1cade.js"() {
     init_shims();
-    init_app_6a68fa8d();
+    init_app_6b8bf9b1();
     css$c = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5789,7 +5789,7 @@ var init_british_28efe97c = __esm({
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
-    Birth = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+    Bmd = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       $$result.css.add(css$19);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">B.M.D</h1>
 
@@ -5817,7 +5817,7 @@ var init_british_28efe97c = __esm({
 		British Family History Resourses
 	</h1>
 	<br>
-	<section class="${"one"}"><div class="${"grid sm:flex gap-4 mt-20 svelte-g219g3"}">${validate_component(Birth, "Birth").$$render($$result, {}, {}, {})}
+	<section class="${"one"}"><div class="${"grid sm:flex gap-4 mt-20 svelte-g219g3"}">${validate_component(Bmd, "Bmd").$$render($$result, {}, {}, {})}
 			${validate_component(Children, "Children").$$render($$result, {}, {}, {})}
 			${validate_component(Companies2, "Companies").$$render($$result, {}, {}, {})}</div>
 
@@ -5837,7 +5837,7 @@ var init_british_28efe97c = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/app-6a68fa8d.js
+// .svelte-kit/output/server/chunks/app-6b8bf9b1.js
 function get_single_valued_header(headers, key) {
   const value = headers[key];
   if (Array.isArray(value)) {
@@ -7113,9 +7113,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-61244ab7.js",
+      file: assets + "/_app/start-7ef93851.js",
       css: [assets + "/_app/assets/start-1f089c51.css"],
-      js: [assets + "/_app/start-61244ab7.js", assets + "/_app/chunks/vendor-dad3c69f.js"]
+      js: [assets + "/_app/start-7ef93851.js", assets + "/_app/chunks/vendor-dad3c69f.js"]
     },
     fetched: void 0,
     floc: false,
@@ -7159,8 +7159,8 @@ function render(request, {
   return respond({ ...request, host }, options, { prerender: prerender10 });
 }
 var __accessCheck, __privateGet, __privateAdd, __privateSet, _map, absolute, scheme, chars, unsafeChars, reserved, escaped$1, objectProtoOwnPropertyNames, subscriber_queue, escape_json_string_in_html_dict, escape_html_attr_dict, s$1, s, ReadOnlyFormData, current_component, escaped, missing_component, on_destroy, css11, Root, base, assets, user_hooks, template, options, default_settings, empty, manifest, get_hooks, module_lookup, metadata_lookup;
-var init_app_6a68fa8d = __esm({
-  ".svelte-kit/output/server/chunks/app-6a68fa8d.js"() {
+var init_app_6b8bf9b1 = __esm({
+  ".svelte-kit/output/server/chunks/app-6b8bf9b1.js"() {
     init_shims();
     __accessCheck = (obj, member, msg) => {
       if (!member.has(obj))
@@ -7401,19 +7401,19 @@ ${``}`;
       externalFetch: hooks.externalFetch || fetch
     });
     module_lookup = {
-      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_db7eea6e(), layout_db7eea6e_exports)),
-      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_0d79fb5a(), error_0d79fb5a_exports)),
-      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_7a25200d(), index_7a25200d_exports)),
-      "src/routes/newzealand.svelte": () => Promise.resolve().then(() => (init_newzealand_fc4ee07e(), newzealand_fc4ee07e_exports)),
-      "src/routes/australia.svelte": () => Promise.resolve().then(() => (init_australia_5a838185(), australia_5a838185_exports)),
-      "src/routes/austrian.svelte": () => Promise.resolve().then(() => (init_austrian_511c43fb(), austrian_511c43fb_exports)),
-      "src/routes/barbados.svelte": () => Promise.resolve().then(() => (init_barbados_6c3c1f52(), barbados_6c3c1f52_exports)),
-      "src/routes/belarus.svelte": () => Promise.resolve().then(() => (init_belarus_c325c7f8(), belarus_c325c7f8_exports)),
-      "src/routes/belgium.svelte": () => Promise.resolve().then(() => (init_belgium_c450e4c4(), belgium_c450e4c4_exports)),
-      "src/routes/bermuda.svelte": () => Promise.resolve().then(() => (init_bermuda_805e96af(), bermuda_805e96af_exports)),
-      "src/routes/british.svelte": () => Promise.resolve().then(() => (init_british_28efe97c(), british_28efe97c_exports))
+      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_92b1055f(), layout_92b1055f_exports)),
+      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_6224de03(), error_6224de03_exports)),
+      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_c1343a47(), index_c1343a47_exports)),
+      "src/routes/newzealand.svelte": () => Promise.resolve().then(() => (init_newzealand_868edf3a(), newzealand_868edf3a_exports)),
+      "src/routes/australia.svelte": () => Promise.resolve().then(() => (init_australia_b95433ed(), australia_b95433ed_exports)),
+      "src/routes/austrian.svelte": () => Promise.resolve().then(() => (init_austrian_d1b254ac(), austrian_d1b254ac_exports)),
+      "src/routes/barbados.svelte": () => Promise.resolve().then(() => (init_barbados_c9fe9ad4(), barbados_c9fe9ad4_exports)),
+      "src/routes/belarus.svelte": () => Promise.resolve().then(() => (init_belarus_e7d29d07(), belarus_e7d29d07_exports)),
+      "src/routes/belgium.svelte": () => Promise.resolve().then(() => (init_belgium_8b3b7e4b(), belgium_8b3b7e4b_exports)),
+      "src/routes/bermuda.svelte": () => Promise.resolve().then(() => (init_bermuda_cbebe546(), bermuda_cbebe546_exports)),
+      "src/routes/british.svelte": () => Promise.resolve().then(() => (init_british_4eb1cade(), british_4eb1cade_exports))
     };
-    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-1800d970.js", "css": ["assets/pages/__layout.svelte-527e1b78.css"], "js": ["pages/__layout.svelte-1800d970.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-0eb0ae99.js", "css": [], "js": ["error.svelte-0eb0ae99.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-0f6dcdd5.js", "css": ["assets/pages/index.svelte-3b776db4.css"], "js": ["pages/index.svelte-0f6dcdd5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/newzealand.svelte": { "entry": "pages/newzealand.svelte-55e4c24e.js", "css": ["assets/pages/newzealand.svelte-4345acdd.css"], "js": ["pages/newzealand.svelte-55e4c24e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia.svelte": { "entry": "pages/australia.svelte-a93343f0.js", "css": ["assets/pages/australia.svelte-b349f3b9.css"], "js": ["pages/australia.svelte-a93343f0.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/austrian.svelte": { "entry": "pages/austrian.svelte-9cffc3ae.js", "css": ["assets/pages/bermuda.svelte-e76c3c5b.css"], "js": ["pages/austrian.svelte-9cffc3ae.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/barbados.svelte": { "entry": "pages/barbados.svelte-f6f292b5.js", "css": ["assets/pages/bermuda.svelte-e76c3c5b.css"], "js": ["pages/barbados.svelte-f6f292b5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belarus.svelte": { "entry": "pages/belarus.svelte-e0a853d5.js", "css": ["assets/pages/belarus.svelte-af50c5fc.css"], "js": ["pages/belarus.svelte-e0a853d5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belgium.svelte": { "entry": "pages/belgium.svelte-c6264256.js", "css": ["assets/pages/bermuda.svelte-e76c3c5b.css"], "js": ["pages/belgium.svelte-c6264256.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/bermuda.svelte": { "entry": "pages/bermuda.svelte-be2f2254.js", "css": ["assets/pages/bermuda.svelte-e76c3c5b.css"], "js": ["pages/bermuda.svelte-be2f2254.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/british.svelte": { "entry": "pages/british.svelte-78b76c88.js", "css": ["assets/pages/british.svelte-2a5d1767.css"], "js": ["pages/british.svelte-78b76c88.js", "chunks/vendor-dad3c69f.js"], "styles": [] } };
+    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-1800d970.js", "css": ["assets/pages/__layout.svelte-527e1b78.css"], "js": ["pages/__layout.svelte-1800d970.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-0eb0ae99.js", "css": [], "js": ["error.svelte-0eb0ae99.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-0f6dcdd5.js", "css": ["assets/pages/index.svelte-3b776db4.css"], "js": ["pages/index.svelte-0f6dcdd5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/newzealand.svelte": { "entry": "pages/newzealand.svelte-55e4c24e.js", "css": ["assets/pages/newzealand.svelte-4345acdd.css"], "js": ["pages/newzealand.svelte-55e4c24e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia.svelte": { "entry": "pages/australia.svelte-a93343f0.js", "css": ["assets/pages/australia.svelte-b349f3b9.css"], "js": ["pages/australia.svelte-a93343f0.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/austrian.svelte": { "entry": "pages/austrian.svelte-9cffc3ae.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/austrian.svelte-9cffc3ae.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/barbados.svelte": { "entry": "pages/barbados.svelte-f6f292b5.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/barbados.svelte-f6f292b5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belarus.svelte": { "entry": "pages/belarus.svelte-e0a853d5.js", "css": ["assets/pages/belarus.svelte-af50c5fc.css"], "js": ["pages/belarus.svelte-e0a853d5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belgium.svelte": { "entry": "pages/belgium.svelte-c6264256.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/belgium.svelte-c6264256.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/bermuda.svelte": { "entry": "pages/bermuda.svelte-be2f2254.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/bermuda.svelte-be2f2254.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/british.svelte": { "entry": "pages/british.svelte-d025ba93.js", "css": ["assets/pages/british.svelte-2a5d1767.css"], "js": ["pages/british.svelte-d025ba93.js", "chunks/vendor-dad3c69f.js"], "styles": [] } };
   }
 });
 
@@ -7425,7 +7425,7 @@ init_shims();
 
 // .svelte-kit/output/server/app.js
 init_shims();
-init_app_6a68fa8d();
+init_app_6b8bf9b1();
 
 // .svelte-kit/netlify/entry.js
 init();
