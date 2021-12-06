@@ -30,24 +30,20 @@
 			<a class="text-red-600 hover:text-yellow-600" href="/belarus">Belarus</a>
 		</li>
 
+    <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+			<a class="text-red-600 hover:text-yellow-600" href="/belgium">Belgium</a>
+		</li>
+
+    <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+			<a class="text-red-600 hover:text-yellow-600" href="/british">British</a>
+		</li>
+
       
 
-       <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-        <g-link
-          class="text-red-600 hover:text-orange-600"
-          to="/europe/belgiumgeneral"
-          >Belgium</g-link
-        >
-      </li>
+       
 
 
-      <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-        <g-link
-          class="text-red-600 hover:text-yellow-600"
-          to="/europe/britishgeneral"
-          >British</g-link
-        >
-      </li>
+
 
         <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
         <g-link
