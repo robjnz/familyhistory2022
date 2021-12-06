@@ -7,10 +7,13 @@
 		</div>
 		<div>Family History Tips</div>
 		<div>
+
+		<!--
 			<ul class="text-right">
 				<a href=".">Home</a>
-				
+			
 			</ul>
+			-->	
 		</div>
 	</div>
 </nav>

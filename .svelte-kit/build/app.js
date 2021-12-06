@@ -22,9 +22,9 @@ export function init(settings = default_settings) {
 		amp: false,
 		dev: false,
 		entry: {
-			file: assets + "/_app/start-2a8ac940.js",
+			file: assets + "/_app/start-c59d380a.js",
 			css: [assets + "/_app/assets/start-1f089c51.css"],
-			js: [assets + "/_app/start-2a8ac940.js",assets + "/_app/chunks/vendor-dad3c69f.js"]
+			js: [assets + "/_app/start-c59d380a.js",assets + "/_app/chunks/vendor-dad3c69f.js"]
 		},
 		fetched: undefined,
 		floc: false,
@@ -97,9 +97,23 @@ const manifest = {
 					},
 		{
 						type: 'page',
+						pattern: /^\/austrian\/?$/,
+						params: empty,
+						a: ["src/routes/__layout.svelte", "src/routes/austrian.svelte"],
+						b: [".svelte-kit/build/components/error.svelte"]
+					},
+		{
+						type: 'page',
 						pattern: /^\/barbados\/?$/,
 						params: empty,
 						a: ["src/routes/__layout.svelte", "src/routes/barbados.svelte"],
+						b: [".svelte-kit/build/components/error.svelte"]
+					},
+		{
+						type: 'page',
+						pattern: /^\/belarus\/?$/,
+						params: empty,
+						a: ["src/routes/__layout.svelte", "src/routes/belarus.svelte"],
 						b: [".svelte-kit/build/components/error.svelte"]
 					},
 		{
@@ -122,10 +136,10 @@ const get_hooks = hooks => ({
 });
 
 const module_lookup = {
-	"src/routes/__layout.svelte": () => import("..\\..\\src\\routes\\__layout.svelte"),".svelte-kit/build/components/error.svelte": () => import("./components\\error.svelte"),"src/routes/index.svelte": () => import("..\\..\\src\\routes\\index.svelte"),"src/routes/newzealand.svelte": () => import("..\\..\\src\\routes\\newzealand.svelte"),"src/routes/australia.svelte": () => import("..\\..\\src\\routes\\australia.svelte"),"src/routes/barbados.svelte": () => import("..\\..\\src\\routes\\barbados.svelte"),"src/routes/bermuda.svelte": () => import("..\\..\\src\\routes\\bermuda.svelte")
+	"src/routes/__layout.svelte": () => import("..\\..\\src\\routes\\__layout.svelte"),".svelte-kit/build/components/error.svelte": () => import("./components\\error.svelte"),"src/routes/index.svelte": () => import("..\\..\\src\\routes\\index.svelte"),"src/routes/newzealand.svelte": () => import("..\\..\\src\\routes\\newzealand.svelte"),"src/routes/australia.svelte": () => import("..\\..\\src\\routes\\australia.svelte"),"src/routes/austrian.svelte": () => import("..\\..\\src\\routes\\austrian.svelte"),"src/routes/barbados.svelte": () => import("..\\..\\src\\routes\\barbados.svelte"),"src/routes/belarus.svelte": () => import("..\\..\\src\\routes\\belarus.svelte"),"src/routes/bermuda.svelte": () => import("..\\..\\src\\routes\\bermuda.svelte")
 };
 
-const metadata_lookup = {"src/routes/__layout.svelte":{"entry":"pages/__layout.svelte-5649900a.js","css":["assets/pages/__layout.svelte-1cb04902.css"],"js":["pages/__layout.svelte-5649900a.js","chunks/vendor-dad3c69f.js"],"styles":[]},".svelte-kit/build/components/error.svelte":{"entry":"error.svelte-0eb0ae99.js","css":[],"js":["error.svelte-0eb0ae99.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/index.svelte":{"entry":"pages/index.svelte-0f6dcdd5.js","css":["assets/pages/index.svelte-3b776db4.css"],"js":["pages/index.svelte-0f6dcdd5.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/newzealand.svelte":{"entry":"pages/newzealand.svelte-55e4c24e.js","css":["assets/pages/newzealand.svelte-4345acdd.css"],"js":["pages/newzealand.svelte-55e4c24e.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/australia.svelte":{"entry":"pages/australia.svelte-a93343f0.js","css":["assets/pages/australia.svelte-b349f3b9.css"],"js":["pages/australia.svelte-a93343f0.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/barbados.svelte":{"entry":"pages/barbados.svelte-f6f292b5.js","css":["assets/pages/barbados.svelte-ac4cdfcc.css"],"js":["pages/barbados.svelte-f6f292b5.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/bermuda.svelte":{"entry":"pages/bermuda.svelte-be2f2254.js","css":["assets/pages/barbados.svelte-ac4cdfcc.css"],"js":["pages/bermuda.svelte-be2f2254.js","chunks/vendor-dad3c69f.js"],"styles":[]}};
+const metadata_lookup = {"src/routes/__layout.svelte":{"entry":"pages/__layout.svelte-7596d614.js","css":["assets/pages/__layout.svelte-8aa5961d.css"],"js":["pages/__layout.svelte-7596d614.js","chunks/vendor-dad3c69f.js"],"styles":[]},".svelte-kit/build/components/error.svelte":{"entry":"error.svelte-0eb0ae99.js","css":[],"js":["error.svelte-0eb0ae99.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/index.svelte":{"entry":"pages/index.svelte-0f6dcdd5.js","css":["assets/pages/index.svelte-3b776db4.css"],"js":["pages/index.svelte-0f6dcdd5.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/newzealand.svelte":{"entry":"pages/newzealand.svelte-55e4c24e.js","css":["assets/pages/newzealand.svelte-4345acdd.css"],"js":["pages/newzealand.svelte-55e4c24e.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/australia.svelte":{"entry":"pages/australia.svelte-a93343f0.js","css":["assets/pages/australia.svelte-b349f3b9.css"],"js":["pages/australia.svelte-a93343f0.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/austrian.svelte":{"entry":"pages/austrian.svelte-9cffc3ae.js","css":["assets/pages/barbados.svelte-ac4cdfcc.css"],"js":["pages/austrian.svelte-9cffc3ae.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/barbados.svelte":{"entry":"pages/barbados.svelte-f6f292b5.js","css":["assets/pages/barbados.svelte-ac4cdfcc.css"],"js":["pages/barbados.svelte-f6f292b5.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/belarus.svelte":{"entry":"pages/belarus.svelte-e0a853d5.js","css":["assets/pages/belarus.svelte-af50c5fc.css"],"js":["pages/belarus.svelte-e0a853d5.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/bermuda.svelte":{"entry":"pages/bermuda.svelte-be2f2254.js","css":["assets/pages/barbados.svelte-ac4cdfcc.css"],"js":["pages/bermuda.svelte-be2f2254.js","chunks/vendor-dad3c69f.js"],"styles":[]}};
 
 async function load_component(file) {
 	const { entry, css, js, styles } = metadata_lookup[file];

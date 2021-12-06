@@ -1,6 +1,6 @@
 {
   ".svelte-kit/build/runtime/internal/start.js": {
-    "file": "start-2a8ac940.js",
+    "file": "start-c59d380a.js",
     "src": ".svelte-kit/build/runtime/internal/start.js",
     "isEntry": true,
     "imports": [
@@ -12,7 +12,9 @@
       "src/routes/index.svelte",
       "src/routes/newzealand.svelte",
       "src/routes/australia.svelte",
+      "src/routes/austrian.svelte",
       "src/routes/barbados.svelte",
+      "src/routes/belarus.svelte",
       "src/routes/bermuda.svelte"
     ],
     "css": [
@@ -20,7 +22,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-5649900a.js",
+    "file": "pages/__layout.svelte-7596d614.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -28,7 +30,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-1cb04902.css"
+      "assets/pages/__layout.svelte-8aa5961d.css"
     ]
   },
   ".svelte-kit/build/components/error.svelte": {
@@ -76,6 +78,18 @@
       "assets/pages/australia.svelte-b349f3b9.css"
     ]
   },
+  "src/routes/austrian.svelte": {
+    "file": "pages/austrian.svelte-9cffc3ae.js",
+    "src": "src/routes/austrian.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-dad3c69f.js"
+    ],
+    "css": [
+      "assets/pages/barbados.svelte-ac4cdfcc.css"
+    ]
+  },
   "src/routes/barbados.svelte": {
     "file": "pages/barbados.svelte-f6f292b5.js",
     "src": "src/routes/barbados.svelte",
@@ -86,6 +100,18 @@
     ],
     "css": [
       "assets/pages/barbados.svelte-ac4cdfcc.css"
+    ]
+  },
+  "src/routes/belarus.svelte": {
+    "file": "pages/belarus.svelte-e0a853d5.js",
+    "src": "src/routes/belarus.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-dad3c69f.js"
+    ],
+    "css": [
+      "assets/pages/belarus.svelte-af50c5fc.css"
     ]
   },
   "src/routes/bermuda.svelte": {

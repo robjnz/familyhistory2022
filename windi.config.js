@@ -1,5 +1,6 @@
 const colors = require('windicss/colors')
 const typography = require('windicss/plugin/typography')
+const { transform } = require('windicss/helpers')
 
 module.exports = {
   purge: [
@@ -870,7 +871,7 @@ module.exports = {
   },
   plugins: [
     require('windicss/plugin/typography'),
-    
+    transform('daisyui'),
 
   ],
 }

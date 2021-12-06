@@ -1,14 +1,14 @@
-import { c as create_ssr_component, v as validate_component } from "./app-59158f23.js";
+import { c as create_ssr_component, v as validate_component } from "./app-884fc16f.js";
 var Nav_svelte_svelte_type_style_lang = "";
 const css$a = {
-  code: ".bg-teal-500.svelte-1a2snzq{--tw-bg-opacity:1;background-color:rgba(20, 184, 166, var(--tw-bg-opacity))}.grid.svelte-1a2snzq{display:-ms-grid;display:grid}.h-10.svelte-1a2snzq{height:2.5rem}.text-4xl.svelte-1a2snzq{font-size:2.25rem;line-height:2.5rem}.m-2.svelte-1a2snzq{margin:0.5rem}.p-4.svelte-1a2snzq{padding:1rem}.text-right.svelte-1a2snzq{text-align:right}.text-gray-200.svelte-1a2snzq{--tw-text-opacity:1;color:rgba(229, 231, 235, var(--tw-text-opacity))}.gap-4.svelte-1a2snzq{grid-gap:1rem;gap:1rem}.grid-cols-3.svelte-1a2snzq{grid-template-columns:repeat(3, minmax(0, 1fr))}",
+  code: ".bg-teal-500.svelte-j03ddw{--tw-bg-opacity:1;background-color:rgba(20, 184, 166, var(--tw-bg-opacity))}.grid.svelte-j03ddw{display:-ms-grid;display:grid}.h-10.svelte-j03ddw{height:2.5rem}.text-4xl.svelte-j03ddw{font-size:2.25rem;line-height:2.5rem}.m-2.svelte-j03ddw{margin:0.5rem}.p-4.svelte-j03ddw{padding:1rem}.text-gray-200.svelte-j03ddw{--tw-text-opacity:1;color:rgba(229, 231, 235, var(--tw-text-opacity))}.gap-4.svelte-j03ddw{grid-gap:1rem;gap:1rem}.grid-cols-3.svelte-j03ddw{grid-template-columns:repeat(3, minmax(0, 1fr))}",
   map: null
 };
 const Nav = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$a);
-  return `<nav class="${"text-4xl bg-teal-500 text-gray-200 p-4 svelte-1a2snzq"}"><div class="${"grid grid-cols-3 gap-4 svelte-1a2snzq"}"><div><a href="${"/"}"><img class="${"h-10 m-2 svelte-1a2snzq"}" src="${"/images/logo.png"}" alt="${"logo"}"></a></div>
+  return `<nav class="${"text-4xl bg-teal-500 text-gray-200 p-4 svelte-j03ddw"}"><div class="${"grid grid-cols-3 gap-4 svelte-j03ddw"}"><div><a href="${"/"}"><img class="${"h-10 m-2 svelte-j03ddw"}" src="${"/images/logo.png"}" alt="${"logo"}"></a></div>
 		<div>Family History Tips</div>
-		<div><ul class="${"text-right svelte-1a2snzq"}"><a href="${"."}">Home</a></ul></div></div>
+		<div></div></div>
 </nav>`;
 });
 var global = "";
@@ -63,9 +63,11 @@ const Europe = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$6);
   return `<div class="${"group inline-block svelte-1dfpaeb"}"><button class="${"outline-none focus:outline-none border px-3 py-1 bg-white rounded-sm flex items-center min-w-32 svelte-1dfpaeb"}"><span class="${"pr-1 font-semibold flex-1 svelte-1dfpaeb"}">Europe</span>
       <span><svg class="${"fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out svelte-1dfpaeb"}" xmlns="${"http://www.w3.org/2000/svg"}" viewBox="${"0 0 20 20"}"><path d="${"M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"}"></path></svg></span></button>
-    <ul class="${"bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32 svelte-1dfpaeb"}"><li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-1dfpaeb"}"><g-link class="${"text-red-600 hover:text-yellow-600 svelte-1dfpaeb"}" to="${"/europe/austriangeneral"}">Austrian</g-link></li>
+    <ul class="${"bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32 svelte-1dfpaeb"}"><li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-1dfpaeb"}"><a class="${"text-red-600 hover:text-yellow-600 svelte-1dfpaeb"}" href="${"/austrian"}">Austrian</a></li>
 
-      <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-1dfpaeb"}"><g-link class="${"text-red-600 hover:text-orange-600 svelte-1dfpaeb"}" to="${"/europe/belarusgeneral"}">Belarus</g-link></li>
+     <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-1dfpaeb"}"><a class="${"text-red-600 hover:text-yellow-600 svelte-1dfpaeb"}" href="${"/belarus"}">Belarus</a></li>
+
+      
 
        <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-1dfpaeb"}"><g-link class="${"text-red-600 hover:text-orange-600 svelte-1dfpaeb"}" to="${"/europe/belgiumgeneral"}">Belgium</g-link></li>
 

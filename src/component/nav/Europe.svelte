@@ -20,21 +20,17 @@
       class="bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute 
   transition duration-150 ease-in-out origin-top min-w-32"
     >
-      <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-        <g-link
-          class="text-red-600 hover:text-yellow-600"
-          to="/europe/austriangeneral"
-          >Austrian</g-link
-        >
-      </li>
+  
 
       <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-        <g-link
-          class="text-red-600 hover:text-orange-600"
-          to="/europe/belarusgeneral"
-          >Belarus</g-link
-        >
-      </li>
+			<a class="text-red-600 hover:text-yellow-600" href="/austrian">Austrian</a>
+		</li>
+
+     <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+			<a class="text-red-600 hover:text-yellow-600" href="/belarus">Belarus</a>
+		</li>
+
+      
 
        <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
         <g-link
