@@ -22,9 +22,9 @@ export function init(settings = default_settings) {
 		amp: false,
 		dev: false,
 		entry: {
-			file: assets + "/_app/start-75f11038.js",
+			file: assets + "/_app/start-2a8ac940.js",
 			css: [assets + "/_app/assets/start-1f089c51.css"],
-			js: [assets + "/_app/start-75f11038.js",assets + "/_app/chunks/vendor-dad3c69f.js"]
+			js: [assets + "/_app/start-2a8ac940.js",assets + "/_app/chunks/vendor-dad3c69f.js"]
 		},
 		fetched: undefined,
 		floc: false,
@@ -125,7 +125,7 @@ const module_lookup = {
 	"src/routes/__layout.svelte": () => import("..\\..\\src\\routes\\__layout.svelte"),".svelte-kit/build/components/error.svelte": () => import("./components\\error.svelte"),"src/routes/index.svelte": () => import("..\\..\\src\\routes\\index.svelte"),"src/routes/newzealand.svelte": () => import("..\\..\\src\\routes\\newzealand.svelte"),"src/routes/australia.svelte": () => import("..\\..\\src\\routes\\australia.svelte"),"src/routes/barbados.svelte": () => import("..\\..\\src\\routes\\barbados.svelte"),"src/routes/bermuda.svelte": () => import("..\\..\\src\\routes\\bermuda.svelte")
 };
 
-const metadata_lookup = {"src/routes/__layout.svelte":{"entry":"pages/__layout.svelte-aa93e10d.js","css":["assets/pages/__layout.svelte-1cb04902.css"],"js":["pages/__layout.svelte-aa93e10d.js","chunks/vendor-dad3c69f.js"],"styles":[]},".svelte-kit/build/components/error.svelte":{"entry":"error.svelte-3aac330e.js","css":[],"js":["error.svelte-3aac330e.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/index.svelte":{"entry":"pages/index.svelte-4ed49659.js","css":["assets/pages/index.svelte-3b776db4.css"],"js":["pages/index.svelte-4ed49659.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/newzealand.svelte":{"entry":"pages/newzealand.svelte-a78d6c6a.js","css":["assets/pages/newzealand.svelte-4345acdd.css"],"js":["pages/newzealand.svelte-a78d6c6a.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/australia.svelte":{"entry":"pages/australia.svelte-840b5d2f.js","css":["assets/pages/australia.svelte-b349f3b9.css"],"js":["pages/australia.svelte-840b5d2f.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/barbados.svelte":{"entry":"pages/barbados.svelte-57fa143d.js","css":["assets/pages/barbados.svelte-ac4cdfcc.css"],"js":["pages/barbados.svelte-57fa143d.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/bermuda.svelte":{"entry":"pages/bermuda.svelte-0049060e.js","css":["assets/pages/barbados.svelte-ac4cdfcc.css"],"js":["pages/bermuda.svelte-0049060e.js","chunks/vendor-dad3c69f.js"],"styles":[]}};
+const metadata_lookup = {"src/routes/__layout.svelte":{"entry":"pages/__layout.svelte-5649900a.js","css":["assets/pages/__layout.svelte-1cb04902.css"],"js":["pages/__layout.svelte-5649900a.js","chunks/vendor-dad3c69f.js"],"styles":[]},".svelte-kit/build/components/error.svelte":{"entry":"error.svelte-0eb0ae99.js","css":[],"js":["error.svelte-0eb0ae99.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/index.svelte":{"entry":"pages/index.svelte-0f6dcdd5.js","css":["assets/pages/index.svelte-3b776db4.css"],"js":["pages/index.svelte-0f6dcdd5.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/newzealand.svelte":{"entry":"pages/newzealand.svelte-55e4c24e.js","css":["assets/pages/newzealand.svelte-4345acdd.css"],"js":["pages/newzealand.svelte-55e4c24e.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/australia.svelte":{"entry":"pages/australia.svelte-a93343f0.js","css":["assets/pages/australia.svelte-b349f3b9.css"],"js":["pages/australia.svelte-a93343f0.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/barbados.svelte":{"entry":"pages/barbados.svelte-f6f292b5.js","css":["assets/pages/barbados.svelte-ac4cdfcc.css"],"js":["pages/barbados.svelte-f6f292b5.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/bermuda.svelte":{"entry":"pages/bermuda.svelte-be2f2254.js","css":["assets/pages/barbados.svelte-ac4cdfcc.css"],"js":["pages/bermuda.svelte-be2f2254.js","chunks/vendor-dad3c69f.js"],"styles":[]}};
 
 async function load_component(file) {
 	const { entry, css, js, styles } = metadata_lookup[file];

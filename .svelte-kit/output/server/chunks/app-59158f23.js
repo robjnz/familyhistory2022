@@ -1438,9 +1438,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-75f11038.js",
+      file: assets + "/_app/start-2a8ac940.js",
       css: [assets + "/_app/assets/start-1f089c51.css"],
-      js: [assets + "/_app/start-75f11038.js", assets + "/_app/chunks/vendor-dad3c69f.js"]
+      js: [assets + "/_app/start-2a8ac940.js", assets + "/_app/chunks/vendor-dad3c69f.js"]
     },
     fetched: void 0,
     floc: false,
@@ -1517,15 +1517,15 @@ const get_hooks = (hooks) => ({
   externalFetch: hooks.externalFetch || fetch
 });
 const module_lookup = {
-  "src/routes/__layout.svelte": () => import("./__layout-91d5857d.js"),
-  ".svelte-kit/build/components/error.svelte": () => import("./error-ffcdc9b9.js"),
-  "src/routes/index.svelte": () => import("./index-9e23ee00.js"),
-  "src/routes/newzealand.svelte": () => import("./newzealand-6ab16e31.js"),
-  "src/routes/australia.svelte": () => import("./australia-691f3a81.js"),
-  "src/routes/barbados.svelte": () => import("./barbados-c2250ecd.js"),
-  "src/routes/bermuda.svelte": () => import("./bermuda-e3c9d522.js")
+  "src/routes/__layout.svelte": () => import("./__layout-ebc351ef.js"),
+  ".svelte-kit/build/components/error.svelte": () => import("./error-3de68e87.js"),
+  "src/routes/index.svelte": () => import("./index-7c2dd69f.js"),
+  "src/routes/newzealand.svelte": () => import("./newzealand-d6a0d743.js"),
+  "src/routes/australia.svelte": () => import("./australia-d52cd558.js"),
+  "src/routes/barbados.svelte": () => import("./barbados-cc87b4c1.js"),
+  "src/routes/bermuda.svelte": () => import("./bermuda-17fcd381.js")
 };
-const metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-aa93e10d.js", "css": ["assets/pages/__layout.svelte-1cb04902.css"], "js": ["pages/__layout.svelte-aa93e10d.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-3aac330e.js", "css": [], "js": ["error.svelte-3aac330e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-4ed49659.js", "css": ["assets/pages/index.svelte-3b776db4.css"], "js": ["pages/index.svelte-4ed49659.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/newzealand.svelte": { "entry": "pages/newzealand.svelte-a78d6c6a.js", "css": ["assets/pages/newzealand.svelte-4345acdd.css"], "js": ["pages/newzealand.svelte-a78d6c6a.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia.svelte": { "entry": "pages/australia.svelte-840b5d2f.js", "css": ["assets/pages/australia.svelte-b349f3b9.css"], "js": ["pages/australia.svelte-840b5d2f.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/barbados.svelte": { "entry": "pages/barbados.svelte-57fa143d.js", "css": ["assets/pages/barbados.svelte-ac4cdfcc.css"], "js": ["pages/barbados.svelte-57fa143d.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/bermuda.svelte": { "entry": "pages/bermuda.svelte-0049060e.js", "css": ["assets/pages/barbados.svelte-ac4cdfcc.css"], "js": ["pages/bermuda.svelte-0049060e.js", "chunks/vendor-dad3c69f.js"], "styles": [] } };
+const metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-5649900a.js", "css": ["assets/pages/__layout.svelte-1cb04902.css"], "js": ["pages/__layout.svelte-5649900a.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-0eb0ae99.js", "css": [], "js": ["error.svelte-0eb0ae99.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-0f6dcdd5.js", "css": ["assets/pages/index.svelte-3b776db4.css"], "js": ["pages/index.svelte-0f6dcdd5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/newzealand.svelte": { "entry": "pages/newzealand.svelte-55e4c24e.js", "css": ["assets/pages/newzealand.svelte-4345acdd.css"], "js": ["pages/newzealand.svelte-55e4c24e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia.svelte": { "entry": "pages/australia.svelte-a93343f0.js", "css": ["assets/pages/australia.svelte-b349f3b9.css"], "js": ["pages/australia.svelte-a93343f0.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/barbados.svelte": { "entry": "pages/barbados.svelte-f6f292b5.js", "css": ["assets/pages/barbados.svelte-ac4cdfcc.css"], "js": ["pages/barbados.svelte-f6f292b5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/bermuda.svelte": { "entry": "pages/bermuda.svelte-be2f2254.js", "css": ["assets/pages/barbados.svelte-ac4cdfcc.css"], "js": ["pages/bermuda.svelte-be2f2254.js", "chunks/vendor-dad3c69f.js"], "styles": [] } };
 async function load_component(file) {
   const { entry, css: css2, js, styles } = metadata_lookup[file];
   return {
