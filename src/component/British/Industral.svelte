@@ -4,7 +4,7 @@
 
 		<img
 			class="h-32 w-full object-fill"
-			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638805714/industral_asmoic.jpg"
+			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864797/webp/industral.webp"
 			alt="image of an industral school"
 		/>
 		<br />

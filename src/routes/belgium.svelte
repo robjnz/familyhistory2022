@@ -13,7 +13,7 @@
 	<h1 class="ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl">
 		<div class="h-10 w-14 inline-block">
 			<img
-				src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638802245/belgium-flag_ht5dyb.jpg"
+				src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638877222/webp/belgium-flag.webp"
 				alt="image of Belgium flag"
 			/>
 		</div>

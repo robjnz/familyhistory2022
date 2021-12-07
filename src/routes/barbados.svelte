@@ -14,7 +14,7 @@
 	<h1 class="ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl">
 		<div class="h-10 w-14 inline-block">
 			<img
-				src="https://res.cloudinary.com/dzhbfdfa5/image/upload/v1608289948/barbados-flag_mngc34.png"
+				src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638866632/webp/barbados-flag_mngc34.webp"
 				alt="image of Barbados flag"
 			/>
 		</div>

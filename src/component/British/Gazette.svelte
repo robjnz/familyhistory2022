@@ -4,7 +4,7 @@
 
 		<img
 			class="h-32 w-full object-fill"
-			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638816509/gazette_donijm.jpg"
+			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864884/webp/gazette.webp"
 			alt="london gazettte newspaper photo"
 		/>
 		<br />

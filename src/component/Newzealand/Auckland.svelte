@@ -4,7 +4,7 @@
 
 		<img
 			class="h-32 w-full object-fill"
-			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638702889/graves_tu2we0.jpg"
+			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638865899/webp/graves_tu2we0.webp"
 			alt="image of graves"
 		/>
 		<br />

@@ -4,7 +4,7 @@
 
 		<img
 			class="h-32 w-full object-fill"
-			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/v1627315634/companies_mryctb.jpg"
+			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864541/webp/companies.webp"
 			alt="companies house logo photo"
 		/>
 		<br />

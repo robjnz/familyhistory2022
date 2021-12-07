@@ -4,7 +4,7 @@
 
 		<img
 			class="h-32 w-full object-fill"
-			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638816670/newspaper_qw3g7r.jpg"
+			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864967/webp/newspaper.webp"
 			alt="newspaper logo photo"
 		/>
 		<br />

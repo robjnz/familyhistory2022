@@ -7,7 +7,7 @@
 
       <img
         class="h-32 w-full object-fill"
-        src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638703494/business_ee6az1.jpg"
+        src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638865999/webp/business.webp"
         alt="image of a business man"
       />
       <br />

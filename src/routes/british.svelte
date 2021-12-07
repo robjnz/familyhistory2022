@@ -13,6 +13,10 @@
 	import Navy from '../component/British/Navy.svelte';
 	import Britstate from '../component/British/Britstate.svelte';
 	import Graves from '../component/British/Graves.svelte';
+	import Wills from '../component/British/Wills.svelte';
+	import Workhouse from '../component/British/Workhouse.svelte';
+	import Thirtynine from '../component/British/Thirtynine.svelte';
+	import Scotland from '../component/British/Scotland.svelte';
 </script>
 
 <svelte:head>
@@ -22,7 +26,7 @@
 	<h1 class="ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl">
 		<div class="h-10 w-14 inline-block">
 			<img
-				src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638803290/uk-flag_f5im0i.jpg"
+				src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864273/webp/uk-flag.webp"
 				alt="image of British flag"
 			/>
 		</div>
@@ -53,6 +57,27 @@
 			<Navy />
 			<Britstate />
 			<Graves />
+		</div>
+		<div class="grid sm:flex gap-4 mt-8">
+			<Wills />
+			<Workhouse />
+			<Thirtynine />
+		</div>
+		<br />
+
+<h2 class="ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl">
+		<div class="h-10 w-14 inline-block">
+			<img
+				src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638878880/webp/scotish-flag.webp"
+				alt="image of Scottish flag"
+			/>
+		</div>
+
+		Scottish Family History Resourses
+	</h2>
+
+		<div class="grid sm:flex gap-4 mt-8">
+			<Scotland />
 		</div>
 	</section>
 </section>

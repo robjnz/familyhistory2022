@@ -4,7 +4,7 @@
 
 		<img
 			class="h-32 w-full object-fill"
-			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638704227/nz-birth-cert_sq0auz.jpg"
+			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638866306/webp/nz-birth-cert_sq0auz.webp"
 			alt="image of newzealand birth cerificates"
 		/>
 		<br />

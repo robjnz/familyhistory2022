@@ -4696,23 +4696,23 @@ var init_shims = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/__layout-92b1055f.js
-var layout_92b1055f_exports = {};
-__export(layout_92b1055f_exports, {
+// .svelte-kit/output/server/chunks/__layout-cb567515.js
+var layout_cb567515_exports = {};
+__export(layout_cb567515_exports, {
   default: () => _layout
 });
 var css$a, Nav, css$9, TheFooter, css$8, Australasia, css$7, Caribbean, css$6, Europe, css$5, Jewish, css$4, Northamerica, css$3, Blog, css$2, General, css$1, Dropdown, css, _layout;
-var init_layout_92b1055f = __esm({
-  ".svelte-kit/output/server/chunks/__layout-92b1055f.js"() {
+var init_layout_cb567515 = __esm({
+  ".svelte-kit/output/server/chunks/__layout-cb567515.js"() {
     init_shims();
-    init_app_6b8bf9b1();
+    init_app_4c2f5eab();
     css$a = {
       code: ".bg-teal-500.svelte-j03ddw{--tw-bg-opacity:1;background-color:rgba(20, 184, 166, var(--tw-bg-opacity))}.grid.svelte-j03ddw{display:-ms-grid;display:grid}.h-10.svelte-j03ddw{height:2.5rem}.text-4xl.svelte-j03ddw{font-size:2.25rem;line-height:2.5rem}.m-2.svelte-j03ddw{margin:0.5rem}.p-4.svelte-j03ddw{padding:1rem}.text-gray-200.svelte-j03ddw{--tw-text-opacity:1;color:rgba(229, 231, 235, var(--tw-text-opacity))}.gap-4.svelte-j03ddw{grid-gap:1rem;gap:1rem}.grid-cols-3.svelte-j03ddw{grid-template-columns:repeat(3, minmax(0, 1fr))}",
       map: null
     };
     Nav = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       $$result.css.add(css$a);
-      return `<nav class="${"text-4xl bg-teal-500 text-gray-200 p-4 svelte-j03ddw"}"><div class="${"grid grid-cols-3 gap-4 svelte-j03ddw"}"><div><a href="${"/"}"><img class="${"h-10 m-2 svelte-j03ddw"}" src="${"/images/logo.png"}" alt="${"logo"}"></a></div>
+      return `<nav class="${"text-4xl bg-teal-500 text-gray-200 p-4 svelte-j03ddw"}"><div class="${"grid grid-cols-3 gap-4 svelte-j03ddw"}"><div><a href="${"/"}"><img class="${"h-10 m-2 svelte-j03ddw"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/v1638876068/webp/logo.webp"}" alt="${"logo"}"></a></div>
 		<div>Family History Tips</div>
 		<div></div></div>
 </nav>`;
@@ -4725,9 +4725,9 @@ var init_layout_92b1055f = __esm({
       $$result.css.add(css$9);
       return `<footer class="${"text-left bg-teal-500 p-4 mt-16 svelte-oqpr3a"}"><div class="${"inline-flex svelte-oqpr3a"}"><h3 class="${"text-left text-gray-700 text-xl svelte-oqpr3a"}">\xA9 2021 Family History</h3>
 
-		<a href="${"http://bit.ly/3nS0tUP"}" target="${"_blank"}"><img class="${"h-8 m-2 svelte-oqpr3a"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/v1608989313/youtube_k4uh6z.jpg"}" alt="${"youtube"}"></a>
+		<a href="${"http://bit.ly/3nS0tUP"}" target="${"_blank"}"><img class="${"h-8 m-2 svelte-oqpr3a"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_200/v1638876618/webp/youtube.webp"}" alt="${"youtube"}"></a>
 
-		<a href="${"https://bit.ly/3qdBL54"}" target="${"_blank"}"><img class="${"h-8 m-2 svelte-oqpr3a"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_50,w_50/v1636300864/facebook_logo_nhdipi.jpg"}" alt="${"facebook"}"></a></div>
+		<a href="${"https://bit.ly/3qdBL54"}" target="${"_blank"}"><img class="${"h-8 m-2 svelte-oqpr3a"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_200/v1638876319/webp/facebook.webp"}" alt="${"facebook"}"></a></div>
 </footer>`;
     });
     css$8 = {
@@ -4917,9 +4917,9 @@ ${validate_component(TheFooter, "TheFooter").$$render($$result, {}, {}, {})}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/error-6224de03.js
-var error_6224de03_exports = {};
-__export(error_6224de03_exports, {
+// .svelte-kit/output/server/chunks/error-757e3f8e.js
+var error_757e3f8e_exports = {};
+__export(error_757e3f8e_exports, {
   default: () => Error2,
   load: () => load
 });
@@ -4927,10 +4927,10 @@ function load({ error: error2, status }) {
   return { props: { error: error2, status } };
 }
 var Error2;
-var init_error_6224de03 = __esm({
-  ".svelte-kit/output/server/chunks/error-6224de03.js"() {
+var init_error_757e3f8e = __esm({
+  ".svelte-kit/output/server/chunks/error-757e3f8e.js"() {
     init_shims();
-    init_app_6b8bf9b1();
+    init_app_4c2f5eab();
     Error2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { status } = $$props;
       let { error: error2 } = $$props;
@@ -4950,17 +4950,17 @@ ${error2.stack ? `<pre>${escape(error2.stack)}</pre>` : ``}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/index-c1343a47.js
-var index_c1343a47_exports = {};
-__export(index_c1343a47_exports, {
+// .svelte-kit/output/server/chunks/index-e174e001.js
+var index_e174e001_exports = {};
+__export(index_e174e001_exports, {
   default: () => Routes,
   prerender: () => prerender
 });
 var css2, prerender, Routes;
-var init_index_c1343a47 = __esm({
-  ".svelte-kit/output/server/chunks/index-c1343a47.js"() {
+var init_index_e174e001 = __esm({
+  ".svelte-kit/output/server/chunks/index-e174e001.js"() {
     init_shims();
-    init_app_6b8bf9b1();
+    init_app_4c2f5eab();
     css2 = {
       code: ".one.svelte-1quiifg{text-align:center;margin-top:50px;margin-left:100px;margin-right:100px}.grid.svelte-1quiifg{display:-ms-grid;display:grid}.h-96.svelte-1quiifg{height:24rem}.text-6xl.svelte-1quiifg{font-size:3.75rem;line-height:1}.text-3xl.svelte-1quiifg{font-size:1.875rem;line-height:2.25rem}.text-xl.svelte-1quiifg{font-size:1.25rem;line-height:1.75rem}.object-fill.svelte-1quiifg{-o-object-fit:fill;object-fit:fill}.p-4.svelte-1quiifg{padding:1rem}.text-left.svelte-1quiifg{text-align:left}.text-center.svelte-1quiifg{text-align:center}.text-purple-500.svelte-1quiifg{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.text-purple-400.svelte-1quiifg{--tw-text-opacity:1;color:rgba(167, 139, 250, var(--tw-text-opacity))}.text-gray-600.svelte-1quiifg{--tw-text-opacity:1;color:rgba(75, 85, 99, var(--tw-text-opacity))}.w-full.svelte-1quiifg{width:100%}.gap-4.svelte-1quiifg{grid-gap:1rem;gap:1rem}.grid-cols-2.svelte-1quiifg{grid-template-columns:repeat(2, minmax(0, 1fr))}",
       map: null
@@ -4994,17 +4994,17 @@ var init_index_c1343a47 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/newzealand-868edf3a.js
-var newzealand_868edf3a_exports = {};
-__export(newzealand_868edf3a_exports, {
+// .svelte-kit/output/server/chunks/newzealand-77680aba.js
+var newzealand_77680aba_exports = {};
+__export(newzealand_77680aba_exports, {
   default: () => Newzealand,
   prerender: () => prerender2
 });
 var css$52, State, css$42, Historical, css$32, Gazette, css$22, Companies, css$12, Auckland, css3, prerender2, Newzealand;
-var init_newzealand_868edf3a = __esm({
-  ".svelte-kit/output/server/chunks/newzealand-868edf3a.js"() {
+var init_newzealand_77680aba = __esm({
+  ".svelte-kit/output/server/chunks/newzealand-77680aba.js"() {
     init_shims();
-    init_app_6b8bf9b1();
+    init_app_4c2f5eab();
     css$52 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5013,7 +5013,7 @@ var init_newzealand_868edf3a = __esm({
       $$result.css.add(css$52);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1618762256/archives_nndpbn.jpg"}" alt="${"image of archives"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"image of archives"}">
 		<br>
 		<p>New Zealand <br>State archives.</p>
 		<br><br>
@@ -5029,7 +5029,7 @@ var init_newzealand_868edf3a = __esm({
       $$result.css.add(css$42);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Historical Records</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638704227/nz-birth-cert_sq0auz.jpg"}" alt="${"image of newzealand birth cerificates"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638866306/webp/nz-birth-cert_sq0auz.webp"}" alt="${"image of newzealand birth cerificates"}">
 		<br>
 		<ul><li>Births over 100 year&#39;s</li>
 			<li>Marriages over 80 year&#39;s</li>
@@ -5048,7 +5048,7 @@ var init_newzealand_868edf3a = __esm({
       $$result.css.add(css$32);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Gazette</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638703832/nz-gazette_hsw9oq.jpg"}" alt="${"image of new zealand gazette logo"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638866148/webp/nz-gazette_hsw9oq.webp"}" alt="${"image of new zealand gazette logo"}">
 		<br>
 		<p>Search the The official<br> Government newspaper<br> published since 1841</p>
 		<br>
@@ -5065,7 +5065,7 @@ var init_newzealand_868edf3a = __esm({
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Companies Register
       </h1>
 
-      <img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638703494/business_ee6az1.jpg"}" alt="${"image of a business man"}">
+      <img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638865999/webp/business.webp"}" alt="${"image of a business man"}">
       <br>
      <p>Search companies and<br> director&#39;s information</p>
 
@@ -5082,7 +5082,7 @@ var init_newzealand_868edf3a = __esm({
       $$result.css.add(css$12);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Auckland</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638702889/graves_tu2we0.jpg"}" alt="${"image of graves"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638865899/webp/graves_tu2we0.webp"}" alt="${"image of graves"}">
 		<br>
 		<p>Auckland burial and <br>cremation records.</p>
 		<br><br>
@@ -5099,7 +5099,7 @@ var init_newzealand_868edf3a = __esm({
       $$result.css.add(css3);
       return `${$$result.head += `${$$result.title = `<title>New Zealand</title>`, ""}`, ""}
 
-<section class="${"one svelte-1nupwvf"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-1nupwvf"}"><div class="${"h-10 w-14 inline-block svelte-1nupwvf"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638702403/newzealand-flag_w7h9cg.jpg"}" alt="${"image of new zealand flag"}"></div>
+<section class="${"one svelte-1nupwvf"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-1nupwvf"}"><div class="${"h-10 w-14 inline-block svelte-1nupwvf"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638865677/webp/newzealand-flag.webp"}" alt="${"image of new zealand flag"}"></div>
 		
 		New Zealand Family History Resourses
 	</h1>
@@ -5116,17 +5116,17 @@ var init_newzealand_868edf3a = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/australia-b95433ed.js
-var australia_b95433ed_exports = {};
-__export(australia_b95433ed_exports, {
+// .svelte-kit/output/server/chunks/australia-e4412756.js
+var australia_e4412756_exports = {};
+__export(australia_e4412756_exports, {
   default: () => Australia,
   prerender: () => prerender3
 });
 var css$23, Ausstate, css$13, Gen, css4, prerender3, Australia;
-var init_australia_b95433ed = __esm({
-  ".svelte-kit/output/server/chunks/australia-b95433ed.js"() {
+var init_australia_e4412756 = __esm({
+  ".svelte-kit/output/server/chunks/australia-e4412756.js"() {
     init_shims();
-    init_app_6b8bf9b1();
+    init_app_4c2f5eab();
     css$23 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5134,7 +5134,7 @@ var init_australia_b95433ed = __esm({
     Ausstate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       $$result.css.add(css$23);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives</h1>
-		<div><img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1618762256/archives_nndpbn.jpg"}" alt="${"australia archives"}"></div>
+		<div><img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"australia archives"}"></div>
 		<br>
 		<p>Australian State Archives</p>
 		<br><br><br>
@@ -5149,7 +5149,7 @@ var init_australia_b95433ed = __esm({
     Gen = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       $$result.css.add(css$13);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Genealogy SA</h1>
-		<div><img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/v1607248969/database_l8siob.jpg"}" alt="${"image of database"}"></div>
+		<div><img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"image of database"}"></div>
 		<br>
 		<p>Search databases of
 			<br>south Australian
@@ -5169,7 +5169,7 @@ var init_australia_b95433ed = __esm({
       $$result.css.add(css4);
       return `${$$result.head += `${$$result.title = `<title>Australia</title>`, ""}`, ""}
 
-<section class="${"one svelte-10wioxk"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-10wioxk"}"><div class="${"h-10 w-14 inline-block svelte-10wioxk"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638638952/australia-flag_zwelpx.jpg"}" alt="${"image of australian flag"}"></div>
+<section class="${"one svelte-10wioxk"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-10wioxk"}"><div class="${"h-10 w-14 inline-block svelte-10wioxk"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860154/webp/australia-flag.webp"}" alt="${"image of australian flag"}"></div>
 		Australian Family History Resourses
 	</h1>
 	<br>
@@ -5181,17 +5181,17 @@ var init_australia_b95433ed = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/austrian-d1b254ac.js
-var austrian_d1b254ac_exports = {};
-__export(austrian_d1b254ac_exports, {
+// .svelte-kit/output/server/chunks/austrian-f94da938.js
+var austrian_f94da938_exports = {};
+__export(austrian_f94da938_exports, {
   default: () => Austrian,
   prerender: () => prerender4
 });
 var css$24, Vienna, css$14, Auststate, css5, prerender4, Austrian;
-var init_austrian_d1b254ac = __esm({
-  ".svelte-kit/output/server/chunks/austrian-d1b254ac.js"() {
+var init_austrian_f94da938 = __esm({
+  ".svelte-kit/output/server/chunks/austrian-f94da938.js"() {
     init_shims();
-    init_app_6b8bf9b1();
+    init_app_4c2f5eab();
     css$24 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5200,7 +5200,7 @@ var init_austrian_d1b254ac = __esm({
       $$result.css.add(css$24);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Vienna</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638781367/viennaparlament_qn9rci.jpg"}" alt="${"vienna parlement photo"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638876911/webp/viennaparlament.webp"}" alt="${"vienna parlement photo"}">
 		<br>
 		<p>Vienna Archives</p>
 
@@ -5216,7 +5216,7 @@ var init_austrian_d1b254ac = __esm({
       $$result.css.add(css$14);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1618762256/archives_nndpbn.jpg"}" alt="${"austria flag"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"image of archives"}">
 		<br>
 		<p>Austrian State Archives</p>
 
@@ -5233,7 +5233,7 @@ var init_austrian_d1b254ac = __esm({
       $$result.css.add(css5);
       return `${$$result.head += `${$$result.title = `<title>Austrian</title>`, ""}`, ""}
 
-<section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638780727/austria-flag_yoeqvh.jpg"}" alt="${"image of Austrian flag"}"></div>
+<section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638876704/webp/austria-flag.webp"}" alt="${"image of Austrian flag"}"></div>
 
 		Austrian Family History Resourses
 	</h1>
@@ -5246,17 +5246,17 @@ var init_austrian_d1b254ac = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/barbados-c9fe9ad4.js
-var barbados_c9fe9ad4_exports = {};
-__export(barbados_c9fe9ad4_exports, {
+// .svelte-kit/output/server/chunks/barbados-571fbcf5.js
+var barbados_571fbcf5_exports = {};
+__export(barbados_571fbcf5_exports, {
   default: () => Barbados,
   prerender: () => prerender5
 });
 var css$33, Barbstate, css$25, Family, css$15, Genbarb, css6, prerender5, Barbados;
-var init_barbados_c9fe9ad4 = __esm({
-  ".svelte-kit/output/server/chunks/barbados-c9fe9ad4.js"() {
+var init_barbados_571fbcf5 = __esm({
+  ".svelte-kit/output/server/chunks/barbados-571fbcf5.js"() {
     init_shims();
-    init_app_6b8bf9b1();
+    init_app_4c2f5eab();
     css$33 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5265,12 +5265,12 @@ var init_barbados_c9fe9ad4 = __esm({
       $$result.css.add(css$33);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1618762256/archives_nndpbn.jpg"}" alt="${"image of archives"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"image of archives"}">
 		<br>
-		<p>Bermuda State Archives</p>
+		<p>Barbados State Archives</p>
 		<br><br>
 
-		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/3mGxeTt"}" target="${"_blank"}">Go to The Website
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/2WusbL4"}" target="${"_blank"}">Go to The Website
 		</a></div>
 </div>`;
     });
@@ -5282,7 +5282,7 @@ var init_barbados_c9fe9ad4 = __esm({
       $$result.css.add(css$25);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Family History</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1618760842/family-tree_qzej89.jpg"}" alt="${"image of a family tree"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638861228/webp/family-tree.webp"}" alt="${"image of a family tree"}">
 		<br>
 		<p>Information about <br>Barbados family history</p>
 		<br>
@@ -5299,7 +5299,7 @@ var init_barbados_c9fe9ad4 = __esm({
       $$result.css.add(css$15);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Barbados</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/v1607248969/database_l8siob.jpg"}" alt="${"image of a database"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"image of a database"}">
 		<br>
 		<p>Search Barbados <br>Genealogical Records</p>
 		<br>
@@ -5317,7 +5317,7 @@ var init_barbados_c9fe9ad4 = __esm({
       $$result.css.add(css6);
       return `${$$result.head += `${$$result.title = `<title>Barbados</title>`, ""}`, ""}
 
-<section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/v1608289948/barbados-flag_mngc34.png"}" alt="${"image of Barbados flag"}"></div>
+<section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638866632/webp/barbados-flag_mngc34.webp"}" alt="${"image of Barbados flag"}"></div>
 
 		Barbados Family History Resourses
 	</h1>
@@ -5331,17 +5331,17 @@ var init_barbados_c9fe9ad4 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/belarus-e7d29d07.js
-var belarus_e7d29d07_exports = {};
-__export(belarus_e7d29d07_exports, {
+// .svelte-kit/output/server/chunks/belarus-e1c2198b.js
+var belarus_e1c2198b_exports = {};
+__export(belarus_e1c2198b_exports, {
   default: () => Belarus,
   prerender: () => prerender6
 });
 var css$26, Mogilev, css$16, Belstate, css7, prerender6, Belarus;
-var init_belarus_e7d29d07 = __esm({
-  ".svelte-kit/output/server/chunks/belarus-e7d29d07.js"() {
+var init_belarus_e1c2198b = __esm({
+  ".svelte-kit/output/server/chunks/belarus-e1c2198b.js"() {
     init_shims();
-    init_app_6b8bf9b1();
+    init_app_4c2f5eab();
     css$26 = {
       code: ".bg-indigo-700.svelte-13tzqgo{--tw-bg-opacity:1;background-color:rgba(67, 56, 202, var(--tw-bg-opacity))}.hover\\:bg-indigo-800.svelte-13tzqgo:hover{--tw-bg-opacity:1;background-color:rgba(55, 48, 163, var(--tw-bg-opacity))}.rounded-lg.svelte-13tzqgo{border-radius:0.5rem}.h-32.svelte-13tzqgo{height:8rem}.h-8.svelte-13tzqgo{height:2rem}.text-2xl.svelte-13tzqgo{font-size:1.5rem;line-height:2rem}.text-sm.svelte-13tzqgo{font-size:0.875rem;line-height:1.25rem}.m-4.svelte-13tzqgo{margin:1rem}.m-2.svelte-13tzqgo{margin:0.5rem}.object-fill.svelte-13tzqgo{-o-object-fit:fill;object-fit:fill}.p-4.svelte-13tzqgo{padding:1rem}.p-6.svelte-13tzqgo{padding:1.5rem}.px-4.svelte-13tzqgo{padding-left:1rem;padding-right:1rem}.shadow-2xl.svelte-13tzqgo{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-right.svelte-13tzqgo{text-align:right}.text-white.svelte-13tzqgo{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-13tzqgo:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.text-indigo-100.svelte-13tzqgo{--tw-text-opacity:1;color:rgba(224, 231, 255, var(--tw-text-opacity))}.w-auto.svelte-13tzqgo{width:auto}.w-full.svelte-13tzqgo{width:100%}.transition-colors.svelte-13tzqgo{-webkit-transition-property:background-color, border-color, color, fill, stroke;-o-transition-property:background-color, border-color, color, fill, stroke;transition-property:background-color, border-color, color, fill, stroke;-webkit-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-o-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}.duration-150.svelte-13tzqgo{-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}",
       map: null
@@ -5350,7 +5350,7 @@ var init_belarus_e7d29d07 = __esm({
       $$result.css.add(css$26);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-13tzqgo"}"><div class="${"p-6 svelte-13tzqgo"}"><h1 class="${"text-2xl text-white svelte-13tzqgo"}">Mogilev Region</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-13tzqgo"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1618762256/archives_nndpbn.jpg"}" alt="${"archive photo"}">
+		<img class="${"h-32 w-full object-fill svelte-13tzqgo"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"archive photo"}">
 		<br>
 		<p>State Archives</p>
 
@@ -5367,7 +5367,7 @@ var init_belarus_e7d29d07 = __esm({
       $$result.css.add(css$16);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1618762256/archives_nndpbn.jpg"}" alt="${"archive photo"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"archive photo"}">
 		<br>
 		<p>Belarus State Archives</p>
 
@@ -5383,7 +5383,7 @@ var init_belarus_e7d29d07 = __esm({
     Belarus = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       $$result.css.add(css7);
       return `${$$result.head += `${$$result.title = `<title>Belarus</title>`, ""}`, ""}
-<section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638784725/belarus-flag_ejcomp.jpg"}" alt="${"image of Austrian flag"}"></div>
+<section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638877031/webp/belarus-flag.webp"}" alt="${"image of Belarus flag"}"></div>
 
 		Belarus Family History Resourses
 	</h1>
@@ -5396,17 +5396,17 @@ var init_belarus_e7d29d07 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/belgium-8b3b7e4b.js
-var belgium_8b3b7e4b_exports = {};
-__export(belgium_8b3b7e4b_exports, {
+// .svelte-kit/output/server/chunks/belgium-913ad3cc.js
+var belgium_913ad3cc_exports = {};
+__export(belgium_913ad3cc_exports, {
   default: () => Belgium,
   prerender: () => prerender7
 });
 var css$34, Genealogy, css$27, Ancestry, css$17, Belgstate, css8, prerender7, Belgium;
-var init_belgium_8b3b7e4b = __esm({
-  ".svelte-kit/output/server/chunks/belgium-8b3b7e4b.js"() {
+var init_belgium_913ad3cc = __esm({
+  ".svelte-kit/output/server/chunks/belgium-913ad3cc.js"() {
     init_shims();
-    init_app_6b8bf9b1();
+    init_app_4c2f5eab();
     css$34 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5415,7 +5415,7 @@ var init_belgium_8b3b7e4b = __esm({
       $$result.css.add(css$34);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Genealogy</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1618760842/family-tree_qzej89.jpg"}" alt="${"archive photo"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638861228/webp/family-tree.webp"}" alt="${"family tree photo"}">
 		<br>
 		<p>Belgium genealogy links</p>
 
@@ -5431,7 +5431,7 @@ var init_belgium_8b3b7e4b = __esm({
       $$result.css.add(css$27);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Ancestry</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1618760842/family-tree_qzej89.jpg"}" alt="${"archive photo"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638861228/webp/family-tree.webp"}" alt="${"archive photo"}">
 		<br>
 		<p>Belgium genealogy links</p>
 
@@ -5447,7 +5447,7 @@ var init_belgium_8b3b7e4b = __esm({
       $$result.css.add(css$17);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1618762256/archives_nndpbn.jpg"}" alt="${"archive photo"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"archive photo"}">
 		<br>
 		<p>Belgium State Archives</p>
 
@@ -5463,7 +5463,7 @@ var init_belgium_8b3b7e4b = __esm({
     Belgium = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       $$result.css.add(css8);
       return `${$$result.head += `${$$result.title = `<title>Belgium</title>`, ""}`, ""}
-<section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638802245/belgium-flag_ht5dyb.jpg"}" alt="${"image of Belgium flag"}"></div>
+<section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638877222/webp/belgium-flag.webp"}" alt="${"image of Belgium flag"}"></div>
 
 		Belgium Family History Resourses
 	</h1>
@@ -5477,17 +5477,17 @@ var init_belgium_8b3b7e4b = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/bermuda-cbebe546.js
-var bermuda_cbebe546_exports = {};
-__export(bermuda_cbebe546_exports, {
+// .svelte-kit/output/server/chunks/bermuda-4f5621de.js
+var bermuda_4f5621de_exports = {};
+__export(bermuda_4f5621de_exports, {
   default: () => Bermuda,
   prerender: () => prerender8
 });
 var css$35, Berstate, css$28, National, css$18, Berfamily, css9, prerender8, Bermuda;
-var init_bermuda_cbebe546 = __esm({
-  ".svelte-kit/output/server/chunks/bermuda-cbebe546.js"() {
+var init_bermuda_4f5621de = __esm({
+  ".svelte-kit/output/server/chunks/bermuda-4f5621de.js"() {
     init_shims();
-    init_app_6b8bf9b1();
+    init_app_4c2f5eab();
     css$35 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5496,7 +5496,7 @@ var init_bermuda_cbebe546 = __esm({
       $$result.css.add(css$35);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1618762256/archives_nndpbn.jpg"}" alt="${"image of archives"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"image of archives"}">
 		<br>
 		<p>Bermuda State Archives</p>
 		<br><br><br>
@@ -5513,7 +5513,7 @@ var init_bermuda_cbebe546 = __esm({
       $$result.css.add(css$28);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">National Museum</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/v1607248969/database_l8siob.jpg"}" alt="${"image of a family tree"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"image of database"}">
 		<br>
 		<p>Search the archives of<br>national museum <br>of Bermuda</p>
 		<br>
@@ -5530,7 +5530,7 @@ var init_bermuda_cbebe546 = __esm({
       $$result.css.add(css$18);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Bermuda</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/v1607248969/database_l8siob.jpg"}" alt="${"image of a family tree"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"image of a database"}">
 		<br>
 		<p>Search Burmuda <br>Genealogical Records</p>
 		<br><br>
@@ -5548,7 +5548,7 @@ var init_bermuda_cbebe546 = __esm({
       $$result.css.add(css9);
       return `${$$result.head += `${$$result.title = `<title>Bermuda</title>`, ""}`, ""}
 
-<section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1608290955/bermuda-flag_rgvbdd.png"}" alt="${"image of Bermuda flag"}"></div>
+<section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638866804/webp/bermuda-flag_rgvbdd.webp"}" alt="${"image of Bermuda flag"}"></div>
 
 		Bermuda Family History Resourses
 	</h1>
@@ -5562,17 +5562,91 @@ var init_bermuda_cbebe546 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/british-4eb1cade.js
-var british_4eb1cade_exports = {};
-__export(british_4eb1cade_exports, {
+// .svelte-kit/output/server/chunks/british-9d47f860.js
+var british_9d47f860_exports = {};
+__export(british_9d47f860_exports, {
   default: () => British,
   prerender: () => prerender9
 });
-var css$c, Graves, css$b, Britstate, css$a2, Navy, css$92, Raf, css$82, Newspaper, css$72, Gazette2, css$62, Industral, css$53, Directories, css$43, Electoral, css$36, Companies2, css$29, Children, css$19, Bmd, css10, prerender9, British;
-var init_british_4eb1cade = __esm({
-  ".svelte-kit/output/server/chunks/british-4eb1cade.js"() {
+var css$g, Scotland, css$f, Thirtynine, css$e, Workhouse, css$d, Wills, css$c, Graves, css$b, Britstate, css$a2, Navy, css$92, Raf, css$82, Newspaper, css$72, Gazette2, css$62, Industral, css$53, Directories, css$43, Electoral, css$36, Companies2, css$29, Children, css$19, Bmd, css10, prerender9, British;
+var init_british_9d47f860 = __esm({
+  ".svelte-kit/output/server/chunks/british-9d47f860.js"() {
     init_shims();
-    init_app_6b8bf9b1();
+    init_app_4c2f5eab();
+    css$g = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Scotland = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$g);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Scotland</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638878880/webp/scotish-flag.webp"}" alt="${"image of scotish flag"}">
+		<br>
+		<p>Scottish family<br> history records.</p>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/2Z9K2Iz"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$f = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Thirtynine = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$f);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">1939 Register</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638878467/webp/1939c.webp"}" alt="${"image of 1939 census form"}">
+
+		<br>
+		<p>Search the 1939 <br>pre war census register <br>also avaliable on Ancestry.
+		</p>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/2IjAKzA"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$e = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Workhouse = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$e);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Workhouse</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638878129/webp/workhouse.webp"}" alt="${"image of workhouse wikiwand"}">
+		<br>
+		<p>The history of <br>the workhouse<br> and resourses.
+		</p>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/2UIsK3g"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$d = {
+      code: ".rounded-lg.svelte-lvu80t{border-radius:0.5rem}.h-32.svelte-lvu80t{height:8rem}.text-2xl.svelte-lvu80t{font-size:1.5rem;line-height:2rem}.m-4.svelte-lvu80t{margin:1rem}.object-fill.svelte-lvu80t{-o-object-fit:fill;object-fit:fill}.p-4.svelte-lvu80t{padding:1rem}.p-6.svelte-lvu80t{padding:1.5rem}.shadow-2xl.svelte-lvu80t{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-lvu80t{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-lvu80t:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-lvu80t{width:auto}.w-full.svelte-lvu80t{width:100%}.w-52.svelte-lvu80t{width:13rem}",
+      map: null
+    };
+    Wills = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$d);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-lvu80t"}"><div class="${"p-6 svelte-lvu80t"}"><h1 class="${"text-2xl text-white svelte-lvu80t"}">Wills &amp; Probate</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638877765/webp/wills.webp"}" alt="${"image of a will"}">
+		<br>
+		<p>Will and Probate <br>records from<br> 1858 to present Day.</p>
+		<br>
+
+		<iframe class="${"h-32 w-52 object-fill svelte-lvu80t"}" title="${"companies house records"}" src="${"https://www.youtube.com/embed/LOFKGhsCyHg"}" frameborder="${"0"}" allow="${"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"}" allowfullscreen></iframe>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-lvu80t"}" href="${"http://bit.ly/2GfeWTV"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
     css$c = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5581,7 +5655,7 @@ var init_british_4eb1cade = __esm({
       $$result.css.add(css$c);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">War Graves</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638818218/loos_asmvi6.jpg"}" alt="${"image of loos war cemetary"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638865557/webp/loos_asmvi6.webp"}" alt="${"image of loos war cemetary"}">
 		<br>
 		<p>Search the records of 1.7<br>
 			men and women<br>
@@ -5603,7 +5677,7 @@ var init_british_4eb1cade = __esm({
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives
       </h1>
 
-      <img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1618762256/archives_nndpbn.jpg"}" alt="${"archive photo"}">
+      <img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"archive photo"}">
       <br>
       <p>British State Archives</p>
       <br><br>
@@ -5620,7 +5694,7 @@ var init_british_4eb1cade = __esm({
       $$result.css.add(css$a2);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-lvu80t"}"><div class="${"p-6 svelte-lvu80t"}"><h1 class="${"text-2xl text-white svelte-lvu80t"}">Royal Navy</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638113854/HMS_Dreadnought_gdupqt.jpg"}" alt="${"royal navy hns drednought photo"}">
+		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638865308/webp/HMS_Dreadnought_gdupqt.webp"}" alt="${"royal navy hns drednought photo"}">
 		<br>
 		<p>First world war<br> lives at sea<br>search the sailors<br> war records.</p>
 		<br>
@@ -5639,7 +5713,7 @@ var init_british_4eb1cade = __esm({
       $$result.css.add(css$92);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-lvu80t"}"><div class="${"p-6 svelte-lvu80t"}"><h1 class="${"text-2xl text-white svelte-lvu80t"}">R.A.F</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638816903/raf_omurhb.jpg"}" alt="${"royal airforce plane 1918 photo"}">
+		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638865061/webp/raf.webp"}" alt="${"royal airforce plane 1918 photo"}">
 		<br>
 		<p>first world war<br>Casualty Cards <br>&amp; Muster Roll</p>
 		<br>
@@ -5658,7 +5732,7 @@ var init_british_4eb1cade = __esm({
       $$result.css.add(css$82);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Newspapers</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638816670/newspaper_qw3g7r.jpg"}" alt="${"newspaper logo photo"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864967/webp/newspaper.webp"}" alt="${"newspaper logo photo"}">
 		<br>
 		<p>British newspaper <br>archive<br>
 			from the 1700s.
@@ -5677,7 +5751,7 @@ var init_british_4eb1cade = __esm({
       $$result.css.add(css$72);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-lvu80t"}"><div class="${"p-6 svelte-lvu80t"}"><h1 class="${"text-2xl text-white svelte-lvu80t"}">London Gazette</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638816509/gazette_donijm.jpg"}" alt="${"london gazettte newspaper photo"}">
+		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864884/webp/gazette.webp"}" alt="${"london gazettte newspaper photo"}">
 		<br>
 		<p>The London Gazette <br>is the UK\u2019s official<br>
 			public record of<br>
@@ -5699,7 +5773,7 @@ var init_british_4eb1cade = __esm({
       $$result.css.add(css$62);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Industral Schools</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638805714/industral_asmoic.jpg"}" alt="${"image of an industral school"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864797/webp/industral.webp"}" alt="${"image of an industral school"}">
 		<br>
 		<p>The history of <br>Industral schools<br> and resourses.
 		</p>
@@ -5717,7 +5791,7 @@ var init_british_4eb1cade = __esm({
       $$result.css.add(css$53);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Directories</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638805484/trade_jis9a7.jpg"}" alt="${"image of trade directories"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864710/webp/trade.webp"}" alt="${"image of trade directories"}">
 		<br>
 		<p>Trade and local <br>directories<br> for England and Wales</p>
 		<br>
@@ -5734,7 +5808,7 @@ var init_british_4eb1cade = __esm({
       $$result.css.add(css$43);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-lvu80t"}"><div class="${"p-6 svelte-lvu80t"}"><h1 class="${"text-2xl text-white svelte-lvu80t"}">Electoral Register</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638805205/roll_yxauou.jpg"}" alt="${"image of electorial roll"}">
+		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864628/webp/roll.webp"}" alt="${"image of electorial roll"}">
 
 		<br>
 
@@ -5756,7 +5830,7 @@ var init_british_4eb1cade = __esm({
       $$result.css.add(css$36);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-lvu80t"}"><div class="${"p-6 svelte-lvu80t"}"><h1 class="${"text-2xl text-white svelte-lvu80t"}">Companies House</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/v1627315634/companies_mryctb.jpg"}" alt="${"companies house logo photo"}">
+		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864541/webp/companies.webp"}" alt="${"companies house logo photo"}">
 		<br>
 		<p>Free search the<br> register of Companies<br> and directors.</p>
 		<br>
@@ -5775,7 +5849,7 @@ var init_british_4eb1cade = __esm({
       $$result.css.add(css$29);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Children&#39;s Homes</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638803987/home_monmfu.jpg"}" alt="${"image of dr barnardo's home barkingside"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864457/webp/home.webp"}" alt="${"image of dr barnardo's home barkingside"}">
 		<br>
 		<p>The history of the<br> childrens homes <br>and resourses.
 		</p>
@@ -5793,7 +5867,7 @@ var init_british_4eb1cade = __esm({
       $$result.css.add(css$19);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">B.M.D</h1>
 
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/v1607248969/database_l8siob.jpg"}" alt="${"database photo"}">
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"database photo"}">
 		<br>
 		<p>Free birth marriages<br> and
 			death index<br> from 1837 to 1992.
@@ -5812,7 +5886,7 @@ var init_british_4eb1cade = __esm({
     British = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       $$result.css.add(css10);
       return `${$$result.head += `${$$result.title = `<title>British</title>`, ""}`, ""}
-<section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-g219g3"}"><div class="${"h-10 w-14 inline-block svelte-g219g3"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638803290/uk-flag_f5im0i.jpg"}" alt="${"image of British flag"}"></div>
+<section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-g219g3"}"><div class="${"h-10 w-14 inline-block svelte-g219g3"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864273/webp/uk-flag.webp"}" alt="${"image of British flag"}"></div>
 
 		British Family History Resourses
 	</h1>
@@ -5831,13 +5905,24 @@ var init_british_4eb1cade = __esm({
 
 		<div class="${"grid sm:flex gap-4 mt-8 svelte-g219g3"}">${validate_component(Navy, "Navy").$$render($$result, {}, {}, {})}
 			${validate_component(Britstate, "Britstate").$$render($$result, {}, {}, {})}
-			${validate_component(Graves, "Graves").$$render($$result, {}, {}, {})}</div></section>
+			${validate_component(Graves, "Graves").$$render($$result, {}, {}, {})}</div>
+		<div class="${"grid sm:flex gap-4 mt-8 svelte-g219g3"}">${validate_component(Wills, "Wills").$$render($$result, {}, {}, {})}
+			${validate_component(Workhouse, "Workhouse").$$render($$result, {}, {}, {})}
+			${validate_component(Thirtynine, "Thirtynine").$$render($$result, {}, {}, {})}</div>
+		<br>
+
+<h2 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-g219g3"}"><div class="${"h-10 w-14 inline-block svelte-g219g3"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638878880/webp/scotish-flag.webp"}" alt="${"image of Scottish flag"}"></div>
+
+		Scottish Family History Resourses
+	</h2>
+
+		<div class="${"grid sm:flex gap-4 mt-8 svelte-g219g3"}">${validate_component(Scotland, "Scotland").$$render($$result, {}, {}, {})}</div></section>
 </section>`;
     });
   }
 });
 
-// .svelte-kit/output/server/chunks/app-6b8bf9b1.js
+// .svelte-kit/output/server/chunks/app-4c2f5eab.js
 function get_single_valued_header(headers, key) {
   const value = headers[key];
   if (Array.isArray(value)) {
@@ -7113,9 +7198,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-7ef93851.js",
+      file: assets + "/_app/start-997202e8.js",
       css: [assets + "/_app/assets/start-1f089c51.css"],
-      js: [assets + "/_app/start-7ef93851.js", assets + "/_app/chunks/vendor-dad3c69f.js"]
+      js: [assets + "/_app/start-997202e8.js", assets + "/_app/chunks/vendor-dad3c69f.js"]
     },
     fetched: void 0,
     floc: false,
@@ -7159,8 +7244,8 @@ function render(request, {
   return respond({ ...request, host }, options, { prerender: prerender10 });
 }
 var __accessCheck, __privateGet, __privateAdd, __privateSet, _map, absolute, scheme, chars, unsafeChars, reserved, escaped$1, objectProtoOwnPropertyNames, subscriber_queue, escape_json_string_in_html_dict, escape_html_attr_dict, s$1, s, ReadOnlyFormData, current_component, escaped, missing_component, on_destroy, css11, Root, base, assets, user_hooks, template, options, default_settings, empty, manifest, get_hooks, module_lookup, metadata_lookup;
-var init_app_6b8bf9b1 = __esm({
-  ".svelte-kit/output/server/chunks/app-6b8bf9b1.js"() {
+var init_app_4c2f5eab = __esm({
+  ".svelte-kit/output/server/chunks/app-4c2f5eab.js"() {
     init_shims();
     __accessCheck = (obj, member, msg) => {
       if (!member.has(obj))
@@ -7401,19 +7486,19 @@ ${``}`;
       externalFetch: hooks.externalFetch || fetch
     });
     module_lookup = {
-      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_92b1055f(), layout_92b1055f_exports)),
-      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_6224de03(), error_6224de03_exports)),
-      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_c1343a47(), index_c1343a47_exports)),
-      "src/routes/newzealand.svelte": () => Promise.resolve().then(() => (init_newzealand_868edf3a(), newzealand_868edf3a_exports)),
-      "src/routes/australia.svelte": () => Promise.resolve().then(() => (init_australia_b95433ed(), australia_b95433ed_exports)),
-      "src/routes/austrian.svelte": () => Promise.resolve().then(() => (init_austrian_d1b254ac(), austrian_d1b254ac_exports)),
-      "src/routes/barbados.svelte": () => Promise.resolve().then(() => (init_barbados_c9fe9ad4(), barbados_c9fe9ad4_exports)),
-      "src/routes/belarus.svelte": () => Promise.resolve().then(() => (init_belarus_e7d29d07(), belarus_e7d29d07_exports)),
-      "src/routes/belgium.svelte": () => Promise.resolve().then(() => (init_belgium_8b3b7e4b(), belgium_8b3b7e4b_exports)),
-      "src/routes/bermuda.svelte": () => Promise.resolve().then(() => (init_bermuda_cbebe546(), bermuda_cbebe546_exports)),
-      "src/routes/british.svelte": () => Promise.resolve().then(() => (init_british_4eb1cade(), british_4eb1cade_exports))
+      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_cb567515(), layout_cb567515_exports)),
+      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_757e3f8e(), error_757e3f8e_exports)),
+      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_e174e001(), index_e174e001_exports)),
+      "src/routes/newzealand.svelte": () => Promise.resolve().then(() => (init_newzealand_77680aba(), newzealand_77680aba_exports)),
+      "src/routes/australia.svelte": () => Promise.resolve().then(() => (init_australia_e4412756(), australia_e4412756_exports)),
+      "src/routes/austrian.svelte": () => Promise.resolve().then(() => (init_austrian_f94da938(), austrian_f94da938_exports)),
+      "src/routes/barbados.svelte": () => Promise.resolve().then(() => (init_barbados_571fbcf5(), barbados_571fbcf5_exports)),
+      "src/routes/belarus.svelte": () => Promise.resolve().then(() => (init_belarus_e1c2198b(), belarus_e1c2198b_exports)),
+      "src/routes/belgium.svelte": () => Promise.resolve().then(() => (init_belgium_913ad3cc(), belgium_913ad3cc_exports)),
+      "src/routes/bermuda.svelte": () => Promise.resolve().then(() => (init_bermuda_4f5621de(), bermuda_4f5621de_exports)),
+      "src/routes/british.svelte": () => Promise.resolve().then(() => (init_british_9d47f860(), british_9d47f860_exports))
     };
-    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-1800d970.js", "css": ["assets/pages/__layout.svelte-527e1b78.css"], "js": ["pages/__layout.svelte-1800d970.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-0eb0ae99.js", "css": [], "js": ["error.svelte-0eb0ae99.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-0f6dcdd5.js", "css": ["assets/pages/index.svelte-3b776db4.css"], "js": ["pages/index.svelte-0f6dcdd5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/newzealand.svelte": { "entry": "pages/newzealand.svelte-55e4c24e.js", "css": ["assets/pages/newzealand.svelte-4345acdd.css"], "js": ["pages/newzealand.svelte-55e4c24e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia.svelte": { "entry": "pages/australia.svelte-a93343f0.js", "css": ["assets/pages/australia.svelte-b349f3b9.css"], "js": ["pages/australia.svelte-a93343f0.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/austrian.svelte": { "entry": "pages/austrian.svelte-9cffc3ae.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/austrian.svelte-9cffc3ae.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/barbados.svelte": { "entry": "pages/barbados.svelte-f6f292b5.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/barbados.svelte-f6f292b5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belarus.svelte": { "entry": "pages/belarus.svelte-e0a853d5.js", "css": ["assets/pages/belarus.svelte-af50c5fc.css"], "js": ["pages/belarus.svelte-e0a853d5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belgium.svelte": { "entry": "pages/belgium.svelte-c6264256.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/belgium.svelte-c6264256.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/bermuda.svelte": { "entry": "pages/bermuda.svelte-be2f2254.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/bermuda.svelte-be2f2254.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/british.svelte": { "entry": "pages/british.svelte-d025ba93.js", "css": ["assets/pages/british.svelte-2a5d1767.css"], "js": ["pages/british.svelte-d025ba93.js", "chunks/vendor-dad3c69f.js"], "styles": [] } };
+    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-a4b8534e.js", "css": ["assets/pages/__layout.svelte-527e1b78.css"], "js": ["pages/__layout.svelte-a4b8534e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-0eb0ae99.js", "css": [], "js": ["error.svelte-0eb0ae99.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-0f6dcdd5.js", "css": ["assets/pages/index.svelte-3b776db4.css"], "js": ["pages/index.svelte-0f6dcdd5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/newzealand.svelte": { "entry": "pages/newzealand.svelte-03fbcb26.js", "css": ["assets/pages/newzealand.svelte-4345acdd.css"], "js": ["pages/newzealand.svelte-03fbcb26.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia.svelte": { "entry": "pages/australia.svelte-4919c30e.js", "css": ["assets/pages/australia.svelte-b349f3b9.css"], "js": ["pages/australia.svelte-4919c30e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/austrian.svelte": { "entry": "pages/austrian.svelte-d94ecc71.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/austrian.svelte-d94ecc71.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/barbados.svelte": { "entry": "pages/barbados.svelte-a6327baa.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/barbados.svelte-a6327baa.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belarus.svelte": { "entry": "pages/belarus.svelte-da40d158.js", "css": ["assets/pages/belarus.svelte-af50c5fc.css"], "js": ["pages/belarus.svelte-da40d158.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belgium.svelte": { "entry": "pages/belgium.svelte-f632cfd6.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/belgium.svelte-f632cfd6.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/bermuda.svelte": { "entry": "pages/bermuda.svelte-e5bde0b4.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/bermuda.svelte-e5bde0b4.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/british.svelte": { "entry": "pages/british.svelte-adfa0a68.js", "css": ["assets/pages/british.svelte-2a5d1767.css"], "js": ["pages/british.svelte-adfa0a68.js", "chunks/vendor-dad3c69f.js"], "styles": [] } };
   }
 });
 
@@ -7425,7 +7510,7 @@ init_shims();
 
 // .svelte-kit/output/server/app.js
 init_shims();
-init_app_6b8bf9b1();
+init_app_4c2f5eab();
 
 // .svelte-kit/netlify/entry.js
 init();

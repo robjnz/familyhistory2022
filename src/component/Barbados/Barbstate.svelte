@@ -4,14 +4,14 @@
 
 		<img
 			class="h-32 w-full object-fill"
-			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1618762256/archives_nndpbn.jpg"
+			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"
 			alt="image of archives"
 		/>
 		<br />
-		<p>Bermuda State Archives</p>
+		<p>Barbados State Archives</p>
 		<br /><br />
 
-		<a class="text-white hover:text-yellow-500" href="http://bit.ly/3mGxeTt" target="_blank">
+		<a class="text-white hover:text-yellow-500" href="http://bit.ly/2WusbL4" target="_blank">
 			Go to The Website
 		</a>
 	</div>

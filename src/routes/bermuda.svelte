@@ -14,7 +14,7 @@
 	<h1 class="ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl">
 		<div class="h-10 w-14 inline-block">
 			<img
-				src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1608290955/bermuda-flag_rgvbdd.png"
+				src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638866804/webp/bermuda-flag_rgvbdd.webp"
 				alt="image of Bermuda flag"
 			/>
 		</div>

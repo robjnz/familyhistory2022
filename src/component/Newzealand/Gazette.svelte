@@ -4,7 +4,7 @@
 
 		<img
 			class="h-32 w-full object-fill"
-			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638703832/nz-gazette_hsw9oq.jpg"
+			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638866148/webp/nz-gazette_hsw9oq.webp"
 			alt="image of new zealand gazette logo"
 		/>
 		<br />

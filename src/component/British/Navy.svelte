@@ -4,7 +4,7 @@
 
 		<img
 			class="h-32 w-full object-fill"
-			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638113854/HMS_Dreadnought_gdupqt.jpg"
+			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638865308/webp/HMS_Dreadnought_gdupqt.webp"
 			alt="royal navy hns drednought photo"
 		/>
 		<br />

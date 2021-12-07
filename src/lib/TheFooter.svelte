@@ -5,14 +5,14 @@
 		<a href="http://bit.ly/3nS0tUP" target="_blank">
 			<img
 				class="h-8 m-2"
-				src="https://res.cloudinary.com/dzhbfdfa5/image/upload/v1608989313/youtube_k4uh6z.jpg"
+				src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_200/v1638876618/webp/youtube.webp"
 				alt="youtube"
 			/>
 		</a>
 
 		<a href="https://bit.ly/3qdBL54" target="_blank">
 			<img class="h-8 m-2"
-			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_50,w_50/v1636300864/facebook_logo_nhdipi.jpg"
+			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_200/v1638876319/webp/facebook.webp"
 			alt="facebook" />
 		</a>
 	</div>

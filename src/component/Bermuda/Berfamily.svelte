@@ -4,8 +4,8 @@
 
 		<img
 			class="h-32 w-full object-fill"
-			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/v1607248969/database_l8siob.jpg"
-			alt="image of a family tree"
+			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"
+			alt="image of a database"
 		/>
 		<br />
 		<p>Search Burmuda <br />Genealogical Records</p>

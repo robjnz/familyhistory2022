@@ -2,8 +2,9 @@
 	<div class="p-6">
 		<h1 class="text-2xl text-white">Genealogy SA</h1>
 		<div>
-			<img class="h-32 w-full object-fill"
-				src="https://res.cloudinary.com/dzhbfdfa5/image/upload/v1607248969/database_l8siob.jpg"
+			<img
+				class="h-32 w-full object-fill"
+				src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"
 				alt="image of database"
 			/>
 		</div>

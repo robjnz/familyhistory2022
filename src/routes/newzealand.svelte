@@ -17,7 +17,7 @@
 	<h1 class="ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl">
 		<div class="h-10 w-14 inline-block">
 			<img 
-				src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638702403/newzealand-flag_w7h9cg.jpg"
+				src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638865677/webp/newzealand-flag.webp"
 				alt="image of new zealand flag"
 			/>
 		</div>

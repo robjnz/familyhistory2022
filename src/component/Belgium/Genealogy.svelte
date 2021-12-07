@@ -4,8 +4,8 @@
 
 		<img
 			class="h-32 w-full object-fill"
-			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1618760842/family-tree_qzej89.jpg"
-			alt="archive photo"
+			src="https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638861228/webp/family-tree.webp"
+			alt="family tree photo"
 		/>
 		<br />
 		<p>Belgium genealogy links</p>
