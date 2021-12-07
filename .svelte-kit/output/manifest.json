@@ -1,6 +1,6 @@
 {
   ".svelte-kit/build/runtime/internal/start.js": {
-    "file": "start-997202e8.js",
+    "file": "start-297cc59f.js",
     "src": ".svelte-kit/build/runtime/internal/start.js",
     "isEntry": true,
     "imports": [
@@ -17,14 +17,16 @@
       "src/routes/belarus.svelte",
       "src/routes/belgium.svelte",
       "src/routes/bermuda.svelte",
-      "src/routes/british.svelte"
+      "src/routes/british.svelte",
+      "src/routes/ireland.svelte",
+      "src/routes/french.svelte"
     ],
     "css": [
       "assets/start-1f089c51.css"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-a4b8534e.js",
+    "file": "pages/__layout.svelte-a51d45c4.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -150,6 +152,30 @@
     ],
     "css": [
       "assets/pages/british.svelte-2a5d1767.css"
+    ]
+  },
+  "src/routes/ireland.svelte": {
+    "file": "pages/ireland.svelte-5dd49521.js",
+    "src": "src/routes/ireland.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-dad3c69f.js"
+    ],
+    "css": [
+      "assets/pages/austrian.svelte-69bee997.css"
+    ]
+  },
+  "src/routes/french.svelte": {
+    "file": "pages/french.svelte-75287445.js",
+    "src": "src/routes/french.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-dad3c69f.js"
+    ],
+    "css": [
+      "assets/pages/austrian.svelte-69bee997.css"
     ]
   },
   "_vendor-dad3c69f.js": {

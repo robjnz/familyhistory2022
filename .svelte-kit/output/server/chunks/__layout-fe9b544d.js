@@ -1,4 +1,4 @@
-import { c as create_ssr_component, v as validate_component } from "./app-4c2f5eab.js";
+import { c as create_ssr_component, v as validate_component } from "./app-5e7d0d5f.js";
 var Nav_svelte_svelte_type_style_lang = "";
 const css$a = {
   code: ".bg-teal-500.svelte-j03ddw{--tw-bg-opacity:1;background-color:rgba(20, 184, 166, var(--tw-bg-opacity))}.grid.svelte-j03ddw{display:-ms-grid;display:grid}.h-10.svelte-j03ddw{height:2.5rem}.text-4xl.svelte-j03ddw{font-size:2.25rem;line-height:2.5rem}.m-2.svelte-j03ddw{margin:0.5rem}.p-4.svelte-j03ddw{padding:1rem}.text-gray-200.svelte-j03ddw{--tw-text-opacity:1;color:rgba(229, 231, 235, var(--tw-text-opacity))}.gap-4.svelte-j03ddw{grid-gap:1rem;gap:1rem}.grid-cols-3.svelte-j03ddw{grid-template-columns:repeat(3, minmax(0, 1fr))}",
@@ -71,6 +71,10 @@ const Europe = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 
     <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><a class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" href="${"/british"}">British</a></li>
 
+    <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><a class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" href="${"/french"}">French</a></li>
+
+    <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><a class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" href="${"/ireland"}">Ireland</a></li>
+
       
 
        
@@ -78,10 +82,7 @@ const Europe = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 
 
 
-        <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><g-link class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" to="${"/europe/frenchgeneral"}">French</g-link></li>
-     
-
-      <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><g-link class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" to="${"/Europe/irelandgeneral"}">Ireland</g-link></li>
+      
 
       <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><g-link class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" to="${"/Europe/netherlandsgeneral"}">Netherlands</g-link></li>
 

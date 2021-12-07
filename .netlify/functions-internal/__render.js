@@ -4696,16 +4696,16 @@ var init_shims = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/__layout-cb567515.js
-var layout_cb567515_exports = {};
-__export(layout_cb567515_exports, {
+// .svelte-kit/output/server/chunks/__layout-fe9b544d.js
+var layout_fe9b544d_exports = {};
+__export(layout_fe9b544d_exports, {
   default: () => _layout
 });
 var css$a, Nav, css$9, TheFooter, css$8, Australasia, css$7, Caribbean, css$6, Europe, css$5, Jewish, css$4, Northamerica, css$3, Blog, css$2, General, css$1, Dropdown, css, _layout;
-var init_layout_cb567515 = __esm({
-  ".svelte-kit/output/server/chunks/__layout-cb567515.js"() {
+var init_layout_fe9b544d = __esm({
+  ".svelte-kit/output/server/chunks/__layout-fe9b544d.js"() {
     init_shims();
-    init_app_4c2f5eab();
+    init_app_5e7d0d5f();
     css$a = {
       code: ".bg-teal-500.svelte-j03ddw{--tw-bg-opacity:1;background-color:rgba(20, 184, 166, var(--tw-bg-opacity))}.grid.svelte-j03ddw{display:-ms-grid;display:grid}.h-10.svelte-j03ddw{height:2.5rem}.text-4xl.svelte-j03ddw{font-size:2.25rem;line-height:2.5rem}.m-2.svelte-j03ddw{margin:0.5rem}.p-4.svelte-j03ddw{padding:1rem}.text-gray-200.svelte-j03ddw{--tw-text-opacity:1;color:rgba(229, 231, 235, var(--tw-text-opacity))}.gap-4.svelte-j03ddw{grid-gap:1rem;gap:1rem}.grid-cols-3.svelte-j03ddw{grid-template-columns:repeat(3, minmax(0, 1fr))}",
       map: null
@@ -4772,6 +4772,10 @@ var init_layout_cb567515 = __esm({
 
     <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><a class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" href="${"/british"}">British</a></li>
 
+    <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><a class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" href="${"/french"}">French</a></li>
+
+    <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><a class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" href="${"/ireland"}">Ireland</a></li>
+
       
 
        
@@ -4779,10 +4783,7 @@ var init_layout_cb567515 = __esm({
 
 
 
-        <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><g-link class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" to="${"/europe/frenchgeneral"}">French</g-link></li>
-     
-
-      <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><g-link class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" to="${"/Europe/irelandgeneral"}">Ireland</g-link></li>
+      
 
       <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><g-link class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" to="${"/Europe/netherlandsgeneral"}">Netherlands</g-link></li>
 
@@ -4917,9 +4918,9 @@ ${validate_component(TheFooter, "TheFooter").$$render($$result, {}, {}, {})}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/error-757e3f8e.js
-var error_757e3f8e_exports = {};
-__export(error_757e3f8e_exports, {
+// .svelte-kit/output/server/chunks/error-ac1fc541.js
+var error_ac1fc541_exports = {};
+__export(error_ac1fc541_exports, {
   default: () => Error2,
   load: () => load
 });
@@ -4927,10 +4928,10 @@ function load({ error: error2, status }) {
   return { props: { error: error2, status } };
 }
 var Error2;
-var init_error_757e3f8e = __esm({
-  ".svelte-kit/output/server/chunks/error-757e3f8e.js"() {
+var init_error_ac1fc541 = __esm({
+  ".svelte-kit/output/server/chunks/error-ac1fc541.js"() {
     init_shims();
-    init_app_4c2f5eab();
+    init_app_5e7d0d5f();
     Error2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { status } = $$props;
       let { error: error2 } = $$props;
@@ -4950,17 +4951,17 @@ ${error2.stack ? `<pre>${escape(error2.stack)}</pre>` : ``}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/index-e174e001.js
-var index_e174e001_exports = {};
-__export(index_e174e001_exports, {
+// .svelte-kit/output/server/chunks/index-2a84563a.js
+var index_2a84563a_exports = {};
+__export(index_2a84563a_exports, {
   default: () => Routes,
   prerender: () => prerender
 });
 var css2, prerender, Routes;
-var init_index_e174e001 = __esm({
-  ".svelte-kit/output/server/chunks/index-e174e001.js"() {
+var init_index_2a84563a = __esm({
+  ".svelte-kit/output/server/chunks/index-2a84563a.js"() {
     init_shims();
-    init_app_4c2f5eab();
+    init_app_5e7d0d5f();
     css2 = {
       code: ".one.svelte-1quiifg{text-align:center;margin-top:50px;margin-left:100px;margin-right:100px}.grid.svelte-1quiifg{display:-ms-grid;display:grid}.h-96.svelte-1quiifg{height:24rem}.text-6xl.svelte-1quiifg{font-size:3.75rem;line-height:1}.text-3xl.svelte-1quiifg{font-size:1.875rem;line-height:2.25rem}.text-xl.svelte-1quiifg{font-size:1.25rem;line-height:1.75rem}.object-fill.svelte-1quiifg{-o-object-fit:fill;object-fit:fill}.p-4.svelte-1quiifg{padding:1rem}.text-left.svelte-1quiifg{text-align:left}.text-center.svelte-1quiifg{text-align:center}.text-purple-500.svelte-1quiifg{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.text-purple-400.svelte-1quiifg{--tw-text-opacity:1;color:rgba(167, 139, 250, var(--tw-text-opacity))}.text-gray-600.svelte-1quiifg{--tw-text-opacity:1;color:rgba(75, 85, 99, var(--tw-text-opacity))}.w-full.svelte-1quiifg{width:100%}.gap-4.svelte-1quiifg{grid-gap:1rem;gap:1rem}.grid-cols-2.svelte-1quiifg{grid-template-columns:repeat(2, minmax(0, 1fr))}",
       map: null
@@ -4994,17 +4995,17 @@ var init_index_e174e001 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/newzealand-77680aba.js
-var newzealand_77680aba_exports = {};
-__export(newzealand_77680aba_exports, {
+// .svelte-kit/output/server/chunks/newzealand-616f9a0d.js
+var newzealand_616f9a0d_exports = {};
+__export(newzealand_616f9a0d_exports, {
   default: () => Newzealand,
   prerender: () => prerender2
 });
 var css$52, State, css$42, Historical, css$32, Gazette, css$22, Companies, css$12, Auckland, css3, prerender2, Newzealand;
-var init_newzealand_77680aba = __esm({
-  ".svelte-kit/output/server/chunks/newzealand-77680aba.js"() {
+var init_newzealand_616f9a0d = __esm({
+  ".svelte-kit/output/server/chunks/newzealand-616f9a0d.js"() {
     init_shims();
-    init_app_4c2f5eab();
+    init_app_5e7d0d5f();
     css$52 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5116,17 +5117,17 @@ var init_newzealand_77680aba = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/australia-e4412756.js
-var australia_e4412756_exports = {};
-__export(australia_e4412756_exports, {
+// .svelte-kit/output/server/chunks/australia-d77b3f2d.js
+var australia_d77b3f2d_exports = {};
+__export(australia_d77b3f2d_exports, {
   default: () => Australia,
   prerender: () => prerender3
 });
 var css$23, Ausstate, css$13, Gen, css4, prerender3, Australia;
-var init_australia_e4412756 = __esm({
-  ".svelte-kit/output/server/chunks/australia-e4412756.js"() {
+var init_australia_d77b3f2d = __esm({
+  ".svelte-kit/output/server/chunks/australia-d77b3f2d.js"() {
     init_shims();
-    init_app_4c2f5eab();
+    init_app_5e7d0d5f();
     css$23 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5181,17 +5182,17 @@ var init_australia_e4412756 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/austrian-f94da938.js
-var austrian_f94da938_exports = {};
-__export(austrian_f94da938_exports, {
+// .svelte-kit/output/server/chunks/austrian-66da51d8.js
+var austrian_66da51d8_exports = {};
+__export(austrian_66da51d8_exports, {
   default: () => Austrian,
   prerender: () => prerender4
 });
 var css$24, Vienna, css$14, Auststate, css5, prerender4, Austrian;
-var init_austrian_f94da938 = __esm({
-  ".svelte-kit/output/server/chunks/austrian-f94da938.js"() {
+var init_austrian_66da51d8 = __esm({
+  ".svelte-kit/output/server/chunks/austrian-66da51d8.js"() {
     init_shims();
-    init_app_4c2f5eab();
+    init_app_5e7d0d5f();
     css$24 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5246,17 +5247,17 @@ var init_austrian_f94da938 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/barbados-571fbcf5.js
-var barbados_571fbcf5_exports = {};
-__export(barbados_571fbcf5_exports, {
+// .svelte-kit/output/server/chunks/barbados-e65a236b.js
+var barbados_e65a236b_exports = {};
+__export(barbados_e65a236b_exports, {
   default: () => Barbados,
   prerender: () => prerender5
 });
 var css$33, Barbstate, css$25, Family, css$15, Genbarb, css6, prerender5, Barbados;
-var init_barbados_571fbcf5 = __esm({
-  ".svelte-kit/output/server/chunks/barbados-571fbcf5.js"() {
+var init_barbados_e65a236b = __esm({
+  ".svelte-kit/output/server/chunks/barbados-e65a236b.js"() {
     init_shims();
-    init_app_4c2f5eab();
+    init_app_5e7d0d5f();
     css$33 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5331,17 +5332,17 @@ var init_barbados_571fbcf5 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/belarus-e1c2198b.js
-var belarus_e1c2198b_exports = {};
-__export(belarus_e1c2198b_exports, {
+// .svelte-kit/output/server/chunks/belarus-2cc9980b.js
+var belarus_2cc9980b_exports = {};
+__export(belarus_2cc9980b_exports, {
   default: () => Belarus,
   prerender: () => prerender6
 });
 var css$26, Mogilev, css$16, Belstate, css7, prerender6, Belarus;
-var init_belarus_e1c2198b = __esm({
-  ".svelte-kit/output/server/chunks/belarus-e1c2198b.js"() {
+var init_belarus_2cc9980b = __esm({
+  ".svelte-kit/output/server/chunks/belarus-2cc9980b.js"() {
     init_shims();
-    init_app_4c2f5eab();
+    init_app_5e7d0d5f();
     css$26 = {
       code: ".bg-indigo-700.svelte-13tzqgo{--tw-bg-opacity:1;background-color:rgba(67, 56, 202, var(--tw-bg-opacity))}.hover\\:bg-indigo-800.svelte-13tzqgo:hover{--tw-bg-opacity:1;background-color:rgba(55, 48, 163, var(--tw-bg-opacity))}.rounded-lg.svelte-13tzqgo{border-radius:0.5rem}.h-32.svelte-13tzqgo{height:8rem}.h-8.svelte-13tzqgo{height:2rem}.text-2xl.svelte-13tzqgo{font-size:1.5rem;line-height:2rem}.text-sm.svelte-13tzqgo{font-size:0.875rem;line-height:1.25rem}.m-4.svelte-13tzqgo{margin:1rem}.m-2.svelte-13tzqgo{margin:0.5rem}.object-fill.svelte-13tzqgo{-o-object-fit:fill;object-fit:fill}.p-4.svelte-13tzqgo{padding:1rem}.p-6.svelte-13tzqgo{padding:1.5rem}.px-4.svelte-13tzqgo{padding-left:1rem;padding-right:1rem}.shadow-2xl.svelte-13tzqgo{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-right.svelte-13tzqgo{text-align:right}.text-white.svelte-13tzqgo{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-13tzqgo:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.text-indigo-100.svelte-13tzqgo{--tw-text-opacity:1;color:rgba(224, 231, 255, var(--tw-text-opacity))}.w-auto.svelte-13tzqgo{width:auto}.w-full.svelte-13tzqgo{width:100%}.transition-colors.svelte-13tzqgo{-webkit-transition-property:background-color, border-color, color, fill, stroke;-o-transition-property:background-color, border-color, color, fill, stroke;transition-property:background-color, border-color, color, fill, stroke;-webkit-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-o-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}.duration-150.svelte-13tzqgo{-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}",
       map: null
@@ -5396,17 +5397,17 @@ var init_belarus_e1c2198b = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/belgium-913ad3cc.js
-var belgium_913ad3cc_exports = {};
-__export(belgium_913ad3cc_exports, {
+// .svelte-kit/output/server/chunks/belgium-8fea79a8.js
+var belgium_8fea79a8_exports = {};
+__export(belgium_8fea79a8_exports, {
   default: () => Belgium,
   prerender: () => prerender7
 });
 var css$34, Genealogy, css$27, Ancestry, css$17, Belgstate, css8, prerender7, Belgium;
-var init_belgium_913ad3cc = __esm({
-  ".svelte-kit/output/server/chunks/belgium-913ad3cc.js"() {
+var init_belgium_8fea79a8 = __esm({
+  ".svelte-kit/output/server/chunks/belgium-8fea79a8.js"() {
     init_shims();
-    init_app_4c2f5eab();
+    init_app_5e7d0d5f();
     css$34 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5477,17 +5478,17 @@ var init_belgium_913ad3cc = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/bermuda-4f5621de.js
-var bermuda_4f5621de_exports = {};
-__export(bermuda_4f5621de_exports, {
+// .svelte-kit/output/server/chunks/bermuda-ba1ddd05.js
+var bermuda_ba1ddd05_exports = {};
+__export(bermuda_ba1ddd05_exports, {
   default: () => Bermuda,
   prerender: () => prerender8
 });
 var css$35, Berstate, css$28, National, css$18, Berfamily, css9, prerender8, Bermuda;
-var init_bermuda_4f5621de = __esm({
-  ".svelte-kit/output/server/chunks/bermuda-4f5621de.js"() {
+var init_bermuda_ba1ddd05 = __esm({
+  ".svelte-kit/output/server/chunks/bermuda-ba1ddd05.js"() {
     init_shims();
-    init_app_4c2f5eab();
+    init_app_5e7d0d5f();
     css$35 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5562,17 +5563,17 @@ var init_bermuda_4f5621de = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/british-9d47f860.js
-var british_9d47f860_exports = {};
-__export(british_9d47f860_exports, {
+// .svelte-kit/output/server/chunks/british-146a9700.js
+var british_146a9700_exports = {};
+__export(british_146a9700_exports, {
   default: () => British,
   prerender: () => prerender9
 });
 var css$g, Scotland, css$f, Thirtynine, css$e, Workhouse, css$d, Wills, css$c, Graves, css$b, Britstate, css$a2, Navy, css$92, Raf, css$82, Newspaper, css$72, Gazette2, css$62, Industral, css$53, Directories, css$43, Electoral, css$36, Companies2, css$29, Children, css$19, Bmd, css10, prerender9, British;
-var init_british_9d47f860 = __esm({
-  ".svelte-kit/output/server/chunks/british-9d47f860.js"() {
+var init_british_146a9700 = __esm({
+  ".svelte-kit/output/server/chunks/british-146a9700.js"() {
     init_shims();
-    init_app_4c2f5eab();
+    init_app_5e7d0d5f();
     css$g = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5922,7 +5923,155 @@ var init_british_9d47f860 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/app-4c2f5eab.js
+// .svelte-kit/output/server/chunks/ireland-ff2351f4.js
+var ireland_ff2351f4_exports = {};
+__export(ireland_ff2351f4_exports, {
+  default: () => Ireland,
+  prerender: () => prerender10
+});
+var css$37, Toolkit, css$210, Genealogy2, css$110, Census, css11, prerender10, Ireland;
+var init_ireland_ff2351f4 = __esm({
+  ".svelte-kit/output/server/chunks/ireland-ff2351f4.js"() {
+    init_shims();
+    init_app_5e7d0d5f();
+    css$37 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Toolkit = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$37);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Toolkit</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638894653/webp/shamrock.webp"}" alt="${"shamrock photo"}">
+		<br>
+		<p>Guide to finding<br> Irish ancestors.</p>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/3mTgSHr"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$210 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Genealogy2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$210);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Genealogy</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638861228/webp/family-tree.webp"}" alt="${"family tree photo"}">
+		<br>
+		<p>Search Irish <br>family history records.</p>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/2pDizAW"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$110 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Census = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$110);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Census</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638894153/webp/censusireland.webp"}" alt="${"census photo"}">
+		<br>
+		<p>Ireland census<br> 1901 &amp; 1911</p>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/2QEr9dP"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css11 = {
+      code: ".inline-block.svelte-aztiwm{display:inline-block}.grid.svelte-aztiwm{display:-ms-grid;display:grid}.h-10.svelte-aztiwm{height:2.5rem}.text-4xl.svelte-aztiwm{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-aztiwm{margin-left:2rem}.mt-3.svelte-aztiwm{margin-top:0.75rem}.mt-20.svelte-aztiwm{margin-top:5rem}.text-center.svelte-aztiwm{text-align:center}.text-purple-500.svelte-aztiwm{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-aztiwm{width:3.5rem}.gap-4.svelte-aztiwm{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-aztiwm{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
+      map: null
+    };
+    prerender10 = true;
+    Ireland = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css11);
+      return `${$$result.head += `${$$result.title = `<title>Ireland</title>`, ""}`, ""}
+
+<section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638893914/webp/ireland-flag.webp"}" alt="${"image of irish flag"}"></div>
+
+		Ireland Family History Resourses
+	</h1>
+	<br>
+	<section class="${"one"}"><div class="${"grid sm:flex gap-4 mt-20 svelte-aztiwm"}">${validate_component(Census, "Census").$$render($$result, {}, {}, {})}
+			${validate_component(Genealogy2, "Genealogy").$$render($$result, {}, {}, {})}
+            ${validate_component(Toolkit, "Toolkit").$$render($$result, {}, {}, {})}</div></section>
+</section>`;
+    });
+  }
+});
+
+// .svelte-kit/output/server/chunks/french-ec4d5854.js
+var french_ec4d5854_exports = {};
+__export(french_ec4d5854_exports, {
+  default: () => French,
+  prerender: () => prerender11
+});
+var css$211, Fstate, css$111, Naturalisation, css12, prerender11, French;
+var init_french_ec4d5854 = __esm({
+  ".svelte-kit/output/server/chunks/french-ec4d5854.js"() {
+    init_shims();
+    init_app_5e7d0d5f();
+    css$211 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Fstate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$211);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives
+      </h1>
+
+      <img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"archive photo"}">
+      <br>
+      <p>French State Archives</p>
+      <br>
+
+      <a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/3lQG01v"}" target="${"_blank"}">Go to The Website
+		</a></div>
+  </div>`;
+    });
+    css$111 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Naturalisation = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$111);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Naturalisation</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"archive photo"}">
+		<br>
+		<p>naturalisation lists <br>published in the<br> newspapers 1883-1948</p>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/3nFXfDd"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css12 = {
+      code: ".inline-block.svelte-aztiwm{display:inline-block}.grid.svelte-aztiwm{display:-ms-grid;display:grid}.h-10.svelte-aztiwm{height:2.5rem}.text-4xl.svelte-aztiwm{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-aztiwm{margin-left:2rem}.mt-3.svelte-aztiwm{margin-top:0.75rem}.mt-20.svelte-aztiwm{margin-top:5rem}.text-center.svelte-aztiwm{text-align:center}.text-purple-500.svelte-aztiwm{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-aztiwm{width:3.5rem}.gap-4.svelte-aztiwm{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-aztiwm{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
+      map: null
+    };
+    prerender11 = true;
+    French = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css12);
+      return `${$$result.head += `${$$result.title = `<title>French</title>`, ""}`, ""}
+
+<section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638892550/webp/french-flag.webp"}" alt="${"image of French flag"}"></div>
+
+		French Family History Resourses
+	</h1>
+	<br>
+	<section class="${"one"}"><div class="${"grid sm:flex gap-4 mt-20 svelte-aztiwm"}">${validate_component(Naturalisation, "Naturalisation").$$render($$result, {}, {}, {})}
+			${validate_component(Fstate, "Fstate").$$render($$result, {}, {}, {})}</div></section>
+</section>`;
+    });
+  }
+});
+
+// .svelte-kit/output/server/chunks/app-5e7d0d5f.js
 function get_single_valued_header(headers, key) {
   const value = headers[key];
   if (Array.isArray(value)) {
@@ -7198,9 +7347,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-997202e8.js",
+      file: assets + "/_app/start-297cc59f.js",
       css: [assets + "/_app/assets/start-1f089c51.css"],
-      js: [assets + "/_app/start-997202e8.js", assets + "/_app/chunks/vendor-dad3c69f.js"]
+      js: [assets + "/_app/start-297cc59f.js", assets + "/_app/chunks/vendor-dad3c69f.js"]
     },
     fetched: void 0,
     floc: false,
@@ -7238,14 +7387,14 @@ async function load_component(file) {
   };
 }
 function render(request, {
-  prerender: prerender10
+  prerender: prerender12
 } = {}) {
   const host = request.headers["host"];
-  return respond({ ...request, host }, options, { prerender: prerender10 });
+  return respond({ ...request, host }, options, { prerender: prerender12 });
 }
-var __accessCheck, __privateGet, __privateAdd, __privateSet, _map, absolute, scheme, chars, unsafeChars, reserved, escaped$1, objectProtoOwnPropertyNames, subscriber_queue, escape_json_string_in_html_dict, escape_html_attr_dict, s$1, s, ReadOnlyFormData, current_component, escaped, missing_component, on_destroy, css11, Root, base, assets, user_hooks, template, options, default_settings, empty, manifest, get_hooks, module_lookup, metadata_lookup;
-var init_app_4c2f5eab = __esm({
-  ".svelte-kit/output/server/chunks/app-4c2f5eab.js"() {
+var __accessCheck, __privateGet, __privateAdd, __privateSet, _map, absolute, scheme, chars, unsafeChars, reserved, escaped$1, objectProtoOwnPropertyNames, subscriber_queue, escape_json_string_in_html_dict, escape_html_attr_dict, s$1, s, ReadOnlyFormData, current_component, escaped, missing_component, on_destroy, css13, Root, base, assets, user_hooks, template, options, default_settings, empty, manifest, get_hooks, module_lookup, metadata_lookup;
+var init_app_5e7d0d5f = __esm({
+  ".svelte-kit/output/server/chunks/app-5e7d0d5f.js"() {
     init_shims();
     __accessCheck = (obj, member, msg) => {
       if (!member.has(obj))
@@ -7362,7 +7511,7 @@ var init_app_4c2f5eab = __esm({
     missing_component = {
       $$render: () => ""
     };
-    css11 = {
+    css13 = {
       code: "#svelte-announcer.svelte-1r92h5h{position:absolute;left:0;top:0;clip:rect(0 0 0 0);clip-path:inset(50%);overflow:hidden;white-space:nowrap;width:1px;height:1px}",
       map: null
     };
@@ -7387,7 +7536,7 @@ var init_app_4c2f5eab = __esm({
         $$bindings.props_1(props_1);
       if ($$props.props_2 === void 0 && $$bindings.props_2 && props_2 !== void 0)
         $$bindings.props_2(props_2);
-      $$result.css.add(css11);
+      $$result.css.add(css13);
       {
         stores.page.set(page);
       }
@@ -7476,6 +7625,20 @@ ${``}`;
           params: empty,
           a: ["src/routes/__layout.svelte", "src/routes/british.svelte"],
           b: [".svelte-kit/build/components/error.svelte"]
+        },
+        {
+          type: "page",
+          pattern: /^\/ireland\/?$/,
+          params: empty,
+          a: ["src/routes/__layout.svelte", "src/routes/ireland.svelte"],
+          b: [".svelte-kit/build/components/error.svelte"]
+        },
+        {
+          type: "page",
+          pattern: /^\/french\/?$/,
+          params: empty,
+          a: ["src/routes/__layout.svelte", "src/routes/french.svelte"],
+          b: [".svelte-kit/build/components/error.svelte"]
         }
       ]
     };
@@ -7486,19 +7649,21 @@ ${``}`;
       externalFetch: hooks.externalFetch || fetch
     });
     module_lookup = {
-      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_cb567515(), layout_cb567515_exports)),
-      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_757e3f8e(), error_757e3f8e_exports)),
-      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_e174e001(), index_e174e001_exports)),
-      "src/routes/newzealand.svelte": () => Promise.resolve().then(() => (init_newzealand_77680aba(), newzealand_77680aba_exports)),
-      "src/routes/australia.svelte": () => Promise.resolve().then(() => (init_australia_e4412756(), australia_e4412756_exports)),
-      "src/routes/austrian.svelte": () => Promise.resolve().then(() => (init_austrian_f94da938(), austrian_f94da938_exports)),
-      "src/routes/barbados.svelte": () => Promise.resolve().then(() => (init_barbados_571fbcf5(), barbados_571fbcf5_exports)),
-      "src/routes/belarus.svelte": () => Promise.resolve().then(() => (init_belarus_e1c2198b(), belarus_e1c2198b_exports)),
-      "src/routes/belgium.svelte": () => Promise.resolve().then(() => (init_belgium_913ad3cc(), belgium_913ad3cc_exports)),
-      "src/routes/bermuda.svelte": () => Promise.resolve().then(() => (init_bermuda_4f5621de(), bermuda_4f5621de_exports)),
-      "src/routes/british.svelte": () => Promise.resolve().then(() => (init_british_9d47f860(), british_9d47f860_exports))
+      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_fe9b544d(), layout_fe9b544d_exports)),
+      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_ac1fc541(), error_ac1fc541_exports)),
+      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_2a84563a(), index_2a84563a_exports)),
+      "src/routes/newzealand.svelte": () => Promise.resolve().then(() => (init_newzealand_616f9a0d(), newzealand_616f9a0d_exports)),
+      "src/routes/australia.svelte": () => Promise.resolve().then(() => (init_australia_d77b3f2d(), australia_d77b3f2d_exports)),
+      "src/routes/austrian.svelte": () => Promise.resolve().then(() => (init_austrian_66da51d8(), austrian_66da51d8_exports)),
+      "src/routes/barbados.svelte": () => Promise.resolve().then(() => (init_barbados_e65a236b(), barbados_e65a236b_exports)),
+      "src/routes/belarus.svelte": () => Promise.resolve().then(() => (init_belarus_2cc9980b(), belarus_2cc9980b_exports)),
+      "src/routes/belgium.svelte": () => Promise.resolve().then(() => (init_belgium_8fea79a8(), belgium_8fea79a8_exports)),
+      "src/routes/bermuda.svelte": () => Promise.resolve().then(() => (init_bermuda_ba1ddd05(), bermuda_ba1ddd05_exports)),
+      "src/routes/british.svelte": () => Promise.resolve().then(() => (init_british_146a9700(), british_146a9700_exports)),
+      "src/routes/ireland.svelte": () => Promise.resolve().then(() => (init_ireland_ff2351f4(), ireland_ff2351f4_exports)),
+      "src/routes/french.svelte": () => Promise.resolve().then(() => (init_french_ec4d5854(), french_ec4d5854_exports))
     };
-    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-a4b8534e.js", "css": ["assets/pages/__layout.svelte-527e1b78.css"], "js": ["pages/__layout.svelte-a4b8534e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-0eb0ae99.js", "css": [], "js": ["error.svelte-0eb0ae99.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-0f6dcdd5.js", "css": ["assets/pages/index.svelte-3b776db4.css"], "js": ["pages/index.svelte-0f6dcdd5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/newzealand.svelte": { "entry": "pages/newzealand.svelte-03fbcb26.js", "css": ["assets/pages/newzealand.svelte-4345acdd.css"], "js": ["pages/newzealand.svelte-03fbcb26.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia.svelte": { "entry": "pages/australia.svelte-4919c30e.js", "css": ["assets/pages/australia.svelte-b349f3b9.css"], "js": ["pages/australia.svelte-4919c30e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/austrian.svelte": { "entry": "pages/austrian.svelte-d94ecc71.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/austrian.svelte-d94ecc71.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/barbados.svelte": { "entry": "pages/barbados.svelte-a6327baa.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/barbados.svelte-a6327baa.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belarus.svelte": { "entry": "pages/belarus.svelte-da40d158.js", "css": ["assets/pages/belarus.svelte-af50c5fc.css"], "js": ["pages/belarus.svelte-da40d158.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belgium.svelte": { "entry": "pages/belgium.svelte-f632cfd6.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/belgium.svelte-f632cfd6.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/bermuda.svelte": { "entry": "pages/bermuda.svelte-e5bde0b4.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/bermuda.svelte-e5bde0b4.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/british.svelte": { "entry": "pages/british.svelte-adfa0a68.js", "css": ["assets/pages/british.svelte-2a5d1767.css"], "js": ["pages/british.svelte-adfa0a68.js", "chunks/vendor-dad3c69f.js"], "styles": [] } };
+    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-a51d45c4.js", "css": ["assets/pages/__layout.svelte-527e1b78.css"], "js": ["pages/__layout.svelte-a51d45c4.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-0eb0ae99.js", "css": [], "js": ["error.svelte-0eb0ae99.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-0f6dcdd5.js", "css": ["assets/pages/index.svelte-3b776db4.css"], "js": ["pages/index.svelte-0f6dcdd5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/newzealand.svelte": { "entry": "pages/newzealand.svelte-03fbcb26.js", "css": ["assets/pages/newzealand.svelte-4345acdd.css"], "js": ["pages/newzealand.svelte-03fbcb26.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia.svelte": { "entry": "pages/australia.svelte-4919c30e.js", "css": ["assets/pages/australia.svelte-b349f3b9.css"], "js": ["pages/australia.svelte-4919c30e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/austrian.svelte": { "entry": "pages/austrian.svelte-d94ecc71.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/austrian.svelte-d94ecc71.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/barbados.svelte": { "entry": "pages/barbados.svelte-a6327baa.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/barbados.svelte-a6327baa.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belarus.svelte": { "entry": "pages/belarus.svelte-da40d158.js", "css": ["assets/pages/belarus.svelte-af50c5fc.css"], "js": ["pages/belarus.svelte-da40d158.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belgium.svelte": { "entry": "pages/belgium.svelte-f632cfd6.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/belgium.svelte-f632cfd6.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/bermuda.svelte": { "entry": "pages/bermuda.svelte-e5bde0b4.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/bermuda.svelte-e5bde0b4.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/british.svelte": { "entry": "pages/british.svelte-adfa0a68.js", "css": ["assets/pages/british.svelte-2a5d1767.css"], "js": ["pages/british.svelte-adfa0a68.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/ireland.svelte": { "entry": "pages/ireland.svelte-5dd49521.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/ireland.svelte-5dd49521.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/french.svelte": { "entry": "pages/french.svelte-75287445.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/french.svelte-75287445.js", "chunks/vendor-dad3c69f.js"], "styles": [] } };
   }
 });
 
@@ -7510,7 +7675,7 @@ init_shims();
 
 // .svelte-kit/output/server/app.js
 init_shims();
-init_app_4c2f5eab();
+init_app_5e7d0d5f();
 
 // .svelte-kit/netlify/entry.js
 init();

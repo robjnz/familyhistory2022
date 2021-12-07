@@ -9,7 +9,9 @@ const c = [
 	() => import("..\\..\\..\\src\\routes\\belarus.svelte"),
 	() => import("..\\..\\..\\src\\routes\\belgium.svelte"),
 	() => import("..\\..\\..\\src\\routes\\bermuda.svelte"),
-	() => import("..\\..\\..\\src\\routes\\british.svelte")
+	() => import("..\\..\\..\\src\\routes\\british.svelte"),
+	() => import("..\\..\\..\\src\\routes\\ireland.svelte"),
+	() => import("..\\..\\..\\src\\routes\\french.svelte")
 ];
 
 const d = decodeURIComponent;
@@ -40,7 +42,13 @@ export const routes = [
 	[/^\/bermuda\/?$/, [c[0], c[9]], [c[1]]],
 
 	// src/routes/british.svelte
-	[/^\/british\/?$/, [c[0], c[10]], [c[1]]]
+	[/^\/british\/?$/, [c[0], c[10]], [c[1]]],
+
+	// src/routes/ireland.svelte
+	[/^\/ireland\/?$/, [c[0], c[11]], [c[1]]],
+
+	// src/routes/french.svelte
+	[/^\/french\/?$/, [c[0], c[12]], [c[1]]]
 ];
 
 // we import the root layout/error components eagerly, so that

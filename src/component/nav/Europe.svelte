@@ -38,6 +38,14 @@
 			<a class="text-red-600 hover:text-yellow-600" href="/british">British</a>
 		</li>
 
+    <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+			<a class="text-red-600 hover:text-yellow-600" href="/french">French</a>
+		</li>
+
+    <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+			<a class="text-red-600 hover:text-yellow-600" href="/ireland">Ireland</a>
+		</li>
+
       
 
        
@@ -45,22 +53,7 @@
 
 
 
-        <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-        <g-link
-          class="text-red-600 hover:text-yellow-600"
-          to="/europe/frenchgeneral"
-          >French</g-link
-        >
-      </li>
-     
-
-      <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-        <g-link
-          class="text-red-600 hover:text-yellow-600"
-          to="/Europe/irelandgeneral"
-          >Ireland</g-link
-        >
-      </li>
+      
 
       <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
         <g-link
