@@ -92,6 +92,10 @@
         >
       </li>
 
+       <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+			<a class="text-blue-600 hover:text-yellow-600" href="/ukraine-j">Ukraine</a>
+		</li>
+
       <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
         <g-link class="text-blue-600 hover:text-yellow-600" to="/Jewish/america"
           >USA</g-link

@@ -4,7 +4,6 @@
 	import Europe from '../component/nav/Europe.svelte';
 	import Jewish from '../component/nav/Jewish.svelte';
 	import Northamerica from '../component/nav/Northamerica.svelte';
-	import Blog from '../component/nav/Blog.svelte';
 	import General from '../component/nav/General.svelte';
 </script>
 
@@ -22,7 +21,6 @@
 		<Europe />
 		<Jewish />
 		<Northamerica />
-		<Blog />
 		<General />
 	</p>
 

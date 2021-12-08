@@ -22,9 +22,9 @@ export function init(settings = default_settings) {
 		amp: false,
 		dev: false,
 		entry: {
-			file: assets + "/_app/start-297cc59f.js",
+			file: assets + "/_app/start-83192943.js",
 			css: [assets + "/_app/assets/start-1f089c51.css"],
-			js: [assets + "/_app/start-297cc59f.js",assets + "/_app/chunks/vendor-dad3c69f.js"]
+			js: [assets + "/_app/start-83192943.js",assets + "/_app/chunks/vendor-dad3c69f.js"]
 		},
 		fetched: undefined,
 		floc: false,
@@ -83,6 +83,13 @@ const manifest = {
 					},
 		{
 						type: 'page',
+						pattern: /^\/netherlands\/?$/,
+						params: empty,
+						a: ["src/routes/__layout.svelte", "src/routes/netherlands.svelte"],
+						b: [".svelte-kit/build/components/error.svelte"]
+					},
+		{
+						type: 'page',
 						pattern: /^\/newzealand\/?$/,
 						params: empty,
 						a: ["src/routes/__layout.svelte", "src/routes/newzealand.svelte"],
@@ -93,6 +100,13 @@ const manifest = {
 						pattern: /^\/australia\/?$/,
 						params: empty,
 						a: ["src/routes/__layout.svelte", "src/routes/australia.svelte"],
+						b: [".svelte-kit/build/components/error.svelte"]
+					},
+		{
+						type: 'page',
+						pattern: /^\/ukraine-j\/?$/,
+						params: empty,
+						a: ["src/routes/__layout.svelte", "src/routes/ukraine-j.svelte"],
 						b: [".svelte-kit/build/components/error.svelte"]
 					},
 		{
@@ -146,6 +160,20 @@ const manifest = {
 					},
 		{
 						type: 'page',
+						pattern: /^\/russian\/?$/,
+						params: empty,
+						a: ["src/routes/__layout.svelte", "src/routes/russian.svelte"],
+						b: [".svelte-kit/build/components/error.svelte"]
+					},
+		{
+						type: 'page',
+						pattern: /^\/ukraine\/?$/,
+						params: empty,
+						a: ["src/routes/__layout.svelte", "src/routes/ukraine.svelte"],
+						b: [".svelte-kit/build/components/error.svelte"]
+					},
+		{
+						type: 'page',
 						pattern: /^\/french\/?$/,
 						params: empty,
 						a: ["src/routes/__layout.svelte", "src/routes/french.svelte"],
@@ -164,10 +192,10 @@ const get_hooks = hooks => ({
 });
 
 const module_lookup = {
-	"src/routes/__layout.svelte": () => import("..\\..\\src\\routes\\__layout.svelte"),".svelte-kit/build/components/error.svelte": () => import("./components\\error.svelte"),"src/routes/index.svelte": () => import("..\\..\\src\\routes\\index.svelte"),"src/routes/newzealand.svelte": () => import("..\\..\\src\\routes\\newzealand.svelte"),"src/routes/australia.svelte": () => import("..\\..\\src\\routes\\australia.svelte"),"src/routes/austrian.svelte": () => import("..\\..\\src\\routes\\austrian.svelte"),"src/routes/barbados.svelte": () => import("..\\..\\src\\routes\\barbados.svelte"),"src/routes/belarus.svelte": () => import("..\\..\\src\\routes\\belarus.svelte"),"src/routes/belgium.svelte": () => import("..\\..\\src\\routes\\belgium.svelte"),"src/routes/bermuda.svelte": () => import("..\\..\\src\\routes\\bermuda.svelte"),"src/routes/british.svelte": () => import("..\\..\\src\\routes\\british.svelte"),"src/routes/ireland.svelte": () => import("..\\..\\src\\routes\\ireland.svelte"),"src/routes/french.svelte": () => import("..\\..\\src\\routes\\french.svelte")
+	"src/routes/__layout.svelte": () => import("..\\..\\src\\routes\\__layout.svelte"),".svelte-kit/build/components/error.svelte": () => import("./components\\error.svelte"),"src/routes/index.svelte": () => import("..\\..\\src\\routes\\index.svelte"),"src/routes/netherlands.svelte": () => import("..\\..\\src\\routes\\netherlands.svelte"),"src/routes/newzealand.svelte": () => import("..\\..\\src\\routes\\newzealand.svelte"),"src/routes/australia.svelte": () => import("..\\..\\src\\routes\\australia.svelte"),"src/routes/ukraine-j.svelte": () => import("..\\..\\src\\routes\\ukraine-j.svelte"),"src/routes/austrian.svelte": () => import("..\\..\\src\\routes\\austrian.svelte"),"src/routes/barbados.svelte": () => import("..\\..\\src\\routes\\barbados.svelte"),"src/routes/belarus.svelte": () => import("..\\..\\src\\routes\\belarus.svelte"),"src/routes/belgium.svelte": () => import("..\\..\\src\\routes\\belgium.svelte"),"src/routes/bermuda.svelte": () => import("..\\..\\src\\routes\\bermuda.svelte"),"src/routes/british.svelte": () => import("..\\..\\src\\routes\\british.svelte"),"src/routes/ireland.svelte": () => import("..\\..\\src\\routes\\ireland.svelte"),"src/routes/russian.svelte": () => import("..\\..\\src\\routes\\russian.svelte"),"src/routes/ukraine.svelte": () => import("..\\..\\src\\routes\\ukraine.svelte"),"src/routes/french.svelte": () => import("..\\..\\src\\routes\\french.svelte")
 };
 
-const metadata_lookup = {"src/routes/__layout.svelte":{"entry":"pages/__layout.svelte-a51d45c4.js","css":["assets/pages/__layout.svelte-527e1b78.css"],"js":["pages/__layout.svelte-a51d45c4.js","chunks/vendor-dad3c69f.js"],"styles":[]},".svelte-kit/build/components/error.svelte":{"entry":"error.svelte-0eb0ae99.js","css":[],"js":["error.svelte-0eb0ae99.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/index.svelte":{"entry":"pages/index.svelte-0f6dcdd5.js","css":["assets/pages/index.svelte-3b776db4.css"],"js":["pages/index.svelte-0f6dcdd5.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/newzealand.svelte":{"entry":"pages/newzealand.svelte-03fbcb26.js","css":["assets/pages/newzealand.svelte-4345acdd.css"],"js":["pages/newzealand.svelte-03fbcb26.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/australia.svelte":{"entry":"pages/australia.svelte-4919c30e.js","css":["assets/pages/australia.svelte-b349f3b9.css"],"js":["pages/australia.svelte-4919c30e.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/austrian.svelte":{"entry":"pages/austrian.svelte-d94ecc71.js","css":["assets/pages/austrian.svelte-69bee997.css"],"js":["pages/austrian.svelte-d94ecc71.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/barbados.svelte":{"entry":"pages/barbados.svelte-a6327baa.js","css":["assets/pages/austrian.svelte-69bee997.css"],"js":["pages/barbados.svelte-a6327baa.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/belarus.svelte":{"entry":"pages/belarus.svelte-da40d158.js","css":["assets/pages/belarus.svelte-af50c5fc.css"],"js":["pages/belarus.svelte-da40d158.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/belgium.svelte":{"entry":"pages/belgium.svelte-f632cfd6.js","css":["assets/pages/austrian.svelte-69bee997.css"],"js":["pages/belgium.svelte-f632cfd6.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/bermuda.svelte":{"entry":"pages/bermuda.svelte-e5bde0b4.js","css":["assets/pages/austrian.svelte-69bee997.css"],"js":["pages/bermuda.svelte-e5bde0b4.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/british.svelte":{"entry":"pages/british.svelte-adfa0a68.js","css":["assets/pages/british.svelte-2a5d1767.css"],"js":["pages/british.svelte-adfa0a68.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/ireland.svelte":{"entry":"pages/ireland.svelte-5dd49521.js","css":["assets/pages/austrian.svelte-69bee997.css"],"js":["pages/ireland.svelte-5dd49521.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/french.svelte":{"entry":"pages/french.svelte-75287445.js","css":["assets/pages/austrian.svelte-69bee997.css"],"js":["pages/french.svelte-75287445.js","chunks/vendor-dad3c69f.js"],"styles":[]}};
+const metadata_lookup = {"src/routes/__layout.svelte":{"entry":"pages/__layout.svelte-4f0a6d15.js","css":["assets/pages/__layout.svelte-2b35773f.css"],"js":["pages/__layout.svelte-4f0a6d15.js","chunks/vendor-dad3c69f.js"],"styles":[]},".svelte-kit/build/components/error.svelte":{"entry":"error.svelte-0eb0ae99.js","css":[],"js":["error.svelte-0eb0ae99.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/index.svelte":{"entry":"pages/index.svelte-0f6dcdd5.js","css":["assets/pages/index.svelte-3b776db4.css"],"js":["pages/index.svelte-0f6dcdd5.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/netherlands.svelte":{"entry":"pages/netherlands.svelte-39977444.js","css":["assets/pages/russian.svelte-8e6dfef7.css"],"js":["pages/netherlands.svelte-39977444.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/newzealand.svelte":{"entry":"pages/newzealand.svelte-03fbcb26.js","css":["assets/pages/newzealand.svelte-4345acdd.css"],"js":["pages/newzealand.svelte-03fbcb26.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/australia.svelte":{"entry":"pages/australia.svelte-4919c30e.js","css":["assets/pages/australia.svelte-b349f3b9.css"],"js":["pages/australia.svelte-4919c30e.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/ukraine-j.svelte":{"entry":"pages/ukraine-j.svelte-5f5d8a65.js","css":[],"js":["pages/ukraine-j.svelte-5f5d8a65.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/austrian.svelte":{"entry":"pages/austrian.svelte-d94ecc71.js","css":["assets/pages/barbados.svelte-ac4cdfcc.css"],"js":["pages/austrian.svelte-d94ecc71.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/barbados.svelte":{"entry":"pages/barbados.svelte-a6327baa.js","css":["assets/pages/barbados.svelte-ac4cdfcc.css"],"js":["pages/barbados.svelte-a6327baa.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/belarus.svelte":{"entry":"pages/belarus.svelte-da40d158.js","css":["assets/pages/belarus.svelte-af50c5fc.css"],"js":["pages/belarus.svelte-da40d158.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/belgium.svelte":{"entry":"pages/belgium.svelte-f632cfd6.js","css":["assets/pages/barbados.svelte-ac4cdfcc.css"],"js":["pages/belgium.svelte-f632cfd6.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/bermuda.svelte":{"entry":"pages/bermuda.svelte-e5bde0b4.js","css":["assets/pages/barbados.svelte-ac4cdfcc.css"],"js":["pages/bermuda.svelte-e5bde0b4.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/british.svelte":{"entry":"pages/british.svelte-adfa0a68.js","css":["assets/pages/british.svelte-2a5d1767.css"],"js":["pages/british.svelte-adfa0a68.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/ireland.svelte":{"entry":"pages/ireland.svelte-5dd49521.js","css":["assets/pages/barbados.svelte-ac4cdfcc.css"],"js":["pages/ireland.svelte-5dd49521.js","chunks/vendor-dad3c69f.js"],"styles":[]},"src/routes/russian.svelte":{"entry":"pages/russian.svelte-a0de3fd2.js","css":["assets/pages/russian.svelte-8e6dfef7.css","assets/Latin-c75ea1c6.css"],"js":["pages/russian.svelte-a0de3fd2.js","chunks/vendor-dad3c69f.js","chunks/Latin-477a5128.js"],"styles":[]},"src/routes/ukraine.svelte":{"entry":"pages/ukraine.svelte-1db476c4.js","css":["assets/pages/ukraine.svelte-5b92b6e6.css","assets/Latin-c75ea1c6.css"],"js":["pages/ukraine.svelte-1db476c4.js","chunks/vendor-dad3c69f.js","chunks/Latin-477a5128.js"],"styles":[]},"src/routes/french.svelte":{"entry":"pages/french.svelte-75287445.js","css":["assets/pages/barbados.svelte-ac4cdfcc.css"],"js":["pages/french.svelte-75287445.js","chunks/vendor-dad3c69f.js"],"styles":[]}};
 
 async function load_component(file) {
 	const { entry, css, js, styles } = metadata_lookup[file];

@@ -4696,33 +4696,33 @@ var init_shims = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/__layout-fe9b544d.js
-var layout_fe9b544d_exports = {};
-__export(layout_fe9b544d_exports, {
+// .svelte-kit/output/server/chunks/__layout-1ec82ca2.js
+var layout_1ec82ca2_exports = {};
+__export(layout_1ec82ca2_exports, {
   default: () => _layout
 });
-var css$a, Nav, css$9, TheFooter, css$8, Australasia, css$7, Caribbean, css$6, Europe, css$5, Jewish, css$4, Northamerica, css$3, Blog, css$2, General, css$1, Dropdown, css, _layout;
-var init_layout_fe9b544d = __esm({
-  ".svelte-kit/output/server/chunks/__layout-fe9b544d.js"() {
+var css$9, Nav, css$8, TheFooter, css$7, Australasia, css$6, Caribbean, css$5, Europe, css$4, Jewish, css$3, Northamerica, css$2, General, css$1, Dropdown, css, _layout;
+var init_layout_1ec82ca2 = __esm({
+  ".svelte-kit/output/server/chunks/__layout-1ec82ca2.js"() {
     init_shims();
-    init_app_5e7d0d5f();
-    css$a = {
+    init_app_547e1716();
+    css$9 = {
       code: ".bg-teal-500.svelte-j03ddw{--tw-bg-opacity:1;background-color:rgba(20, 184, 166, var(--tw-bg-opacity))}.grid.svelte-j03ddw{display:-ms-grid;display:grid}.h-10.svelte-j03ddw{height:2.5rem}.text-4xl.svelte-j03ddw{font-size:2.25rem;line-height:2.5rem}.m-2.svelte-j03ddw{margin:0.5rem}.p-4.svelte-j03ddw{padding:1rem}.text-gray-200.svelte-j03ddw{--tw-text-opacity:1;color:rgba(229, 231, 235, var(--tw-text-opacity))}.gap-4.svelte-j03ddw{grid-gap:1rem;gap:1rem}.grid-cols-3.svelte-j03ddw{grid-template-columns:repeat(3, minmax(0, 1fr))}",
       map: null
     };
     Nav = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$a);
+      $$result.css.add(css$9);
       return `<nav class="${"text-4xl bg-teal-500 text-gray-200 p-4 svelte-j03ddw"}"><div class="${"grid grid-cols-3 gap-4 svelte-j03ddw"}"><div><a href="${"/"}"><img class="${"h-10 m-2 svelte-j03ddw"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/v1638876068/webp/logo.webp"}" alt="${"logo"}"></a></div>
 		<div>Family History Tips</div>
 		<div></div></div>
 </nav>`;
     });
-    css$9 = {
+    css$8 = {
       code: ".bg-teal-500.svelte-oqpr3a{--tw-bg-opacity:1;background-color:rgba(20, 184, 166, var(--tw-bg-opacity))}.inline-flex.svelte-oqpr3a{display:-webkit-inline-box;display:-ms-inline-flexbox;display:-webkit-inline-flex;display:inline-flex}.h-8.svelte-oqpr3a{height:2rem}.text-xl.svelte-oqpr3a{font-size:1.25rem;line-height:1.75rem}.m-2.svelte-oqpr3a{margin:0.5rem}.mt-16.svelte-oqpr3a{margin-top:4rem}.p-4.svelte-oqpr3a{padding:1rem}.text-left.svelte-oqpr3a{text-align:left}.text-gray-700.svelte-oqpr3a{--tw-text-opacity:1;color:rgba(55, 65, 81, var(--tw-text-opacity))}",
       map: null
     };
     TheFooter = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$9);
+      $$result.css.add(css$8);
       return `<footer class="${"text-left bg-teal-500 p-4 mt-16 svelte-oqpr3a"}"><div class="${"inline-flex svelte-oqpr3a"}"><h3 class="${"text-left text-gray-700 text-xl svelte-oqpr3a"}">\xA9 2021 Family History</h3>
 
 		<a href="${"http://bit.ly/3nS0tUP"}" target="${"_blank"}"><img class="${"h-8 m-2 svelte-oqpr3a"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_200/v1638876618/webp/youtube.webp"}" alt="${"youtube"}"></a>
@@ -4730,12 +4730,12 @@ var init_layout_fe9b544d = __esm({
 		<a href="${"https://bit.ly/3qdBL54"}" target="${"_blank"}"><img class="${"h-8 m-2 svelte-oqpr3a"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_200/v1638876319/webp/facebook.webp"}" alt="${"facebook"}"></a></div>
 </footer>`;
     });
-    css$8 = {
+    css$7 = {
       code: "li>button.svelte-agkwle svg.svelte-agkwle{transform:rotate(-90deg)}li:hover>button.svelte-agkwle svg.svelte-agkwle{transform:rotate(-270deg)}.group.svelte-agkwle:hover .group-hover\\:scale-100.svelte-agkwle{transform:scale(1)}.group.svelte-agkwle:hover .group-hover\\:-rotate-180.svelte-agkwle{transform:rotate(180deg)}.scale-0.svelte-agkwle.svelte-agkwle{transform:scale(0)}.min-w-32.svelte-agkwle.svelte-agkwle{min-width:8rem}.bg-white.svelte-agkwle.svelte-agkwle{--tw-bg-opacity:1;background-color:rgba(255, 255, 255, var(--tw-bg-opacity))}.hover\\:bg-gray-100.svelte-agkwle.svelte-agkwle:hover{--tw-bg-opacity:1;background-color:rgba(243, 244, 246, var(--tw-bg-opacity))}.rounded-sm.svelte-agkwle.svelte-agkwle{border-radius:0.125rem}.border.svelte-agkwle.svelte-agkwle{border-width:1px}.inline-block.svelte-agkwle.svelte-agkwle{display:inline-block}.flex.svelte-agkwle.svelte-agkwle{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}.items-center.svelte-agkwle.svelte-agkwle{-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center}.flex-1.svelte-agkwle.svelte-agkwle{-webkit-box-flex:1;-ms-flex:1 1 0%;-webkit-flex:1 1 0%;flex:1 1 0%}.font-semibold.svelte-agkwle.svelte-agkwle{font-weight:600}.h-4.svelte-agkwle.svelte-agkwle{height:1rem}.min-w-32.svelte-agkwle.svelte-agkwle{min-width:8rem}.outline-none.svelte-agkwle.svelte-agkwle{outline:2px solid transparent;outline-offset:2px}.focus\\:outline-none.svelte-agkwle.svelte-agkwle:focus{outline:2px solid transparent;outline-offset:2px}.px-3.svelte-agkwle.svelte-agkwle{padding-left:0.75rem;padding-right:0.75rem}.py-1.svelte-agkwle.svelte-agkwle{padding-top:0.25rem;padding-bottom:0.25rem}.pr-1.svelte-agkwle.svelte-agkwle{padding-right:0.25rem}.absolute.svelte-agkwle.svelte-agkwle{position:absolute}.fill-current.svelte-agkwle.svelte-agkwle{fill:currentColor}.text-gray-900.svelte-agkwle.svelte-agkwle{--tw-text-opacity:1;color:rgba(17, 24, 39, var(--tw-text-opacity))}.hover\\:text-yellow-600.svelte-agkwle.svelte-agkwle:hover{--tw-text-opacity:1;color:rgba(217, 119, 6, var(--tw-text-opacity))}.w-4.svelte-agkwle.svelte-agkwle{width:1rem}.transform.svelte-agkwle.svelte-agkwle{--tw-rotate:0;--tw-rotate-x:0;--tw-rotate-y:0;--tw-rotate-z:0;--tw-scale-x:1;--tw-scale-y:1;--tw-scale-z:1;--tw-skew-x:0;--tw-skew-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-translate-z:0;-webkit-transform:rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotateZ(var(--tw-rotate-z)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z));-ms-transform:rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotateZ(var(--tw-rotate-z)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z));transform:rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotateZ(var(--tw-rotate-z)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z))}.origin-top.svelte-agkwle.svelte-agkwle{-webkit-transform-origin:top;-ms-transform-origin:top;transform-origin:top}.scale-0.svelte-agkwle.svelte-agkwle{--tw-scale-x:0;--tw-scale-y:0;--tw-scale-z:0}.group.svelte-agkwle:hover .group-hover\\:scale-100.svelte-agkwle{--tw-scale-x:1;--tw-scale-y:1;--tw-scale-z:1}.group.svelte-agkwle:hover .group-hover\\:-rotate-180.svelte-agkwle{--tw-rotate:-180deg}.transition.svelte-agkwle.svelte-agkwle{-webkit-transition-property:background-color, border-color, color, fill, stroke, opacity, -webkit-box-shadow, -webkit-transform, filter, backdrop-filter;-o-transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, -webkit-box-shadow, transform, -webkit-transform, filter, backdrop-filter;-webkit-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-o-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}.ease-in-out.svelte-agkwle.svelte-agkwle{-webkit-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-o-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)}.duration-150.svelte-agkwle.svelte-agkwle{-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}",
       map: null
     };
     Australasia = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$8);
+      $$result.css.add(css$7);
       return `<div class="${"group inline-block svelte-agkwle"}"><button class="${"outline-none focus:outline-none border px-3 py-1 bg-white rounded-sm flex items-center min-w-32 svelte-agkwle"}"><span class="${"pr-1 font-semibold flex-1 svelte-agkwle"}">Australasia</span>
 		<span><svg class="${"fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out svelte-agkwle"}" xmlns="${"http://www.w3.org/2000/svg"}" viewBox="${"0 0 20 20"}"><path d="${"M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"}"></path></svg></span></button>
 	<ul class="${"bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32 svelte-agkwle"}"><li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-agkwle"}"><a class="${"text-gray-900 hover:text-yellow-600 svelte-agkwle"}" href="${"/australia"}">Australia</a></li>
@@ -4743,12 +4743,12 @@ var init_layout_fe9b544d = __esm({
 		<li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-agkwle"}"><a class="${"text-gray-900 hover:text-yellow-600 svelte-agkwle"}" href="${"/newzealand"}">New Zealand</a></li></ul>
 </div>`;
     });
-    css$7 = {
+    css$6 = {
       code: "li>button.svelte-1mste6j svg.svelte-1mste6j{transform:rotate(-90deg)}li:hover>button.svelte-1mste6j svg.svelte-1mste6j{transform:rotate(-270deg)}.group.svelte-1mste6j:hover .group-hover\\:scale-100.svelte-1mste6j{transform:scale(1)}.group.svelte-1mste6j:hover .group-hover\\:-rotate-180.svelte-1mste6j{transform:rotate(180deg)}.scale-0.svelte-1mste6j.svelte-1mste6j{transform:scale(0)}.min-w-32.svelte-1mste6j.svelte-1mste6j{min-width:8rem}.bg-white.svelte-1mste6j.svelte-1mste6j{--tw-bg-opacity:1;background-color:rgba(255, 255, 255, var(--tw-bg-opacity))}.hover\\:bg-gray-100.svelte-1mste6j.svelte-1mste6j:hover{--tw-bg-opacity:1;background-color:rgba(243, 244, 246, var(--tw-bg-opacity))}.rounded-sm.svelte-1mste6j.svelte-1mste6j{border-radius:0.125rem}.border.svelte-1mste6j.svelte-1mste6j{border-width:1px}.inline-block.svelte-1mste6j.svelte-1mste6j{display:inline-block}.flex.svelte-1mste6j.svelte-1mste6j{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}.items-center.svelte-1mste6j.svelte-1mste6j{-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center}.flex-1.svelte-1mste6j.svelte-1mste6j{-webkit-box-flex:1;-ms-flex:1 1 0%;-webkit-flex:1 1 0%;flex:1 1 0%}.font-semibold.svelte-1mste6j.svelte-1mste6j{font-weight:600}.h-4.svelte-1mste6j.svelte-1mste6j{height:1rem}.min-w-32.svelte-1mste6j.svelte-1mste6j{min-width:8rem}.outline-none.svelte-1mste6j.svelte-1mste6j{outline:2px solid transparent;outline-offset:2px}.focus\\:outline-none.svelte-1mste6j.svelte-1mste6j:focus{outline:2px solid transparent;outline-offset:2px}.px-3.svelte-1mste6j.svelte-1mste6j{padding-left:0.75rem;padding-right:0.75rem}.py-1.svelte-1mste6j.svelte-1mste6j{padding-top:0.25rem;padding-bottom:0.25rem}.pr-1.svelte-1mste6j.svelte-1mste6j{padding-right:0.25rem}.absolute.svelte-1mste6j.svelte-1mste6j{position:absolute}.fill-current.svelte-1mste6j.svelte-1mste6j{fill:currentColor}.text-emerald-600.svelte-1mste6j.svelte-1mste6j{--tw-text-opacity:1;color:rgba(5, 150, 105, var(--tw-text-opacity))}.hover\\:text-yellow-600.svelte-1mste6j.svelte-1mste6j:hover{--tw-text-opacity:1;color:rgba(217, 119, 6, var(--tw-text-opacity))}.w-4.svelte-1mste6j.svelte-1mste6j{width:1rem}.transform.svelte-1mste6j.svelte-1mste6j{--tw-rotate:0;--tw-rotate-x:0;--tw-rotate-y:0;--tw-rotate-z:0;--tw-scale-x:1;--tw-scale-y:1;--tw-scale-z:1;--tw-skew-x:0;--tw-skew-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-translate-z:0;-webkit-transform:rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotateZ(var(--tw-rotate-z)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z));-ms-transform:rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotateZ(var(--tw-rotate-z)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z));transform:rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotateZ(var(--tw-rotate-z)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z))}.origin-top.svelte-1mste6j.svelte-1mste6j{-webkit-transform-origin:top;-ms-transform-origin:top;transform-origin:top}.scale-0.svelte-1mste6j.svelte-1mste6j{--tw-scale-x:0;--tw-scale-y:0;--tw-scale-z:0}.group.svelte-1mste6j:hover .group-hover\\:scale-100.svelte-1mste6j{--tw-scale-x:1;--tw-scale-y:1;--tw-scale-z:1}.group.svelte-1mste6j:hover .group-hover\\:-rotate-180.svelte-1mste6j{--tw-rotate:-180deg}.transition.svelte-1mste6j.svelte-1mste6j{-webkit-transition-property:background-color, border-color, color, fill, stroke, opacity, -webkit-box-shadow, -webkit-transform, filter, backdrop-filter;-o-transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, -webkit-box-shadow, transform, -webkit-transform, filter, backdrop-filter;-webkit-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-o-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}.ease-in-out.svelte-1mste6j.svelte-1mste6j{-webkit-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-o-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)}.duration-150.svelte-1mste6j.svelte-1mste6j{-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}",
       map: null
     };
     Caribbean = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$7);
+      $$result.css.add(css$6);
       return `<div class="${"group inline-block svelte-1mste6j"}"><button class="${"outline-none focus:outline-none border px-3 py-1 bg-white rounded-sm flex items-center min-w-32 svelte-1mste6j"}"><span class="${"pr-1 font-semibold flex-1 svelte-1mste6j"}">Caribbean</span>
 		<span><svg class="${"fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out svelte-1mste6j"}" xmlns="${"http://www.w3.org/2000/svg"}" viewBox="${"0 0 20 20"}"><path d="${"M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"}"></path></svg></span></button>
 	<ul class="${"bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32 svelte-1mste6j"}"><li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-1mste6j"}"><a class="${"text-emerald-600 hover:text-yellow-600 svelte-1mste6j"}" href="${"/barbados"}">Barbados</a></li>
@@ -4756,12 +4756,12 @@ var init_layout_fe9b544d = __esm({
 		<li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-1mste6j"}"><a class="${"text-emerald-600 hover:text-yellow-600 svelte-1mste6j"}" href="${"/bermuda"}">Bermuda</a></li></ul>
 </div>`;
     });
-    css$6 = {
+    css$5 = {
       code: "li>button.svelte-nt5tq9 svg.svelte-nt5tq9{transform:rotate(-90deg)}li:hover>button.svelte-nt5tq9 svg.svelte-nt5tq9{transform:rotate(-270deg)}.group.svelte-nt5tq9:hover .group-hover\\:scale-100.svelte-nt5tq9{transform:scale(1)}.group.svelte-nt5tq9:hover .group-hover\\:-rotate-180.svelte-nt5tq9{transform:rotate(180deg)}.scale-0.svelte-nt5tq9.svelte-nt5tq9{transform:scale(0)}.min-w-32.svelte-nt5tq9.svelte-nt5tq9{min-width:8rem}.bg-white.svelte-nt5tq9.svelte-nt5tq9{--tw-bg-opacity:1;background-color:rgba(255, 255, 255, var(--tw-bg-opacity))}.hover\\:bg-gray-100.svelte-nt5tq9.svelte-nt5tq9:hover{--tw-bg-opacity:1;background-color:rgba(243, 244, 246, var(--tw-bg-opacity))}.rounded-sm.svelte-nt5tq9.svelte-nt5tq9{border-radius:0.125rem}.border.svelte-nt5tq9.svelte-nt5tq9{border-width:1px}.inline-block.svelte-nt5tq9.svelte-nt5tq9{display:inline-block}.flex.svelte-nt5tq9.svelte-nt5tq9{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}.items-center.svelte-nt5tq9.svelte-nt5tq9{-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center}.flex-1.svelte-nt5tq9.svelte-nt5tq9{-webkit-box-flex:1;-ms-flex:1 1 0%;-webkit-flex:1 1 0%;flex:1 1 0%}.font-semibold.svelte-nt5tq9.svelte-nt5tq9{font-weight:600}.h-4.svelte-nt5tq9.svelte-nt5tq9{height:1rem}.min-w-32.svelte-nt5tq9.svelte-nt5tq9{min-width:8rem}.outline-none.svelte-nt5tq9.svelte-nt5tq9{outline:2px solid transparent;outline-offset:2px}.focus\\:outline-none.svelte-nt5tq9.svelte-nt5tq9:focus{outline:2px solid transparent;outline-offset:2px}.px-3.svelte-nt5tq9.svelte-nt5tq9{padding-left:0.75rem;padding-right:0.75rem}.py-1.svelte-nt5tq9.svelte-nt5tq9{padding-top:0.25rem;padding-bottom:0.25rem}.pr-1.svelte-nt5tq9.svelte-nt5tq9{padding-right:0.25rem}.absolute.svelte-nt5tq9.svelte-nt5tq9{position:absolute}.fill-current.svelte-nt5tq9.svelte-nt5tq9{fill:currentColor}.text-red-600.svelte-nt5tq9.svelte-nt5tq9{--tw-text-opacity:1;color:rgba(220, 38, 38, var(--tw-text-opacity))}.hover\\:text-yellow-600.svelte-nt5tq9.svelte-nt5tq9:hover{--tw-text-opacity:1;color:rgba(217, 119, 6, var(--tw-text-opacity))}.w-4.svelte-nt5tq9.svelte-nt5tq9{width:1rem}.transform.svelte-nt5tq9.svelte-nt5tq9{--tw-rotate:0;--tw-rotate-x:0;--tw-rotate-y:0;--tw-rotate-z:0;--tw-scale-x:1;--tw-scale-y:1;--tw-scale-z:1;--tw-skew-x:0;--tw-skew-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-translate-z:0;-webkit-transform:rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotateZ(var(--tw-rotate-z)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z));-ms-transform:rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotateZ(var(--tw-rotate-z)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z));transform:rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotateZ(var(--tw-rotate-z)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z))}.origin-top.svelte-nt5tq9.svelte-nt5tq9{-webkit-transform-origin:top;-ms-transform-origin:top;transform-origin:top}.scale-0.svelte-nt5tq9.svelte-nt5tq9{--tw-scale-x:0;--tw-scale-y:0;--tw-scale-z:0}.group.svelte-nt5tq9:hover .group-hover\\:scale-100.svelte-nt5tq9{--tw-scale-x:1;--tw-scale-y:1;--tw-scale-z:1}.group.svelte-nt5tq9:hover .group-hover\\:-rotate-180.svelte-nt5tq9{--tw-rotate:-180deg}.transition.svelte-nt5tq9.svelte-nt5tq9{-webkit-transition-property:background-color, border-color, color, fill, stroke, opacity, -webkit-box-shadow, -webkit-transform, filter, backdrop-filter;-o-transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, -webkit-box-shadow, transform, -webkit-transform, filter, backdrop-filter;-webkit-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-o-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}.ease-in-out.svelte-nt5tq9.svelte-nt5tq9{-webkit-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-o-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)}.duration-150.svelte-nt5tq9.svelte-nt5tq9{-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}",
       map: null
     };
     Europe = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$6);
+      $$result.css.add(css$5);
       return `<div class="${"group inline-block svelte-nt5tq9"}"><button class="${"outline-none focus:outline-none border px-3 py-1 bg-white rounded-sm flex items-center min-w-32 svelte-nt5tq9"}"><span class="${"pr-1 font-semibold flex-1 svelte-nt5tq9"}">Europe</span>
       <span><svg class="${"fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out svelte-nt5tq9"}" xmlns="${"http://www.w3.org/2000/svg"}" viewBox="${"0 0 20 20"}"><path d="${"M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"}"></path></svg></span></button>
     <ul class="${"bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32 svelte-nt5tq9"}"><li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><a class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" href="${"/austrian"}">Austrian</a></li>
@@ -4776,28 +4776,19 @@ var init_layout_fe9b544d = __esm({
 
     <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><a class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" href="${"/ireland"}">Ireland</a></li>
 
-      
+     <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><a class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" href="${"/netherlands"}">Netherlands</a></li>
 
-       
+     <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><a class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" href="${"/russian"}">Russian</a></li>
 
-
-
-
-      
-
-      <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><g-link class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" to="${"/Europe/netherlandsgeneral"}">Netherlands</g-link></li>
-
-      <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><g-link class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" to="${"/Europe/russiangeneral"}">Russian</g-link></li>
-
-      <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><g-link class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" to="${"/Europe/ukrainegeneral"}">Ukraine</g-link></li></ul>
+     <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-nt5tq9"}"><a class="${"text-red-600 hover:text-yellow-600 svelte-nt5tq9"}" href="${"/ukraine"}">Ukraine</a></li></ul>
   </div>`;
     });
-    css$5 = {
+    css$4 = {
       code: "li>button.svelte-1bxymtq svg.svelte-1bxymtq{transform:rotate(-90deg)}li:hover>button.svelte-1bxymtq svg.svelte-1bxymtq{transform:rotate(-270deg)}.group.svelte-1bxymtq:hover .group-hover\\:scale-100.svelte-1bxymtq{transform:scale(1)}.group.svelte-1bxymtq:hover .group-hover\\:-rotate-180.svelte-1bxymtq{transform:rotate(180deg)}.scale-0.svelte-1bxymtq.svelte-1bxymtq{transform:scale(0)}.min-w-32.svelte-1bxymtq.svelte-1bxymtq{min-width:8rem}.bg-white.svelte-1bxymtq.svelte-1bxymtq{--tw-bg-opacity:1;background-color:rgba(255, 255, 255, var(--tw-bg-opacity))}.hover\\:bg-gray-100.svelte-1bxymtq.svelte-1bxymtq:hover{--tw-bg-opacity:1;background-color:rgba(243, 244, 246, var(--tw-bg-opacity))}.rounded-sm.svelte-1bxymtq.svelte-1bxymtq{border-radius:0.125rem}.border.svelte-1bxymtq.svelte-1bxymtq{border-width:1px}.inline-block.svelte-1bxymtq.svelte-1bxymtq{display:inline-block}.flex.svelte-1bxymtq.svelte-1bxymtq{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}.items-center.svelte-1bxymtq.svelte-1bxymtq{-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center}.flex-1.svelte-1bxymtq.svelte-1bxymtq{-webkit-box-flex:1;-ms-flex:1 1 0%;-webkit-flex:1 1 0%;flex:1 1 0%}.font-semibold.svelte-1bxymtq.svelte-1bxymtq{font-weight:600}.h-4.svelte-1bxymtq.svelte-1bxymtq{height:1rem}.min-w-32.svelte-1bxymtq.svelte-1bxymtq{min-width:8rem}.outline-none.svelte-1bxymtq.svelte-1bxymtq{outline:2px solid transparent;outline-offset:2px}.focus\\:outline-none.svelte-1bxymtq.svelte-1bxymtq:focus{outline:2px solid transparent;outline-offset:2px}.px-3.svelte-1bxymtq.svelte-1bxymtq{padding-left:0.75rem;padding-right:0.75rem}.py-1.svelte-1bxymtq.svelte-1bxymtq{padding-top:0.25rem;padding-bottom:0.25rem}.pr-1.svelte-1bxymtq.svelte-1bxymtq{padding-right:0.25rem}.absolute.svelte-1bxymtq.svelte-1bxymtq{position:absolute}.fill-current.svelte-1bxymtq.svelte-1bxymtq{fill:currentColor}.text-blue-600.svelte-1bxymtq.svelte-1bxymtq{--tw-text-opacity:1;color:rgba(37, 99, 235, var(--tw-text-opacity))}.hover\\:text-yellow-600.svelte-1bxymtq.svelte-1bxymtq:hover{--tw-text-opacity:1;color:rgba(217, 119, 6, var(--tw-text-opacity))}.w-4.svelte-1bxymtq.svelte-1bxymtq{width:1rem}.transform.svelte-1bxymtq.svelte-1bxymtq{--tw-rotate:0;--tw-rotate-x:0;--tw-rotate-y:0;--tw-rotate-z:0;--tw-scale-x:1;--tw-scale-y:1;--tw-scale-z:1;--tw-skew-x:0;--tw-skew-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-translate-z:0;-webkit-transform:rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotateZ(var(--tw-rotate-z)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z));-ms-transform:rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotateZ(var(--tw-rotate-z)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z));transform:rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotateZ(var(--tw-rotate-z)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z))}.origin-top.svelte-1bxymtq.svelte-1bxymtq{-webkit-transform-origin:top;-ms-transform-origin:top;transform-origin:top}.scale-0.svelte-1bxymtq.svelte-1bxymtq{--tw-scale-x:0;--tw-scale-y:0;--tw-scale-z:0}.group.svelte-1bxymtq:hover .group-hover\\:scale-100.svelte-1bxymtq{--tw-scale-x:1;--tw-scale-y:1;--tw-scale-z:1}.group.svelte-1bxymtq:hover .group-hover\\:-rotate-180.svelte-1bxymtq{--tw-rotate:-180deg}.transition.svelte-1bxymtq.svelte-1bxymtq{-webkit-transition-property:background-color, border-color, color, fill, stroke, opacity, -webkit-box-shadow, -webkit-transform, filter, backdrop-filter;-o-transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, -webkit-box-shadow, transform, -webkit-transform, filter, backdrop-filter;-webkit-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-o-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}.ease-in-out.svelte-1bxymtq.svelte-1bxymtq{-webkit-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-o-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)}.duration-150.svelte-1bxymtq.svelte-1bxymtq{-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}",
       map: null
     };
     Jewish = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$5);
+      $$result.css.add(css$4);
       return `<div class="${"group inline-block svelte-1bxymtq"}"><button class="${"outline-none focus:outline-none border px-3 py-1 bg-white rounded-sm flex items-center min-w-32 svelte-1bxymtq"}"><span class="${"pr-1 font-semibold flex-1 svelte-1bxymtq"}">Jewish</span>
       <span><svg class="${"fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out svelte-1bxymtq"}" xmlns="${"http://www.w3.org/2000/svg"}" viewBox="${"0 0 20 20"}"><path d="${"M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"}"></path></svg></span></button>
     <ul class="${"bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32 svelte-1bxymtq"}"><li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-1bxymtq"}"><g-link class="${"text-blue-600 hover:text-yellow-600 svelte-1bxymtq"}" to="${"/Jewish/australia"}">Australia</g-link></li>
@@ -4819,42 +4810,24 @@ var init_layout_fe9b544d = __esm({
 
       <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-1bxymtq"}"><g-link class="${"text-blue-600 hover:text-yellow-600 svelte-1bxymtq"}" to="${"/Jewish/ukraine"}">Ukraine</g-link></li>
 
+       <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-1bxymtq"}"><a class="${"text-blue-600 hover:text-yellow-600 svelte-1bxymtq"}" href="${"/ukraine-j"}">Ukraine</a></li>
+
       <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-1bxymtq"}"><g-link class="${"text-blue-600 hover:text-yellow-600 svelte-1bxymtq"}" to="${"/Jewish/america"}">USA</g-link></li>
 
        <li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-1bxymtq"}"><g-link class="${"text-blue-600 hover:text-yellow-600 svelte-1bxymtq"}" to="${"/shoah"}">shoah</g-link></li></ul>
   </div>`;
     });
-    css$4 = {
+    css$3 = {
       code: "li>button.svelte-agkwle svg.svelte-agkwle{transform:rotate(-90deg)}li:hover>button.svelte-agkwle svg.svelte-agkwle{transform:rotate(-270deg)}.group.svelte-agkwle:hover .group-hover\\:scale-100.svelte-agkwle{transform:scale(1)}.group.svelte-agkwle:hover .group-hover\\:-rotate-180.svelte-agkwle{transform:rotate(180deg)}.scale-0.svelte-agkwle.svelte-agkwle{transform:scale(0)}.min-w-32.svelte-agkwle.svelte-agkwle{min-width:8rem}.bg-white.svelte-agkwle.svelte-agkwle{--tw-bg-opacity:1;background-color:rgba(255, 255, 255, var(--tw-bg-opacity))}.hover\\:bg-gray-100.svelte-agkwle.svelte-agkwle:hover{--tw-bg-opacity:1;background-color:rgba(243, 244, 246, var(--tw-bg-opacity))}.rounded-sm.svelte-agkwle.svelte-agkwle{border-radius:0.125rem}.border.svelte-agkwle.svelte-agkwle{border-width:1px}.inline-block.svelte-agkwle.svelte-agkwle{display:inline-block}.flex.svelte-agkwle.svelte-agkwle{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}.items-center.svelte-agkwle.svelte-agkwle{-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center}.flex-1.svelte-agkwle.svelte-agkwle{-webkit-box-flex:1;-ms-flex:1 1 0%;-webkit-flex:1 1 0%;flex:1 1 0%}.font-semibold.svelte-agkwle.svelte-agkwle{font-weight:600}.h-4.svelte-agkwle.svelte-agkwle{height:1rem}.min-w-32.svelte-agkwle.svelte-agkwle{min-width:8rem}.outline-none.svelte-agkwle.svelte-agkwle{outline:2px solid transparent;outline-offset:2px}.focus\\:outline-none.svelte-agkwle.svelte-agkwle:focus{outline:2px solid transparent;outline-offset:2px}.px-3.svelte-agkwle.svelte-agkwle{padding-left:0.75rem;padding-right:0.75rem}.py-1.svelte-agkwle.svelte-agkwle{padding-top:0.25rem;padding-bottom:0.25rem}.pr-1.svelte-agkwle.svelte-agkwle{padding-right:0.25rem}.absolute.svelte-agkwle.svelte-agkwle{position:absolute}.fill-current.svelte-agkwle.svelte-agkwle{fill:currentColor}.text-gray-900.svelte-agkwle.svelte-agkwle{--tw-text-opacity:1;color:rgba(17, 24, 39, var(--tw-text-opacity))}.hover\\:text-yellow-600.svelte-agkwle.svelte-agkwle:hover{--tw-text-opacity:1;color:rgba(217, 119, 6, var(--tw-text-opacity))}.w-4.svelte-agkwle.svelte-agkwle{width:1rem}.transform.svelte-agkwle.svelte-agkwle{--tw-rotate:0;--tw-rotate-x:0;--tw-rotate-y:0;--tw-rotate-z:0;--tw-scale-x:1;--tw-scale-y:1;--tw-scale-z:1;--tw-skew-x:0;--tw-skew-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-translate-z:0;-webkit-transform:rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotateZ(var(--tw-rotate-z)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z));-ms-transform:rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotateZ(var(--tw-rotate-z)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z));transform:rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotateZ(var(--tw-rotate-z)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z))}.origin-top.svelte-agkwle.svelte-agkwle{-webkit-transform-origin:top;-ms-transform-origin:top;transform-origin:top}.scale-0.svelte-agkwle.svelte-agkwle{--tw-scale-x:0;--tw-scale-y:0;--tw-scale-z:0}.group.svelte-agkwle:hover .group-hover\\:scale-100.svelte-agkwle{--tw-scale-x:1;--tw-scale-y:1;--tw-scale-z:1}.group.svelte-agkwle:hover .group-hover\\:-rotate-180.svelte-agkwle{--tw-rotate:-180deg}.transition.svelte-agkwle.svelte-agkwle{-webkit-transition-property:background-color, border-color, color, fill, stroke, opacity, -webkit-box-shadow, -webkit-transform, filter, backdrop-filter;-o-transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, -webkit-box-shadow, transform, -webkit-transform, filter, backdrop-filter;-webkit-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-o-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}.ease-in-out.svelte-agkwle.svelte-agkwle{-webkit-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-o-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)}.duration-150.svelte-agkwle.svelte-agkwle{-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}",
       map: null
     };
     Northamerica = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$4);
+      $$result.css.add(css$3);
       return `<div class="${"group inline-block svelte-agkwle"}"><button class="${"outline-none focus:outline-none border px-3 py-1 bg-white rounded-sm flex items-center min-w-32 svelte-agkwle"}"><span class="${"pr-1 font-semibold flex-1 svelte-agkwle"}">North America</span>
 		<span><svg class="${"fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out svelte-agkwle"}" xmlns="${"http://www.w3.org/2000/svg"}" viewBox="${"0 0 20 20"}"><path d="${"M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"}"></path></svg></span></button>
 	<ul class="${"bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32 svelte-agkwle"}"><li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-agkwle"}"><g-link class="${"text-gray-900 hover:text-yellow-600 svelte-agkwle"}" to="${"/Northamerica/canadageneral"}">Canada</g-link></li>
 
 		<li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-agkwle"}"><g-link class="${"text-gray-900 hover:text-yellow-600 svelte-agkwle"}" to="${"/Northamerica/americangeneral"}">USA</g-link></li></ul>
-</div>`;
-    });
-    css$3 = {
-      code: "li>button.svelte-168x2ez svg.svelte-168x2ez{transform:rotate(-90deg)}li:hover>button.svelte-168x2ez svg.svelte-168x2ez{transform:rotate(-270deg)}.group.svelte-168x2ez:hover .group-hover\\:scale-100.svelte-168x2ez{transform:scale(1)}.group.svelte-168x2ez:hover .group-hover\\:-rotate-180.svelte-168x2ez{transform:rotate(180deg)}.scale-0.svelte-168x2ez.svelte-168x2ez{transform:scale(0)}.min-w-32.svelte-168x2ez.svelte-168x2ez{min-width:8rem}.bg-white.svelte-168x2ez.svelte-168x2ez{--tw-bg-opacity:1;background-color:rgba(255, 255, 255, var(--tw-bg-opacity))}.hover\\:bg-gray-100.svelte-168x2ez.svelte-168x2ez:hover{--tw-bg-opacity:1;background-color:rgba(243, 244, 246, var(--tw-bg-opacity))}.rounded-sm.svelte-168x2ez.svelte-168x2ez{border-radius:0.125rem}.border.svelte-168x2ez.svelte-168x2ez{border-width:1px}.inline-block.svelte-168x2ez.svelte-168x2ez{display:inline-block}.flex.svelte-168x2ez.svelte-168x2ez{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}.items-center.svelte-168x2ez.svelte-168x2ez{-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center}.flex-1.svelte-168x2ez.svelte-168x2ez{-webkit-box-flex:1;-ms-flex:1 1 0%;-webkit-flex:1 1 0%;flex:1 1 0%}.font-semibold.svelte-168x2ez.svelte-168x2ez{font-weight:600}.h-4.svelte-168x2ez.svelte-168x2ez{height:1rem}.min-w-32.svelte-168x2ez.svelte-168x2ez{min-width:8rem}.outline-none.svelte-168x2ez.svelte-168x2ez{outline:2px solid transparent;outline-offset:2px}.focus\\:outline-none.svelte-168x2ez.svelte-168x2ez:focus{outline:2px solid transparent;outline-offset:2px}.px-3.svelte-168x2ez.svelte-168x2ez{padding-left:0.75rem;padding-right:0.75rem}.py-1.svelte-168x2ez.svelte-168x2ez{padding-top:0.25rem;padding-bottom:0.25rem}.pr-1.svelte-168x2ez.svelte-168x2ez{padding-right:0.25rem}.absolute.svelte-168x2ez.svelte-168x2ez{position:absolute}.fill-current.svelte-168x2ez.svelte-168x2ez{fill:currentColor}.text-cyan-900.svelte-168x2ez.svelte-168x2ez{--tw-text-opacity:1;color:rgba(22, 78, 99, var(--tw-text-opacity))}.hover\\:text-orange-500.svelte-168x2ez.svelte-168x2ez:hover{--tw-text-opacity:1;color:rgba(249, 115, 22, var(--tw-text-opacity))}.w-4.svelte-168x2ez.svelte-168x2ez{width:1rem}.transform.svelte-168x2ez.svelte-168x2ez{--tw-rotate:0;--tw-rotate-x:0;--tw-rotate-y:0;--tw-rotate-z:0;--tw-scale-x:1;--tw-scale-y:1;--tw-scale-z:1;--tw-skew-x:0;--tw-skew-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-translate-z:0;-webkit-transform:rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotateZ(var(--tw-rotate-z)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z));-ms-transform:rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotateZ(var(--tw-rotate-z)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z));transform:rotate(var(--tw-rotate)) rotateX(var(--tw-rotate-x)) rotateY(var(--tw-rotate-y)) rotateZ(var(--tw-rotate-z)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) scaleZ(var(--tw-scale-z)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) translateZ(var(--tw-translate-z))}.origin-top.svelte-168x2ez.svelte-168x2ez{-webkit-transform-origin:top;-ms-transform-origin:top;transform-origin:top}.scale-0.svelte-168x2ez.svelte-168x2ez{--tw-scale-x:0;--tw-scale-y:0;--tw-scale-z:0}.group.svelte-168x2ez:hover .group-hover\\:scale-100.svelte-168x2ez{--tw-scale-x:1;--tw-scale-y:1;--tw-scale-z:1}.group.svelte-168x2ez:hover .group-hover\\:-rotate-180.svelte-168x2ez{--tw-rotate:-180deg}.transition.svelte-168x2ez.svelte-168x2ez{-webkit-transition-property:background-color, border-color, color, fill, stroke, opacity, -webkit-box-shadow, -webkit-transform, filter, backdrop-filter;-o-transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:background-color, border-color, color, fill, stroke, opacity, box-shadow, -webkit-box-shadow, transform, -webkit-transform, filter, backdrop-filter;-webkit-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-o-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}.ease-in-out.svelte-168x2ez.svelte-168x2ez{-webkit-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-o-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)}.duration-150.svelte-168x2ez.svelte-168x2ez{-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}",
-      map: null
-    };
-    Blog = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$3);
-      return `<div class="${"group inline-block svelte-168x2ez"}"><button class="${"outline-none focus:outline-none border px-3 py-1 bg-white rounded-sm flex items-center min-w-32 svelte-168x2ez"}"><span class="${"pr-1 font-semibold flex-1 svelte-168x2ez"}">Blog Posts </span>
-		<span><svg class="${"fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out svelte-168x2ez"}" xmlns="${"http://www.w3.org/2000/svg"}" viewBox="${"0 0 20 20"}"><path d="${"M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"}"></path></svg></span></button>
-	<ul class="${"bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32 svelte-168x2ez"}"><li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-168x2ez"}"><g-link class="${"text-cyan-900 hover:text-orange-500 svelte-168x2ez"}" to="${"/blog/how-to-a-find-a-record-of-births-online-in-england-and-wales/"}">Birth Records UK</g-link></li>
-		<li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-168x2ez"}"><g-link class="${"text-cyan-900 hover:text-orange-500 svelte-168x2ez"}" to="${"/blog/how-to-use-companies-house-records-for-family-history-research"}">Companies House Records</g-link></li>
-
-		<li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-168x2ez"}"><g-link class="${"text-cyan-900 hover:text-orange-500 svelte-168x2ez"}" to="${"/blog/how-to-find-a-person-on-the-electorial-register-in-the-uk/"}">Electorial Register</g-link></li>
-		<li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-168x2ez"}"><g-link class="${"text-cyan-900 hover:text-orange-500 svelte-168x2ez"}" to="${"/blog/how-to-find-where-a-jewish-person-is-buried-in-london-uk/"}">Jewish Burial Records</g-link></li>
-		<li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-168x2ez"}"><g-link class="${"text-cyan-900 hover:text-orange-500 svelte-168x2ez"}" to="${"/blog/how-to-a-find-a-jewish-record-of-marriage-online-in-england-and-wales/"}">Jewish Marriage Records</g-link></li>
-		<li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-168x2ez"}"><g-link class="${"text-cyan-900 hover:text-orange-500 svelte-168x2ez"}" to="${"/blog/how-to-a-find-a-record-of-marriage-online-in-england-and-wales/"}">Marrage Records UK</g-link></li>
-		<li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-168x2ez"}"><g-link class="${"text-cyan-900 hover:text-orange-500 svelte-168x2ez"}" to="${"/blog/how-to-a-find-a-naturalization-certificate-online-in-britain/"}">Naturalization UK</g-link></li>
-
-		<li class="${"rounded-sm px-3 py-1 hover:bg-gray-100 svelte-168x2ez"}"><g-link class="${"text-cyan-900 hover:text-orange-500 svelte-168x2ez"}" to="${"/blog/how-to-a-find-a-record-of-births-of-siblings-online-in-england-and-wales/"}">Siblings Records UK</g-link></li></ul>
 </div>`;
     });
     css$2 = {
@@ -4890,7 +4863,6 @@ var init_layout_fe9b544d = __esm({
 		${validate_component(Europe, "Europe").$$render($$result, {}, {}, {})}
 		${validate_component(Jewish, "Jewish").$$render($$result, {}, {}, {})}
 		${validate_component(Northamerica, "Northamerica").$$render($$result, {}, {}, {})}
-		${validate_component(Blog, "Blog").$$render($$result, {}, {}, {})}
 		${validate_component(General, "General").$$render($$result, {}, {}, {})}</p>
 
 	<p><br>
@@ -4918,9 +4890,9 @@ ${validate_component(TheFooter, "TheFooter").$$render($$result, {}, {}, {})}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/error-ac1fc541.js
-var error_ac1fc541_exports = {};
-__export(error_ac1fc541_exports, {
+// .svelte-kit/output/server/chunks/error-346fd082.js
+var error_346fd082_exports = {};
+__export(error_346fd082_exports, {
   default: () => Error2,
   load: () => load
 });
@@ -4928,10 +4900,10 @@ function load({ error: error2, status }) {
   return { props: { error: error2, status } };
 }
 var Error2;
-var init_error_ac1fc541 = __esm({
-  ".svelte-kit/output/server/chunks/error-ac1fc541.js"() {
+var init_error_346fd082 = __esm({
+  ".svelte-kit/output/server/chunks/error-346fd082.js"() {
     init_shims();
-    init_app_5e7d0d5f();
+    init_app_547e1716();
     Error2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { status } = $$props;
       let { error: error2 } = $$props;
@@ -4951,17 +4923,17 @@ ${error2.stack ? `<pre>${escape(error2.stack)}</pre>` : ``}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/index-2a84563a.js
-var index_2a84563a_exports = {};
-__export(index_2a84563a_exports, {
+// .svelte-kit/output/server/chunks/index-e8b3f68a.js
+var index_e8b3f68a_exports = {};
+__export(index_e8b3f68a_exports, {
   default: () => Routes,
   prerender: () => prerender
 });
 var css2, prerender, Routes;
-var init_index_2a84563a = __esm({
-  ".svelte-kit/output/server/chunks/index-2a84563a.js"() {
+var init_index_e8b3f68a = __esm({
+  ".svelte-kit/output/server/chunks/index-e8b3f68a.js"() {
     init_shims();
-    init_app_5e7d0d5f();
+    init_app_547e1716();
     css2 = {
       code: ".one.svelte-1quiifg{text-align:center;margin-top:50px;margin-left:100px;margin-right:100px}.grid.svelte-1quiifg{display:-ms-grid;display:grid}.h-96.svelte-1quiifg{height:24rem}.text-6xl.svelte-1quiifg{font-size:3.75rem;line-height:1}.text-3xl.svelte-1quiifg{font-size:1.875rem;line-height:2.25rem}.text-xl.svelte-1quiifg{font-size:1.25rem;line-height:1.75rem}.object-fill.svelte-1quiifg{-o-object-fit:fill;object-fit:fill}.p-4.svelte-1quiifg{padding:1rem}.text-left.svelte-1quiifg{text-align:left}.text-center.svelte-1quiifg{text-align:center}.text-purple-500.svelte-1quiifg{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.text-purple-400.svelte-1quiifg{--tw-text-opacity:1;color:rgba(167, 139, 250, var(--tw-text-opacity))}.text-gray-600.svelte-1quiifg{--tw-text-opacity:1;color:rgba(75, 85, 99, var(--tw-text-opacity))}.w-full.svelte-1quiifg{width:100%}.gap-4.svelte-1quiifg{grid-gap:1rem;gap:1rem}.grid-cols-2.svelte-1quiifg{grid-template-columns:repeat(2, minmax(0, 1fr))}",
       map: null
@@ -4995,17 +4967,116 @@ var init_index_2a84563a = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/newzealand-616f9a0d.js
-var newzealand_616f9a0d_exports = {};
-__export(newzealand_616f9a0d_exports, {
-  default: () => Newzealand,
+// .svelte-kit/output/server/chunks/netherlands-ae1b6704.js
+var netherlands_ae1b6704_exports = {};
+__export(netherlands_ae1b6704_exports, {
+  default: () => Netherlands,
   prerender: () => prerender2
 });
-var css$52, State, css$42, Historical, css$32, Gazette, css$22, Companies, css$12, Auckland, css3, prerender2, Newzealand;
-var init_newzealand_616f9a0d = __esm({
-  ".svelte-kit/output/server/chunks/newzealand-616f9a0d.js"() {
+var css$42, Wie, css$32, Open, css$22, Roots, css$12, Amsterdam, css3, prerender2, Netherlands;
+var init_netherlands_ae1b6704 = __esm({
+  ".svelte-kit/output/server/chunks/netherlands-ae1b6704.js"() {
     init_shims();
-    init_app_5e7d0d5f();
+    init_app_547e1716();
+    css$42 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Wie = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$42);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Wie Was Wie</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"archive photo"}">
+		<br>
+		<p>Database contains over<br> 205 million people</p>
+		<br>
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/2sc4OL3"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$32 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Open = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$32);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Open Archives</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1618762256/archives_nndpbn.jpg"}" alt="${"archive photo"}">
+		<br>
+		<p>Search Dutch <br>&amp; Belgian archives</p>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/3et9OP4"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$22 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Roots = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$22);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Dutch Roots</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638861228/webp/family-tree.webp"}" alt="${"family tree photo"}">
+		<br>
+		<p>Dutch genealogy guide.</p>
+		<br>
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/2SrGK17"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$12 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Amsterdam = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$12);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Amsterdam</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638904959/webp/amsterdam.webp"}" alt="${"Amsterdam photo town hall"}">
+		<br>
+		<p>Amsterdam city archives</p>
+		<br>
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/3eweJi3"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css3 = {
+      code: ".inline-block.svelte-g219g3{display:inline-block}.grid.svelte-g219g3{display:-ms-grid;display:grid}.h-10.svelte-g219g3{height:2.5rem}.text-4xl.svelte-g219g3{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-g219g3{margin-left:2rem}.mt-3.svelte-g219g3{margin-top:0.75rem}.mt-20.svelte-g219g3{margin-top:5rem}.mt-8.svelte-g219g3{margin-top:2rem}.text-center.svelte-g219g3{text-align:center}.text-purple-500.svelte-g219g3{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-g219g3{width:3.5rem}.gap-4.svelte-g219g3{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-g219g3{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
+      map: null
+    };
+    prerender2 = true;
+    Netherlands = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css3);
+      return `${$$result.head += `${$$result.title = `<title>Netherlands</title>`, ""}`, ""}
+
+<section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-g219g3"}"><div class="${"h-10 w-14 inline-block svelte-g219g3"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638904035/webp/netherlands-flag.webp"}" alt="${"image of netherlands flag"}"></div>
+
+		Netherlands Family History Resourses
+	</h1>
+	<br>
+	<section class="${"one"}"><div class="${"grid sm:flex gap-4 mt-20 svelte-g219g3"}">${validate_component(Amsterdam, "Amsterdam").$$render($$result, {}, {}, {})}
+			${validate_component(Roots, "Roots").$$render($$result, {}, {}, {})}
+			${validate_component(Open, "Open").$$render($$result, {}, {}, {})}</div>
+
+		<div class="${"grid sm:flex gap-4 mt-8 svelte-g219g3"}">${validate_component(Wie, "Wie").$$render($$result, {}, {}, {})}</div></section>
+</section>`;
+    });
+  }
+});
+
+// .svelte-kit/output/server/chunks/newzealand-2ad4b054.js
+var newzealand_2ad4b054_exports = {};
+__export(newzealand_2ad4b054_exports, {
+  default: () => Newzealand,
+  prerender: () => prerender3
+});
+var css$52, State, css$43, Historical, css$33, Gazette, css$23, Companies, css$13, Auckland, css4, prerender3, Newzealand;
+var init_newzealand_2ad4b054 = __esm({
+  ".svelte-kit/output/server/chunks/newzealand-2ad4b054.js"() {
+    init_shims();
+    init_app_547e1716();
     css$52 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5022,12 +5093,12 @@ var init_newzealand_616f9a0d = __esm({
 		</a></div>
 </div>`;
     });
-    css$42 = {
+    css$43 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Historical = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$42);
+      $$result.css.add(css$43);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Historical Records</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638866306/webp/nz-birth-cert_sq0auz.webp"}" alt="${"image of newzealand birth cerificates"}">
@@ -5041,12 +5112,12 @@ var init_newzealand_616f9a0d = __esm({
 		</a></div>
 </div>`;
     });
-    css$32 = {
+    css$33 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Gazette = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$32);
+      $$result.css.add(css$33);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Gazette</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638866148/webp/nz-gazette_hsw9oq.webp"}" alt="${"image of new zealand gazette logo"}">
@@ -5057,12 +5128,12 @@ var init_newzealand_616f9a0d = __esm({
 		</a></div>
 </div>`;
     });
-    css$22 = {
+    css$23 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Companies = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$22);
+      $$result.css.add(css$23);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Companies Register
       </h1>
 
@@ -5075,12 +5146,12 @@ var init_newzealand_616f9a0d = __esm({
       </a></div>
   </div>`;
     });
-    css$12 = {
+    css$13 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Auckland = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$12);
+      $$result.css.add(css$13);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Auckland</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638865899/webp/graves_tu2we0.webp"}" alt="${"image of graves"}">
@@ -5091,13 +5162,13 @@ var init_newzealand_616f9a0d = __esm({
 		</a></div>
 </div>`;
     });
-    css3 = {
+    css4 = {
       code: ".one.svelte-1nupwvf{text-align:center;margin-top:50px;margin-left:100px;margin-right:100px}.inline-block.svelte-1nupwvf{display:inline-block}.grid.svelte-1nupwvf{display:-ms-grid;display:grid}.h-10.svelte-1nupwvf{height:2.5rem}.text-4xl.svelte-1nupwvf{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-1nupwvf{margin-left:2rem}.mt-3.svelte-1nupwvf{margin-top:0.75rem}.mt-20.svelte-1nupwvf{margin-top:5rem}.mt-8.svelte-1nupwvf{margin-top:2rem}.text-center.svelte-1nupwvf{text-align:center}.text-purple-500.svelte-1nupwvf{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-1nupwvf{width:3.5rem}.gap-4.svelte-1nupwvf{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-1nupwvf{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
-    prerender2 = true;
+    prerender3 = true;
     Newzealand = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css3);
+      $$result.css.add(css4);
       return `${$$result.head += `${$$result.title = `<title>New Zealand</title>`, ""}`, ""}
 
 <section class="${"one svelte-1nupwvf"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-1nupwvf"}"><div class="${"h-10 w-14 inline-block svelte-1nupwvf"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638865677/webp/newzealand-flag.webp"}" alt="${"image of new zealand flag"}"></div>
@@ -5117,23 +5188,23 @@ var init_newzealand_616f9a0d = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/australia-d77b3f2d.js
-var australia_d77b3f2d_exports = {};
-__export(australia_d77b3f2d_exports, {
+// .svelte-kit/output/server/chunks/australia-bf63cc79.js
+var australia_bf63cc79_exports = {};
+__export(australia_bf63cc79_exports, {
   default: () => Australia,
-  prerender: () => prerender3
+  prerender: () => prerender4
 });
-var css$23, Ausstate, css$13, Gen, css4, prerender3, Australia;
-var init_australia_d77b3f2d = __esm({
-  ".svelte-kit/output/server/chunks/australia-d77b3f2d.js"() {
+var css$24, Ausstate, css$14, Gen, css5, prerender4, Australia;
+var init_australia_bf63cc79 = __esm({
+  ".svelte-kit/output/server/chunks/australia-bf63cc79.js"() {
     init_shims();
-    init_app_5e7d0d5f();
-    css$23 = {
+    init_app_547e1716();
+    css$24 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Ausstate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$23);
+      $$result.css.add(css$24);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives</h1>
 		<div><img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"australia archives"}"></div>
 		<br>
@@ -5143,12 +5214,12 @@ var init_australia_d77b3f2d = __esm({
 		</a></div>
 </div>`;
     });
-    css$13 = {
+    css$14 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Gen = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$13);
+      $$result.css.add(css$14);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Genealogy SA</h1>
 		<div><img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"image of database"}"></div>
 		<br>
@@ -5161,13 +5232,13 @@ var init_australia_d77b3f2d = __esm({
 		</a></div>
 </div>`;
     });
-    css4 = {
+    css5 = {
       code: ".one.svelte-10wioxk{text-align:center;margin-top:50px;margin-left:100px;margin-right:100px}.inline-block.svelte-10wioxk{display:inline-block}.grid.svelte-10wioxk{display:-ms-grid;display:grid}.h-10.svelte-10wioxk{height:2.5rem}.text-4xl.svelte-10wioxk{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-10wioxk{margin-left:2rem}.mt-3.svelte-10wioxk{margin-top:0.75rem}.mt-20.svelte-10wioxk{margin-top:5rem}.text-center.svelte-10wioxk{text-align:center}.text-purple-500.svelte-10wioxk{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-10wioxk{width:3.5rem}.gap-4.svelte-10wioxk{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-10wioxk{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
-    prerender3 = true;
+    prerender4 = true;
     Australia = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css4);
+      $$result.css.add(css5);
       return `${$$result.head += `${$$result.title = `<title>Australia</title>`, ""}`, ""}
 
 <section class="${"one svelte-10wioxk"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-10wioxk"}"><div class="${"h-10 w-14 inline-block svelte-10wioxk"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860154/webp/australia-flag.webp"}" alt="${"image of australian flag"}"></div>
@@ -5182,23 +5253,39 @@ var init_australia_d77b3f2d = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/austrian-66da51d8.js
-var austrian_66da51d8_exports = {};
-__export(austrian_66da51d8_exports, {
-  default: () => Austrian,
-  prerender: () => prerender4
+// .svelte-kit/output/server/chunks/ukraine-j-5631d3ad.js
+var ukraine_j_5631d3ad_exports = {};
+__export(ukraine_j_5631d3ad_exports, {
+  default: () => Ukraine_j
 });
-var css$24, Vienna, css$14, Auststate, css5, prerender4, Austrian;
-var init_austrian_66da51d8 = __esm({
-  ".svelte-kit/output/server/chunks/austrian-66da51d8.js"() {
+var Ukraine_j;
+var init_ukraine_j_5631d3ad = __esm({
+  ".svelte-kit/output/server/chunks/ukraine-j-5631d3ad.js"() {
     init_shims();
-    init_app_5e7d0d5f();
-    css$24 = {
+    init_app_547e1716();
+    Ukraine_j = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      return `<h1>testing</h1>`;
+    });
+  }
+});
+
+// .svelte-kit/output/server/chunks/austrian-94f9be8f.js
+var austrian_94f9be8f_exports = {};
+__export(austrian_94f9be8f_exports, {
+  default: () => Austrian,
+  prerender: () => prerender5
+});
+var css$25, Vienna, css$15, Auststate, css6, prerender5, Austrian;
+var init_austrian_94f9be8f = __esm({
+  ".svelte-kit/output/server/chunks/austrian-94f9be8f.js"() {
+    init_shims();
+    init_app_547e1716();
+    css$25 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Vienna = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$24);
+      $$result.css.add(css$25);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Vienna</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638876911/webp/viennaparlament.webp"}" alt="${"vienna parlement photo"}">
@@ -5209,12 +5296,12 @@ var init_austrian_66da51d8 = __esm({
 		</a></div>
 </div>`;
     });
-    css$14 = {
+    css$15 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Auststate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$14);
+      $$result.css.add(css$15);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"image of archives"}">
@@ -5225,13 +5312,13 @@ var init_austrian_66da51d8 = __esm({
 		</a></div>
 </div>`;
     });
-    css5 = {
+    css6 = {
       code: ".inline-block.svelte-aztiwm{display:inline-block}.grid.svelte-aztiwm{display:-ms-grid;display:grid}.h-10.svelte-aztiwm{height:2.5rem}.text-4xl.svelte-aztiwm{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-aztiwm{margin-left:2rem}.mt-3.svelte-aztiwm{margin-top:0.75rem}.mt-20.svelte-aztiwm{margin-top:5rem}.text-center.svelte-aztiwm{text-align:center}.text-purple-500.svelte-aztiwm{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-aztiwm{width:3.5rem}.gap-4.svelte-aztiwm{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-aztiwm{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
-    prerender4 = true;
+    prerender5 = true;
     Austrian = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css5);
+      $$result.css.add(css6);
       return `${$$result.head += `${$$result.title = `<title>Austrian</title>`, ""}`, ""}
 
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638876704/webp/austria-flag.webp"}" alt="${"image of Austrian flag"}"></div>
@@ -5247,23 +5334,23 @@ var init_austrian_66da51d8 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/barbados-e65a236b.js
-var barbados_e65a236b_exports = {};
-__export(barbados_e65a236b_exports, {
+// .svelte-kit/output/server/chunks/barbados-83f9e260.js
+var barbados_83f9e260_exports = {};
+__export(barbados_83f9e260_exports, {
   default: () => Barbados,
-  prerender: () => prerender5
+  prerender: () => prerender6
 });
-var css$33, Barbstate, css$25, Family, css$15, Genbarb, css6, prerender5, Barbados;
-var init_barbados_e65a236b = __esm({
-  ".svelte-kit/output/server/chunks/barbados-e65a236b.js"() {
+var css$34, Barbstate, css$26, Family, css$16, Genbarb, css7, prerender6, Barbados;
+var init_barbados_83f9e260 = __esm({
+  ".svelte-kit/output/server/chunks/barbados-83f9e260.js"() {
     init_shims();
-    init_app_5e7d0d5f();
-    css$33 = {
+    init_app_547e1716();
+    css$34 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Barbstate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$33);
+      $$result.css.add(css$34);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"image of archives"}">
@@ -5275,12 +5362,12 @@ var init_barbados_e65a236b = __esm({
 		</a></div>
 </div>`;
     });
-    css$25 = {
+    css$26 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Family = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$25);
+      $$result.css.add(css$26);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Family History</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638861228/webp/family-tree.webp"}" alt="${"image of a family tree"}">
@@ -5292,12 +5379,12 @@ var init_barbados_e65a236b = __esm({
 		</a></div>
 </div>`;
     });
-    css$15 = {
+    css$16 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Genbarb = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$15);
+      $$result.css.add(css$16);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Barbados</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"image of a database"}">
@@ -5309,13 +5396,13 @@ var init_barbados_e65a236b = __esm({
 		</a></div>
 </div>`;
     });
-    css6 = {
+    css7 = {
       code: ".inline-block.svelte-aztiwm{display:inline-block}.grid.svelte-aztiwm{display:-ms-grid;display:grid}.h-10.svelte-aztiwm{height:2.5rem}.text-4xl.svelte-aztiwm{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-aztiwm{margin-left:2rem}.mt-3.svelte-aztiwm{margin-top:0.75rem}.mt-20.svelte-aztiwm{margin-top:5rem}.text-center.svelte-aztiwm{text-align:center}.text-purple-500.svelte-aztiwm{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-aztiwm{width:3.5rem}.gap-4.svelte-aztiwm{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-aztiwm{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
-    prerender5 = true;
+    prerender6 = true;
     Barbados = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css6);
+      $$result.css.add(css7);
       return `${$$result.head += `${$$result.title = `<title>Barbados</title>`, ""}`, ""}
 
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638866632/webp/barbados-flag_mngc34.webp"}" alt="${"image of Barbados flag"}"></div>
@@ -5332,23 +5419,23 @@ var init_barbados_e65a236b = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/belarus-2cc9980b.js
-var belarus_2cc9980b_exports = {};
-__export(belarus_2cc9980b_exports, {
+// .svelte-kit/output/server/chunks/belarus-70448636.js
+var belarus_70448636_exports = {};
+__export(belarus_70448636_exports, {
   default: () => Belarus,
-  prerender: () => prerender6
+  prerender: () => prerender7
 });
-var css$26, Mogilev, css$16, Belstate, css7, prerender6, Belarus;
-var init_belarus_2cc9980b = __esm({
-  ".svelte-kit/output/server/chunks/belarus-2cc9980b.js"() {
+var css$27, Mogilev, css$17, Belstate, css8, prerender7, Belarus;
+var init_belarus_70448636 = __esm({
+  ".svelte-kit/output/server/chunks/belarus-70448636.js"() {
     init_shims();
-    init_app_5e7d0d5f();
-    css$26 = {
+    init_app_547e1716();
+    css$27 = {
       code: ".bg-indigo-700.svelte-13tzqgo{--tw-bg-opacity:1;background-color:rgba(67, 56, 202, var(--tw-bg-opacity))}.hover\\:bg-indigo-800.svelte-13tzqgo:hover{--tw-bg-opacity:1;background-color:rgba(55, 48, 163, var(--tw-bg-opacity))}.rounded-lg.svelte-13tzqgo{border-radius:0.5rem}.h-32.svelte-13tzqgo{height:8rem}.h-8.svelte-13tzqgo{height:2rem}.text-2xl.svelte-13tzqgo{font-size:1.5rem;line-height:2rem}.text-sm.svelte-13tzqgo{font-size:0.875rem;line-height:1.25rem}.m-4.svelte-13tzqgo{margin:1rem}.m-2.svelte-13tzqgo{margin:0.5rem}.object-fill.svelte-13tzqgo{-o-object-fit:fill;object-fit:fill}.p-4.svelte-13tzqgo{padding:1rem}.p-6.svelte-13tzqgo{padding:1.5rem}.px-4.svelte-13tzqgo{padding-left:1rem;padding-right:1rem}.shadow-2xl.svelte-13tzqgo{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-right.svelte-13tzqgo{text-align:right}.text-white.svelte-13tzqgo{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-13tzqgo:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.text-indigo-100.svelte-13tzqgo{--tw-text-opacity:1;color:rgba(224, 231, 255, var(--tw-text-opacity))}.w-auto.svelte-13tzqgo{width:auto}.w-full.svelte-13tzqgo{width:100%}.transition-colors.svelte-13tzqgo{-webkit-transition-property:background-color, border-color, color, fill, stroke;-o-transition-property:background-color, border-color, color, fill, stroke;transition-property:background-color, border-color, color, fill, stroke;-webkit-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-o-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}.duration-150.svelte-13tzqgo{-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}",
       map: null
     };
     Mogilev = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$26);
+      $$result.css.add(css$27);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-13tzqgo"}"><div class="${"p-6 svelte-13tzqgo"}"><h1 class="${"text-2xl text-white svelte-13tzqgo"}">Mogilev Region</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-13tzqgo"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"archive photo"}">
@@ -5360,12 +5447,12 @@ var init_belarus_2cc9980b = __esm({
 	<div class="${"text-right svelte-13tzqgo"}"><button class="${"h-8 px-4 m-2 text-sm text-indigo-100 transition-colors duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800 svelte-13tzqgo"}">New</button></div>
 </div>`;
     });
-    css$16 = {
+    css$17 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Belstate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$16);
+      $$result.css.add(css$17);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"archive photo"}">
@@ -5376,13 +5463,13 @@ var init_belarus_2cc9980b = __esm({
 		</a></div>
 </div>`;
     });
-    css7 = {
+    css8 = {
       code: ".inline-block.svelte-aztiwm{display:inline-block}.grid.svelte-aztiwm{display:-ms-grid;display:grid}.h-10.svelte-aztiwm{height:2.5rem}.text-4xl.svelte-aztiwm{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-aztiwm{margin-left:2rem}.mt-3.svelte-aztiwm{margin-top:0.75rem}.mt-20.svelte-aztiwm{margin-top:5rem}.text-center.svelte-aztiwm{text-align:center}.text-purple-500.svelte-aztiwm{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-aztiwm{width:3.5rem}.gap-4.svelte-aztiwm{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-aztiwm{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
-    prerender6 = true;
+    prerender7 = true;
     Belarus = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css7);
+      $$result.css.add(css8);
       return `${$$result.head += `${$$result.title = `<title>Belarus</title>`, ""}`, ""}
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638877031/webp/belarus-flag.webp"}" alt="${"image of Belarus flag"}"></div>
 
@@ -5397,23 +5484,23 @@ var init_belarus_2cc9980b = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/belgium-8fea79a8.js
-var belgium_8fea79a8_exports = {};
-__export(belgium_8fea79a8_exports, {
+// .svelte-kit/output/server/chunks/belgium-18415e93.js
+var belgium_18415e93_exports = {};
+__export(belgium_18415e93_exports, {
   default: () => Belgium,
-  prerender: () => prerender7
+  prerender: () => prerender8
 });
-var css$34, Genealogy, css$27, Ancestry, css$17, Belgstate, css8, prerender7, Belgium;
-var init_belgium_8fea79a8 = __esm({
-  ".svelte-kit/output/server/chunks/belgium-8fea79a8.js"() {
+var css$35, Genealogy, css$28, Ancestry, css$18, Belgstate, css9, prerender8, Belgium;
+var init_belgium_18415e93 = __esm({
+  ".svelte-kit/output/server/chunks/belgium-18415e93.js"() {
     init_shims();
-    init_app_5e7d0d5f();
-    css$34 = {
+    init_app_547e1716();
+    css$35 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Genealogy = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$34);
+      $$result.css.add(css$35);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Genealogy</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638861228/webp/family-tree.webp"}" alt="${"family tree photo"}">
@@ -5424,12 +5511,12 @@ var init_belgium_8fea79a8 = __esm({
 		</a></div>
 </div>`;
     });
-    css$27 = {
+    css$28 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Ancestry = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$27);
+      $$result.css.add(css$28);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Ancestry</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638861228/webp/family-tree.webp"}" alt="${"archive photo"}">
@@ -5440,12 +5527,12 @@ var init_belgium_8fea79a8 = __esm({
 		</a></div>
 </div>`;
     });
-    css$17 = {
+    css$18 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Belgstate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$17);
+      $$result.css.add(css$18);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"archive photo"}">
@@ -5456,13 +5543,13 @@ var init_belgium_8fea79a8 = __esm({
 		</a></div>
 </div>`;
     });
-    css8 = {
+    css9 = {
       code: ".inline-block.svelte-aztiwm{display:inline-block}.grid.svelte-aztiwm{display:-ms-grid;display:grid}.h-10.svelte-aztiwm{height:2.5rem}.text-4xl.svelte-aztiwm{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-aztiwm{margin-left:2rem}.mt-3.svelte-aztiwm{margin-top:0.75rem}.mt-20.svelte-aztiwm{margin-top:5rem}.text-center.svelte-aztiwm{text-align:center}.text-purple-500.svelte-aztiwm{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-aztiwm{width:3.5rem}.gap-4.svelte-aztiwm{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-aztiwm{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
-    prerender7 = true;
+    prerender8 = true;
     Belgium = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css8);
+      $$result.css.add(css9);
       return `${$$result.head += `${$$result.title = `<title>Belgium</title>`, ""}`, ""}
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638877222/webp/belgium-flag.webp"}" alt="${"image of Belgium flag"}"></div>
 
@@ -5478,23 +5565,23 @@ var init_belgium_8fea79a8 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/bermuda-ba1ddd05.js
-var bermuda_ba1ddd05_exports = {};
-__export(bermuda_ba1ddd05_exports, {
+// .svelte-kit/output/server/chunks/bermuda-4cfcc3d2.js
+var bermuda_4cfcc3d2_exports = {};
+__export(bermuda_4cfcc3d2_exports, {
   default: () => Bermuda,
-  prerender: () => prerender8
+  prerender: () => prerender9
 });
-var css$35, Berstate, css$28, National, css$18, Berfamily, css9, prerender8, Bermuda;
-var init_bermuda_ba1ddd05 = __esm({
-  ".svelte-kit/output/server/chunks/bermuda-ba1ddd05.js"() {
+var css$36, Berstate, css$29, National, css$19, Berfamily, css10, prerender9, Bermuda;
+var init_bermuda_4cfcc3d2 = __esm({
+  ".svelte-kit/output/server/chunks/bermuda-4cfcc3d2.js"() {
     init_shims();
-    init_app_5e7d0d5f();
-    css$35 = {
+    init_app_547e1716();
+    css$36 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Berstate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$35);
+      $$result.css.add(css$36);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"image of archives"}">
@@ -5506,12 +5593,12 @@ var init_bermuda_ba1ddd05 = __esm({
 		</a></div>
 </div>`;
     });
-    css$28 = {
+    css$29 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     National = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$28);
+      $$result.css.add(css$29);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">National Museum</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"image of database"}">
@@ -5523,12 +5610,12 @@ var init_bermuda_ba1ddd05 = __esm({
 		</a></div>
 </div>`;
     });
-    css$18 = {
+    css$19 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Berfamily = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$18);
+      $$result.css.add(css$19);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Bermuda</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"image of a database"}">
@@ -5540,13 +5627,13 @@ var init_bermuda_ba1ddd05 = __esm({
 		</a></div>
 </div>`;
     });
-    css9 = {
+    css10 = {
       code: ".inline-block.svelte-aztiwm{display:inline-block}.grid.svelte-aztiwm{display:-ms-grid;display:grid}.h-10.svelte-aztiwm{height:2.5rem}.text-4xl.svelte-aztiwm{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-aztiwm{margin-left:2rem}.mt-3.svelte-aztiwm{margin-top:0.75rem}.mt-20.svelte-aztiwm{margin-top:5rem}.text-center.svelte-aztiwm{text-align:center}.text-purple-500.svelte-aztiwm{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-aztiwm{width:3.5rem}.gap-4.svelte-aztiwm{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-aztiwm{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
-    prerender8 = true;
+    prerender9 = true;
     Bermuda = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css9);
+      $$result.css.add(css10);
       return `${$$result.head += `${$$result.title = `<title>Bermuda</title>`, ""}`, ""}
 
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638866804/webp/bermuda-flag_rgvbdd.webp"}" alt="${"image of Bermuda flag"}"></div>
@@ -5563,17 +5650,17 @@ var init_bermuda_ba1ddd05 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/british-146a9700.js
-var british_146a9700_exports = {};
-__export(british_146a9700_exports, {
+// .svelte-kit/output/server/chunks/british-24a572eb.js
+var british_24a572eb_exports = {};
+__export(british_24a572eb_exports, {
   default: () => British,
-  prerender: () => prerender9
+  prerender: () => prerender10
 });
-var css$g, Scotland, css$f, Thirtynine, css$e, Workhouse, css$d, Wills, css$c, Graves, css$b, Britstate, css$a2, Navy, css$92, Raf, css$82, Newspaper, css$72, Gazette2, css$62, Industral, css$53, Directories, css$43, Electoral, css$36, Companies2, css$29, Children, css$19, Bmd, css10, prerender9, British;
-var init_british_146a9700 = __esm({
-  ".svelte-kit/output/server/chunks/british-146a9700.js"() {
+var css$g, Scotland, css$f, Thirtynine, css$e, Workhouse, css$d, Wills, css$c, Graves, css$b, Britstate, css$a, Navy, css$92, Raf, css$82, Newspaper, css$72, Gazette2, css$62, Industral, css$53, Directories, css$44, Electoral, css$37, Companies2, css$210, Children, css$110, Bmd, css11, prerender10, British;
+var init_british_24a572eb = __esm({
+  ".svelte-kit/output/server/chunks/british-24a572eb.js"() {
     init_shims();
-    init_app_5e7d0d5f();
+    init_app_547e1716();
     css$g = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5687,12 +5774,12 @@ var init_british_146a9700 = __esm({
 		</a></div>
   </div>`;
     });
-    css$a2 = {
+    css$a = {
       code: ".rounded-lg.svelte-lvu80t{border-radius:0.5rem}.h-32.svelte-lvu80t{height:8rem}.text-2xl.svelte-lvu80t{font-size:1.5rem;line-height:2rem}.m-4.svelte-lvu80t{margin:1rem}.object-fill.svelte-lvu80t{-o-object-fit:fill;object-fit:fill}.p-4.svelte-lvu80t{padding:1rem}.p-6.svelte-lvu80t{padding:1.5rem}.shadow-2xl.svelte-lvu80t{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-lvu80t{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-lvu80t:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-lvu80t{width:auto}.w-full.svelte-lvu80t{width:100%}.w-52.svelte-lvu80t{width:13rem}",
       map: null
     };
     Navy = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$a2);
+      $$result.css.add(css$a);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-lvu80t"}"><div class="${"p-6 svelte-lvu80t"}"><h1 class="${"text-2xl text-white svelte-lvu80t"}">Royal Navy</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638865308/webp/HMS_Dreadnought_gdupqt.webp"}" alt="${"royal navy hns drednought photo"}">
@@ -5801,12 +5888,12 @@ var init_british_146a9700 = __esm({
 		</a></div>
 </div>`;
     });
-    css$43 = {
+    css$44 = {
       code: ".rounded-lg.svelte-lvu80t{border-radius:0.5rem}.h-32.svelte-lvu80t{height:8rem}.text-2xl.svelte-lvu80t{font-size:1.5rem;line-height:2rem}.m-4.svelte-lvu80t{margin:1rem}.object-fill.svelte-lvu80t{-o-object-fit:fill;object-fit:fill}.p-4.svelte-lvu80t{padding:1rem}.p-6.svelte-lvu80t{padding:1.5rem}.shadow-2xl.svelte-lvu80t{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-lvu80t{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-lvu80t:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-lvu80t{width:auto}.w-full.svelte-lvu80t{width:100%}.w-52.svelte-lvu80t{width:13rem}",
       map: null
     };
     Electoral = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$43);
+      $$result.css.add(css$44);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-lvu80t"}"><div class="${"p-6 svelte-lvu80t"}"><h1 class="${"text-2xl text-white svelte-lvu80t"}">Electoral Register</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864628/webp/roll.webp"}" alt="${"image of electorial roll"}">
@@ -5823,12 +5910,12 @@ var init_british_146a9700 = __esm({
 		</a></div>
 </div>`;
     });
-    css$36 = {
+    css$37 = {
       code: ".rounded-lg.svelte-lvu80t{border-radius:0.5rem}.h-32.svelte-lvu80t{height:8rem}.text-2xl.svelte-lvu80t{font-size:1.5rem;line-height:2rem}.m-4.svelte-lvu80t{margin:1rem}.object-fill.svelte-lvu80t{-o-object-fit:fill;object-fit:fill}.p-4.svelte-lvu80t{padding:1rem}.p-6.svelte-lvu80t{padding:1.5rem}.shadow-2xl.svelte-lvu80t{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-lvu80t{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-lvu80t:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-lvu80t{width:auto}.w-full.svelte-lvu80t{width:100%}.w-52.svelte-lvu80t{width:13rem}",
       map: null
     };
     Companies2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$36);
+      $$result.css.add(css$37);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-lvu80t"}"><div class="${"p-6 svelte-lvu80t"}"><h1 class="${"text-2xl text-white svelte-lvu80t"}">Companies House</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864541/webp/companies.webp"}" alt="${"companies house logo photo"}">
@@ -5842,12 +5929,12 @@ var init_british_146a9700 = __esm({
 		</a></div>
 </div>`;
     });
-    css$29 = {
+    css$210 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Children = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$29);
+      $$result.css.add(css$210);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Children&#39;s Homes</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864457/webp/home.webp"}" alt="${"image of dr barnardo's home barkingside"}">
@@ -5860,12 +5947,12 @@ var init_british_146a9700 = __esm({
 		</a></div>
 </div>`;
     });
-    css$19 = {
+    css$110 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Bmd = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$19);
+      $$result.css.add(css$110);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">B.M.D</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"database photo"}">
@@ -5879,13 +5966,13 @@ var init_british_146a9700 = __esm({
 		</a></div>
 </div>`;
     });
-    css10 = {
+    css11 = {
       code: ".inline-block.svelte-g219g3{display:inline-block}.grid.svelte-g219g3{display:-ms-grid;display:grid}.h-10.svelte-g219g3{height:2.5rem}.text-4xl.svelte-g219g3{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-g219g3{margin-left:2rem}.mt-3.svelte-g219g3{margin-top:0.75rem}.mt-20.svelte-g219g3{margin-top:5rem}.mt-8.svelte-g219g3{margin-top:2rem}.text-center.svelte-g219g3{text-align:center}.text-purple-500.svelte-g219g3{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-g219g3{width:3.5rem}.gap-4.svelte-g219g3{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-g219g3{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
-    prerender9 = true;
+    prerender10 = true;
     British = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css10);
+      $$result.css.add(css11);
       return `${$$result.head += `${$$result.title = `<title>British</title>`, ""}`, ""}
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-g219g3"}"><div class="${"h-10 w-14 inline-block svelte-g219g3"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864273/webp/uk-flag.webp"}" alt="${"image of British flag"}"></div>
 
@@ -5923,23 +6010,23 @@ var init_british_146a9700 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/ireland-ff2351f4.js
-var ireland_ff2351f4_exports = {};
-__export(ireland_ff2351f4_exports, {
+// .svelte-kit/output/server/chunks/ireland-ea0e2137.js
+var ireland_ea0e2137_exports = {};
+__export(ireland_ea0e2137_exports, {
   default: () => Ireland,
-  prerender: () => prerender10
+  prerender: () => prerender11
 });
-var css$37, Toolkit, css$210, Genealogy2, css$110, Census, css11, prerender10, Ireland;
-var init_ireland_ff2351f4 = __esm({
-  ".svelte-kit/output/server/chunks/ireland-ff2351f4.js"() {
+var css$38, Toolkit, css$211, Genealogy2, css$111, Census, css12, prerender11, Ireland;
+var init_ireland_ea0e2137 = __esm({
+  ".svelte-kit/output/server/chunks/ireland-ea0e2137.js"() {
     init_shims();
-    init_app_5e7d0d5f();
-    css$37 = {
+    init_app_547e1716();
+    css$38 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Toolkit = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$37);
+      $$result.css.add(css$38);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Toolkit</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638894653/webp/shamrock.webp"}" alt="${"shamrock photo"}">
@@ -5950,12 +6037,12 @@ var init_ireland_ff2351f4 = __esm({
 		</a></div>
 </div>`;
     });
-    css$210 = {
+    css$211 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Genealogy2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$210);
+      $$result.css.add(css$211);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Genealogy</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638861228/webp/family-tree.webp"}" alt="${"family tree photo"}">
@@ -5966,12 +6053,12 @@ var init_ireland_ff2351f4 = __esm({
 		</a></div>
 </div>`;
     });
-    css$110 = {
+    css$111 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Census = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$110);
+      $$result.css.add(css$111);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Census</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638894153/webp/censusireland.webp"}" alt="${"census photo"}">
@@ -5982,13 +6069,13 @@ var init_ireland_ff2351f4 = __esm({
 		</a></div>
 </div>`;
     });
-    css11 = {
+    css12 = {
       code: ".inline-block.svelte-aztiwm{display:inline-block}.grid.svelte-aztiwm{display:-ms-grid;display:grid}.h-10.svelte-aztiwm{height:2.5rem}.text-4xl.svelte-aztiwm{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-aztiwm{margin-left:2rem}.mt-3.svelte-aztiwm{margin-top:0.75rem}.mt-20.svelte-aztiwm{margin-top:5rem}.text-center.svelte-aztiwm{text-align:center}.text-purple-500.svelte-aztiwm{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-aztiwm{width:3.5rem}.gap-4.svelte-aztiwm{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-aztiwm{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
-    prerender10 = true;
+    prerender11 = true;
     Ireland = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css11);
+      $$result.css.add(css12);
       return `${$$result.head += `${$$result.title = `<title>Ireland</title>`, ""}`, ""}
 
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638893914/webp/ireland-flag.webp"}" alt="${"image of irish flag"}"></div>
@@ -6004,23 +6091,311 @@ var init_ireland_ff2351f4 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/french-ec4d5854.js
-var french_ec4d5854_exports = {};
-__export(french_ec4d5854_exports, {
-  default: () => French,
-  prerender: () => prerender11
-});
-var css$211, Fstate, css$111, Naturalisation, css12, prerender11, French;
-var init_french_ec4d5854 = __esm({
-  ".svelte-kit/output/server/chunks/french-ec4d5854.js"() {
+// .svelte-kit/output/server/chunks/Latin-91d9248a.js
+var css13, Latin;
+var init_Latin_91d9248a = __esm({
+  ".svelte-kit/output/server/chunks/Latin-91d9248a.js"() {
     init_shims();
-    init_app_5e7d0d5f();
-    css$211 = {
+    init_app_547e1716();
+    css13 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Latin = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css13);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Cyrillic to Latin</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638945685/webp/cyrillic.webp"}" alt="${"cyrillic alphabet photo"}">
+		<br>
+		<p>Convert Cyrillic<br>to Latin.</p>
+		<br>
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/2we7uZz"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+  }
+});
+
+// .svelte-kit/output/server/chunks/russian-96bc31ce.js
+var russian_96bc31ce_exports = {};
+__export(russian_96bc31ce_exports, {
+  default: () => Russian,
+  prerender: () => prerender12
+});
+var css$b2, First, css$a2, Stalingrad, css$93, Soviet, css$83, Memorial, css$73, Awards, css$63, Lost, css$54, Leningrad, css$45, War, css$39, Forebears, css$212, Family2, css$112, Cursive, css14, prerender12, Russian;
+var init_russian_96bc31ce = __esm({
+  ".svelte-kit/output/server/chunks/russian-96bc31ce.js"() {
+    init_shims();
+    init_app_547e1716();
+    init_Latin_91d9248a();
+    css$b2 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    First = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$b2);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Soldiers</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638976351/webp/russian_soldiers.webp"}" alt="${"image of a database"}">
+		<br>
+		<p>Database<br>
+			first world war<br> Russian soldiers.
+		</p>
+		<br><br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/3bomxTg"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$a2 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Stalingrad = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$a2);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Stalingrad</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638974961/webp/Stalingrad.webp"}" alt="${"battle of stalingrad photo"}">
+		<br>
+		<p>Database of <br>military and civilians <br>who were at the<br> battle of Stalingrad.<br>23 August 1942<br> to 2 February 1943
+		</p>
+		<br>
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/3rJiGso"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$93 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Soviet = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$93);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Soviet Union</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638963974/webp/soviet-map.webp"}" alt="${"soviet map photo"}">
+		<br>
+		<p>Database of <br> people who <br>received awards <br>1939 to 1990.
+		</p>
+		<br>
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/36okbzQ"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$83 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Memorial = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$83);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Military Memorial</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638963768/webp/war.webp"}" alt="${"russain war memorial photo"}">
+		<br>
+		<p>Russian military<br> database of <br>war dead.</p>
+		<br>
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/2IcNoUv"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$73 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Awards = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$73);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Military Awards</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638963374/webp/soviet-medals.webp"}" alt="${"soviet medals photo"}">
+		<br>
+		<p>Russian military <br>database of<br> military awards.</p>
+		<br>
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/2HRv8Rh"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$63 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Lost = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$63);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Russian &amp; Ukraine</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638861228/webp/family-tree.webp"}" alt="${"family tree photo"}">
+		<br>
+		<p>Where to find <br>Ruusian &amp; Ukraine<br> records.</p>
+		<br>
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/3pdqA9N"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$54 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Leningrad = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$54);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Leningrad</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638947447/webp/lenigrad.webp"}" alt="${"photo of Leningrad Siege"}">
+		<br>
+		<p>Database<br>of the<br>
+			dead and evacuated<br> residents<br> of Leningrad.
+		</p>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/3ttN3Rv"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$45 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    War = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$45);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">War</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"database photo"}">
+		<br>
+		<p>Database <br>Russian Soldier&#39;s</p>
+		<br>
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/3kh2cAp"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$39 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Forebears = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$39);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Forebears</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"database photo"}">
+		<br>
+		<p>Russian <br>genealogical records.</p>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/2OA2V33"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$212 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Family2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$212);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Family</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638861228/webp/family-tree.webp"}" alt="${"family tree photo"}">
+		<br>
+		<p>Russian <br>surname search.</p>
+		<br>
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/2Dz1o6Q"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$112 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Cursive = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$112);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Print &amp; Cursive</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638945685/webp/cyrillic.webp"}" alt="${"cyrillic alphabet photo"}">
+		<br>
+		<p>Converting between<br> Russian<br> Print and Cursive.</p>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/2KByKnY"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css14 = {
+      code: ".inline-block.svelte-g219g3{display:inline-block}.grid.svelte-g219g3{display:-ms-grid;display:grid}.h-10.svelte-g219g3{height:2.5rem}.text-4xl.svelte-g219g3{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-g219g3{margin-left:2rem}.mt-3.svelte-g219g3{margin-top:0.75rem}.mt-20.svelte-g219g3{margin-top:5rem}.mt-8.svelte-g219g3{margin-top:2rem}.text-center.svelte-g219g3{text-align:center}.text-purple-500.svelte-g219g3{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-g219g3{width:3.5rem}.gap-4.svelte-g219g3{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-g219g3{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
+      map: null
+    };
+    prerender12 = true;
+    Russian = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css14);
+      return `${$$result.head += `${$$result.title = `<title>Russian</title>`, ""}`, ""}
+
+<section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-g219g3"}"><div class="${"h-10 w-14 inline-block svelte-g219g3"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638945399/webp/russian-flag.webp"}" alt="${"image of Russian flag"}"></div>
+
+		Russian Family History Resourses
+	</h1>
+	<br>
+	<section class="${"one"}"><div class="${"grid sm:flex gap-4 mt-20 svelte-g219g3"}">${validate_component(Latin, "Latin").$$render($$result, {}, {}, {})}
+			${validate_component(Cursive, "Cursive").$$render($$result, {}, {}, {})}
+			${validate_component(Family2, "Family").$$render($$result, {}, {}, {})}</div>
+
+		<div class="${"grid sm:flex gap-4 mt-8 svelte-g219g3"}">${validate_component(Forebears, "Forebears").$$render($$result, {}, {}, {})}
+			${validate_component(War, "War").$$render($$result, {}, {}, {})}
+			${validate_component(Leningrad, "Leningrad").$$render($$result, {}, {}, {})}</div>
+
+		<div class="${"grid sm:flex gap-4 mt-8 svelte-g219g3"}">${validate_component(Lost, "Lost").$$render($$result, {}, {}, {})}
+			${validate_component(Awards, "Awards").$$render($$result, {}, {}, {})}
+			${validate_component(Memorial, "Memorial").$$render($$result, {}, {}, {})}</div>
+
+		<div class="${"grid sm:flex gap-4 mt-8 svelte-g219g3"}">${validate_component(First, "First").$$render($$result, {}, {}, {})}
+			${validate_component(Soviet, "Soviet").$$render($$result, {}, {}, {})}
+			${validate_component(Stalingrad, "Stalingrad").$$render($$result, {}, {}, {})}</div></section>
+</section>`;
+    });
+  }
+});
+
+// .svelte-kit/output/server/chunks/ukraine-e0d84517.js
+var ukraine_e0d84517_exports = {};
+__export(ukraine_e0d84517_exports, {
+  default: () => Ukraine,
+  prerender: () => prerender13
+});
+var css15, prerender13, Ukraine;
+var init_ukraine_e0d84517 = __esm({
+  ".svelte-kit/output/server/chunks/ukraine-e0d84517.js"() {
+    init_shims();
+    init_app_547e1716();
+    init_Latin_91d9248a();
+    css15 = {
+      code: ".inline-block.svelte-aztiwm{display:inline-block}.grid.svelte-aztiwm{display:-ms-grid;display:grid}.h-10.svelte-aztiwm{height:2.5rem}.text-4xl.svelte-aztiwm{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-aztiwm{margin-left:2rem}.mt-3.svelte-aztiwm{margin-top:0.75rem}.mt-20.svelte-aztiwm{margin-top:5rem}.text-center.svelte-aztiwm{text-align:center}.text-purple-500.svelte-aztiwm{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-aztiwm{width:3.5rem}.gap-4.svelte-aztiwm{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-aztiwm{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
+      map: null
+    };
+    prerender13 = true;
+    Ukraine = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css15);
+      return `${$$result.head += `${$$result.title = `<title>Ukraine</title>`, ""}`, ""}
+
+<section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638945399/webp/russian-flag.webp"}" alt="${"image of Russian flag"}"></div>
+
+		Ukraine Family History Resourses
+	</h1>
+	<br>
+	<section class="${"one"}"><div class="${"grid sm:flex gap-4 mt-20 svelte-aztiwm"}">${validate_component(Latin, "Latin").$$render($$result, {}, {}, {})}</div></section>
+</section>`;
+    });
+  }
+});
+
+// .svelte-kit/output/server/chunks/french-ae01482b.js
+var french_ae01482b_exports = {};
+__export(french_ae01482b_exports, {
+  default: () => French,
+  prerender: () => prerender14
+});
+var css$213, Fstate, css$113, Naturalisation, css16, prerender14, French;
+var init_french_ae01482b = __esm({
+  ".svelte-kit/output/server/chunks/french-ae01482b.js"() {
+    init_shims();
+    init_app_547e1716();
+    css$213 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Fstate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$211);
+      $$result.css.add(css$213);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives
       </h1>
 
@@ -6033,12 +6408,12 @@ var init_french_ec4d5854 = __esm({
 		</a></div>
   </div>`;
     });
-    css$111 = {
+    css$113 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Naturalisation = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$111);
+      $$result.css.add(css$113);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Naturalisation</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"archive photo"}">
@@ -6050,13 +6425,13 @@ var init_french_ec4d5854 = __esm({
 		</a></div>
 </div>`;
     });
-    css12 = {
+    css16 = {
       code: ".inline-block.svelte-aztiwm{display:inline-block}.grid.svelte-aztiwm{display:-ms-grid;display:grid}.h-10.svelte-aztiwm{height:2.5rem}.text-4xl.svelte-aztiwm{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-aztiwm{margin-left:2rem}.mt-3.svelte-aztiwm{margin-top:0.75rem}.mt-20.svelte-aztiwm{margin-top:5rem}.text-center.svelte-aztiwm{text-align:center}.text-purple-500.svelte-aztiwm{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-aztiwm{width:3.5rem}.gap-4.svelte-aztiwm{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-aztiwm{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
-    prerender11 = true;
+    prerender14 = true;
     French = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css12);
+      $$result.css.add(css16);
       return `${$$result.head += `${$$result.title = `<title>French</title>`, ""}`, ""}
 
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638892550/webp/french-flag.webp"}" alt="${"image of French flag"}"></div>
@@ -6071,7 +6446,7 @@ var init_french_ec4d5854 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/app-5e7d0d5f.js
+// .svelte-kit/output/server/chunks/app-547e1716.js
 function get_single_valued_header(headers, key) {
   const value = headers[key];
   if (Array.isArray(value)) {
@@ -7347,9 +7722,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-297cc59f.js",
+      file: assets + "/_app/start-83192943.js",
       css: [assets + "/_app/assets/start-1f089c51.css"],
-      js: [assets + "/_app/start-297cc59f.js", assets + "/_app/chunks/vendor-dad3c69f.js"]
+      js: [assets + "/_app/start-83192943.js", assets + "/_app/chunks/vendor-dad3c69f.js"]
     },
     fetched: void 0,
     floc: false,
@@ -7387,14 +7762,14 @@ async function load_component(file) {
   };
 }
 function render(request, {
-  prerender: prerender12
+  prerender: prerender15
 } = {}) {
   const host = request.headers["host"];
-  return respond({ ...request, host }, options, { prerender: prerender12 });
+  return respond({ ...request, host }, options, { prerender: prerender15 });
 }
-var __accessCheck, __privateGet, __privateAdd, __privateSet, _map, absolute, scheme, chars, unsafeChars, reserved, escaped$1, objectProtoOwnPropertyNames, subscriber_queue, escape_json_string_in_html_dict, escape_html_attr_dict, s$1, s, ReadOnlyFormData, current_component, escaped, missing_component, on_destroy, css13, Root, base, assets, user_hooks, template, options, default_settings, empty, manifest, get_hooks, module_lookup, metadata_lookup;
-var init_app_5e7d0d5f = __esm({
-  ".svelte-kit/output/server/chunks/app-5e7d0d5f.js"() {
+var __accessCheck, __privateGet, __privateAdd, __privateSet, _map, absolute, scheme, chars, unsafeChars, reserved, escaped$1, objectProtoOwnPropertyNames, subscriber_queue, escape_json_string_in_html_dict, escape_html_attr_dict, s$1, s, ReadOnlyFormData, current_component, escaped, missing_component, on_destroy, css17, Root, base, assets, user_hooks, template, options, default_settings, empty, manifest, get_hooks, module_lookup, metadata_lookup;
+var init_app_547e1716 = __esm({
+  ".svelte-kit/output/server/chunks/app-547e1716.js"() {
     init_shims();
     __accessCheck = (obj, member, msg) => {
       if (!member.has(obj))
@@ -7511,7 +7886,7 @@ var init_app_5e7d0d5f = __esm({
     missing_component = {
       $$render: () => ""
     };
-    css13 = {
+    css17 = {
       code: "#svelte-announcer.svelte-1r92h5h{position:absolute;left:0;top:0;clip:rect(0 0 0 0);clip-path:inset(50%);overflow:hidden;white-space:nowrap;width:1px;height:1px}",
       map: null
     };
@@ -7536,7 +7911,7 @@ var init_app_5e7d0d5f = __esm({
         $$bindings.props_1(props_1);
       if ($$props.props_2 === void 0 && $$bindings.props_2 && props_2 !== void 0)
         $$bindings.props_2(props_2);
-      $$result.css.add(css13);
+      $$result.css.add(css17);
       {
         stores.page.set(page);
       }
@@ -7572,6 +7947,13 @@ ${``}`;
         },
         {
           type: "page",
+          pattern: /^\/netherlands\/?$/,
+          params: empty,
+          a: ["src/routes/__layout.svelte", "src/routes/netherlands.svelte"],
+          b: [".svelte-kit/build/components/error.svelte"]
+        },
+        {
+          type: "page",
           pattern: /^\/newzealand\/?$/,
           params: empty,
           a: ["src/routes/__layout.svelte", "src/routes/newzealand.svelte"],
@@ -7582,6 +7964,13 @@ ${``}`;
           pattern: /^\/australia\/?$/,
           params: empty,
           a: ["src/routes/__layout.svelte", "src/routes/australia.svelte"],
+          b: [".svelte-kit/build/components/error.svelte"]
+        },
+        {
+          type: "page",
+          pattern: /^\/ukraine-j\/?$/,
+          params: empty,
+          a: ["src/routes/__layout.svelte", "src/routes/ukraine-j.svelte"],
           b: [".svelte-kit/build/components/error.svelte"]
         },
         {
@@ -7635,6 +8024,20 @@ ${``}`;
         },
         {
           type: "page",
+          pattern: /^\/russian\/?$/,
+          params: empty,
+          a: ["src/routes/__layout.svelte", "src/routes/russian.svelte"],
+          b: [".svelte-kit/build/components/error.svelte"]
+        },
+        {
+          type: "page",
+          pattern: /^\/ukraine\/?$/,
+          params: empty,
+          a: ["src/routes/__layout.svelte", "src/routes/ukraine.svelte"],
+          b: [".svelte-kit/build/components/error.svelte"]
+        },
+        {
+          type: "page",
           pattern: /^\/french\/?$/,
           params: empty,
           a: ["src/routes/__layout.svelte", "src/routes/french.svelte"],
@@ -7649,21 +8052,25 @@ ${``}`;
       externalFetch: hooks.externalFetch || fetch
     });
     module_lookup = {
-      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_fe9b544d(), layout_fe9b544d_exports)),
-      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_ac1fc541(), error_ac1fc541_exports)),
-      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_2a84563a(), index_2a84563a_exports)),
-      "src/routes/newzealand.svelte": () => Promise.resolve().then(() => (init_newzealand_616f9a0d(), newzealand_616f9a0d_exports)),
-      "src/routes/australia.svelte": () => Promise.resolve().then(() => (init_australia_d77b3f2d(), australia_d77b3f2d_exports)),
-      "src/routes/austrian.svelte": () => Promise.resolve().then(() => (init_austrian_66da51d8(), austrian_66da51d8_exports)),
-      "src/routes/barbados.svelte": () => Promise.resolve().then(() => (init_barbados_e65a236b(), barbados_e65a236b_exports)),
-      "src/routes/belarus.svelte": () => Promise.resolve().then(() => (init_belarus_2cc9980b(), belarus_2cc9980b_exports)),
-      "src/routes/belgium.svelte": () => Promise.resolve().then(() => (init_belgium_8fea79a8(), belgium_8fea79a8_exports)),
-      "src/routes/bermuda.svelte": () => Promise.resolve().then(() => (init_bermuda_ba1ddd05(), bermuda_ba1ddd05_exports)),
-      "src/routes/british.svelte": () => Promise.resolve().then(() => (init_british_146a9700(), british_146a9700_exports)),
-      "src/routes/ireland.svelte": () => Promise.resolve().then(() => (init_ireland_ff2351f4(), ireland_ff2351f4_exports)),
-      "src/routes/french.svelte": () => Promise.resolve().then(() => (init_french_ec4d5854(), french_ec4d5854_exports))
+      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_1ec82ca2(), layout_1ec82ca2_exports)),
+      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_346fd082(), error_346fd082_exports)),
+      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_e8b3f68a(), index_e8b3f68a_exports)),
+      "src/routes/netherlands.svelte": () => Promise.resolve().then(() => (init_netherlands_ae1b6704(), netherlands_ae1b6704_exports)),
+      "src/routes/newzealand.svelte": () => Promise.resolve().then(() => (init_newzealand_2ad4b054(), newzealand_2ad4b054_exports)),
+      "src/routes/australia.svelte": () => Promise.resolve().then(() => (init_australia_bf63cc79(), australia_bf63cc79_exports)),
+      "src/routes/ukraine-j.svelte": () => Promise.resolve().then(() => (init_ukraine_j_5631d3ad(), ukraine_j_5631d3ad_exports)),
+      "src/routes/austrian.svelte": () => Promise.resolve().then(() => (init_austrian_94f9be8f(), austrian_94f9be8f_exports)),
+      "src/routes/barbados.svelte": () => Promise.resolve().then(() => (init_barbados_83f9e260(), barbados_83f9e260_exports)),
+      "src/routes/belarus.svelte": () => Promise.resolve().then(() => (init_belarus_70448636(), belarus_70448636_exports)),
+      "src/routes/belgium.svelte": () => Promise.resolve().then(() => (init_belgium_18415e93(), belgium_18415e93_exports)),
+      "src/routes/bermuda.svelte": () => Promise.resolve().then(() => (init_bermuda_4cfcc3d2(), bermuda_4cfcc3d2_exports)),
+      "src/routes/british.svelte": () => Promise.resolve().then(() => (init_british_24a572eb(), british_24a572eb_exports)),
+      "src/routes/ireland.svelte": () => Promise.resolve().then(() => (init_ireland_ea0e2137(), ireland_ea0e2137_exports)),
+      "src/routes/russian.svelte": () => Promise.resolve().then(() => (init_russian_96bc31ce(), russian_96bc31ce_exports)),
+      "src/routes/ukraine.svelte": () => Promise.resolve().then(() => (init_ukraine_e0d84517(), ukraine_e0d84517_exports)),
+      "src/routes/french.svelte": () => Promise.resolve().then(() => (init_french_ae01482b(), french_ae01482b_exports))
     };
-    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-a51d45c4.js", "css": ["assets/pages/__layout.svelte-527e1b78.css"], "js": ["pages/__layout.svelte-a51d45c4.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-0eb0ae99.js", "css": [], "js": ["error.svelte-0eb0ae99.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-0f6dcdd5.js", "css": ["assets/pages/index.svelte-3b776db4.css"], "js": ["pages/index.svelte-0f6dcdd5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/newzealand.svelte": { "entry": "pages/newzealand.svelte-03fbcb26.js", "css": ["assets/pages/newzealand.svelte-4345acdd.css"], "js": ["pages/newzealand.svelte-03fbcb26.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia.svelte": { "entry": "pages/australia.svelte-4919c30e.js", "css": ["assets/pages/australia.svelte-b349f3b9.css"], "js": ["pages/australia.svelte-4919c30e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/austrian.svelte": { "entry": "pages/austrian.svelte-d94ecc71.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/austrian.svelte-d94ecc71.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/barbados.svelte": { "entry": "pages/barbados.svelte-a6327baa.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/barbados.svelte-a6327baa.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belarus.svelte": { "entry": "pages/belarus.svelte-da40d158.js", "css": ["assets/pages/belarus.svelte-af50c5fc.css"], "js": ["pages/belarus.svelte-da40d158.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belgium.svelte": { "entry": "pages/belgium.svelte-f632cfd6.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/belgium.svelte-f632cfd6.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/bermuda.svelte": { "entry": "pages/bermuda.svelte-e5bde0b4.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/bermuda.svelte-e5bde0b4.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/british.svelte": { "entry": "pages/british.svelte-adfa0a68.js", "css": ["assets/pages/british.svelte-2a5d1767.css"], "js": ["pages/british.svelte-adfa0a68.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/ireland.svelte": { "entry": "pages/ireland.svelte-5dd49521.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/ireland.svelte-5dd49521.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/french.svelte": { "entry": "pages/french.svelte-75287445.js", "css": ["assets/pages/austrian.svelte-69bee997.css"], "js": ["pages/french.svelte-75287445.js", "chunks/vendor-dad3c69f.js"], "styles": [] } };
+    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-4f0a6d15.js", "css": ["assets/pages/__layout.svelte-2b35773f.css"], "js": ["pages/__layout.svelte-4f0a6d15.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-0eb0ae99.js", "css": [], "js": ["error.svelte-0eb0ae99.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-0f6dcdd5.js", "css": ["assets/pages/index.svelte-3b776db4.css"], "js": ["pages/index.svelte-0f6dcdd5.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/netherlands.svelte": { "entry": "pages/netherlands.svelte-39977444.js", "css": ["assets/pages/russian.svelte-8e6dfef7.css"], "js": ["pages/netherlands.svelte-39977444.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/newzealand.svelte": { "entry": "pages/newzealand.svelte-03fbcb26.js", "css": ["assets/pages/newzealand.svelte-4345acdd.css"], "js": ["pages/newzealand.svelte-03fbcb26.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia.svelte": { "entry": "pages/australia.svelte-4919c30e.js", "css": ["assets/pages/australia.svelte-b349f3b9.css"], "js": ["pages/australia.svelte-4919c30e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/ukraine-j.svelte": { "entry": "pages/ukraine-j.svelte-5f5d8a65.js", "css": [], "js": ["pages/ukraine-j.svelte-5f5d8a65.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/austrian.svelte": { "entry": "pages/austrian.svelte-d94ecc71.js", "css": ["assets/pages/barbados.svelte-ac4cdfcc.css"], "js": ["pages/austrian.svelte-d94ecc71.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/barbados.svelte": { "entry": "pages/barbados.svelte-a6327baa.js", "css": ["assets/pages/barbados.svelte-ac4cdfcc.css"], "js": ["pages/barbados.svelte-a6327baa.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belarus.svelte": { "entry": "pages/belarus.svelte-da40d158.js", "css": ["assets/pages/belarus.svelte-af50c5fc.css"], "js": ["pages/belarus.svelte-da40d158.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belgium.svelte": { "entry": "pages/belgium.svelte-f632cfd6.js", "css": ["assets/pages/barbados.svelte-ac4cdfcc.css"], "js": ["pages/belgium.svelte-f632cfd6.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/bermuda.svelte": { "entry": "pages/bermuda.svelte-e5bde0b4.js", "css": ["assets/pages/barbados.svelte-ac4cdfcc.css"], "js": ["pages/bermuda.svelte-e5bde0b4.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/british.svelte": { "entry": "pages/british.svelte-adfa0a68.js", "css": ["assets/pages/british.svelte-2a5d1767.css"], "js": ["pages/british.svelte-adfa0a68.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/ireland.svelte": { "entry": "pages/ireland.svelte-5dd49521.js", "css": ["assets/pages/barbados.svelte-ac4cdfcc.css"], "js": ["pages/ireland.svelte-5dd49521.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/russian.svelte": { "entry": "pages/russian.svelte-a0de3fd2.js", "css": ["assets/pages/russian.svelte-8e6dfef7.css", "assets/Latin-c75ea1c6.css"], "js": ["pages/russian.svelte-a0de3fd2.js", "chunks/vendor-dad3c69f.js", "chunks/Latin-477a5128.js"], "styles": [] }, "src/routes/ukraine.svelte": { "entry": "pages/ukraine.svelte-1db476c4.js", "css": ["assets/pages/ukraine.svelte-5b92b6e6.css", "assets/Latin-c75ea1c6.css"], "js": ["pages/ukraine.svelte-1db476c4.js", "chunks/vendor-dad3c69f.js", "chunks/Latin-477a5128.js"], "styles": [] }, "src/routes/french.svelte": { "entry": "pages/french.svelte-75287445.js", "css": ["assets/pages/barbados.svelte-ac4cdfcc.css"], "js": ["pages/french.svelte-75287445.js", "chunks/vendor-dad3c69f.js"], "styles": [] } };
   }
 });
 
@@ -7675,7 +8082,7 @@ init_shims();
 
 // .svelte-kit/output/server/app.js
 init_shims();
-init_app_5e7d0d5f();
+init_app_547e1716();
 
 // .svelte-kit/netlify/entry.js
 init();
