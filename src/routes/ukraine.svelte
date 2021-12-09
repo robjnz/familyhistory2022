@@ -1,9 +1,11 @@
 <script context="module">
 	export const prerender = true;
 
-	import Latin from '../component/Russian/Latin.svelte';
-    
-	
+	import Dnipropetrovsk from '../component/Ukraine/Dnipropetrovsk.svelte';
+	import Residents from '../component/Ukraine/Residents.svelte';
+	import Lost from '../component/Russian/Lost.svelte';
+		import Ukstate from '../component/Ukraine/Ukstate.svelte';
+
 </script>
 
 <svelte:head>
@@ -24,7 +26,13 @@
 	<br />
 	<section class="one">
 		<div class="grid sm:flex gap-4 mt-20">
-			<Latin />
+			<Dnipropetrovsk />
+			<Residents />
+			<Lost />
+		</div>
+
+		<div class="grid sm:flex gap-4 mt-8">
+		<Ukstate />
 		</div>
 	</section>
 </section>

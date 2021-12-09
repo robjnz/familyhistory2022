@@ -1,7 +1,15 @@
 <script context="module">
 	export const prerender = true;
 
-	import Latin from '../component/Russian/Latin.svelte';
+	import Dnipropetrovsk99 from '../component/Ukraine/Dnipropetrovsk99.svelte';
+	import Memorial99 from '../component/Ukraine/Memorial99.svelte';
+	import Dnipro99 from '../component/Ukraine/Dnipro99.svelte';
+	import Moved from '../component/Ukraine/Moved.svelte';
+	import Yar99 from '../component/Ukraine/Yar99.svelte';
+	import Mohyliv99 from '../component/Ukraine/Mohyliv99.svelte';
+	import Odessa99 from '../component/Ukraine/Odessa99.svelte';
+	import Skala99 from '../component/Ukraine/Skala99.svelte';
+	import Kehilalinks99 from '../component/Ukraine/Kehilalinks99.svelte';
 </script>
 
 <svelte:head>
@@ -22,7 +30,20 @@
 	<br />
 	<section class="one">
 		<div class="grid sm:flex gap-4 mt-20">
-			<Latin />
+			<Dnipropetrovsk99 />
+			<Memorial99 />
+			<Dnipro99 />
+		</div>
+		<div class="grid sm:flex gap-4 mt-8">
+			<Moved />
+			<Yar99 />
+			<Kehilalinks99 />
+		</div>
+
+		<div class="grid sm:flex gap-4 mt-8">
+			<Mohyliv99 />
+			<Odessa99 />
+			<Skala99 />
 		</div>
 	</section>
 </section>
