@@ -20,6 +20,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@netlify/plugin-sitemap": "^0.8.1",
     "@sveltejs/adapter-vercel": "^1.0.0-next.31",
     "daisyui": "^1.16.2"
   }
