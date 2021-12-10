@@ -2,9 +2,13 @@ const c = [
 	() => import("..\\..\\..\\src\\routes\\__layout.svelte"),
 	() => import("..\\components\\error.svelte"),
 	() => import("..\\..\\..\\src\\routes\\index.svelte"),
+	() => import("..\\..\\..\\src\\routes\\australia-j.svelte"),
 	() => import("..\\..\\..\\src\\routes\\netherlands.svelte"),
+	() => import("..\\..\\..\\src\\routes\\austrian-j.svelte"),
 	() => import("..\\..\\..\\src\\routes\\newzealand.svelte"),
 	() => import("..\\..\\..\\src\\routes\\australia.svelte"),
+	() => import("..\\..\\..\\src\\routes\\belarus-j.svelte"),
+	() => import("..\\..\\..\\src\\routes\\british-j.svelte"),
 	() => import("..\\..\\..\\src\\routes\\ukraine-j.svelte"),
 	() => import("..\\..\\..\\src\\routes\\austrian.svelte"),
 	() => import("..\\..\\..\\src\\routes\\barbados.svelte"),
@@ -24,47 +28,59 @@ export const routes = [
 	// src/routes/index.svelte
 	[/^\/$/, [c[0], c[2]], [c[1]]],
 
+	// src/routes/australia-j.svelte
+	[/^\/australia-j\/?$/, [c[0], c[3]], [c[1]]],
+
 	// src/routes/netherlands.svelte
-	[/^\/netherlands\/?$/, [c[0], c[3]], [c[1]]],
+	[/^\/netherlands\/?$/, [c[0], c[4]], [c[1]]],
+
+	// src/routes/austrian-j.svelte
+	[/^\/austrian-j\/?$/, [c[0], c[5]], [c[1]]],
 
 	// src/routes/newzealand.svelte
-	[/^\/newzealand\/?$/, [c[0], c[4]], [c[1]]],
+	[/^\/newzealand\/?$/, [c[0], c[6]], [c[1]]],
 
 	// src/routes/australia.svelte
-	[/^\/australia\/?$/, [c[0], c[5]], [c[1]]],
+	[/^\/australia\/?$/, [c[0], c[7]], [c[1]]],
+
+	// src/routes/belarus-j.svelte
+	[/^\/belarus-j\/?$/, [c[0], c[8]], [c[1]]],
+
+	// src/routes/british-j.svelte
+	[/^\/british-j\/?$/, [c[0], c[9]], [c[1]]],
 
 	// src/routes/ukraine-j.svelte
-	[/^\/ukraine-j\/?$/, [c[0], c[6]], [c[1]]],
+	[/^\/ukraine-j\/?$/, [c[0], c[10]], [c[1]]],
 
 	// src/routes/austrian.svelte
-	[/^\/austrian\/?$/, [c[0], c[7]], [c[1]]],
+	[/^\/austrian\/?$/, [c[0], c[11]], [c[1]]],
 
 	// src/routes/barbados.svelte
-	[/^\/barbados\/?$/, [c[0], c[8]], [c[1]]],
+	[/^\/barbados\/?$/, [c[0], c[12]], [c[1]]],
 
 	// src/routes/belarus.svelte
-	[/^\/belarus\/?$/, [c[0], c[9]], [c[1]]],
+	[/^\/belarus\/?$/, [c[0], c[13]], [c[1]]],
 
 	// src/routes/belgium.svelte
-	[/^\/belgium\/?$/, [c[0], c[10]], [c[1]]],
+	[/^\/belgium\/?$/, [c[0], c[14]], [c[1]]],
 
 	// src/routes/bermuda.svelte
-	[/^\/bermuda\/?$/, [c[0], c[11]], [c[1]]],
+	[/^\/bermuda\/?$/, [c[0], c[15]], [c[1]]],
 
 	// src/routes/british.svelte
-	[/^\/british\/?$/, [c[0], c[12]], [c[1]]],
+	[/^\/british\/?$/, [c[0], c[16]], [c[1]]],
 
 	// src/routes/ireland.svelte
-	[/^\/ireland\/?$/, [c[0], c[13]], [c[1]]],
+	[/^\/ireland\/?$/, [c[0], c[17]], [c[1]]],
 
 	// src/routes/russian.svelte
-	[/^\/russian\/?$/, [c[0], c[14]], [c[1]]],
+	[/^\/russian\/?$/, [c[0], c[18]], [c[1]]],
 
 	// src/routes/ukraine.svelte
-	[/^\/ukraine\/?$/, [c[0], c[15]], [c[1]]],
+	[/^\/ukraine\/?$/, [c[0], c[19]], [c[1]]],
 
 	// src/routes/french.svelte
-	[/^\/french\/?$/, [c[0], c[16]], [c[1]]]
+	[/^\/french\/?$/, [c[0], c[20]], [c[1]]]
 ];
 
 // we import the root layout/error components eagerly, so that

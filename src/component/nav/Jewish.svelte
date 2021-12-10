@@ -22,30 +22,25 @@
       class="bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute 
   transition duration-150 ease-in-out origin-top min-w-32"
     >
+       <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+			<a class="text-blue-600 hover:text-yellow-600" href="/australia-j">Australia</a>
+		</li>
 
-     <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-        <g-link class="text-blue-600 hover:text-yellow-600" to="/Jewish/australia"
-          >Australia</g-link
-        >
-      </li>
+    <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+			<a class="text-blue-600 hover:text-yellow-600" href="/austrian-j">Austrian</a>
+		</li>
 
-      <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-        <g-link class="text-blue-600 hover:text-yellow-600" to="/Jewish/austria"
-          >Austrian</g-link
-        >
-      </li>
+    <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+			<a class="text-blue-600 hover:text-yellow-600" href="/belarus-j">Belarus</a>
+		</li>
 
-      <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-        <g-link class="text-blue-600 hover:text-yellow-600" to="/Jewish/belarus"
-          >Belarus</g-link
-        >
-      </li>
+    <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+			<a class="text-blue-600 hover:text-yellow-600" href="/british-j">British</a>
+		</li>
 
-      <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-        <g-link class="text-blue-600 hover:text-yellow-600" to="/Jewish/british"
-          >British</g-link
-        >
-      </li>
+    
+
+    
 
        <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
         <g-link class="text-blue-600 hover:text-yellow-600" to="/Jewish/canada"

@@ -872,6 +872,7 @@ module.exports = {
   plugins: [
     require('windicss/plugin/typography'),
     transform('daisyui'),
+    ('windicss/plugin/aspect-ratio'),
 
   ],
 }

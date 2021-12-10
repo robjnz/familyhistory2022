@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Family History</title>
 </svelte:head>
 
 <section class="one">
