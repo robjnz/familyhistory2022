@@ -12,6 +12,7 @@ const c = [
 	() => import("..\\..\\..\\src\\routes\\ukraine-j.svelte"),
 	() => import("..\\..\\..\\src\\routes\\austrian.svelte"),
 	() => import("..\\..\\..\\src\\routes\\barbados.svelte"),
+	() => import("..\\..\\..\\src\\routes\\canada-j.svelte"),
 	() => import("..\\..\\..\\src\\routes\\belarus.svelte"),
 	() => import("..\\..\\..\\src\\routes\\belgium.svelte"),
 	() => import("..\\..\\..\\src\\routes\\bermuda.svelte"),
@@ -58,29 +59,32 @@ export const routes = [
 	// src/routes/barbados.svelte
 	[/^\/barbados\/?$/, [c[0], c[12]], [c[1]]],
 
+	// src/routes/canada-j.svelte
+	[/^\/canada-j\/?$/, [c[0], c[13]], [c[1]]],
+
 	// src/routes/belarus.svelte
-	[/^\/belarus\/?$/, [c[0], c[13]], [c[1]]],
+	[/^\/belarus\/?$/, [c[0], c[14]], [c[1]]],
 
 	// src/routes/belgium.svelte
-	[/^\/belgium\/?$/, [c[0], c[14]], [c[1]]],
+	[/^\/belgium\/?$/, [c[0], c[15]], [c[1]]],
 
 	// src/routes/bermuda.svelte
-	[/^\/bermuda\/?$/, [c[0], c[15]], [c[1]]],
+	[/^\/bermuda\/?$/, [c[0], c[16]], [c[1]]],
 
 	// src/routes/british.svelte
-	[/^\/british\/?$/, [c[0], c[16]], [c[1]]],
+	[/^\/british\/?$/, [c[0], c[17]], [c[1]]],
 
 	// src/routes/ireland.svelte
-	[/^\/ireland\/?$/, [c[0], c[17]], [c[1]]],
+	[/^\/ireland\/?$/, [c[0], c[18]], [c[1]]],
 
 	// src/routes/russian.svelte
-	[/^\/russian\/?$/, [c[0], c[18]], [c[1]]],
+	[/^\/russian\/?$/, [c[0], c[19]], [c[1]]],
 
 	// src/routes/ukraine.svelte
-	[/^\/ukraine\/?$/, [c[0], c[19]], [c[1]]],
+	[/^\/ukraine\/?$/, [c[0], c[20]], [c[1]]],
 
 	// src/routes/french.svelte
-	[/^\/french\/?$/, [c[0], c[20]], [c[1]]]
+	[/^\/french\/?$/, [c[0], c[21]], [c[1]]]
 ];
 
 // we import the root layout/error components eagerly, so that

@@ -17,6 +17,12 @@
 	import Gilroes99 from '../component/British/Gilroes99.svelte';
 	import Scotland99 from '../component/British/Scotland99.svelte';
 	import Glasgow99 from '../component/British/Glasgow99.svelte';
+	import Adath from '../component/British/cem/Adath.svelte';
+	import Federation from '../component/British/Cem/Federation.svelte';
+	import Liberal from '../component/British/Cem/Liberal.svelte';
+	import United from '../component/British/Cem/United.svelte';
+		import Western from '../component/British/Cem/Western.svelte';
+
 </script>
 
 <svelte:head>
@@ -97,5 +103,14 @@
 		</div>
 
 		<h2 class="ml-8 mt-3 text-center text-purple-500 text-font-sans text-4xl">Jewish Cemeteries</h2>
+		<br />
 	</section>
+	<section class="two" />
+	<div class="grid grid-cols-2 gap-4">
+		<Adath />
+		<Federation />
+		<Liberal />
+		<Western />
+		<United />
+	</div>
 </section>
