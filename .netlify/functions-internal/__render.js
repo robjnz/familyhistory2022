@@ -4696,16 +4696,16 @@ var init_shims = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/__layout-8ca6f9dc.js
-var layout_8ca6f9dc_exports = {};
-__export(layout_8ca6f9dc_exports, {
+// .svelte-kit/output/server/chunks/__layout-4af3ad45.js
+var layout_4af3ad45_exports = {};
+__export(layout_4af3ad45_exports, {
   default: () => _layout
 });
 var css$9, Nav, css$8, TheFooter, css$7, Australasia, css$6, Caribbean, css$5, Europe, css$4, Jewish, css$3, Northamerica, css$2, General, css$1, Dropdown, css, _layout;
-var init_layout_8ca6f9dc = __esm({
-  ".svelte-kit/output/server/chunks/__layout-8ca6f9dc.js"() {
+var init_layout_4af3ad45 = __esm({
+  ".svelte-kit/output/server/chunks/__layout-4af3ad45.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     css$9 = {
       code: ".bg-teal-500.svelte-j03ddw{--tw-bg-opacity:1;background-color:rgba(20, 184, 166, var(--tw-bg-opacity))}.grid.svelte-j03ddw{display:-ms-grid;display:grid}.h-10.svelte-j03ddw{height:2.5rem}.text-4xl.svelte-j03ddw{font-size:2.25rem;line-height:2.5rem}.m-2.svelte-j03ddw{margin:0.5rem}.p-4.svelte-j03ddw{padding:1rem}.text-gray-200.svelte-j03ddw{--tw-text-opacity:1;color:rgba(229, 231, 235, var(--tw-text-opacity))}.gap-4.svelte-j03ddw{grid-gap:1rem;gap:1rem}.grid-cols-3.svelte-j03ddw{grid-template-columns:repeat(3, minmax(0, 1fr))}",
       map: null
@@ -4894,9 +4894,9 @@ ${validate_component(TheFooter, "TheFooter").$$render($$result, {}, {}, {})}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/error-c7b8171c.js
-var error_c7b8171c_exports = {};
-__export(error_c7b8171c_exports, {
+// .svelte-kit/output/server/chunks/error-41799b9a.js
+var error_41799b9a_exports = {};
+__export(error_41799b9a_exports, {
   default: () => Error2,
   load: () => load
 });
@@ -4904,10 +4904,10 @@ function load({ error: error2, status }) {
   return { props: { error: error2, status } };
 }
 var Error2;
-var init_error_c7b8171c = __esm({
-  ".svelte-kit/output/server/chunks/error-c7b8171c.js"() {
+var init_error_41799b9a = __esm({
+  ".svelte-kit/output/server/chunks/error-41799b9a.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     Error2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { status } = $$props;
       let { error: error2 } = $$props;
@@ -4927,17 +4927,17 @@ ${error2.stack ? `<pre>${escape(error2.stack)}</pre>` : ``}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/index-2b3ef602.js
-var index_2b3ef602_exports = {};
-__export(index_2b3ef602_exports, {
+// .svelte-kit/output/server/chunks/index-5fedbe01.js
+var index_5fedbe01_exports = {};
+__export(index_5fedbe01_exports, {
   default: () => Routes,
   prerender: () => prerender
 });
 var css2, prerender, Routes;
-var init_index_2b3ef602 = __esm({
-  ".svelte-kit/output/server/chunks/index-2b3ef602.js"() {
+var init_index_5fedbe01 = __esm({
+  ".svelte-kit/output/server/chunks/index-5fedbe01.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     css2 = {
       code: ".one.svelte-1quiifg{text-align:center;margin-top:50px;margin-left:100px;margin-right:100px}.grid.svelte-1quiifg{display:-ms-grid;display:grid}.h-96.svelte-1quiifg{height:24rem}.text-6xl.svelte-1quiifg{font-size:3.75rem;line-height:1}.text-3xl.svelte-1quiifg{font-size:1.875rem;line-height:2.25rem}.text-xl.svelte-1quiifg{font-size:1.25rem;line-height:1.75rem}.object-fill.svelte-1quiifg{-o-object-fit:fill;object-fit:fill}.p-4.svelte-1quiifg{padding:1rem}.text-left.svelte-1quiifg{text-align:left}.text-center.svelte-1quiifg{text-align:center}.text-purple-500.svelte-1quiifg{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.text-purple-400.svelte-1quiifg{--tw-text-opacity:1;color:rgba(167, 139, 250, var(--tw-text-opacity))}.text-gray-600.svelte-1quiifg{--tw-text-opacity:1;color:rgba(75, 85, 99, var(--tw-text-opacity))}.w-full.svelte-1quiifg{width:100%}.gap-4.svelte-1quiifg{grid-gap:1rem;gap:1rem}.grid-cols-2.svelte-1quiifg{grid-template-columns:repeat(2, minmax(0, 1fr))}",
       map: null
@@ -4971,17 +4971,17 @@ var init_index_2b3ef602 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/australia-j-d45b71a9.js
-var australia_j_d45b71a9_exports = {};
-__export(australia_j_d45b71a9_exports, {
+// .svelte-kit/output/server/chunks/australia-j-6bf43210.js
+var australia_j_6bf43210_exports = {};
+__export(australia_j_6bf43210_exports, {
   default: () => Australia_j,
   prerender: () => prerender2
 });
 var css$22, Society99, css$12, Historical99, css3, prerender2, Australia_j;
-var init_australia_j_d45b71a9 = __esm({
-  ".svelte-kit/output/server/chunks/australia-j-d45b71a9.js"() {
+var init_australia_j_6bf43210 = __esm({
+  ".svelte-kit/output/server/chunks/australia-j-6bf43210.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     css$22 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5037,17 +5037,17 @@ var init_australia_j_d45b71a9 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/netherlands-2612586d.js
-var netherlands_2612586d_exports = {};
-__export(netherlands_2612586d_exports, {
+// .svelte-kit/output/server/chunks/netherlands-97d9d578.js
+var netherlands_97d9d578_exports = {};
+__export(netherlands_97d9d578_exports, {
   default: () => Netherlands,
   prerender: () => prerender3
 });
 var css$42, Wie, css$32, Open, css$23, Roots, css$13, Amsterdam, css4, prerender3, Netherlands;
-var init_netherlands_2612586d = __esm({
-  ".svelte-kit/output/server/chunks/netherlands-2612586d.js"() {
+var init_netherlands_97d9d578 = __esm({
+  ".svelte-kit/output/server/chunks/netherlands-97d9d578.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     css$42 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5136,17 +5136,17 @@ var init_netherlands_2612586d = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/austrian-j-73332512.js
-var austrian_j_73332512_exports = {};
-__export(austrian_j_73332512_exports, {
+// .svelte-kit/output/server/chunks/austrian-j-bf2161d7.js
+var austrian_j_bf2161d7_exports = {};
+__export(austrian_j_bf2161d7_exports, {
   default: () => Austrian_j,
   prerender: () => prerender4
 });
 var css$43, Community99, css$33, Buried99, css$24, Weddings99, css$14, Birth99, css5, prerender4, Austrian_j;
-var init_austrian_j_73332512 = __esm({
-  ".svelte-kit/output/server/chunks/austrian-j-73332512.js"() {
+var init_austrian_j_bf2161d7 = __esm({
+  ".svelte-kit/output/server/chunks/austrian-j-bf2161d7.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     css$43 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5242,17 +5242,17 @@ var init_austrian_j_73332512 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/newzealand-13838db0.js
-var newzealand_13838db0_exports = {};
-__export(newzealand_13838db0_exports, {
+// .svelte-kit/output/server/chunks/newzealand-2358214b.js
+var newzealand_2358214b_exports = {};
+__export(newzealand_2358214b_exports, {
   default: () => Newzealand,
   prerender: () => prerender5
 });
 var css$52, State, css$44, Historical, css$34, Gazette, css$25, Companies, css$15, Auckland, css6, prerender5, Newzealand;
-var init_newzealand_13838db0 = __esm({
-  ".svelte-kit/output/server/chunks/newzealand-13838db0.js"() {
+var init_newzealand_2358214b = __esm({
+  ".svelte-kit/output/server/chunks/newzealand-2358214b.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     css$52 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5364,17 +5364,17 @@ var init_newzealand_13838db0 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/australia-d802c1f2.js
-var australia_d802c1f2_exports = {};
-__export(australia_d802c1f2_exports, {
+// .svelte-kit/output/server/chunks/australia-71d20516.js
+var australia_71d20516_exports = {};
+__export(australia_71d20516_exports, {
   default: () => Australia,
   prerender: () => prerender6
 });
 var css$26, Ausstate, css$16, Gen, css7, prerender6, Australia;
-var init_australia_d802c1f2 = __esm({
-  ".svelte-kit/output/server/chunks/australia-d802c1f2.js"() {
+var init_australia_71d20516 = __esm({
+  ".svelte-kit/output/server/chunks/australia-71d20516.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     css$26 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5429,17 +5429,17 @@ var init_australia_d802c1f2 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/belarus-j-ae4cff33.js
-var belarus_j_ae4cff33_exports = {};
-__export(belarus_j_ae4cff33_exports, {
+// .svelte-kit/output/server/chunks/belarus-j-15a73bdd.js
+var belarus_j_15a73bdd_exports = {};
+__export(belarus_j_15a73bdd_exports, {
   default: () => Belarus_j,
   prerender: () => prerender7
 });
 var css$45, Mogilev99, css$35, Resources99, css$27, Sig99, css$17, Weiner99, css8, prerender7, Belarus_j;
-var init_belarus_j_ae4cff33 = __esm({
-  ".svelte-kit/output/server/chunks/belarus-j-ae4cff33.js"() {
+var init_belarus_j_15a73bdd = __esm({
+  ".svelte-kit/output/server/chunks/belarus-j-15a73bdd.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     css$45 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5533,17 +5533,17 @@ var init_belarus_j_ae4cff33 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/british-j-3ef96fb2.js
-var british_j_3ef96fb2_exports = {};
-__export(british_j_3ef96fb2_exports, {
+// .svelte-kit/output/server/chunks/british-j-63b1f55a.js
+var british_j_63b1f55a_exports = {};
+__export(british_j_63b1f55a_exports, {
   default: () => British_j,
   prerender: () => prerender8
 });
 var css$g, Glasgow99, css$f, Scotland99, css$e, Gilroes99, css$d, Fiftyone, css$c, Fifty, css$b, Synagogue99, css$a, Scribes99, css$92, Honour99, css$82, Jraf99, css$72, Marriage99, css$62, War99, css$53, Roots99, css$46, School99, css$36, Jcr99, css$28, Chronicle99, css$18, Commercial99, css9, prerender8, British_j;
-var init_british_j_3ef96fb2 = __esm({
-  ".svelte-kit/output/server/chunks/british-j-3ef96fb2.js"() {
+var init_british_j_63b1f55a = __esm({
+  ".svelte-kit/output/server/chunks/british-j-63b1f55a.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     css$g = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5883,17 +5883,17 @@ var init_british_j_3ef96fb2 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/ukraine-j-3204ad15.js
-var ukraine_j_3204ad15_exports = {};
-__export(ukraine_j_3204ad15_exports, {
+// .svelte-kit/output/server/chunks/ukraine-j-142befd5.js
+var ukraine_j_142befd5_exports = {};
+__export(ukraine_j_142befd5_exports, {
   default: () => Ukraine_j,
   prerender: () => prerender9
 });
 var css$93, Kehilalinks99, css$83, Skala99, css$73, Odessa99, css$63, Mohyliv99, css$54, Yar99, css$47, Moved, css$37, Dnipro99, css$29, Memorial99, css$19, Dnipropetrovsk99, css10, prerender9, Ukraine_j;
-var init_ukraine_j_3204ad15 = __esm({
-  ".svelte-kit/output/server/chunks/ukraine-j-3204ad15.js"() {
+var init_ukraine_j_142befd5 = __esm({
+  ".svelte-kit/output/server/chunks/ukraine-j-142befd5.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     css$93 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -6079,17 +6079,17 @@ var init_ukraine_j_3204ad15 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/austrian-96c3e6f1.js
-var austrian_96c3e6f1_exports = {};
-__export(austrian_96c3e6f1_exports, {
+// .svelte-kit/output/server/chunks/austrian-11935b40.js
+var austrian_11935b40_exports = {};
+__export(austrian_11935b40_exports, {
   default: () => Austrian,
   prerender: () => prerender10
 });
 var css$210, Vienna, css$110, Auststate, css11, prerender10, Austrian;
-var init_austrian_96c3e6f1 = __esm({
-  ".svelte-kit/output/server/chunks/austrian-96c3e6f1.js"() {
+var init_austrian_11935b40 = __esm({
+  ".svelte-kit/output/server/chunks/austrian-11935b40.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     css$210 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -6144,17 +6144,17 @@ var init_austrian_96c3e6f1 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/barbados-8553065c.js
-var barbados_8553065c_exports = {};
-__export(barbados_8553065c_exports, {
+// .svelte-kit/output/server/chunks/barbados-b9b67011.js
+var barbados_b9b67011_exports = {};
+__export(barbados_b9b67011_exports, {
   default: () => Barbados,
   prerender: () => prerender11
 });
 var css$38, Barbstate, css$211, Family, css$111, Genbarb, css12, prerender11, Barbados;
-var init_barbados_8553065c = __esm({
-  ".svelte-kit/output/server/chunks/barbados-8553065c.js"() {
+var init_barbados_b9b67011 = __esm({
+  ".svelte-kit/output/server/chunks/barbados-b9b67011.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     css$38 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -6229,17 +6229,17 @@ var init_barbados_8553065c = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/belarus-0529ad68.js
-var belarus_0529ad68_exports = {};
-__export(belarus_0529ad68_exports, {
+// .svelte-kit/output/server/chunks/belarus-3e892c3c.js
+var belarus_3e892c3c_exports = {};
+__export(belarus_3e892c3c_exports, {
   default: () => Belarus,
   prerender: () => prerender12
 });
 var css$212, Mogilev, css$112, Belstate, css13, prerender12, Belarus;
-var init_belarus_0529ad68 = __esm({
-  ".svelte-kit/output/server/chunks/belarus-0529ad68.js"() {
+var init_belarus_3e892c3c = __esm({
+  ".svelte-kit/output/server/chunks/belarus-3e892c3c.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     css$212 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -6293,17 +6293,17 @@ var init_belarus_0529ad68 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/belgium-881493bb.js
-var belgium_881493bb_exports = {};
-__export(belgium_881493bb_exports, {
+// .svelte-kit/output/server/chunks/belgium-65f8e4a4.js
+var belgium_65f8e4a4_exports = {};
+__export(belgium_65f8e4a4_exports, {
   default: () => Belgium,
   prerender: () => prerender13
 });
 var css$39, Genealogy, css$213, Ancestry, css$113, Belgstate, css14, prerender13, Belgium;
-var init_belgium_881493bb = __esm({
-  ".svelte-kit/output/server/chunks/belgium-881493bb.js"() {
+var init_belgium_65f8e4a4 = __esm({
+  ".svelte-kit/output/server/chunks/belgium-65f8e4a4.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     css$39 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -6374,17 +6374,17 @@ var init_belgium_881493bb = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/bermuda-97e9aac8.js
-var bermuda_97e9aac8_exports = {};
-__export(bermuda_97e9aac8_exports, {
+// .svelte-kit/output/server/chunks/bermuda-79b20eea.js
+var bermuda_79b20eea_exports = {};
+__export(bermuda_79b20eea_exports, {
   default: () => Bermuda,
   prerender: () => prerender14
 });
 var css$310, Berstate, css$214, National, css$114, Berfamily, css15, prerender14, Bermuda;
-var init_bermuda_97e9aac8 = __esm({
-  ".svelte-kit/output/server/chunks/bermuda-97e9aac8.js"() {
+var init_bermuda_79b20eea = __esm({
+  ".svelte-kit/output/server/chunks/bermuda-79b20eea.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     css$310 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -6459,17 +6459,17 @@ var init_bermuda_97e9aac8 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/british-d09d89c1.js
-var british_d09d89c1_exports = {};
-__export(british_d09d89c1_exports, {
+// .svelte-kit/output/server/chunks/british-d56fdcbf.js
+var british_d56fdcbf_exports = {};
+__export(british_d56fdcbf_exports, {
   default: () => British,
   prerender: () => prerender15
 });
 var css$g2, Scotland, css$f2, Thirtynine, css$e2, Workhouse, css$d2, Wills, css$c2, Graves, css$b2, Britstate, css$a2, Navy, css$94, Raf, css$84, Newspaper, css$74, Gazette2, css$64, Industral, css$55, Directories, css$48, Electoral, css$311, Companies2, css$215, Children, css$115, Bmd, css16, prerender15, British;
-var init_british_d09d89c1 = __esm({
-  ".svelte-kit/output/server/chunks/british-d09d89c1.js"() {
+var init_british_d56fdcbf = __esm({
+  ".svelte-kit/output/server/chunks/british-d56fdcbf.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     css$g2 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -6819,17 +6819,17 @@ var init_british_d09d89c1 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/ireland-c36d8488.js
-var ireland_c36d8488_exports = {};
-__export(ireland_c36d8488_exports, {
+// .svelte-kit/output/server/chunks/ireland-3691c67d.js
+var ireland_3691c67d_exports = {};
+__export(ireland_3691c67d_exports, {
   default: () => Ireland,
   prerender: () => prerender16
 });
 var css$312, Toolkit, css$216, Genealogy2, css$116, Census, css17, prerender16, Ireland;
-var init_ireland_c36d8488 = __esm({
-  ".svelte-kit/output/server/chunks/ireland-c36d8488.js"() {
+var init_ireland_3691c67d = __esm({
+  ".svelte-kit/output/server/chunks/ireland-3691c67d.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     css$312 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -6900,12 +6900,12 @@ var init_ireland_c36d8488 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/Lost-289d0aab.js
+// .svelte-kit/output/server/chunks/Lost-f6a3f13e.js
 var css18, Lost;
-var init_Lost_289d0aab = __esm({
-  ".svelte-kit/output/server/chunks/Lost-289d0aab.js"() {
+var init_Lost_f6a3f13e = __esm({
+  ".svelte-kit/output/server/chunks/Lost-f6a3f13e.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     css18 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -6925,18 +6925,18 @@ var init_Lost_289d0aab = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/russian-6a4b2f61.js
-var russian_6a4b2f61_exports = {};
-__export(russian_6a4b2f61_exports, {
+// .svelte-kit/output/server/chunks/russian-9e01fa59.js
+var russian_9e01fa59_exports = {};
+__export(russian_9e01fa59_exports, {
   default: () => Russian,
   prerender: () => prerender17
 });
 var css$b3, First, css$a3, Stalingrad, css$95, Soviet, css$85, Memorial, css$75, Awards, css$65, Leningrad, css$56, War, css$49, Forebears, css$313, Family2, css$217, Cursive, css$117, Latin, css19, prerender17, Russian;
-var init_russian_6a4b2f61 = __esm({
-  ".svelte-kit/output/server/chunks/russian-6a4b2f61.js"() {
+var init_russian_9e01fa59 = __esm({
+  ".svelte-kit/output/server/chunks/russian-9e01fa59.js"() {
     init_shims();
-    init_app_96b59668();
-    init_Lost_289d0aab();
+    init_app_b63e91b7();
+    init_Lost_f6a3f13e();
     css$b3 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -7157,18 +7157,18 @@ var init_russian_6a4b2f61 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/ukraine-6161dfb5.js
-var ukraine_6161dfb5_exports = {};
-__export(ukraine_6161dfb5_exports, {
+// .svelte-kit/output/server/chunks/ukraine-bca84852.js
+var ukraine_bca84852_exports = {};
+__export(ukraine_bca84852_exports, {
   default: () => Ukraine,
   prerender: () => prerender18
 });
 var css$314, Ukstate, css$218, Residents, css$118, Dnipropetrovsk, css20, prerender18, Ukraine;
-var init_ukraine_6161dfb5 = __esm({
-  ".svelte-kit/output/server/chunks/ukraine-6161dfb5.js"() {
+var init_ukraine_bca84852 = __esm({
+  ".svelte-kit/output/server/chunks/ukraine-bca84852.js"() {
     init_shims();
-    init_app_96b59668();
-    init_Lost_289d0aab();
+    init_app_b63e91b7();
+    init_Lost_f6a3f13e();
     css$314 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -7242,17 +7242,17 @@ var init_ukraine_6161dfb5 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/french-ddd3b43f.js
-var french_ddd3b43f_exports = {};
-__export(french_ddd3b43f_exports, {
+// .svelte-kit/output/server/chunks/french-1842f1c5.js
+var french_1842f1c5_exports = {};
+__export(french_1842f1c5_exports, {
   default: () => French,
   prerender: () => prerender19
 });
 var css$219, Fstate, css$119, Naturalisation, css21, prerender19, French;
-var init_french_ddd3b43f = __esm({
-  ".svelte-kit/output/server/chunks/french-ddd3b43f.js"() {
+var init_french_1842f1c5 = __esm({
+  ".svelte-kit/output/server/chunks/french-1842f1c5.js"() {
     init_shims();
-    init_app_96b59668();
+    init_app_b63e91b7();
     css$219 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -7309,7 +7309,7 @@ var init_french_ddd3b43f = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/app-96b59668.js
+// .svelte-kit/output/server/chunks/app-b63e91b7.js
 function get_single_valued_header(headers, key) {
   const value = headers[key];
   if (Array.isArray(value)) {
@@ -8631,8 +8631,8 @@ function render(request, {
   return respond({ ...request, host }, options, { prerender: prerender20 });
 }
 var __accessCheck, __privateGet, __privateAdd, __privateSet, _map, absolute, scheme, chars, unsafeChars, reserved, escaped$1, objectProtoOwnPropertyNames, subscriber_queue, escape_json_string_in_html_dict, escape_html_attr_dict, s$1, s, ReadOnlyFormData, current_component, escaped, missing_component, on_destroy, css22, Root, base, assets, user_hooks, template, options, default_settings, empty, manifest, get_hooks, module_lookup, metadata_lookup;
-var init_app_96b59668 = __esm({
-  ".svelte-kit/output/server/chunks/app-96b59668.js"() {
+var init_app_b63e91b7 = __esm({
+  ".svelte-kit/output/server/chunks/app-b63e91b7.js"() {
     init_shims();
     __accessCheck = (obj, member, msg) => {
       if (!member.has(obj))
@@ -8943,29 +8943,29 @@ ${``}`;
       externalFetch: hooks.externalFetch || fetch
     });
     module_lookup = {
-      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_8ca6f9dc(), layout_8ca6f9dc_exports)),
-      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_c7b8171c(), error_c7b8171c_exports)),
-      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_2b3ef602(), index_2b3ef602_exports)),
-      "src/routes/australia-j.svelte": () => Promise.resolve().then(() => (init_australia_j_d45b71a9(), australia_j_d45b71a9_exports)),
-      "src/routes/netherlands.svelte": () => Promise.resolve().then(() => (init_netherlands_2612586d(), netherlands_2612586d_exports)),
-      "src/routes/austrian-j.svelte": () => Promise.resolve().then(() => (init_austrian_j_73332512(), austrian_j_73332512_exports)),
-      "src/routes/newzealand.svelte": () => Promise.resolve().then(() => (init_newzealand_13838db0(), newzealand_13838db0_exports)),
-      "src/routes/australia.svelte": () => Promise.resolve().then(() => (init_australia_d802c1f2(), australia_d802c1f2_exports)),
-      "src/routes/belarus-j.svelte": () => Promise.resolve().then(() => (init_belarus_j_ae4cff33(), belarus_j_ae4cff33_exports)),
-      "src/routes/british-j.svelte": () => Promise.resolve().then(() => (init_british_j_3ef96fb2(), british_j_3ef96fb2_exports)),
-      "src/routes/ukraine-j.svelte": () => Promise.resolve().then(() => (init_ukraine_j_3204ad15(), ukraine_j_3204ad15_exports)),
-      "src/routes/austrian.svelte": () => Promise.resolve().then(() => (init_austrian_96c3e6f1(), austrian_96c3e6f1_exports)),
-      "src/routes/barbados.svelte": () => Promise.resolve().then(() => (init_barbados_8553065c(), barbados_8553065c_exports)),
-      "src/routes/belarus.svelte": () => Promise.resolve().then(() => (init_belarus_0529ad68(), belarus_0529ad68_exports)),
-      "src/routes/belgium.svelte": () => Promise.resolve().then(() => (init_belgium_881493bb(), belgium_881493bb_exports)),
-      "src/routes/bermuda.svelte": () => Promise.resolve().then(() => (init_bermuda_97e9aac8(), bermuda_97e9aac8_exports)),
-      "src/routes/british.svelte": () => Promise.resolve().then(() => (init_british_d09d89c1(), british_d09d89c1_exports)),
-      "src/routes/ireland.svelte": () => Promise.resolve().then(() => (init_ireland_c36d8488(), ireland_c36d8488_exports)),
-      "src/routes/russian.svelte": () => Promise.resolve().then(() => (init_russian_6a4b2f61(), russian_6a4b2f61_exports)),
-      "src/routes/ukraine.svelte": () => Promise.resolve().then(() => (init_ukraine_6161dfb5(), ukraine_6161dfb5_exports)),
-      "src/routes/french.svelte": () => Promise.resolve().then(() => (init_french_ddd3b43f(), french_ddd3b43f_exports))
+      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_4af3ad45(), layout_4af3ad45_exports)),
+      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_41799b9a(), error_41799b9a_exports)),
+      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_5fedbe01(), index_5fedbe01_exports)),
+      "src/routes/australia-j.svelte": () => Promise.resolve().then(() => (init_australia_j_6bf43210(), australia_j_6bf43210_exports)),
+      "src/routes/netherlands.svelte": () => Promise.resolve().then(() => (init_netherlands_97d9d578(), netherlands_97d9d578_exports)),
+      "src/routes/austrian-j.svelte": () => Promise.resolve().then(() => (init_austrian_j_bf2161d7(), austrian_j_bf2161d7_exports)),
+      "src/routes/newzealand.svelte": () => Promise.resolve().then(() => (init_newzealand_2358214b(), newzealand_2358214b_exports)),
+      "src/routes/australia.svelte": () => Promise.resolve().then(() => (init_australia_71d20516(), australia_71d20516_exports)),
+      "src/routes/belarus-j.svelte": () => Promise.resolve().then(() => (init_belarus_j_15a73bdd(), belarus_j_15a73bdd_exports)),
+      "src/routes/british-j.svelte": () => Promise.resolve().then(() => (init_british_j_63b1f55a(), british_j_63b1f55a_exports)),
+      "src/routes/ukraine-j.svelte": () => Promise.resolve().then(() => (init_ukraine_j_142befd5(), ukraine_j_142befd5_exports)),
+      "src/routes/austrian.svelte": () => Promise.resolve().then(() => (init_austrian_11935b40(), austrian_11935b40_exports)),
+      "src/routes/barbados.svelte": () => Promise.resolve().then(() => (init_barbados_b9b67011(), barbados_b9b67011_exports)),
+      "src/routes/belarus.svelte": () => Promise.resolve().then(() => (init_belarus_3e892c3c(), belarus_3e892c3c_exports)),
+      "src/routes/belgium.svelte": () => Promise.resolve().then(() => (init_belgium_65f8e4a4(), belgium_65f8e4a4_exports)),
+      "src/routes/bermuda.svelte": () => Promise.resolve().then(() => (init_bermuda_79b20eea(), bermuda_79b20eea_exports)),
+      "src/routes/british.svelte": () => Promise.resolve().then(() => (init_british_d56fdcbf(), british_d56fdcbf_exports)),
+      "src/routes/ireland.svelte": () => Promise.resolve().then(() => (init_ireland_3691c67d(), ireland_3691c67d_exports)),
+      "src/routes/russian.svelte": () => Promise.resolve().then(() => (init_russian_9e01fa59(), russian_9e01fa59_exports)),
+      "src/routes/ukraine.svelte": () => Promise.resolve().then(() => (init_ukraine_bca84852(), ukraine_bca84852_exports)),
+      "src/routes/french.svelte": () => Promise.resolve().then(() => (init_french_1842f1c5(), french_1842f1c5_exports))
     };
-    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-387ee873.js", "css": ["assets/pages/__layout.svelte-2b35773f.css"], "js": ["pages/__layout.svelte-387ee873.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-0eb0ae99.js", "css": [], "js": ["error.svelte-0eb0ae99.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-ae75be4b.js", "css": ["assets/pages/index.svelte-3b776db4.css"], "js": ["pages/index.svelte-ae75be4b.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia-j.svelte": { "entry": "pages/australia-j.svelte-4c42d120.js", "css": ["assets/pages/belgium.svelte-7ee81034.css"], "js": ["pages/australia-j.svelte-4c42d120.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/netherlands.svelte": { "entry": "pages/netherlands.svelte-39977444.js", "css": ["assets/pages/belarus-j.svelte-deaf44dd.css"], "js": ["pages/netherlands.svelte-39977444.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/austrian-j.svelte": { "entry": "pages/austrian-j.svelte-fce25107.js", "css": ["assets/pages/belarus-j.svelte-deaf44dd.css"], "js": ["pages/austrian-j.svelte-fce25107.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/newzealand.svelte": { "entry": "pages/newzealand.svelte-03fbcb26.js", "css": ["assets/pages/newzealand.svelte-4345acdd.css"], "js": ["pages/newzealand.svelte-03fbcb26.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia.svelte": { "entry": "pages/australia.svelte-4919c30e.js", "css": ["assets/pages/australia.svelte-b349f3b9.css"], "js": ["pages/australia.svelte-4919c30e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belarus-j.svelte": { "entry": "pages/belarus-j.svelte-20b0e875.js", "css": ["assets/pages/belarus-j.svelte-deaf44dd.css"], "js": ["pages/belarus-j.svelte-20b0e875.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/british-j.svelte": { "entry": "pages/british-j.svelte-e15ad85a.js", "css": ["assets/pages/british-j.svelte-2f45be7b.css"], "js": ["pages/british-j.svelte-e15ad85a.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/ukraine-j.svelte": { "entry": "pages/ukraine-j.svelte-6342dfde.js", "css": ["assets/pages/belarus-j.svelte-deaf44dd.css"], "js": ["pages/ukraine-j.svelte-6342dfde.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/austrian.svelte": { "entry": "pages/austrian.svelte-d94ecc71.js", "css": ["assets/pages/belgium.svelte-7ee81034.css"], "js": ["pages/austrian.svelte-d94ecc71.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/barbados.svelte": { "entry": "pages/barbados.svelte-a6327baa.js", "css": ["assets/pages/belgium.svelte-7ee81034.css"], "js": ["pages/barbados.svelte-a6327baa.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belarus.svelte": { "entry": "pages/belarus.svelte-dbfde14e.js", "css": ["assets/pages/belgium.svelte-7ee81034.css"], "js": ["pages/belarus.svelte-dbfde14e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belgium.svelte": { "entry": "pages/belgium.svelte-f632cfd6.js", "css": ["assets/pages/belgium.svelte-7ee81034.css"], "js": ["pages/belgium.svelte-f632cfd6.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/bermuda.svelte": { "entry": "pages/bermuda.svelte-e5bde0b4.js", "css": ["assets/pages/belgium.svelte-7ee81034.css"], "js": ["pages/bermuda.svelte-e5bde0b4.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/british.svelte": { "entry": "pages/british.svelte-adfa0a68.js", "css": ["assets/pages/british.svelte-2a5d1767.css"], "js": ["pages/british.svelte-adfa0a68.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/ireland.svelte": { "entry": "pages/ireland.svelte-5dd49521.js", "css": ["assets/pages/belgium.svelte-7ee81034.css"], "js": ["pages/ireland.svelte-5dd49521.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/russian.svelte": { "entry": "pages/russian.svelte-2db191b3.js", "css": ["assets/pages/russian.svelte-4f0c37ac.css", "assets/Lost-ac4f0319.css"], "js": ["pages/russian.svelte-2db191b3.js", "chunks/vendor-dad3c69f.js", "chunks/Lost-7e5bc6a3.js"], "styles": [] }, "src/routes/ukraine.svelte": { "entry": "pages/ukraine.svelte-39d07e74.js", "css": ["assets/pages/belarus-j.svelte-deaf44dd.css", "assets/Lost-ac4f0319.css"], "js": ["pages/ukraine.svelte-39d07e74.js", "chunks/vendor-dad3c69f.js", "chunks/Lost-7e5bc6a3.js"], "styles": [] }, "src/routes/french.svelte": { "entry": "pages/french.svelte-75287445.js", "css": ["assets/pages/belgium.svelte-7ee81034.css"], "js": ["pages/french.svelte-75287445.js", "chunks/vendor-dad3c69f.js"], "styles": [] } };
+    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-387ee873.js", "css": ["assets/pages/__layout.svelte-2b35773f.css"], "js": ["pages/__layout.svelte-387ee873.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-0eb0ae99.js", "css": [], "js": ["error.svelte-0eb0ae99.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-ae75be4b.js", "css": ["assets/pages/index.svelte-3b776db4.css"], "js": ["pages/index.svelte-ae75be4b.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia-j.svelte": { "entry": "pages/australia-j.svelte-4c42d120.js", "css": ["assets/pages/australia-j.svelte-32ee9e02.css"], "js": ["pages/australia-j.svelte-4c42d120.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/netherlands.svelte": { "entry": "pages/netherlands.svelte-39977444.js", "css": ["assets/pages/ukraine.svelte-f49768ca.css"], "js": ["pages/netherlands.svelte-39977444.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/austrian-j.svelte": { "entry": "pages/austrian-j.svelte-fce25107.js", "css": ["assets/pages/ukraine.svelte-f49768ca.css"], "js": ["pages/austrian-j.svelte-fce25107.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/newzealand.svelte": { "entry": "pages/newzealand.svelte-03fbcb26.js", "css": ["assets/pages/newzealand.svelte-4345acdd.css"], "js": ["pages/newzealand.svelte-03fbcb26.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia.svelte": { "entry": "pages/australia.svelte-4919c30e.js", "css": ["assets/pages/australia.svelte-b349f3b9.css"], "js": ["pages/australia.svelte-4919c30e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belarus-j.svelte": { "entry": "pages/belarus-j.svelte-20b0e875.js", "css": ["assets/pages/ukraine.svelte-f49768ca.css"], "js": ["pages/belarus-j.svelte-20b0e875.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/british-j.svelte": { "entry": "pages/british-j.svelte-e15ad85a.js", "css": ["assets/pages/british-j.svelte-2f45be7b.css"], "js": ["pages/british-j.svelte-e15ad85a.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/ukraine-j.svelte": { "entry": "pages/ukraine-j.svelte-6342dfde.js", "css": ["assets/pages/ukraine.svelte-f49768ca.css"], "js": ["pages/ukraine-j.svelte-6342dfde.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/austrian.svelte": { "entry": "pages/austrian.svelte-d94ecc71.js", "css": ["assets/pages/australia-j.svelte-32ee9e02.css"], "js": ["pages/austrian.svelte-d94ecc71.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/barbados.svelte": { "entry": "pages/barbados.svelte-a6327baa.js", "css": ["assets/pages/australia-j.svelte-32ee9e02.css"], "js": ["pages/barbados.svelte-a6327baa.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belarus.svelte": { "entry": "pages/belarus.svelte-dbfde14e.js", "css": ["assets/pages/australia-j.svelte-32ee9e02.css"], "js": ["pages/belarus.svelte-dbfde14e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belgium.svelte": { "entry": "pages/belgium.svelte-f632cfd6.js", "css": ["assets/pages/australia-j.svelte-32ee9e02.css"], "js": ["pages/belgium.svelte-f632cfd6.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/bermuda.svelte": { "entry": "pages/bermuda.svelte-e5bde0b4.js", "css": ["assets/pages/australia-j.svelte-32ee9e02.css"], "js": ["pages/bermuda.svelte-e5bde0b4.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/british.svelte": { "entry": "pages/british.svelte-adfa0a68.js", "css": ["assets/pages/british.svelte-2a5d1767.css"], "js": ["pages/british.svelte-adfa0a68.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/ireland.svelte": { "entry": "pages/ireland.svelte-5dd49521.js", "css": ["assets/pages/australia-j.svelte-32ee9e02.css"], "js": ["pages/ireland.svelte-5dd49521.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/russian.svelte": { "entry": "pages/russian.svelte-2db191b3.js", "css": ["assets/pages/russian.svelte-4f0c37ac.css", "assets/Lost-ac4f0319.css"], "js": ["pages/russian.svelte-2db191b3.js", "chunks/vendor-dad3c69f.js", "chunks/Lost-7e5bc6a3.js"], "styles": [] }, "src/routes/ukraine.svelte": { "entry": "pages/ukraine.svelte-39d07e74.js", "css": ["assets/pages/ukraine.svelte-f49768ca.css", "assets/Lost-ac4f0319.css"], "js": ["pages/ukraine.svelte-39d07e74.js", "chunks/vendor-dad3c69f.js", "chunks/Lost-7e5bc6a3.js"], "styles": [] }, "src/routes/french.svelte": { "entry": "pages/french.svelte-75287445.js", "css": ["assets/pages/australia-j.svelte-32ee9e02.css"], "js": ["pages/french.svelte-75287445.js", "chunks/vendor-dad3c69f.js"], "styles": [] } };
   }
 });
 
@@ -8977,7 +8977,7 @@ init_shims();
 
 // .svelte-kit/output/server/app.js
 init_shims();
-init_app_96b59668();
+init_app_b63e91b7();
 
 // .svelte-kit/netlify/entry.js
 init();
