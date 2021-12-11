@@ -4696,16 +4696,16 @@ var init_shims = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/__layout-60ea1adc.js
-var layout_60ea1adc_exports = {};
-__export(layout_60ea1adc_exports, {
+// .svelte-kit/output/server/chunks/__layout-8ca6f9dc.js
+var layout_8ca6f9dc_exports = {};
+__export(layout_8ca6f9dc_exports, {
   default: () => _layout
 });
 var css$9, Nav, css$8, TheFooter, css$7, Australasia, css$6, Caribbean, css$5, Europe, css$4, Jewish, css$3, Northamerica, css$2, General, css$1, Dropdown, css, _layout;
-var init_layout_60ea1adc = __esm({
-  ".svelte-kit/output/server/chunks/__layout-60ea1adc.js"() {
+var init_layout_8ca6f9dc = __esm({
+  ".svelte-kit/output/server/chunks/__layout-8ca6f9dc.js"() {
     init_shims();
-    init_app_36b6399c();
+    init_app_96b59668();
     css$9 = {
       code: ".bg-teal-500.svelte-j03ddw{--tw-bg-opacity:1;background-color:rgba(20, 184, 166, var(--tw-bg-opacity))}.grid.svelte-j03ddw{display:-ms-grid;display:grid}.h-10.svelte-j03ddw{height:2.5rem}.text-4xl.svelte-j03ddw{font-size:2.25rem;line-height:2.5rem}.m-2.svelte-j03ddw{margin:0.5rem}.p-4.svelte-j03ddw{padding:1rem}.text-gray-200.svelte-j03ddw{--tw-text-opacity:1;color:rgba(229, 231, 235, var(--tw-text-opacity))}.gap-4.svelte-j03ddw{grid-gap:1rem;gap:1rem}.grid-cols-3.svelte-j03ddw{grid-template-columns:repeat(3, minmax(0, 1fr))}",
       map: null
@@ -4894,9 +4894,9 @@ ${validate_component(TheFooter, "TheFooter").$$render($$result, {}, {}, {})}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/error-fbea9448.js
-var error_fbea9448_exports = {};
-__export(error_fbea9448_exports, {
+// .svelte-kit/output/server/chunks/error-c7b8171c.js
+var error_c7b8171c_exports = {};
+__export(error_c7b8171c_exports, {
   default: () => Error2,
   load: () => load
 });
@@ -4904,10 +4904,10 @@ function load({ error: error2, status }) {
   return { props: { error: error2, status } };
 }
 var Error2;
-var init_error_fbea9448 = __esm({
-  ".svelte-kit/output/server/chunks/error-fbea9448.js"() {
+var init_error_c7b8171c = __esm({
+  ".svelte-kit/output/server/chunks/error-c7b8171c.js"() {
     init_shims();
-    init_app_36b6399c();
+    init_app_96b59668();
     Error2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { status } = $$props;
       let { error: error2 } = $$props;
@@ -4927,17 +4927,17 @@ ${error2.stack ? `<pre>${escape(error2.stack)}</pre>` : ``}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/index-4b35ef96.js
-var index_4b35ef96_exports = {};
-__export(index_4b35ef96_exports, {
+// .svelte-kit/output/server/chunks/index-2b3ef602.js
+var index_2b3ef602_exports = {};
+__export(index_2b3ef602_exports, {
   default: () => Routes,
   prerender: () => prerender
 });
 var css2, prerender, Routes;
-var init_index_4b35ef96 = __esm({
-  ".svelte-kit/output/server/chunks/index-4b35ef96.js"() {
+var init_index_2b3ef602 = __esm({
+  ".svelte-kit/output/server/chunks/index-2b3ef602.js"() {
     init_shims();
-    init_app_36b6399c();
+    init_app_96b59668();
     css2 = {
       code: ".one.svelte-1quiifg{text-align:center;margin-top:50px;margin-left:100px;margin-right:100px}.grid.svelte-1quiifg{display:-ms-grid;display:grid}.h-96.svelte-1quiifg{height:24rem}.text-6xl.svelte-1quiifg{font-size:3.75rem;line-height:1}.text-3xl.svelte-1quiifg{font-size:1.875rem;line-height:2.25rem}.text-xl.svelte-1quiifg{font-size:1.25rem;line-height:1.75rem}.object-fill.svelte-1quiifg{-o-object-fit:fill;object-fit:fill}.p-4.svelte-1quiifg{padding:1rem}.text-left.svelte-1quiifg{text-align:left}.text-center.svelte-1quiifg{text-align:center}.text-purple-500.svelte-1quiifg{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.text-purple-400.svelte-1quiifg{--tw-text-opacity:1;color:rgba(167, 139, 250, var(--tw-text-opacity))}.text-gray-600.svelte-1quiifg{--tw-text-opacity:1;color:rgba(75, 85, 99, var(--tw-text-opacity))}.w-full.svelte-1quiifg{width:100%}.gap-4.svelte-1quiifg{grid-gap:1rem;gap:1rem}.grid-cols-2.svelte-1quiifg{grid-template-columns:repeat(2, minmax(0, 1fr))}",
       map: null
@@ -4971,17 +4971,17 @@ var init_index_4b35ef96 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/australia-j-caad8f2f.js
-var australia_j_caad8f2f_exports = {};
-__export(australia_j_caad8f2f_exports, {
+// .svelte-kit/output/server/chunks/australia-j-d45b71a9.js
+var australia_j_d45b71a9_exports = {};
+__export(australia_j_d45b71a9_exports, {
   default: () => Australia_j,
   prerender: () => prerender2
 });
 var css$22, Society99, css$12, Historical99, css3, prerender2, Australia_j;
-var init_australia_j_caad8f2f = __esm({
-  ".svelte-kit/output/server/chunks/australia-j-caad8f2f.js"() {
+var init_australia_j_d45b71a9 = __esm({
+  ".svelte-kit/output/server/chunks/australia-j-d45b71a9.js"() {
     init_shims();
-    init_app_36b6399c();
+    init_app_96b59668();
     css$22 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5037,17 +5037,17 @@ var init_australia_j_caad8f2f = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/netherlands-c9b711e7.js
-var netherlands_c9b711e7_exports = {};
-__export(netherlands_c9b711e7_exports, {
+// .svelte-kit/output/server/chunks/netherlands-2612586d.js
+var netherlands_2612586d_exports = {};
+__export(netherlands_2612586d_exports, {
   default: () => Netherlands,
   prerender: () => prerender3
 });
 var css$42, Wie, css$32, Open, css$23, Roots, css$13, Amsterdam, css4, prerender3, Netherlands;
-var init_netherlands_c9b711e7 = __esm({
-  ".svelte-kit/output/server/chunks/netherlands-c9b711e7.js"() {
+var init_netherlands_2612586d = __esm({
+  ".svelte-kit/output/server/chunks/netherlands-2612586d.js"() {
     init_shims();
-    init_app_36b6399c();
+    init_app_96b59668();
     css$42 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5136,17 +5136,17 @@ var init_netherlands_c9b711e7 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/austrian-j-8a251c7e.js
-var austrian_j_8a251c7e_exports = {};
-__export(austrian_j_8a251c7e_exports, {
+// .svelte-kit/output/server/chunks/austrian-j-73332512.js
+var austrian_j_73332512_exports = {};
+__export(austrian_j_73332512_exports, {
   default: () => Austrian_j,
   prerender: () => prerender4
 });
 var css$43, Community99, css$33, Buried99, css$24, Weddings99, css$14, Birth99, css5, prerender4, Austrian_j;
-var init_austrian_j_8a251c7e = __esm({
-  ".svelte-kit/output/server/chunks/austrian-j-8a251c7e.js"() {
+var init_austrian_j_73332512 = __esm({
+  ".svelte-kit/output/server/chunks/austrian-j-73332512.js"() {
     init_shims();
-    init_app_36b6399c();
+    init_app_96b59668();
     css$43 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5242,17 +5242,17 @@ var init_austrian_j_8a251c7e = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/newzealand-d97c6a1e.js
-var newzealand_d97c6a1e_exports = {};
-__export(newzealand_d97c6a1e_exports, {
+// .svelte-kit/output/server/chunks/newzealand-13838db0.js
+var newzealand_13838db0_exports = {};
+__export(newzealand_13838db0_exports, {
   default: () => Newzealand,
   prerender: () => prerender5
 });
 var css$52, State, css$44, Historical, css$34, Gazette, css$25, Companies, css$15, Auckland, css6, prerender5, Newzealand;
-var init_newzealand_d97c6a1e = __esm({
-  ".svelte-kit/output/server/chunks/newzealand-d97c6a1e.js"() {
+var init_newzealand_13838db0 = __esm({
+  ".svelte-kit/output/server/chunks/newzealand-13838db0.js"() {
     init_shims();
-    init_app_36b6399c();
+    init_app_96b59668();
     css$52 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5364,17 +5364,17 @@ var init_newzealand_d97c6a1e = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/australia-3f3e9895.js
-var australia_3f3e9895_exports = {};
-__export(australia_3f3e9895_exports, {
+// .svelte-kit/output/server/chunks/australia-d802c1f2.js
+var australia_d802c1f2_exports = {};
+__export(australia_d802c1f2_exports, {
   default: () => Australia,
   prerender: () => prerender6
 });
 var css$26, Ausstate, css$16, Gen, css7, prerender6, Australia;
-var init_australia_3f3e9895 = __esm({
-  ".svelte-kit/output/server/chunks/australia-3f3e9895.js"() {
+var init_australia_d802c1f2 = __esm({
+  ".svelte-kit/output/server/chunks/australia-d802c1f2.js"() {
     init_shims();
-    init_app_36b6399c();
+    init_app_96b59668();
     css$26 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
@@ -5429,50 +5429,23 @@ var init_australia_3f3e9895 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/Weiner99-02c9e3d9.js
-var css8, Weiner99;
-var init_Weiner99_02c9e3d9 = __esm({
-  ".svelte-kit/output/server/chunks/Weiner99-02c9e3d9.js"() {
-    init_shims();
-    init_app_36b6399c();
-    css8 = {
-      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
-      map: null
-    };
-    Weiner99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css8);
-      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Miriam Weiner</h1>
-
-		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"image of a database"}">
-		<br>
-		<p>Search free<br> the Belarus database</p>
-		<br>
-
-		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/2KvCmrA"}" target="${"_blank"}">Go to The Website
-		</a></div>
-</div>`;
-    });
-  }
-});
-
-// .svelte-kit/output/server/chunks/belarus-j-78e9592b.js
-var belarus_j_78e9592b_exports = {};
-__export(belarus_j_78e9592b_exports, {
+// .svelte-kit/output/server/chunks/belarus-j-ae4cff33.js
+var belarus_j_ae4cff33_exports = {};
+__export(belarus_j_ae4cff33_exports, {
   default: () => Belarus_j,
   prerender: () => prerender7
 });
-var css$35, Mogilev99, css$27, Resources99, css$17, Sig99, css9, prerender7, Belarus_j;
-var init_belarus_j_78e9592b = __esm({
-  ".svelte-kit/output/server/chunks/belarus-j-78e9592b.js"() {
+var css$45, Mogilev99, css$35, Resources99, css$27, Sig99, css$17, Weiner99, css8, prerender7, Belarus_j;
+var init_belarus_j_ae4cff33 = __esm({
+  ".svelte-kit/output/server/chunks/belarus-j-ae4cff33.js"() {
     init_shims();
-    init_app_36b6399c();
-    init_Weiner99_02c9e3d9();
-    css$35 = {
+    init_app_96b59668();
+    css$45 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Mogilev99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$35);
+      $$result.css.add(css$45);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Mogilev Gubernia</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639150268/webp/mogilev_arms.webp"}" alt="${"image of mogilev coat of arms"}">
@@ -5485,12 +5458,12 @@ var init_belarus_j_78e9592b = __esm({
 		</a></div>
 </div>`;
     });
-    css$27 = {
+    css$35 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Resources99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$27);
+      $$result.css.add(css$35);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Jewish Belarus</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639135750/webp/star.webp"}" alt="${"image of star of david"}">
@@ -5502,12 +5475,12 @@ var init_belarus_j_78e9592b = __esm({
 		</a></div>
 </div>`;
     });
-    css$17 = {
+    css$27 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Sig99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$17);
+      $$result.css.add(css$27);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Belarus SIG</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639149225/webp/belarus-map.webp"}" alt="${"belarus map"}">
@@ -5520,13 +5493,30 @@ var init_belarus_j_78e9592b = __esm({
 		</a></div>
 </div>`;
     });
-    css9 = {
+    css$17 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Weiner99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$17);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Miriam Weiner</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"image of a database"}">
+		<br>
+		<p>Search free<br> the Belarus database</p>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/2KvCmrA"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css8 = {
       code: ".inline-block.svelte-g219g3{display:inline-block}.grid.svelte-g219g3{display:-ms-grid;display:grid}.h-10.svelte-g219g3{height:2.5rem}.text-4xl.svelte-g219g3{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-g219g3{margin-left:2rem}.mt-3.svelte-g219g3{margin-top:0.75rem}.mt-20.svelte-g219g3{margin-top:5rem}.mt-8.svelte-g219g3{margin-top:2rem}.text-center.svelte-g219g3{text-align:center}.text-purple-500.svelte-g219g3{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-g219g3{width:3.5rem}.gap-4.svelte-g219g3{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-g219g3{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
     prerender7 = true;
     Belarus_j = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css9);
+      $$result.css.add(css8);
       return `${$$result.head += `${$$result.title = `<title>Belarus Jewish</title>`, ""}`, ""}
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-g219g3"}"><div class="${"h-10 w-14 inline-block svelte-g219g3"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638877031/webp/belarus-flag.webp"}" alt="${"image of Belarus flag"}"></div>
 		<div class="${"h-10 w-14 inline-block svelte-g219g3"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639135750/webp/star.webp"}" alt="${"image of star of david"}"></div>
@@ -5543,54 +5533,373 @@ var init_belarus_j_78e9592b = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/british-j-d3ae1cd6.js
-var british_j_d3ae1cd6_exports = {};
-__export(british_j_d3ae1cd6_exports, {
+// .svelte-kit/output/server/chunks/british-j-3ef96fb2.js
+var british_j_3ef96fb2_exports = {};
+__export(british_j_3ef96fb2_exports, {
   default: () => British_j,
   prerender: () => prerender8
 });
-var css10, prerender8, British_j;
-var init_british_j_d3ae1cd6 = __esm({
-  ".svelte-kit/output/server/chunks/british-j-d3ae1cd6.js"() {
+var css$g, Glasgow99, css$f, Scotland99, css$e, Gilroes99, css$d, Fiftyone, css$c, Fifty, css$b, Synagogue99, css$a, Scribes99, css$92, Honour99, css$82, Jraf99, css$72, Marriage99, css$62, War99, css$53, Roots99, css$46, School99, css$36, Jcr99, css$28, Chronicle99, css$18, Commercial99, css9, prerender8, British_j;
+var init_british_j_3ef96fb2 = __esm({
+  ".svelte-kit/output/server/chunks/british-j-3ef96fb2.js"() {
     init_shims();
-    init_app_36b6399c();
-    init_Weiner99_02c9e3d9();
-    css10 = {
-      code: ".inline-block.svelte-aztiwm{display:inline-block}.grid.svelte-aztiwm{display:-ms-grid;display:grid}.h-10.svelte-aztiwm{height:2.5rem}.text-4xl.svelte-aztiwm{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-aztiwm{margin-left:2rem}.mt-3.svelte-aztiwm{margin-top:0.75rem}.mt-20.svelte-aztiwm{margin-top:5rem}.text-center.svelte-aztiwm{text-align:center}.text-purple-500.svelte-aztiwm{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-aztiwm{width:3.5rem}.gap-4.svelte-aztiwm{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-aztiwm{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
+    init_app_96b59668();
+    css$g = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Glasgow99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$g);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Burial Society</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639050305/webp/jewish-graves.webp"}" alt="${"image of jewish cemetary"}">
+		<br>
+		<p>Search Scotlands <br>Jewish burial records.</p>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/3dj94xt"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$f = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Scotland99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$f);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Jewish Scotland</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638878880/webp/scotish-flag.webp"}" alt="${"image of scottish flag"}">
+		<br>
+		<p>Jewish Scottish <br>family history.</p>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/3d0EUyK"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$e = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Gilroes99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$e);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Gilroes Cemetery</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1607355658/jewish-graves_rvakmw.jpg"}" alt="${"image of a cemetery"}">
+		<br>
+		<p>Search the burial records<br> Gilroes Cemetery Leicester</p>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/2Wx3H7B"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$d = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Fiftyone = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$d);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">1851 Community
+      </h1>
+
+      <img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/v1607248969/database_l8siob.jpg"}" alt="${"image of a database"}">
+      <br>
+      <p>1851 <br>Anglo Jewry database
+      </p>
+      <br>
+      
+      <a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/3f0oGUE"}" target="${"_blank"}">Go to The Website
+		</a></div>
+  </div>`;
+    });
+    css$c = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Fifty = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$c);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Pre 1850 Community
+      </h1>
+
+      <img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"image of a database"}">
+      <br>
+      <p>The London Jewish <br>database pre 1850
+      </p>
+      <br>
+      
+
+      <a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/2KBFjIq"}" target="${"_blank"}">Go to The Website
+		</a></div>
+  </div>`;
+    });
+    css$b = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Synagogue99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$b);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Synagogue</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639221423/webp/greatsyn.webp"}" alt="${"image of graves"}">
+		<br>
+		<p>Search the database<br> of Ashkenazi <br>Synagogue records<br> 1791 to 1860.
+		</p>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/2L20OFC"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$a = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Scribes99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$a);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Scribes</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639050305/webp/jewish-graves.webp"}">
+		<br>
+		<p>Search the database of <br>headstone inscriptions<br> from Jewish cemeteries<br> throughout
+			the UK.
+		</p>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/2WLa4AD"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$92 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Honour99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$92);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Roll Of Honour
+      </h1>
+
+      	<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639216582/webp/first.webp"}" alt="${"image of Jewish regiment"}">
+      <br>
+      <p>Jewish book of <br>Honour list all <br>Jews who served<br> during the first world war.
+      </p>
+      <br>
+     
+      <a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/320z8W1"}" target="${"_blank"}">Go to The Website
+		</a></div>
+  </div>`;
+    });
+    css$82 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Jraf99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$82);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Second world war</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639218046/webp/jewish-raf.webp"}" alt="${"jewish r.a.f"}">
+		<br>
+
+		<p>Remembering The<br> Jews who died<br> in the second world war</p>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/3EdYmmK"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$72 = {
+      code: ".rounded-lg.svelte-lvu80t{border-radius:0.5rem}.h-32.svelte-lvu80t{height:8rem}.text-2xl.svelte-lvu80t{font-size:1.5rem;line-height:2rem}.m-4.svelte-lvu80t{margin:1rem}.object-fill.svelte-lvu80t{-o-object-fit:fill;object-fit:fill}.p-4.svelte-lvu80t{padding:1rem}.p-6.svelte-lvu80t{padding:1.5rem}.shadow-2xl.svelte-lvu80t{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-lvu80t{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-lvu80t:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-lvu80t{width:auto}.w-full.svelte-lvu80t{width:100%}.w-52.svelte-lvu80t{width:13rem}",
+      map: null
+    };
+    Marriage99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$72);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-lvu80t"}"><div class="${"p-6 svelte-lvu80t"}"><h1 class="${"text-2xl text-white svelte-lvu80t"}">Marriage</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639217074/webp/ketubot.webp"}" alt="${"image of jewish ketubot marriage certificate"}">
+		<br>
+		<p>Marriage Authorisation <br>Records 1880 to 1922.
+		</p>
+		<br>
+		<iframe class="${"h-32 w-52 object-fill svelte-lvu80t"}" title="${"companies house records"}" src="${"https://www.youtube.com/embed/690fZvaE0Ek"}" frameborder="${"0"}" allow="${"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"}" allowfullscreen></iframe>
+
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-lvu80t"}" href="${"http://bit.ly/2wC1AS8"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$62 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    War99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$62);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">First World War</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639216582/webp/first.webp"}" alt="${"image of Jewish regiment"}">
+		<br>
+		<p>British Jews in the<br> first world war.
+		</p>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/3nE0A5A"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$53 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Roots99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$53);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Roots</h1>
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639163996/webp/bevismarks.webp"}" alt="${"image of bevismarks shul"}">
+
+		<br>
+
+		<p>Sephardic Jewish<br> family history.
+		</p>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/2YPZDjz"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$46 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    School99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$46);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">JFS</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639163504/webp/jfs.webp"}" alt="${"image of a Classroom at Jewish Free School in Bell Lane 1890s"}">
+		<br>
+		<p>Search Jewish <br>Free School<br> database <br>1856 to 1907.</p>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/2KBEaAC"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$36 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Jcr99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$36);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">J.C.R</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"image of a database"}">
+		<br>
+		<p>Database of <br>Jewish record&#39;s <br>in the United Kingdom.</p>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"http://bit.ly/2GflEtg"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$28 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Chronicle99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$28);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Chronicle</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639162743/webp/jc.webp"}" alt="${"image of a front page od jewish chronical"}">
+		<br>
+		<p>Search original version<br> of the JC from <br> 1841 to present day.</p>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/3Gy8NSx"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css$18 = {
+      code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
+      map: null
+    };
+    Commercial99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css$18);
+      return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Directory</h1>
+
+		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639162361/webp/directory.webp"}" alt="${"image of Commercial Directory 1894"}">
+		<br>
+		<p>Commercial Directory <br>of Jewish business<br>United Kingdom 1894
+		</p>
+		<br>
+
+		<a class="${"text-white hover:text-yellow-500 svelte-uz66hb"}" href="${"https://bit.ly/3rO9eBW"}" target="${"_blank"}">Go to The Website
+		</a></div>
+</div>`;
+    });
+    css9 = {
+      code: ".inline-block.svelte-g219g3{display:inline-block}.grid.svelte-g219g3{display:-ms-grid;display:grid}.h-10.svelte-g219g3{height:2.5rem}.text-4xl.svelte-g219g3{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-g219g3{margin-left:2rem}.mt-3.svelte-g219g3{margin-top:0.75rem}.mt-20.svelte-g219g3{margin-top:5rem}.mt-8.svelte-g219g3{margin-top:2rem}.text-center.svelte-g219g3{text-align:center}.text-purple-500.svelte-g219g3{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-g219g3{width:3.5rem}.gap-4.svelte-g219g3{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-g219g3{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
     prerender8 = true;
     British_j = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css10);
+      $$result.css.add(css9);
       return `${$$result.head += `${$$result.title = `<title>British Jewish</title>`, ""}`, ""}
-<section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864273/webp/uk-flag.webp"}" alt="${"image of British flag"}"></div>
-		<div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639135750/webp/star.webp"}" alt="${"image of star of david"}"></div>
+<section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-g219g3"}"><div class="${"h-10 w-14 inline-block svelte-g219g3"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864273/webp/uk-flag.webp"}" alt="${"image of British flag"}"></div>
+		<div class="${"h-10 w-14 inline-block svelte-g219g3"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639135750/webp/star.webp"}" alt="${"image of star of david"}"></div>
 		British Jewish Family History Resourses
 	</h1>
 	<br>
-	<section class="${"one"}"><div class="${"grid sm:flex gap-4 mt-20 one svelte-aztiwm"}">${validate_component(Weiner99, "Weiner99").$$render($$result, {}, {}, {})}</div></section>
+	<section class="${"one"}"><div class="${"grid sm:flex gap-4 mt-20 svelte-g219g3"}">${validate_component(Chronicle99, "Chronicle99").$$render($$result, {}, {}, {})}
+			${validate_component(Commercial99, "Commercial99").$$render($$result, {}, {}, {})}
+			${validate_component(Jcr99, "Jcr99").$$render($$result, {}, {}, {})}</div>
+
+		<div class="${"grid sm:flex gap-4 mt-8 svelte-g219g3"}">${validate_component(School99, "School99").$$render($$result, {}, {}, {})}
+			${validate_component(Marriage99, "Marriage99").$$render($$result, {}, {}, {})}
+			${validate_component(Honour99, "Honour99").$$render($$result, {}, {}, {})}</div>
+
+		<div class="${"grid sm:flex gap-4 mt-8 svelte-g219g3"}">${validate_component(Roots99, "Roots99").$$render($$result, {}, {}, {})}
+			${validate_component(War99, "War99").$$render($$result, {}, {}, {})}
+			${validate_component(Scribes99, "Scribes99").$$render($$result, {}, {}, {})}</div>
+		<div class="${"grid sm:flex gap-4 mt-8 svelte-g219g3"}">${validate_component(Jraf99, "Jraf99").$$render($$result, {}, {}, {})}
+			${validate_component(Synagogue99, "Synagogue99").$$render($$result, {}, {}, {})}
+			${validate_component(Fifty, "Fifty").$$render($$result, {}, {}, {})}</div>
+
+		<div class="${"grid sm:flex gap-4 mt-8 svelte-g219g3"}">${validate_component(Fiftyone, "Fiftyone").$$render($$result, {}, {}, {})}</div>
+
+		<h2 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-g219g3"}"><div class="${"h-10 w-14 svelte-g219g3"}">Leicester</div></h2>
+		<br>
+		<div class="${"grid sm:flex gap-4 mt-8 svelte-g219g3"}">${validate_component(Gilroes99, "Gilroes99").$$render($$result, {}, {}, {})}</div>
+
+		<h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-g219g3"}"><div class="${"h-10 w-14 inline-block svelte-g219g3"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638878880/webp/scotish-flag.webp"}" alt="${"image of Scottish flag"}"></div>
+			<div class="${"h-10 w-14 inline-block svelte-g219g3"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639135750/webp/star.webp"}" alt="${"image of star of david"}"></div>
+			Scottish Jewish Family History Resourses
+		</h1>
+		<br>
+		<div class="${"grid sm:flex gap-4 mt-8 svelte-g219g3"}">${validate_component(Scotland99, "Scotland99").$$render($$result, {}, {}, {})}
+			${validate_component(Glasgow99, "Glasgow99").$$render($$result, {}, {}, {})}</div>
+
+		<h2 class="${"ml-8 mt-3 text-center text-purple-500 text-font-sans text-4xl svelte-g219g3"}">Jewish Cemeteries</h2></section>
 </section>`;
     });
   }
 });
 
-// .svelte-kit/output/server/chunks/ukraine-j-06682a75.js
-var ukraine_j_06682a75_exports = {};
-__export(ukraine_j_06682a75_exports, {
+// .svelte-kit/output/server/chunks/ukraine-j-3204ad15.js
+var ukraine_j_3204ad15_exports = {};
+__export(ukraine_j_3204ad15_exports, {
   default: () => Ukraine_j,
   prerender: () => prerender9
 });
-var css$92, Kehilalinks99, css$82, Skala99, css$72, Odessa99, css$62, Mohyliv99, css$53, Yar99, css$45, Moved, css$36, Dnipro99, css$28, Memorial99, css$18, Dnipropetrovsk99, css11, prerender9, Ukraine_j;
-var init_ukraine_j_06682a75 = __esm({
-  ".svelte-kit/output/server/chunks/ukraine-j-06682a75.js"() {
+var css$93, Kehilalinks99, css$83, Skala99, css$73, Odessa99, css$63, Mohyliv99, css$54, Yar99, css$47, Moved, css$37, Dnipro99, css$29, Memorial99, css$19, Dnipropetrovsk99, css10, prerender9, Ukraine_j;
+var init_ukraine_j_3204ad15 = __esm({
+  ".svelte-kit/output/server/chunks/ukraine-j-3204ad15.js"() {
     init_shims();
-    init_app_36b6399c();
-    css$92 = {
+    init_app_96b59668();
+    css$93 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Kehilalinks99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$92);
+      $$result.css.add(css$93);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Kehilalinks</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639057319/webp/shtetle.webp"}" alt="${"database photo"}">
@@ -5602,12 +5911,12 @@ var init_ukraine_j_06682a75 = __esm({
 		</a></div>
 </div>`;
     });
-    css$82 = {
+    css$83 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Skala99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$82);
+      $$result.css.add(css$83);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Skala-Podilska</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639056286/webp/skala.webp"}" alt="${" skala coat of arms"}">
@@ -5619,12 +5928,12 @@ var init_ukraine_j_06682a75 = __esm({
 		</a></div>
 </div>`;
     });
-    css$72 = {
+    css$73 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Odessa99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$72);
+      $$result.css.add(css$73);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Odessa Rabbinate</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639056093/webp/odessa.webp"}" alt="${"odessa coat of arms"}">
@@ -5636,12 +5945,12 @@ var init_ukraine_j_06682a75 = __esm({
 		</a></div>
 </div>`;
     });
-    css$62 = {
+    css$63 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Mohyliv99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$62);
+      $$result.css.add(css$63);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Mohyliv-Podilskyy</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639055649/webp/mohyliv_arms.webp"}" alt="${" mohyliv coat of arms"}">
@@ -5653,12 +5962,12 @@ var init_ukraine_j_06682a75 = __esm({
 		</a></div>
 </div>`;
     });
-    css$53 = {
+    css$54 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Yar99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$53);
+      $$result.css.add(css$54);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Drobytsky Yar</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1615712228/drobytsky_joofur.jpg"}" alt="${"database photo"}">
@@ -5671,12 +5980,12 @@ var init_ukraine_j_06682a75 = __esm({
 		</a></div>
 </div>`;
     });
-    css$45 = {
+    css$47 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Moved = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$45);
+      $$result.css.add(css$47);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Dnipropetrovsk</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639054714/webp/relocation.webp"}" alt="${" relocation people photo"}">
@@ -5690,12 +5999,12 @@ var init_ukraine_j_06682a75 = __esm({
 		</a></div>
 </div>`;
     });
-    css$36 = {
+    css$37 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Dnipro99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$36);
+      $$result.css.add(css$37);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Dnepropetrovsk</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639050305/webp/jewish-graves.webp"}" alt="${" jewish graves photo"}">
@@ -5707,12 +6016,12 @@ var init_ukraine_j_06682a75 = __esm({
 		</a></div>
 </div>`;
     });
-    css$28 = {
+    css$29 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Memorial99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$28);
+      $$result.css.add(css$29);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Dnipropetrovsk</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639049981/webp/synagogue.webp"}" alt="${" Ekaterinoslav synagogue photo"}">
@@ -5724,12 +6033,12 @@ var init_ukraine_j_06682a75 = __esm({
 		</a></div>
 </div>`;
     });
-    css$18 = {
+    css$19 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Dnipropetrovsk99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$18);
+      $$result.css.add(css$19);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Dnipropetrovsk</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1639049361/webp/dnipropetrovsk_arms.webp"}" alt="${" dnipropetrovsk coat of arms"}">
@@ -5741,13 +6050,13 @@ var init_ukraine_j_06682a75 = __esm({
 		</a></div>
 </div>`;
     });
-    css11 = {
+    css10 = {
       code: ".inline-block.svelte-g219g3{display:inline-block}.grid.svelte-g219g3{display:-ms-grid;display:grid}.h-10.svelte-g219g3{height:2.5rem}.text-4xl.svelte-g219g3{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-g219g3{margin-left:2rem}.mt-3.svelte-g219g3{margin-top:0.75rem}.mt-20.svelte-g219g3{margin-top:5rem}.mt-8.svelte-g219g3{margin-top:2rem}.text-center.svelte-g219g3{text-align:center}.text-purple-500.svelte-g219g3{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-g219g3{width:3.5rem}.gap-4.svelte-g219g3{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-g219g3{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
     prerender9 = true;
     Ukraine_j = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css11);
+      $$result.css.add(css10);
       return `${$$result.head += `${$$result.title = `<title>Ukraine</title>`, ""}`, ""}
 
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-g219g3"}"><div class="${"h-10 w-14 inline-block svelte-g219g3"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638978523/webp/ukraine-flag.webp"}" alt="${"image of Ukraine flag"}"></div>
@@ -5770,23 +6079,23 @@ var init_ukraine_j_06682a75 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/austrian-fb0a74b3.js
-var austrian_fb0a74b3_exports = {};
-__export(austrian_fb0a74b3_exports, {
+// .svelte-kit/output/server/chunks/austrian-96c3e6f1.js
+var austrian_96c3e6f1_exports = {};
+__export(austrian_96c3e6f1_exports, {
   default: () => Austrian,
   prerender: () => prerender10
 });
-var css$29, Vienna, css$19, Auststate, css12, prerender10, Austrian;
-var init_austrian_fb0a74b3 = __esm({
-  ".svelte-kit/output/server/chunks/austrian-fb0a74b3.js"() {
+var css$210, Vienna, css$110, Auststate, css11, prerender10, Austrian;
+var init_austrian_96c3e6f1 = __esm({
+  ".svelte-kit/output/server/chunks/austrian-96c3e6f1.js"() {
     init_shims();
-    init_app_36b6399c();
-    css$29 = {
+    init_app_96b59668();
+    css$210 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Vienna = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$29);
+      $$result.css.add(css$210);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Vienna</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638876911/webp/viennaparlament.webp"}" alt="${"vienna parlement photo"}">
@@ -5797,12 +6106,12 @@ var init_austrian_fb0a74b3 = __esm({
 		</a></div>
 </div>`;
     });
-    css$19 = {
+    css$110 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Auststate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$19);
+      $$result.css.add(css$110);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"image of archives"}">
@@ -5813,13 +6122,13 @@ var init_austrian_fb0a74b3 = __esm({
 		</a></div>
 </div>`;
     });
-    css12 = {
+    css11 = {
       code: ".inline-block.svelte-aztiwm{display:inline-block}.grid.svelte-aztiwm{display:-ms-grid;display:grid}.h-10.svelte-aztiwm{height:2.5rem}.text-4xl.svelte-aztiwm{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-aztiwm{margin-left:2rem}.mt-3.svelte-aztiwm{margin-top:0.75rem}.mt-20.svelte-aztiwm{margin-top:5rem}.text-center.svelte-aztiwm{text-align:center}.text-purple-500.svelte-aztiwm{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-aztiwm{width:3.5rem}.gap-4.svelte-aztiwm{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-aztiwm{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
     prerender10 = true;
     Austrian = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css12);
+      $$result.css.add(css11);
       return `${$$result.head += `${$$result.title = `<title>Austrian</title>`, ""}`, ""}
 
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638876704/webp/austria-flag.webp"}" alt="${"image of Austrian flag"}"></div>
@@ -5835,23 +6144,23 @@ var init_austrian_fb0a74b3 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/barbados-d5215fc7.js
-var barbados_d5215fc7_exports = {};
-__export(barbados_d5215fc7_exports, {
+// .svelte-kit/output/server/chunks/barbados-8553065c.js
+var barbados_8553065c_exports = {};
+__export(barbados_8553065c_exports, {
   default: () => Barbados,
   prerender: () => prerender11
 });
-var css$37, Barbstate, css$210, Family, css$110, Genbarb, css13, prerender11, Barbados;
-var init_barbados_d5215fc7 = __esm({
-  ".svelte-kit/output/server/chunks/barbados-d5215fc7.js"() {
+var css$38, Barbstate, css$211, Family, css$111, Genbarb, css12, prerender11, Barbados;
+var init_barbados_8553065c = __esm({
+  ".svelte-kit/output/server/chunks/barbados-8553065c.js"() {
     init_shims();
-    init_app_36b6399c();
-    css$37 = {
+    init_app_96b59668();
+    css$38 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Barbstate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$37);
+      $$result.css.add(css$38);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"image of archives"}">
@@ -5863,12 +6172,12 @@ var init_barbados_d5215fc7 = __esm({
 		</a></div>
 </div>`;
     });
-    css$210 = {
+    css$211 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Family = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$210);
+      $$result.css.add(css$211);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Family History</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638861228/webp/family-tree.webp"}" alt="${"image of a family tree"}">
@@ -5880,12 +6189,12 @@ var init_barbados_d5215fc7 = __esm({
 		</a></div>
 </div>`;
     });
-    css$110 = {
+    css$111 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Genbarb = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$110);
+      $$result.css.add(css$111);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Barbados</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"image of a database"}">
@@ -5897,13 +6206,13 @@ var init_barbados_d5215fc7 = __esm({
 		</a></div>
 </div>`;
     });
-    css13 = {
+    css12 = {
       code: ".inline-block.svelte-aztiwm{display:inline-block}.grid.svelte-aztiwm{display:-ms-grid;display:grid}.h-10.svelte-aztiwm{height:2.5rem}.text-4xl.svelte-aztiwm{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-aztiwm{margin-left:2rem}.mt-3.svelte-aztiwm{margin-top:0.75rem}.mt-20.svelte-aztiwm{margin-top:5rem}.text-center.svelte-aztiwm{text-align:center}.text-purple-500.svelte-aztiwm{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-aztiwm{width:3.5rem}.gap-4.svelte-aztiwm{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-aztiwm{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
     prerender11 = true;
     Barbados = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css13);
+      $$result.css.add(css12);
       return `${$$result.head += `${$$result.title = `<title>Barbados</title>`, ""}`, ""}
 
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638866632/webp/barbados-flag_mngc34.webp"}" alt="${"image of Barbados flag"}"></div>
@@ -5920,23 +6229,23 @@ var init_barbados_d5215fc7 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/belarus-a3bb0dc3.js
-var belarus_a3bb0dc3_exports = {};
-__export(belarus_a3bb0dc3_exports, {
+// .svelte-kit/output/server/chunks/belarus-0529ad68.js
+var belarus_0529ad68_exports = {};
+__export(belarus_0529ad68_exports, {
   default: () => Belarus,
   prerender: () => prerender12
 });
-var css$211, Mogilev, css$111, Belstate, css14, prerender12, Belarus;
-var init_belarus_a3bb0dc3 = __esm({
-  ".svelte-kit/output/server/chunks/belarus-a3bb0dc3.js"() {
+var css$212, Mogilev, css$112, Belstate, css13, prerender12, Belarus;
+var init_belarus_0529ad68 = __esm({
+  ".svelte-kit/output/server/chunks/belarus-0529ad68.js"() {
     init_shims();
-    init_app_36b6399c();
-    css$211 = {
+    init_app_96b59668();
+    css$212 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Mogilev = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$211);
+      $$result.css.add(css$212);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Mogilev Region</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"archive photo"}">
@@ -5947,12 +6256,12 @@ var init_belarus_a3bb0dc3 = __esm({
 		</a></div>
 </div>`;
     });
-    css$111 = {
+    css$112 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Belstate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$111);
+      $$result.css.add(css$112);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"archive photo"}">
@@ -5963,13 +6272,13 @@ var init_belarus_a3bb0dc3 = __esm({
 		</a></div>
 </div>`;
     });
-    css14 = {
+    css13 = {
       code: ".inline-block.svelte-aztiwm{display:inline-block}.grid.svelte-aztiwm{display:-ms-grid;display:grid}.h-10.svelte-aztiwm{height:2.5rem}.text-4xl.svelte-aztiwm{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-aztiwm{margin-left:2rem}.mt-3.svelte-aztiwm{margin-top:0.75rem}.mt-20.svelte-aztiwm{margin-top:5rem}.text-center.svelte-aztiwm{text-align:center}.text-purple-500.svelte-aztiwm{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-aztiwm{width:3.5rem}.gap-4.svelte-aztiwm{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-aztiwm{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
     prerender12 = true;
     Belarus = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css14);
+      $$result.css.add(css13);
       return `${$$result.head += `${$$result.title = `<title>Belarus</title>`, ""}`, ""}
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638877031/webp/belarus-flag.webp"}" alt="${"image of Belarus flag"}"></div>
 
@@ -5984,23 +6293,23 @@ var init_belarus_a3bb0dc3 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/belgium-35b9c7e5.js
-var belgium_35b9c7e5_exports = {};
-__export(belgium_35b9c7e5_exports, {
+// .svelte-kit/output/server/chunks/belgium-881493bb.js
+var belgium_881493bb_exports = {};
+__export(belgium_881493bb_exports, {
   default: () => Belgium,
   prerender: () => prerender13
 });
-var css$38, Genealogy, css$212, Ancestry, css$112, Belgstate, css15, prerender13, Belgium;
-var init_belgium_35b9c7e5 = __esm({
-  ".svelte-kit/output/server/chunks/belgium-35b9c7e5.js"() {
+var css$39, Genealogy, css$213, Ancestry, css$113, Belgstate, css14, prerender13, Belgium;
+var init_belgium_881493bb = __esm({
+  ".svelte-kit/output/server/chunks/belgium-881493bb.js"() {
     init_shims();
-    init_app_36b6399c();
-    css$38 = {
+    init_app_96b59668();
+    css$39 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Genealogy = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$38);
+      $$result.css.add(css$39);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Genealogy</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638861228/webp/family-tree.webp"}" alt="${"family tree photo"}">
@@ -6011,12 +6320,12 @@ var init_belgium_35b9c7e5 = __esm({
 		</a></div>
 </div>`;
     });
-    css$212 = {
+    css$213 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Ancestry = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$212);
+      $$result.css.add(css$213);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Ancestry</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638861228/webp/family-tree.webp"}" alt="${"archive photo"}">
@@ -6027,12 +6336,12 @@ var init_belgium_35b9c7e5 = __esm({
 		</a></div>
 </div>`;
     });
-    css$112 = {
+    css$113 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Belgstate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$112);
+      $$result.css.add(css$113);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"archive photo"}">
@@ -6043,13 +6352,13 @@ var init_belgium_35b9c7e5 = __esm({
 		</a></div>
 </div>`;
     });
-    css15 = {
+    css14 = {
       code: ".inline-block.svelte-aztiwm{display:inline-block}.grid.svelte-aztiwm{display:-ms-grid;display:grid}.h-10.svelte-aztiwm{height:2.5rem}.text-4xl.svelte-aztiwm{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-aztiwm{margin-left:2rem}.mt-3.svelte-aztiwm{margin-top:0.75rem}.mt-20.svelte-aztiwm{margin-top:5rem}.text-center.svelte-aztiwm{text-align:center}.text-purple-500.svelte-aztiwm{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-aztiwm{width:3.5rem}.gap-4.svelte-aztiwm{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-aztiwm{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
     prerender13 = true;
     Belgium = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css15);
+      $$result.css.add(css14);
       return `${$$result.head += `${$$result.title = `<title>Belgium</title>`, ""}`, ""}
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638877222/webp/belgium-flag.webp"}" alt="${"image of Belgium flag"}"></div>
 
@@ -6065,23 +6374,23 @@ var init_belgium_35b9c7e5 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/bermuda-6e40797c.js
-var bermuda_6e40797c_exports = {};
-__export(bermuda_6e40797c_exports, {
+// .svelte-kit/output/server/chunks/bermuda-97e9aac8.js
+var bermuda_97e9aac8_exports = {};
+__export(bermuda_97e9aac8_exports, {
   default: () => Bermuda,
   prerender: () => prerender14
 });
-var css$39, Berstate, css$213, National, css$113, Berfamily, css16, prerender14, Bermuda;
-var init_bermuda_6e40797c = __esm({
-  ".svelte-kit/output/server/chunks/bermuda-6e40797c.js"() {
+var css$310, Berstate, css$214, National, css$114, Berfamily, css15, prerender14, Bermuda;
+var init_bermuda_97e9aac8 = __esm({
+  ".svelte-kit/output/server/chunks/bermuda-97e9aac8.js"() {
     init_shims();
-    init_app_36b6399c();
-    css$39 = {
+    init_app_96b59668();
+    css$310 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Berstate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$39);
+      $$result.css.add(css$310);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"image of archives"}">
@@ -6093,12 +6402,12 @@ var init_bermuda_6e40797c = __esm({
 		</a></div>
 </div>`;
     });
-    css$213 = {
+    css$214 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     National = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$213);
+      $$result.css.add(css$214);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">National Museum</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"image of database"}">
@@ -6110,12 +6419,12 @@ var init_bermuda_6e40797c = __esm({
 		</a></div>
 </div>`;
     });
-    css$113 = {
+    css$114 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Berfamily = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$113);
+      $$result.css.add(css$114);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Bermuda</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"image of a database"}">
@@ -6127,13 +6436,13 @@ var init_bermuda_6e40797c = __esm({
 		</a></div>
 </div>`;
     });
-    css16 = {
+    css15 = {
       code: ".inline-block.svelte-aztiwm{display:inline-block}.grid.svelte-aztiwm{display:-ms-grid;display:grid}.h-10.svelte-aztiwm{height:2.5rem}.text-4xl.svelte-aztiwm{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-aztiwm{margin-left:2rem}.mt-3.svelte-aztiwm{margin-top:0.75rem}.mt-20.svelte-aztiwm{margin-top:5rem}.text-center.svelte-aztiwm{text-align:center}.text-purple-500.svelte-aztiwm{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-aztiwm{width:3.5rem}.gap-4.svelte-aztiwm{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-aztiwm{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
     prerender14 = true;
     Bermuda = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css16);
+      $$result.css.add(css15);
       return `${$$result.head += `${$$result.title = `<title>Bermuda</title>`, ""}`, ""}
 
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638866804/webp/bermuda-flag_rgvbdd.webp"}" alt="${"image of Bermuda flag"}"></div>
@@ -6150,23 +6459,23 @@ var init_bermuda_6e40797c = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/british-cbe8622f.js
-var british_cbe8622f_exports = {};
-__export(british_cbe8622f_exports, {
+// .svelte-kit/output/server/chunks/british-d09d89c1.js
+var british_d09d89c1_exports = {};
+__export(british_d09d89c1_exports, {
   default: () => British,
   prerender: () => prerender15
 });
-var css$g, Scotland, css$f, Thirtynine, css$e, Workhouse, css$d, Wills, css$c, Graves, css$b, Britstate, css$a, Navy, css$93, Raf, css$83, Newspaper, css$73, Gazette2, css$63, Industral, css$54, Directories, css$46, Electoral, css$310, Companies2, css$214, Children, css$114, Bmd, css17, prerender15, British;
-var init_british_cbe8622f = __esm({
-  ".svelte-kit/output/server/chunks/british-cbe8622f.js"() {
+var css$g2, Scotland, css$f2, Thirtynine, css$e2, Workhouse, css$d2, Wills, css$c2, Graves, css$b2, Britstate, css$a2, Navy, css$94, Raf, css$84, Newspaper, css$74, Gazette2, css$64, Industral, css$55, Directories, css$48, Electoral, css$311, Companies2, css$215, Children, css$115, Bmd, css16, prerender15, British;
+var init_british_d09d89c1 = __esm({
+  ".svelte-kit/output/server/chunks/british-d09d89c1.js"() {
     init_shims();
-    init_app_36b6399c();
-    css$g = {
+    init_app_96b59668();
+    css$g2 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Scotland = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$g);
+      $$result.css.add(css$g2);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Scotland</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638878880/webp/scotish-flag.webp"}" alt="${"image of scotish flag"}">
@@ -6178,12 +6487,12 @@ var init_british_cbe8622f = __esm({
 		</a></div>
 </div>`;
     });
-    css$f = {
+    css$f2 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Thirtynine = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$f);
+      $$result.css.add(css$f2);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">1939 Register</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638878467/webp/1939c.webp"}" alt="${"image of 1939 census form"}">
@@ -6197,12 +6506,12 @@ var init_british_cbe8622f = __esm({
 		</a></div>
 </div>`;
     });
-    css$e = {
+    css$e2 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Workhouse = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$e);
+      $$result.css.add(css$e2);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Workhouse</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638878129/webp/workhouse.webp"}" alt="${"image of workhouse wikiwand"}">
@@ -6215,12 +6524,12 @@ var init_british_cbe8622f = __esm({
 		</a></div>
 </div>`;
     });
-    css$d = {
+    css$d2 = {
       code: ".rounded-lg.svelte-lvu80t{border-radius:0.5rem}.h-32.svelte-lvu80t{height:8rem}.text-2xl.svelte-lvu80t{font-size:1.5rem;line-height:2rem}.m-4.svelte-lvu80t{margin:1rem}.object-fill.svelte-lvu80t{-o-object-fit:fill;object-fit:fill}.p-4.svelte-lvu80t{padding:1rem}.p-6.svelte-lvu80t{padding:1.5rem}.shadow-2xl.svelte-lvu80t{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-lvu80t{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-lvu80t:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-lvu80t{width:auto}.w-full.svelte-lvu80t{width:100%}.w-52.svelte-lvu80t{width:13rem}",
       map: null
     };
     Wills = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$d);
+      $$result.css.add(css$d2);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-lvu80t"}"><div class="${"p-6 svelte-lvu80t"}"><h1 class="${"text-2xl text-white svelte-lvu80t"}">Wills &amp; Probate</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638877765/webp/wills.webp"}" alt="${"image of a will"}">
@@ -6235,12 +6544,12 @@ var init_british_cbe8622f = __esm({
 		</a></div>
 </div>`;
     });
-    css$c = {
+    css$c2 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Graves = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$c);
+      $$result.css.add(css$c2);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">War Graves</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638865557/webp/loos_asmvi6.webp"}" alt="${"image of loos war cemetary"}">
@@ -6256,12 +6565,12 @@ var init_british_cbe8622f = __esm({
 		</a></div>
 </div>`;
     });
-    css$b = {
+    css$b2 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Britstate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$b);
+      $$result.css.add(css$b2);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives
       </h1>
 
@@ -6274,12 +6583,12 @@ var init_british_cbe8622f = __esm({
 		</a></div>
   </div>`;
     });
-    css$a = {
+    css$a2 = {
       code: ".rounded-lg.svelte-lvu80t{border-radius:0.5rem}.h-32.svelte-lvu80t{height:8rem}.text-2xl.svelte-lvu80t{font-size:1.5rem;line-height:2rem}.m-4.svelte-lvu80t{margin:1rem}.object-fill.svelte-lvu80t{-o-object-fit:fill;object-fit:fill}.p-4.svelte-lvu80t{padding:1rem}.p-6.svelte-lvu80t{padding:1.5rem}.shadow-2xl.svelte-lvu80t{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-lvu80t{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-lvu80t:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-lvu80t{width:auto}.w-full.svelte-lvu80t{width:100%}.w-52.svelte-lvu80t{width:13rem}",
       map: null
     };
     Navy = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$a);
+      $$result.css.add(css$a2);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-lvu80t"}"><div class="${"p-6 svelte-lvu80t"}"><h1 class="${"text-2xl text-white svelte-lvu80t"}">Royal Navy</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638865308/webp/HMS_Dreadnought_gdupqt.webp"}" alt="${"royal navy hns drednought photo"}">
@@ -6293,12 +6602,12 @@ var init_british_cbe8622f = __esm({
 		</a></div>
 </div>`;
     });
-    css$93 = {
+    css$94 = {
       code: ".rounded-lg.svelte-lvu80t{border-radius:0.5rem}.h-32.svelte-lvu80t{height:8rem}.text-2xl.svelte-lvu80t{font-size:1.5rem;line-height:2rem}.m-4.svelte-lvu80t{margin:1rem}.object-fill.svelte-lvu80t{-o-object-fit:fill;object-fit:fill}.p-4.svelte-lvu80t{padding:1rem}.p-6.svelte-lvu80t{padding:1.5rem}.shadow-2xl.svelte-lvu80t{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-lvu80t{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-lvu80t:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-lvu80t{width:auto}.w-full.svelte-lvu80t{width:100%}.w-52.svelte-lvu80t{width:13rem}",
       map: null
     };
     Raf = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$93);
+      $$result.css.add(css$94);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-lvu80t"}"><div class="${"p-6 svelte-lvu80t"}"><h1 class="${"text-2xl text-white svelte-lvu80t"}">R.A.F</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638865061/webp/raf.webp"}" alt="${"royal airforce plane 1918 photo"}">
@@ -6312,12 +6621,12 @@ var init_british_cbe8622f = __esm({
 		</a></div>
 </div>`;
     });
-    css$83 = {
+    css$84 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Newspaper = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$83);
+      $$result.css.add(css$84);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Newspapers</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864967/webp/newspaper.webp"}" alt="${"newspaper logo photo"}">
@@ -6331,12 +6640,12 @@ var init_british_cbe8622f = __esm({
 		</a></div>
 </div>`;
     });
-    css$73 = {
+    css$74 = {
       code: ".rounded-lg.svelte-lvu80t{border-radius:0.5rem}.h-32.svelte-lvu80t{height:8rem}.text-2xl.svelte-lvu80t{font-size:1.5rem;line-height:2rem}.m-4.svelte-lvu80t{margin:1rem}.object-fill.svelte-lvu80t{-o-object-fit:fill;object-fit:fill}.p-4.svelte-lvu80t{padding:1rem}.p-6.svelte-lvu80t{padding:1.5rem}.shadow-2xl.svelte-lvu80t{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-lvu80t{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-lvu80t:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-lvu80t{width:auto}.w-full.svelte-lvu80t{width:100%}.w-52.svelte-lvu80t{width:13rem}",
       map: null
     };
     Gazette2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$73);
+      $$result.css.add(css$74);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-lvu80t"}"><div class="${"p-6 svelte-lvu80t"}"><h1 class="${"text-2xl text-white svelte-lvu80t"}">London Gazette</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864884/webp/gazette.webp"}" alt="${"london gazettte newspaper photo"}">
@@ -6353,12 +6662,12 @@ var init_british_cbe8622f = __esm({
 		</a></div>
 </div>`;
     });
-    css$63 = {
+    css$64 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Industral = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$63);
+      $$result.css.add(css$64);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Industral Schools</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864797/webp/industral.webp"}" alt="${"image of an industral school"}">
@@ -6371,12 +6680,12 @@ var init_british_cbe8622f = __esm({
 		</a></div>
 </div>`;
     });
-    css$54 = {
+    css$55 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Directories = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$54);
+      $$result.css.add(css$55);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Directories</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864710/webp/trade.webp"}" alt="${"image of trade directories"}">
@@ -6388,12 +6697,12 @@ var init_british_cbe8622f = __esm({
 		</a></div>
 </div>`;
     });
-    css$46 = {
+    css$48 = {
       code: ".rounded-lg.svelte-lvu80t{border-radius:0.5rem}.h-32.svelte-lvu80t{height:8rem}.text-2xl.svelte-lvu80t{font-size:1.5rem;line-height:2rem}.m-4.svelte-lvu80t{margin:1rem}.object-fill.svelte-lvu80t{-o-object-fit:fill;object-fit:fill}.p-4.svelte-lvu80t{padding:1rem}.p-6.svelte-lvu80t{padding:1.5rem}.shadow-2xl.svelte-lvu80t{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-lvu80t{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-lvu80t:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-lvu80t{width:auto}.w-full.svelte-lvu80t{width:100%}.w-52.svelte-lvu80t{width:13rem}",
       map: null
     };
     Electoral = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$46);
+      $$result.css.add(css$48);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-lvu80t"}"><div class="${"p-6 svelte-lvu80t"}"><h1 class="${"text-2xl text-white svelte-lvu80t"}">Electoral Register</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864628/webp/roll.webp"}" alt="${"image of electorial roll"}">
@@ -6410,12 +6719,12 @@ var init_british_cbe8622f = __esm({
 		</a></div>
 </div>`;
     });
-    css$310 = {
+    css$311 = {
       code: ".rounded-lg.svelte-lvu80t{border-radius:0.5rem}.h-32.svelte-lvu80t{height:8rem}.text-2xl.svelte-lvu80t{font-size:1.5rem;line-height:2rem}.m-4.svelte-lvu80t{margin:1rem}.object-fill.svelte-lvu80t{-o-object-fit:fill;object-fit:fill}.p-4.svelte-lvu80t{padding:1rem}.p-6.svelte-lvu80t{padding:1.5rem}.shadow-2xl.svelte-lvu80t{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-lvu80t{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-lvu80t:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-lvu80t{width:auto}.w-full.svelte-lvu80t{width:100%}.w-52.svelte-lvu80t{width:13rem}",
       map: null
     };
     Companies2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$310);
+      $$result.css.add(css$311);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-lvu80t"}"><div class="${"p-6 svelte-lvu80t"}"><h1 class="${"text-2xl text-white svelte-lvu80t"}">Companies House</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-lvu80t"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864541/webp/companies.webp"}" alt="${"companies house logo photo"}">
@@ -6429,12 +6738,12 @@ var init_british_cbe8622f = __esm({
 		</a></div>
 </div>`;
     });
-    css$214 = {
+    css$215 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Children = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$214);
+      $$result.css.add(css$215);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Children&#39;s Homes</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864457/webp/home.webp"}" alt="${"image of dr barnardo's home barkingside"}">
@@ -6447,12 +6756,12 @@ var init_british_cbe8622f = __esm({
 		</a></div>
 </div>`;
     });
-    css$114 = {
+    css$115 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Bmd = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$114);
+      $$result.css.add(css$115);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">B.M.D</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"database photo"}">
@@ -6466,13 +6775,13 @@ var init_british_cbe8622f = __esm({
 		</a></div>
 </div>`;
     });
-    css17 = {
+    css16 = {
       code: ".inline-block.svelte-g219g3{display:inline-block}.grid.svelte-g219g3{display:-ms-grid;display:grid}.h-10.svelte-g219g3{height:2.5rem}.text-4xl.svelte-g219g3{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-g219g3{margin-left:2rem}.mt-3.svelte-g219g3{margin-top:0.75rem}.mt-20.svelte-g219g3{margin-top:5rem}.mt-8.svelte-g219g3{margin-top:2rem}.text-center.svelte-g219g3{text-align:center}.text-purple-500.svelte-g219g3{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-g219g3{width:3.5rem}.gap-4.svelte-g219g3{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-g219g3{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
     prerender15 = true;
     British = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css17);
+      $$result.css.add(css16);
       return `${$$result.head += `${$$result.title = `<title>British</title>`, ""}`, ""}
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-g219g3"}"><div class="${"h-10 w-14 inline-block svelte-g219g3"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638864273/webp/uk-flag.webp"}" alt="${"image of British flag"}"></div>
 
@@ -6510,23 +6819,23 @@ var init_british_cbe8622f = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/ireland-4628a0c5.js
-var ireland_4628a0c5_exports = {};
-__export(ireland_4628a0c5_exports, {
+// .svelte-kit/output/server/chunks/ireland-c36d8488.js
+var ireland_c36d8488_exports = {};
+__export(ireland_c36d8488_exports, {
   default: () => Ireland,
   prerender: () => prerender16
 });
-var css$311, Toolkit, css$215, Genealogy2, css$115, Census, css18, prerender16, Ireland;
-var init_ireland_4628a0c5 = __esm({
-  ".svelte-kit/output/server/chunks/ireland-4628a0c5.js"() {
+var css$312, Toolkit, css$216, Genealogy2, css$116, Census, css17, prerender16, Ireland;
+var init_ireland_c36d8488 = __esm({
+  ".svelte-kit/output/server/chunks/ireland-c36d8488.js"() {
     init_shims();
-    init_app_36b6399c();
-    css$311 = {
+    init_app_96b59668();
+    css$312 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Toolkit = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$311);
+      $$result.css.add(css$312);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Toolkit</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638894653/webp/shamrock.webp"}" alt="${"shamrock photo"}">
@@ -6537,12 +6846,12 @@ var init_ireland_4628a0c5 = __esm({
 		</a></div>
 </div>`;
     });
-    css$215 = {
+    css$216 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Genealogy2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$215);
+      $$result.css.add(css$216);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Genealogy</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638861228/webp/family-tree.webp"}" alt="${"family tree photo"}">
@@ -6553,12 +6862,12 @@ var init_ireland_4628a0c5 = __esm({
 		</a></div>
 </div>`;
     });
-    css$115 = {
+    css$116 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Census = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$115);
+      $$result.css.add(css$116);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Census</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638894153/webp/censusireland.webp"}" alt="${"census photo"}">
@@ -6569,13 +6878,13 @@ var init_ireland_4628a0c5 = __esm({
 		</a></div>
 </div>`;
     });
-    css18 = {
+    css17 = {
       code: ".inline-block.svelte-aztiwm{display:inline-block}.grid.svelte-aztiwm{display:-ms-grid;display:grid}.h-10.svelte-aztiwm{height:2.5rem}.text-4xl.svelte-aztiwm{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-aztiwm{margin-left:2rem}.mt-3.svelte-aztiwm{margin-top:0.75rem}.mt-20.svelte-aztiwm{margin-top:5rem}.text-center.svelte-aztiwm{text-align:center}.text-purple-500.svelte-aztiwm{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-aztiwm{width:3.5rem}.gap-4.svelte-aztiwm{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-aztiwm{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
     prerender16 = true;
     Ireland = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css18);
+      $$result.css.add(css17);
       return `${$$result.head += `${$$result.title = `<title>Ireland</title>`, ""}`, ""}
 
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638893914/webp/ireland-flag.webp"}" alt="${"image of irish flag"}"></div>
@@ -6591,18 +6900,18 @@ var init_ireland_4628a0c5 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/Lost-0eb73acf.js
-var css19, Lost;
-var init_Lost_0eb73acf = __esm({
-  ".svelte-kit/output/server/chunks/Lost-0eb73acf.js"() {
+// .svelte-kit/output/server/chunks/Lost-289d0aab.js
+var css18, Lost;
+var init_Lost_289d0aab = __esm({
+  ".svelte-kit/output/server/chunks/Lost-289d0aab.js"() {
     init_shims();
-    init_app_36b6399c();
-    css19 = {
+    init_app_96b59668();
+    css18 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Lost = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css19);
+      $$result.css.add(css18);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Russian &amp; Ukraine</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638861228/webp/family-tree.webp"}" alt="${"family tree photo"}">
@@ -6616,24 +6925,24 @@ var init_Lost_0eb73acf = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/russian-9162c3cb.js
-var russian_9162c3cb_exports = {};
-__export(russian_9162c3cb_exports, {
+// .svelte-kit/output/server/chunks/russian-6a4b2f61.js
+var russian_6a4b2f61_exports = {};
+__export(russian_6a4b2f61_exports, {
   default: () => Russian,
   prerender: () => prerender17
 });
-var css$b2, First, css$a2, Stalingrad, css$94, Soviet, css$84, Memorial, css$74, Awards, css$64, Leningrad, css$55, War, css$47, Forebears, css$312, Family2, css$216, Cursive, css$116, Latin, css20, prerender17, Russian;
-var init_russian_9162c3cb = __esm({
-  ".svelte-kit/output/server/chunks/russian-9162c3cb.js"() {
+var css$b3, First, css$a3, Stalingrad, css$95, Soviet, css$85, Memorial, css$75, Awards, css$65, Leningrad, css$56, War, css$49, Forebears, css$313, Family2, css$217, Cursive, css$117, Latin, css19, prerender17, Russian;
+var init_russian_6a4b2f61 = __esm({
+  ".svelte-kit/output/server/chunks/russian-6a4b2f61.js"() {
     init_shims();
-    init_app_36b6399c();
-    init_Lost_0eb73acf();
-    css$b2 = {
+    init_app_96b59668();
+    init_Lost_289d0aab();
+    css$b3 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     First = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$b2);
+      $$result.css.add(css$b3);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Soldiers</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638976351/webp/russian_soldiers.webp"}" alt="${"image of a database"}">
@@ -6647,12 +6956,12 @@ var init_russian_9162c3cb = __esm({
 		</a></div>
 </div>`;
     });
-    css$a2 = {
+    css$a3 = {
       code: ".bg-indigo-700.svelte-13tzqgo{--tw-bg-opacity:1;background-color:rgba(67, 56, 202, var(--tw-bg-opacity))}.hover\\:bg-indigo-800.svelte-13tzqgo:hover{--tw-bg-opacity:1;background-color:rgba(55, 48, 163, var(--tw-bg-opacity))}.rounded-lg.svelte-13tzqgo{border-radius:0.5rem}.h-32.svelte-13tzqgo{height:8rem}.h-8.svelte-13tzqgo{height:2rem}.text-2xl.svelte-13tzqgo{font-size:1.5rem;line-height:2rem}.text-sm.svelte-13tzqgo{font-size:0.875rem;line-height:1.25rem}.m-4.svelte-13tzqgo{margin:1rem}.m-2.svelte-13tzqgo{margin:0.5rem}.object-fill.svelte-13tzqgo{-o-object-fit:fill;object-fit:fill}.p-4.svelte-13tzqgo{padding:1rem}.p-6.svelte-13tzqgo{padding:1.5rem}.px-4.svelte-13tzqgo{padding-left:1rem;padding-right:1rem}.shadow-2xl.svelte-13tzqgo{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-right.svelte-13tzqgo{text-align:right}.text-white.svelte-13tzqgo{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-13tzqgo:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.text-indigo-100.svelte-13tzqgo{--tw-text-opacity:1;color:rgba(224, 231, 255, var(--tw-text-opacity))}.w-auto.svelte-13tzqgo{width:auto}.w-full.svelte-13tzqgo{width:100%}.transition-colors.svelte-13tzqgo{-webkit-transition-property:background-color, border-color, color, fill, stroke;-o-transition-property:background-color, border-color, color, fill, stroke;transition-property:background-color, border-color, color, fill, stroke;-webkit-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-o-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}.duration-150.svelte-13tzqgo{-webkit-transition-duration:150ms;-o-transition-duration:150ms;transition-duration:150ms}",
       map: null
     };
     Stalingrad = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$a2);
+      $$result.css.add(css$a3);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-13tzqgo"}"><div class="${"p-6 svelte-13tzqgo"}"><h1 class="${"text-2xl text-white svelte-13tzqgo"}">Stalingrad</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-13tzqgo"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638974961/webp/Stalingrad.webp"}" alt="${"battle of stalingrad photo"}">
@@ -6665,12 +6974,12 @@ var init_russian_9162c3cb = __esm({
 	<div class="${"text-right svelte-13tzqgo"}"><button class="${"h-8 px-4 m-2 text-sm text-indigo-100 transition-colors duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800 svelte-13tzqgo"}">New</button></div>
 </div>`;
     });
-    css$94 = {
+    css$95 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Soviet = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$94);
+      $$result.css.add(css$95);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Soviet Union</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638963974/webp/soviet-map.webp"}" alt="${"soviet map photo"}">
@@ -6682,12 +6991,12 @@ var init_russian_9162c3cb = __esm({
 		</a></div>
 </div>`;
     });
-    css$84 = {
+    css$85 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Memorial = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$84);
+      $$result.css.add(css$85);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Military Memorial</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638963768/webp/war.webp"}" alt="${"russain war memorial photo"}">
@@ -6698,12 +7007,12 @@ var init_russian_9162c3cb = __esm({
 		</a></div>
 </div>`;
     });
-    css$74 = {
+    css$75 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Awards = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$74);
+      $$result.css.add(css$75);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Military Awards</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638963374/webp/soviet-medals.webp"}" alt="${"soviet medals photo"}">
@@ -6714,12 +7023,12 @@ var init_russian_9162c3cb = __esm({
 		</a></div>
 </div>`;
     });
-    css$64 = {
+    css$65 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Leningrad = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$64);
+      $$result.css.add(css$65);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Leningrad</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638947447/webp/lenigrad.webp"}" alt="${"photo of Leningrad Siege"}">
@@ -6733,12 +7042,12 @@ var init_russian_9162c3cb = __esm({
 		</a></div>
 </div>`;
     });
-    css$55 = {
+    css$56 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     War = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$55);
+      $$result.css.add(css$56);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">War</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"database photo"}">
@@ -6749,12 +7058,12 @@ var init_russian_9162c3cb = __esm({
 		</a></div>
 </div>`;
     });
-    css$47 = {
+    css$49 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Forebears = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$47);
+      $$result.css.add(css$49);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Forebears</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"database photo"}">
@@ -6766,12 +7075,12 @@ var init_russian_9162c3cb = __esm({
 		</a></div>
 </div>`;
     });
-    css$312 = {
+    css$313 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Family2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$312);
+      $$result.css.add(css$313);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Family</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638861228/webp/family-tree.webp"}" alt="${"family tree photo"}">
@@ -6782,12 +7091,12 @@ var init_russian_9162c3cb = __esm({
 		</a></div>
 </div>`;
     });
-    css$216 = {
+    css$217 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Cursive = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$216);
+      $$result.css.add(css$217);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Print &amp; Cursive</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638945685/webp/cyrillic.webp"}" alt="${"cyrillic alphabet photo"}">
@@ -6798,12 +7107,12 @@ var init_russian_9162c3cb = __esm({
 		</a></div>
 </div>`;
     });
-    css$116 = {
+    css$117 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Latin = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$116);
+      $$result.css.add(css$117);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Cyrillic to Latin</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638945685/webp/cyrillic.webp"}" alt="${"cyrillic alphabet photo"}">
@@ -6814,13 +7123,13 @@ var init_russian_9162c3cb = __esm({
 		</a></div>
 </div>`;
     });
-    css20 = {
+    css19 = {
       code: ".inline-block.svelte-g219g3{display:inline-block}.grid.svelte-g219g3{display:-ms-grid;display:grid}.h-10.svelte-g219g3{height:2.5rem}.text-4xl.svelte-g219g3{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-g219g3{margin-left:2rem}.mt-3.svelte-g219g3{margin-top:0.75rem}.mt-20.svelte-g219g3{margin-top:5rem}.mt-8.svelte-g219g3{margin-top:2rem}.text-center.svelte-g219g3{text-align:center}.text-purple-500.svelte-g219g3{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-g219g3{width:3.5rem}.gap-4.svelte-g219g3{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-g219g3{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
     prerender17 = true;
     Russian = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css20);
+      $$result.css.add(css19);
       return `${$$result.head += `${$$result.title = `<title>Russian</title>`, ""}`, ""}
 
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-g219g3"}"><div class="${"h-10 w-14 inline-block svelte-g219g3"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638945399/webp/russian-flag.webp"}" alt="${"image of Russian flag"}"></div>
@@ -6848,24 +7157,24 @@ var init_russian_9162c3cb = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/ukraine-c9f57b4a.js
-var ukraine_c9f57b4a_exports = {};
-__export(ukraine_c9f57b4a_exports, {
+// .svelte-kit/output/server/chunks/ukraine-6161dfb5.js
+var ukraine_6161dfb5_exports = {};
+__export(ukraine_6161dfb5_exports, {
   default: () => Ukraine,
   prerender: () => prerender18
 });
-var css$313, Ukstate, css$217, Residents, css$117, Dnipropetrovsk, css21, prerender18, Ukraine;
-var init_ukraine_c9f57b4a = __esm({
-  ".svelte-kit/output/server/chunks/ukraine-c9f57b4a.js"() {
+var css$314, Ukstate, css$218, Residents, css$118, Dnipropetrovsk, css20, prerender18, Ukraine;
+var init_ukraine_6161dfb5 = __esm({
+  ".svelte-kit/output/server/chunks/ukraine-6161dfb5.js"() {
     init_shims();
-    init_app_36b6399c();
-    init_Lost_0eb73acf();
-    css$313 = {
+    init_app_96b59668();
+    init_Lost_289d0aab();
+    css$314 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Ukstate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$313);
+      $$result.css.add(css$314);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"image of archive"}">
@@ -6876,12 +7185,12 @@ var init_ukraine_c9f57b4a = __esm({
 		</a></div>
 </div>`;
     });
-    css$217 = {
+    css$218 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Residents = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$217);
+      $$result.css.add(css$218);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Residents</h1>
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638859747/webp/database.webp"}" alt="${"image of a archives"}">
 
@@ -6892,12 +7201,12 @@ var init_ukraine_c9f57b4a = __esm({
 		</a></div>
 </div>`;
     });
-    css$117 = {
+    css$118 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Dnipropetrovsk = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$117);
+      $$result.css.add(css$118);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Dnipropetrovsk</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"image of a archives"}">
@@ -6909,13 +7218,13 @@ var init_ukraine_c9f57b4a = __esm({
 		</a></div>
 </div>`;
     });
-    css21 = {
+    css20 = {
       code: ".inline-block.svelte-g219g3{display:inline-block}.grid.svelte-g219g3{display:-ms-grid;display:grid}.h-10.svelte-g219g3{height:2.5rem}.text-4xl.svelte-g219g3{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-g219g3{margin-left:2rem}.mt-3.svelte-g219g3{margin-top:0.75rem}.mt-20.svelte-g219g3{margin-top:5rem}.mt-8.svelte-g219g3{margin-top:2rem}.text-center.svelte-g219g3{text-align:center}.text-purple-500.svelte-g219g3{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-g219g3{width:3.5rem}.gap-4.svelte-g219g3{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-g219g3{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
     prerender18 = true;
     Ukraine = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css21);
+      $$result.css.add(css20);
       return `${$$result.head += `${$$result.title = `<title>Ukraine</title>`, ""}`, ""}
 
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-g219g3"}"><div class="${"h-10 w-14 inline-block svelte-g219g3"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638978523/webp/ukraine-flag.webp"}" alt="${"image of Ukraine flag"}"></div>
@@ -6933,23 +7242,23 @@ var init_ukraine_c9f57b4a = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/french-deb7bcb7.js
-var french_deb7bcb7_exports = {};
-__export(french_deb7bcb7_exports, {
+// .svelte-kit/output/server/chunks/french-ddd3b43f.js
+var french_ddd3b43f_exports = {};
+__export(french_ddd3b43f_exports, {
   default: () => French,
   prerender: () => prerender19
 });
-var css$218, Fstate, css$118, Naturalisation, css22, prerender19, French;
-var init_french_deb7bcb7 = __esm({
-  ".svelte-kit/output/server/chunks/french-deb7bcb7.js"() {
+var css$219, Fstate, css$119, Naturalisation, css21, prerender19, French;
+var init_french_ddd3b43f = __esm({
+  ".svelte-kit/output/server/chunks/french-ddd3b43f.js"() {
     init_shims();
-    init_app_36b6399c();
-    css$218 = {
+    init_app_96b59668();
+    css$219 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Fstate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$218);
+      $$result.css.add(css$219);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">State Archives
       </h1>
 
@@ -6962,12 +7271,12 @@ var init_french_deb7bcb7 = __esm({
 		</a></div>
   </div>`;
     });
-    css$118 = {
+    css$119 = {
       code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
       map: null
     };
     Naturalisation = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css$118);
+      $$result.css.add(css$119);
       return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">Naturalisation</h1>
 
 		<img class="${"h-32 w-full object-fill svelte-uz66hb"}" src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638860017/webp/archives.webp"}" alt="${"archive photo"}">
@@ -6979,13 +7288,13 @@ var init_french_deb7bcb7 = __esm({
 		</a></div>
 </div>`;
     });
-    css22 = {
+    css21 = {
       code: ".inline-block.svelte-aztiwm{display:inline-block}.grid.svelte-aztiwm{display:-ms-grid;display:grid}.h-10.svelte-aztiwm{height:2.5rem}.text-4xl.svelte-aztiwm{font-size:2.25rem;line-height:2.5rem}.ml-8.svelte-aztiwm{margin-left:2rem}.mt-3.svelte-aztiwm{margin-top:0.75rem}.mt-20.svelte-aztiwm{margin-top:5rem}.text-center.svelte-aztiwm{text-align:center}.text-purple-500.svelte-aztiwm{--tw-text-opacity:1;color:rgba(139, 92, 246, var(--tw-text-opacity))}.w-14.svelte-aztiwm{width:3.5rem}.gap-4.svelte-aztiwm{grid-gap:1rem;gap:1rem}@media(min-width: 640px){.sm\\:flex.svelte-aztiwm{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex}}",
       map: null
     };
     prerender19 = true;
     French = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css22);
+      $$result.css.add(css21);
       return `${$$result.head += `${$$result.title = `<title>French</title>`, ""}`, ""}
 
 <section class="${"one"}"><h1 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-aztiwm"}"><div class="${"h-10 w-14 inline-block svelte-aztiwm"}"><img src="${"https://res.cloudinary.com/dzhbfdfa5/image/upload/c_scale,h_200,w_300/v1638892550/webp/french-flag.webp"}" alt="${"image of French flag"}"></div>
@@ -7000,7 +7309,7 @@ var init_french_deb7bcb7 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/app-36b6399c.js
+// .svelte-kit/output/server/chunks/app-96b59668.js
 function get_single_valued_header(headers, key) {
   const value = headers[key];
   if (Array.isArray(value)) {
@@ -7394,7 +7703,7 @@ async function render_response({
   error: error2,
   page
 }) {
-  const css24 = new Set(options2.entry.css);
+  const css23 = new Set(options2.entry.css);
   const js = new Set(options2.entry.js);
   const styles = new Set();
   const serialized_data = [];
@@ -7407,7 +7716,7 @@ async function render_response({
   if (page_config.ssr) {
     branch.forEach(({ node, loaded, fetched, uses_credentials }) => {
       if (node.css)
-        node.css.forEach((url) => css24.add(url));
+        node.css.forEach((url) => css23.add(url));
       if (node.js)
         node.js.forEach((url) => js.add(url));
       if (node.styles)
@@ -7450,7 +7759,7 @@ async function render_response({
     js.clear();
   const links = options2.amp ? styles.size > 0 || rendered.css.code.length > 0 ? `<style amp-custom>${Array.from(styles).concat(rendered.css.code).join("\n")}</style>` : "" : [
     ...Array.from(js).map((dep) => `<link rel="modulepreload" href="${dep}">`),
-    ...Array.from(css24).map((dep) => `<link rel="stylesheet" href="${dep}">`)
+    ...Array.from(css23).map((dep) => `<link rel="stylesheet" href="${dep}">`)
   ].join("\n		");
   let init2 = "";
   if (options2.amp) {
@@ -8251,7 +8560,7 @@ function create_ssr_component(fn) {
       return {
         html,
         css: {
-          code: Array.from(result.css).map((css24) => css24.code).join("\n"),
+          code: Array.from(result.css).map((css23) => css23.code).join("\n"),
           map: null
         },
         head: result.title + result.head
@@ -8276,9 +8585,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-36b315b0.js",
+      file: assets + "/_app/start-0c4943b1.js",
       css: [assets + "/_app/assets/start-1f089c51.css"],
-      js: [assets + "/_app/start-36b315b0.js", assets + "/_app/chunks/vendor-dad3c69f.js"]
+      js: [assets + "/_app/start-0c4943b1.js", assets + "/_app/chunks/vendor-dad3c69f.js"]
     },
     fetched: void 0,
     floc: false,
@@ -8306,11 +8615,11 @@ function init(settings = default_settings) {
   };
 }
 async function load_component(file) {
-  const { entry, css: css24, js, styles } = metadata_lookup[file];
+  const { entry, css: css23, js, styles } = metadata_lookup[file];
   return {
     module: await module_lookup[file](),
     entry: assets + "/_app/" + entry,
-    css: css24.map((dep) => assets + "/_app/" + dep),
+    css: css23.map((dep) => assets + "/_app/" + dep),
     js: js.map((dep) => assets + "/_app/" + dep),
     styles
   };
@@ -8321,9 +8630,9 @@ function render(request, {
   const host = request.headers["host"];
   return respond({ ...request, host }, options, { prerender: prerender20 });
 }
-var __accessCheck, __privateGet, __privateAdd, __privateSet, _map, absolute, scheme, chars, unsafeChars, reserved, escaped$1, objectProtoOwnPropertyNames, subscriber_queue, escape_json_string_in_html_dict, escape_html_attr_dict, s$1, s, ReadOnlyFormData, current_component, escaped, missing_component, on_destroy, css23, Root, base, assets, user_hooks, template, options, default_settings, empty, manifest, get_hooks, module_lookup, metadata_lookup;
-var init_app_36b6399c = __esm({
-  ".svelte-kit/output/server/chunks/app-36b6399c.js"() {
+var __accessCheck, __privateGet, __privateAdd, __privateSet, _map, absolute, scheme, chars, unsafeChars, reserved, escaped$1, objectProtoOwnPropertyNames, subscriber_queue, escape_json_string_in_html_dict, escape_html_attr_dict, s$1, s, ReadOnlyFormData, current_component, escaped, missing_component, on_destroy, css22, Root, base, assets, user_hooks, template, options, default_settings, empty, manifest, get_hooks, module_lookup, metadata_lookup;
+var init_app_96b59668 = __esm({
+  ".svelte-kit/output/server/chunks/app-96b59668.js"() {
     init_shims();
     __accessCheck = (obj, member, msg) => {
       if (!member.has(obj))
@@ -8440,7 +8749,7 @@ var init_app_36b6399c = __esm({
     missing_component = {
       $$render: () => ""
     };
-    css23 = {
+    css22 = {
       code: "#svelte-announcer.svelte-1r92h5h{position:absolute;left:0;top:0;clip:rect(0 0 0 0);clip-path:inset(50%);overflow:hidden;white-space:nowrap;width:1px;height:1px}",
       map: null
     };
@@ -8465,7 +8774,7 @@ var init_app_36b6399c = __esm({
         $$bindings.props_1(props_1);
       if ($$props.props_2 === void 0 && $$bindings.props_2 && props_2 !== void 0)
         $$bindings.props_2(props_2);
-      $$result.css.add(css23);
+      $$result.css.add(css22);
       {
         stores.page.set(page);
       }
@@ -8634,29 +8943,29 @@ ${``}`;
       externalFetch: hooks.externalFetch || fetch
     });
     module_lookup = {
-      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_60ea1adc(), layout_60ea1adc_exports)),
-      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_fbea9448(), error_fbea9448_exports)),
-      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_4b35ef96(), index_4b35ef96_exports)),
-      "src/routes/australia-j.svelte": () => Promise.resolve().then(() => (init_australia_j_caad8f2f(), australia_j_caad8f2f_exports)),
-      "src/routes/netherlands.svelte": () => Promise.resolve().then(() => (init_netherlands_c9b711e7(), netherlands_c9b711e7_exports)),
-      "src/routes/austrian-j.svelte": () => Promise.resolve().then(() => (init_austrian_j_8a251c7e(), austrian_j_8a251c7e_exports)),
-      "src/routes/newzealand.svelte": () => Promise.resolve().then(() => (init_newzealand_d97c6a1e(), newzealand_d97c6a1e_exports)),
-      "src/routes/australia.svelte": () => Promise.resolve().then(() => (init_australia_3f3e9895(), australia_3f3e9895_exports)),
-      "src/routes/belarus-j.svelte": () => Promise.resolve().then(() => (init_belarus_j_78e9592b(), belarus_j_78e9592b_exports)),
-      "src/routes/british-j.svelte": () => Promise.resolve().then(() => (init_british_j_d3ae1cd6(), british_j_d3ae1cd6_exports)),
-      "src/routes/ukraine-j.svelte": () => Promise.resolve().then(() => (init_ukraine_j_06682a75(), ukraine_j_06682a75_exports)),
-      "src/routes/austrian.svelte": () => Promise.resolve().then(() => (init_austrian_fb0a74b3(), austrian_fb0a74b3_exports)),
-      "src/routes/barbados.svelte": () => Promise.resolve().then(() => (init_barbados_d5215fc7(), barbados_d5215fc7_exports)),
-      "src/routes/belarus.svelte": () => Promise.resolve().then(() => (init_belarus_a3bb0dc3(), belarus_a3bb0dc3_exports)),
-      "src/routes/belgium.svelte": () => Promise.resolve().then(() => (init_belgium_35b9c7e5(), belgium_35b9c7e5_exports)),
-      "src/routes/bermuda.svelte": () => Promise.resolve().then(() => (init_bermuda_6e40797c(), bermuda_6e40797c_exports)),
-      "src/routes/british.svelte": () => Promise.resolve().then(() => (init_british_cbe8622f(), british_cbe8622f_exports)),
-      "src/routes/ireland.svelte": () => Promise.resolve().then(() => (init_ireland_4628a0c5(), ireland_4628a0c5_exports)),
-      "src/routes/russian.svelte": () => Promise.resolve().then(() => (init_russian_9162c3cb(), russian_9162c3cb_exports)),
-      "src/routes/ukraine.svelte": () => Promise.resolve().then(() => (init_ukraine_c9f57b4a(), ukraine_c9f57b4a_exports)),
-      "src/routes/french.svelte": () => Promise.resolve().then(() => (init_french_deb7bcb7(), french_deb7bcb7_exports))
+      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_8ca6f9dc(), layout_8ca6f9dc_exports)),
+      ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(() => (init_error_c7b8171c(), error_c7b8171c_exports)),
+      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_2b3ef602(), index_2b3ef602_exports)),
+      "src/routes/australia-j.svelte": () => Promise.resolve().then(() => (init_australia_j_d45b71a9(), australia_j_d45b71a9_exports)),
+      "src/routes/netherlands.svelte": () => Promise.resolve().then(() => (init_netherlands_2612586d(), netherlands_2612586d_exports)),
+      "src/routes/austrian-j.svelte": () => Promise.resolve().then(() => (init_austrian_j_73332512(), austrian_j_73332512_exports)),
+      "src/routes/newzealand.svelte": () => Promise.resolve().then(() => (init_newzealand_13838db0(), newzealand_13838db0_exports)),
+      "src/routes/australia.svelte": () => Promise.resolve().then(() => (init_australia_d802c1f2(), australia_d802c1f2_exports)),
+      "src/routes/belarus-j.svelte": () => Promise.resolve().then(() => (init_belarus_j_ae4cff33(), belarus_j_ae4cff33_exports)),
+      "src/routes/british-j.svelte": () => Promise.resolve().then(() => (init_british_j_3ef96fb2(), british_j_3ef96fb2_exports)),
+      "src/routes/ukraine-j.svelte": () => Promise.resolve().then(() => (init_ukraine_j_3204ad15(), ukraine_j_3204ad15_exports)),
+      "src/routes/austrian.svelte": () => Promise.resolve().then(() => (init_austrian_96c3e6f1(), austrian_96c3e6f1_exports)),
+      "src/routes/barbados.svelte": () => Promise.resolve().then(() => (init_barbados_8553065c(), barbados_8553065c_exports)),
+      "src/routes/belarus.svelte": () => Promise.resolve().then(() => (init_belarus_0529ad68(), belarus_0529ad68_exports)),
+      "src/routes/belgium.svelte": () => Promise.resolve().then(() => (init_belgium_881493bb(), belgium_881493bb_exports)),
+      "src/routes/bermuda.svelte": () => Promise.resolve().then(() => (init_bermuda_97e9aac8(), bermuda_97e9aac8_exports)),
+      "src/routes/british.svelte": () => Promise.resolve().then(() => (init_british_d09d89c1(), british_d09d89c1_exports)),
+      "src/routes/ireland.svelte": () => Promise.resolve().then(() => (init_ireland_c36d8488(), ireland_c36d8488_exports)),
+      "src/routes/russian.svelte": () => Promise.resolve().then(() => (init_russian_6a4b2f61(), russian_6a4b2f61_exports)),
+      "src/routes/ukraine.svelte": () => Promise.resolve().then(() => (init_ukraine_6161dfb5(), ukraine_6161dfb5_exports)),
+      "src/routes/french.svelte": () => Promise.resolve().then(() => (init_french_ddd3b43f(), french_ddd3b43f_exports))
     };
-    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-387ee873.js", "css": ["assets/pages/__layout.svelte-2b35773f.css"], "js": ["pages/__layout.svelte-387ee873.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-0eb0ae99.js", "css": [], "js": ["error.svelte-0eb0ae99.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-ae75be4b.js", "css": ["assets/pages/index.svelte-3b776db4.css"], "js": ["pages/index.svelte-ae75be4b.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia-j.svelte": { "entry": "pages/australia-j.svelte-4c42d120.js", "css": ["assets/pages/australia-j.svelte-32ee9e02.css"], "js": ["pages/australia-j.svelte-4c42d120.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/netherlands.svelte": { "entry": "pages/netherlands.svelte-39977444.js", "css": ["assets/pages/austrian-j.svelte-b2b37369.css"], "js": ["pages/netherlands.svelte-39977444.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/austrian-j.svelte": { "entry": "pages/austrian-j.svelte-fce25107.js", "css": ["assets/pages/austrian-j.svelte-b2b37369.css"], "js": ["pages/austrian-j.svelte-fce25107.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/newzealand.svelte": { "entry": "pages/newzealand.svelte-03fbcb26.js", "css": ["assets/pages/newzealand.svelte-4345acdd.css"], "js": ["pages/newzealand.svelte-03fbcb26.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia.svelte": { "entry": "pages/australia.svelte-4919c30e.js", "css": ["assets/pages/australia.svelte-b349f3b9.css"], "js": ["pages/australia.svelte-4919c30e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belarus-j.svelte": { "entry": "pages/belarus-j.svelte-e567d10e.js", "css": ["assets/pages/austrian-j.svelte-b2b37369.css", "assets/Weiner99-b5b3c88a.css"], "js": ["pages/belarus-j.svelte-e567d10e.js", "chunks/vendor-dad3c69f.js", "chunks/Weiner99-4a5f8108.js"], "styles": [] }, "src/routes/british-j.svelte": { "entry": "pages/british-j.svelte-c3c60c3d.js", "css": ["assets/pages/british-j.svelte-cb432773.css", "assets/Weiner99-b5b3c88a.css"], "js": ["pages/british-j.svelte-c3c60c3d.js", "chunks/vendor-dad3c69f.js", "chunks/Weiner99-4a5f8108.js"], "styles": [] }, "src/routes/ukraine-j.svelte": { "entry": "pages/ukraine-j.svelte-6342dfde.js", "css": ["assets/pages/austrian-j.svelte-b2b37369.css"], "js": ["pages/ukraine-j.svelte-6342dfde.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/austrian.svelte": { "entry": "pages/austrian.svelte-d94ecc71.js", "css": ["assets/pages/australia-j.svelte-32ee9e02.css"], "js": ["pages/austrian.svelte-d94ecc71.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/barbados.svelte": { "entry": "pages/barbados.svelte-a6327baa.js", "css": ["assets/pages/australia-j.svelte-32ee9e02.css"], "js": ["pages/barbados.svelte-a6327baa.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belarus.svelte": { "entry": "pages/belarus.svelte-dbfde14e.js", "css": ["assets/pages/australia-j.svelte-32ee9e02.css"], "js": ["pages/belarus.svelte-dbfde14e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belgium.svelte": { "entry": "pages/belgium.svelte-f632cfd6.js", "css": ["assets/pages/australia-j.svelte-32ee9e02.css"], "js": ["pages/belgium.svelte-f632cfd6.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/bermuda.svelte": { "entry": "pages/bermuda.svelte-e5bde0b4.js", "css": ["assets/pages/australia-j.svelte-32ee9e02.css"], "js": ["pages/bermuda.svelte-e5bde0b4.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/british.svelte": { "entry": "pages/british.svelte-adfa0a68.js", "css": ["assets/pages/british.svelte-2a5d1767.css"], "js": ["pages/british.svelte-adfa0a68.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/ireland.svelte": { "entry": "pages/ireland.svelte-5dd49521.js", "css": ["assets/pages/australia-j.svelte-32ee9e02.css"], "js": ["pages/ireland.svelte-5dd49521.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/russian.svelte": { "entry": "pages/russian.svelte-2db191b3.js", "css": ["assets/pages/russian.svelte-4f0c37ac.css", "assets/Weiner99-b5b3c88a.css"], "js": ["pages/russian.svelte-2db191b3.js", "chunks/vendor-dad3c69f.js", "chunks/Lost-7e5bc6a3.js"], "styles": [] }, "src/routes/ukraine.svelte": { "entry": "pages/ukraine.svelte-39d07e74.js", "css": ["assets/pages/austrian-j.svelte-b2b37369.css", "assets/Weiner99-b5b3c88a.css"], "js": ["pages/ukraine.svelte-39d07e74.js", "chunks/vendor-dad3c69f.js", "chunks/Lost-7e5bc6a3.js"], "styles": [] }, "src/routes/french.svelte": { "entry": "pages/french.svelte-75287445.js", "css": ["assets/pages/australia-j.svelte-32ee9e02.css"], "js": ["pages/french.svelte-75287445.js", "chunks/vendor-dad3c69f.js"], "styles": [] } };
+    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-387ee873.js", "css": ["assets/pages/__layout.svelte-2b35773f.css"], "js": ["pages/__layout.svelte-387ee873.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-0eb0ae99.js", "css": [], "js": ["error.svelte-0eb0ae99.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-ae75be4b.js", "css": ["assets/pages/index.svelte-3b776db4.css"], "js": ["pages/index.svelte-ae75be4b.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia-j.svelte": { "entry": "pages/australia-j.svelte-4c42d120.js", "css": ["assets/pages/belgium.svelte-7ee81034.css"], "js": ["pages/australia-j.svelte-4c42d120.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/netherlands.svelte": { "entry": "pages/netherlands.svelte-39977444.js", "css": ["assets/pages/belarus-j.svelte-deaf44dd.css"], "js": ["pages/netherlands.svelte-39977444.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/austrian-j.svelte": { "entry": "pages/austrian-j.svelte-fce25107.js", "css": ["assets/pages/belarus-j.svelte-deaf44dd.css"], "js": ["pages/austrian-j.svelte-fce25107.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/newzealand.svelte": { "entry": "pages/newzealand.svelte-03fbcb26.js", "css": ["assets/pages/newzealand.svelte-4345acdd.css"], "js": ["pages/newzealand.svelte-03fbcb26.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/australia.svelte": { "entry": "pages/australia.svelte-4919c30e.js", "css": ["assets/pages/australia.svelte-b349f3b9.css"], "js": ["pages/australia.svelte-4919c30e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belarus-j.svelte": { "entry": "pages/belarus-j.svelte-20b0e875.js", "css": ["assets/pages/belarus-j.svelte-deaf44dd.css"], "js": ["pages/belarus-j.svelte-20b0e875.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/british-j.svelte": { "entry": "pages/british-j.svelte-e15ad85a.js", "css": ["assets/pages/british-j.svelte-2f45be7b.css"], "js": ["pages/british-j.svelte-e15ad85a.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/ukraine-j.svelte": { "entry": "pages/ukraine-j.svelte-6342dfde.js", "css": ["assets/pages/belarus-j.svelte-deaf44dd.css"], "js": ["pages/ukraine-j.svelte-6342dfde.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/austrian.svelte": { "entry": "pages/austrian.svelte-d94ecc71.js", "css": ["assets/pages/belgium.svelte-7ee81034.css"], "js": ["pages/austrian.svelte-d94ecc71.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/barbados.svelte": { "entry": "pages/barbados.svelte-a6327baa.js", "css": ["assets/pages/belgium.svelte-7ee81034.css"], "js": ["pages/barbados.svelte-a6327baa.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belarus.svelte": { "entry": "pages/belarus.svelte-dbfde14e.js", "css": ["assets/pages/belgium.svelte-7ee81034.css"], "js": ["pages/belarus.svelte-dbfde14e.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/belgium.svelte": { "entry": "pages/belgium.svelte-f632cfd6.js", "css": ["assets/pages/belgium.svelte-7ee81034.css"], "js": ["pages/belgium.svelte-f632cfd6.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/bermuda.svelte": { "entry": "pages/bermuda.svelte-e5bde0b4.js", "css": ["assets/pages/belgium.svelte-7ee81034.css"], "js": ["pages/bermuda.svelte-e5bde0b4.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/british.svelte": { "entry": "pages/british.svelte-adfa0a68.js", "css": ["assets/pages/british.svelte-2a5d1767.css"], "js": ["pages/british.svelte-adfa0a68.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/ireland.svelte": { "entry": "pages/ireland.svelte-5dd49521.js", "css": ["assets/pages/belgium.svelte-7ee81034.css"], "js": ["pages/ireland.svelte-5dd49521.js", "chunks/vendor-dad3c69f.js"], "styles": [] }, "src/routes/russian.svelte": { "entry": "pages/russian.svelte-2db191b3.js", "css": ["assets/pages/russian.svelte-4f0c37ac.css", "assets/Lost-ac4f0319.css"], "js": ["pages/russian.svelte-2db191b3.js", "chunks/vendor-dad3c69f.js", "chunks/Lost-7e5bc6a3.js"], "styles": [] }, "src/routes/ukraine.svelte": { "entry": "pages/ukraine.svelte-39d07e74.js", "css": ["assets/pages/belarus-j.svelte-deaf44dd.css", "assets/Lost-ac4f0319.css"], "js": ["pages/ukraine.svelte-39d07e74.js", "chunks/vendor-dad3c69f.js", "chunks/Lost-7e5bc6a3.js"], "styles": [] }, "src/routes/french.svelte": { "entry": "pages/french.svelte-75287445.js", "css": ["assets/pages/belgium.svelte-7ee81034.css"], "js": ["pages/french.svelte-75287445.js", "chunks/vendor-dad3c69f.js"], "styles": [] } };
   }
 });
 
@@ -8668,7 +8977,7 @@ init_shims();
 
 // .svelte-kit/output/server/app.js
 init_shims();
-init_app_36b6399c();
+init_app_96b59668();
 
 // .svelte-kit/netlify/entry.js
 init();
