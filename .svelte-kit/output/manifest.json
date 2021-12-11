@@ -1,6 +1,6 @@
 {
   ".svelte-kit/build/runtime/internal/start.js": {
-    "file": "start-ecae241e.js",
+    "file": "start-52e50511.js",
     "src": ".svelte-kit/build/runtime/internal/start.js",
     "isEntry": true,
     "imports": [
@@ -76,7 +76,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/austrian.svelte-69bee997.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "src/routes/netherlands.svelte": {
@@ -140,7 +140,7 @@
     ]
   },
   "src/routes/british-j.svelte": {
-    "file": "pages/british-j.svelte-7eab7d1b.js",
+    "file": "pages/british-j.svelte-ea64da32.js",
     "src": "src/routes/british-j.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -172,7 +172,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/austrian.svelte-69bee997.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "src/routes/barbados.svelte": {
@@ -184,7 +184,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/austrian.svelte-69bee997.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "src/routes/canada-j.svelte": {
@@ -209,7 +209,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/austrian.svelte-69bee997.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "src/routes/belgium.svelte": {
@@ -234,7 +234,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/austrian.svelte-69bee997.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "src/routes/british.svelte": {
@@ -258,7 +258,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/austrian.svelte-69bee997.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "src/routes/russian.svelte": {
@@ -296,7 +296,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/austrian.svelte-69bee997.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "_vendor-dad3c69f.js": {
@@ -308,7 +308,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/Belgstate-5aca5aaf.css"
+      "assets/Lost-ac4f0319.css"
     ]
   },
   "_Lost-7e5bc6a3.js": {
@@ -317,7 +317,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/Belgstate-5aca5aaf.css"
+      "assets/Lost-ac4f0319.css"
     ]
   }
 }
