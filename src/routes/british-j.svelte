@@ -13,7 +13,7 @@
 	import Scribes99 from '../component/British/Scribes99.svelte';
 	import Synagogue99 from '../component/British/Synagogue99.svelte';
 	import Fifty from '../component/British/Fifty.svelte';
-	import Fiftyone from '../component/British/Fiftyone.svelte';
+	import Eighteenfiftyone99 from '../component/British/Eighteenfiftyone99.svelte';
 	import Gilroes99 from '../component/British/Gilroes99.svelte';
 	import Scotland99 from '../component/British/Scotland99.svelte';
 	import Glasgow99 from '../component/British/Glasgow99.svelte';
@@ -64,7 +64,7 @@
 		</div>
 
 		<div class="grid sm:flex gap-4 mt-8">
-			<Fiftyone />
+			<Eighteenfiftyone99 />
 		</div>
 
 		<h2 class="ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl">

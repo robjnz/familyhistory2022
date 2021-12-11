@@ -1,4 +1,4 @@
-import { c as create_ssr_component, v as validate_component } from "./app-b63e91b7.js";
+import { c as create_ssr_component, v as validate_component } from "./app-d9289d06.js";
 var Glasgow99_svelte_svelte_type_style_lang = "";
 const css$g = {
   code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
@@ -53,12 +53,12 @@ const Gilroes99 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 		</a></div>
 </div>`;
 });
-var Fiftyone_svelte_svelte_type_style_lang = "";
+var Eighteenfiftyone99_svelte_svelte_type_style_lang = "";
 const css$d = {
   code: ".rounded-lg.svelte-uz66hb{border-radius:0.5rem}.h-32.svelte-uz66hb{height:8rem}.text-2xl.svelte-uz66hb{font-size:1.5rem;line-height:2rem}.m-4.svelte-uz66hb{margin:1rem}.object-fill.svelte-uz66hb{-o-object-fit:fill;object-fit:fill}.p-4.svelte-uz66hb{padding:1rem}.p-6.svelte-uz66hb{padding:1.5rem}.shadow-2xl.svelte-uz66hb{--tw-shadow-color:0, 0, 0;--tw-shadow:0 25px 50px -12px rgba(var(--tw-shadow-color), 0.25);-webkit-box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.text-white.svelte-uz66hb{--tw-text-opacity:1;color:rgba(255, 255, 255, var(--tw-text-opacity))}.hover\\:text-yellow-500.svelte-uz66hb:hover{--tw-text-opacity:1;color:rgba(245, 158, 11, var(--tw-text-opacity))}.w-auto.svelte-uz66hb{width:auto}.w-full.svelte-uz66hb{width:100%}",
   map: null
 };
-const Fiftyone = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+const Eighteenfiftyone99 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$d);
   return `<div id="${"work-card"}" class="${"m-4 p-4 w-auto rounded-lg shadow-2xl svelte-uz66hb"}"><div class="${"p-6 svelte-uz66hb"}"><h1 class="${"text-2xl text-white svelte-uz66hb"}">1851 Community
       </h1>
@@ -335,7 +335,7 @@ const British_j = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 			${validate_component(Synagogue99, "Synagogue99").$$render($$result, {}, {}, {})}
 			${validate_component(Fifty, "Fifty").$$render($$result, {}, {}, {})}</div>
 
-		<div class="${"grid sm:flex gap-4 mt-8 svelte-g219g3"}">${validate_component(Fiftyone, "Fiftyone").$$render($$result, {}, {}, {})}</div>
+		<div class="${"grid sm:flex gap-4 mt-8 svelte-g219g3"}">${validate_component(Eighteenfiftyone99, "Eighteenfiftyone99").$$render($$result, {}, {}, {})}</div>
 
 		<h2 class="${"ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl svelte-g219g3"}"><div class="${"h-10 w-14 svelte-g219g3"}">Leicester</div></h2>
 		<br>
