@@ -1,7 +1,7 @@
 <!-- component -->
 <div class="group inline-block">
 	<button
-		class="outline-none focus:outline-none border px-3 py-1 bg-white rounded-sm flex items-center min-w-32"
+		class="outline-none focus:outline-none border px-3 py-1 bg-white text-gray-700 rounded-sm flex items-center min-w-32"
 	>
 		<span class="pr-1 font-semibold flex-1">Blog Posts </span>
 		<span>

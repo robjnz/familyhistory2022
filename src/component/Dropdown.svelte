@@ -24,7 +24,7 @@
 		<General />
 	</p>
 
-	<p>
+	<p class="text-gray-700">
 		<br />
 		Add
 
