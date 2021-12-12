@@ -4,6 +4,14 @@
 
 <svelte:head>
 	<title>Family History</title>
+
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PJS56TL');</script>
+<!-- End Google Tag Manager -->
 </svelte:head>
 
 <section class="one">
@@ -15,7 +23,7 @@
 	</p>
 	<br />
 
-	<div class="grid grid-cols-2 gap-4">
+	<div class="sm:grid cols-1 md:grid grid-cols-2 gap-4">
 		<div>
 			<img class="h-96 w-full object-fill p-4" src="/images/logotreerobin.svg" alt="logo" />
 		</div>
@@ -34,7 +42,6 @@
 				<li>Naturalisation records</li>
 				<li>Trade Directories</li>
 			</ul>
-			
 		</div>
 	</div>
 </section>

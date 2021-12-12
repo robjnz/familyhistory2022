@@ -19,7 +19,7 @@
 			/>
 		</div>
 
-		Ireland Family History Resourses
+		Irish Family History Resourses
 	</h1>
 	<br />
 	<section class="one">

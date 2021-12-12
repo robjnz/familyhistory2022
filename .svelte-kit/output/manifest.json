@@ -1,6 +1,6 @@
 {
   ".svelte-kit/build/runtime/internal/start.js": {
-    "file": "start-d4378fae.js",
+    "file": "start-095a3503.js",
     "src": ".svelte-kit/build/runtime/internal/start.js",
     "isEntry": true,
     "imports": [
@@ -17,6 +17,8 @@
       "src/routes/australia.svelte",
       "src/routes/belarus-j.svelte",
       "src/routes/british-j.svelte",
+      "src/routes/ireland-j.svelte",
+      "src/routes/italian-j.svelte",
       "src/routes/ukraine-j.svelte",
       "src/routes/austrian.svelte",
       "src/routes/barbados.svelte",
@@ -35,7 +37,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-2325193c.js",
+    "file": "pages/__layout.svelte-e4747882.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -43,7 +45,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-3efcb999.css"
+      "assets/pages/__layout.svelte-899b8923.css"
     ]
   },
   ".svelte-kit/build/components/error.svelte": {
@@ -56,7 +58,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-ae75be4b.js",
+    "file": "pages/index.svelte-6a6c4c85.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -64,7 +66,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/index.svelte-3b776db4.css"
+      "assets/pages/index.svelte-30506a56.css"
     ]
   },
   "src/routes/australia-j.svelte": {
@@ -76,7 +78,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/ireland.svelte-af097eb8.css"
+      "assets/pages/barbados.svelte-ac4cdfcc.css"
     ]
   },
   "src/routes/netherlands.svelte": {
@@ -88,7 +90,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/belarus-j.svelte-deaf44dd.css"
+      "assets/pages/ukraine-j.svelte-940df1d1.css"
     ]
   },
   "src/routes/austrian-j.svelte": {
@@ -100,7 +102,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/belarus-j.svelte-deaf44dd.css"
+      "assets/pages/ukraine-j.svelte-940df1d1.css"
     ]
   },
   "src/routes/newzealand.svelte": {
@@ -136,7 +138,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/belarus-j.svelte-deaf44dd.css"
+      "assets/pages/ukraine-j.svelte-940df1d1.css"
     ]
   },
   "src/routes/british-j.svelte": {
@@ -151,6 +153,30 @@
       "assets/pages/british-j.svelte-e0eaffd3.css"
     ]
   },
+  "src/routes/ireland-j.svelte": {
+    "file": "pages/ireland-j.svelte-5fbd2c80.js",
+    "src": "src/routes/ireland-j.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-dad3c69f.js"
+    ],
+    "css": [
+      "assets/pages/barbados.svelte-ac4cdfcc.css"
+    ]
+  },
+  "src/routes/italian-j.svelte": {
+    "file": "pages/italian-j.svelte-5938dfd1.js",
+    "src": "src/routes/italian-j.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-dad3c69f.js"
+    ],
+    "css": [
+      "assets/pages/barbados.svelte-ac4cdfcc.css"
+    ]
+  },
   "src/routes/ukraine-j.svelte": {
     "file": "pages/ukraine-j.svelte-6342dfde.js",
     "src": "src/routes/ukraine-j.svelte",
@@ -160,7 +186,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/belarus-j.svelte-deaf44dd.css"
+      "assets/pages/ukraine-j.svelte-940df1d1.css"
     ]
   },
   "src/routes/austrian.svelte": {
@@ -172,7 +198,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/ireland.svelte-af097eb8.css"
+      "assets/pages/barbados.svelte-ac4cdfcc.css"
     ]
   },
   "src/routes/barbados.svelte": {
@@ -184,20 +210,19 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/ireland.svelte-af097eb8.css"
+      "assets/pages/barbados.svelte-ac4cdfcc.css"
     ]
   },
   "src/routes/canada-j.svelte": {
-    "file": "pages/canada-j.svelte-ba6453b0.js",
+    "file": "pages/canada-j.svelte-2f007c5a.js",
     "src": "src/routes/canada-j.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-dad3c69f.js",
-      "_Belgstate-6278d52b.js"
+      "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/canada-j.svelte-f50fbd59.css"
+      "assets/pages/barbados.svelte-ac4cdfcc.css"
     ]
   },
   "src/routes/belarus.svelte": {
@@ -209,20 +234,19 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/ireland.svelte-af097eb8.css"
+      "assets/pages/barbados.svelte-ac4cdfcc.css"
     ]
   },
   "src/routes/belgium.svelte": {
-    "file": "pages/belgium.svelte-fe90ce2e.js",
+    "file": "pages/belgium.svelte-f632cfd6.js",
     "src": "src/routes/belgium.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-dad3c69f.js",
-      "_Belgstate-6278d52b.js"
+      "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/belgium.svelte-03a104f2.css"
+      "assets/pages/barbados.svelte-ac4cdfcc.css"
     ]
   },
   "src/routes/bermuda.svelte": {
@@ -234,7 +258,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/ireland.svelte-af097eb8.css"
+      "assets/pages/barbados.svelte-ac4cdfcc.css"
     ]
   },
   "src/routes/british.svelte": {
@@ -250,7 +274,7 @@
     ]
   },
   "src/routes/ireland.svelte": {
-    "file": "pages/ireland.svelte-5dd49521.js",
+    "file": "pages/ireland.svelte-27391c36.js",
     "src": "src/routes/ireland.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -258,7 +282,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/ireland.svelte-af097eb8.css"
+      "assets/pages/barbados.svelte-ac4cdfcc.css"
     ]
   },
   "src/routes/russian.svelte": {
@@ -284,7 +308,7 @@
       "_Lost-7e5bc6a3.js"
     ],
     "css": [
-      "assets/pages/belarus-j.svelte-deaf44dd.css"
+      "assets/pages/ukraine-j.svelte-940df1d1.css"
     ]
   },
   "src/routes/french.svelte": {
@@ -296,20 +320,11 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/pages/ireland.svelte-af097eb8.css"
+      "assets/pages/barbados.svelte-ac4cdfcc.css"
     ]
   },
   "_vendor-dad3c69f.js": {
     "file": "chunks/vendor-dad3c69f.js"
-  },
-  "_Belgstate-6278d52b.js": {
-    "file": "chunks/Belgstate-6278d52b.js",
-    "imports": [
-      "_vendor-dad3c69f.js"
-    ],
-    "css": [
-      "assets/Belgstate-5aca5aaf.css"
-    ]
   },
   "_Lost-7e5bc6a3.js": {
     "file": "chunks/Lost-7e5bc6a3.js",
@@ -317,7 +332,7 @@
       "_vendor-dad3c69f.js"
     ],
     "css": [
-      "assets/Belgstate-5aca5aaf.css"
+      "assets/Lost-ac4f0319.css"
     ]
   }
 }
