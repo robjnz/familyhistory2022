@@ -50,48 +50,25 @@
 			<a class="text-blue-600 hover:text-yellow-600" href="/italian-j">Italian</a>
 		</li>
 
-    
-
-
       <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-        <g-link
-          class="text-blue-600 hover:text-yellow-600"
-          to="/Jewish/netherlands"
-          >Netherlands</g-link
-        >
-      </li>
-<!--
-       <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-        <g-link
-          class="text-blue-600 hover:text-yellow-600"
-          to="/Jewish/newzealand"
-          >New Zealand</g-link
-        >
-      </li>
--->
-      <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-        <g-link class="text-blue-600 hover:text-yellow-600" to="/Jewish/russia"
-          >Russian</g-link
-        >
-      </li>
+			<a class="text-blue-600 hover:text-yellow-600" href="/netherlands-j">Netherlands</a>
+		</li>
 
-    
+    <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+			<a class="text-blue-600 hover:text-yellow-600" href="/russian-j">Russian</a>
+		</li>
 
        <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
 			<a class="text-blue-600 hover:text-yellow-600" href="/ukraine-j">Ukraine</a>
 		</li>
 
+     <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+			<a class="text-blue-600 hover:text-yellow-600" href="/usa-j">USA</a>
+		</li>
+      
       <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-        <g-link class="text-blue-600 hover:text-yellow-600" to="/Jewish/america"
-          >USA</g-link
-        >
-      </li>
-
-       <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-        <g-link class="text-blue-600 hover:text-yellow-600" to="/shoah"
-          >shoah</g-link
-        >
-      </li>
+			<a class="text-blue-600 hover:text-yellow-600" href="/shoah">Shoah</a>
+		</li>
     </ul>
   </div>
 
