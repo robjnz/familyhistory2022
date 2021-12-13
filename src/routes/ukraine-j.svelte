@@ -13,7 +13,7 @@
 </script>
 
 <svelte:head>
-	<title>Ukraine</title>
+	<title>Ukraine Jewish</title>
 </svelte:head>
 
 <section class="one">

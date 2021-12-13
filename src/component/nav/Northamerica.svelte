@@ -20,16 +20,14 @@
   transition duration-150 ease-in-out origin-top min-w-32"
 	>
 		<li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-			<g-link class="text-gray-900 hover:text-yellow-600" to="/Northamerica/canadageneral"
-				>Canada</g-link
-			>
+			<a class="text-gray-900 hover:text-yellow-600" href="/canada">Canada</a>
 		</li>
 
 		<li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-			<g-link class="text-gray-900 hover:text-yellow-600" to="/Northamerica/americangeneral"
-				>USA</g-link
-			>
+			<a class="text-gray-900 hover:text-yellow-600" href="/usa">USA</a>
 		</li>
+
+		
 	</ul>
 </div>
 

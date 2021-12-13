@@ -1,7 +1,15 @@
 <script context="module">
 	export const prerender = true;
 
-	import Society99 from '../component/Usa/Society99.svelte';
+	import Arolsen from '../component/Shoah/Arolsen.svelte';
+	import Auschwitz from '../component/Shoah/Auschwitz.svelte';
+	import Galisian from '../component/Shoah/Galisian.svelte';
+	import Camps from '../component/Shoah/Camps.svelte';
+	import French from '../component/Shoah/French.svelte';
+	import Holocaust from '../component/Shoah/Holocaust.svelte';
+	import Records from '../component/Shoah/Records.svelte';
+	import Ushmm from '../component/Shoah/Ushmm.svelte';
+	import Yad from '../component/Shoah/Yad.svelte';
 </script>
 
 <svelte:head>
@@ -24,10 +32,21 @@
 	</h1>
 	<br />
 	<section class="one">
-		<div class="grid sm:flex gap-4 mt-20 ">
-			<Society99 />
+		<div class="grid sm:flex gap-4 mt-20">
+			<Arolsen />
+			<Auschwitz />
+			<Galisian />
+		</div>
+		<div class="grid sm:flex gap-4 mt-8">
+			<Camps />
+			<French />
+			<Holocaust />
+		</div>
+
+		<div class="grid sm:flex gap-4 mt-8">
+			<Records />
+			<Ushmm />
+			<Yad />
 		</div>
 	</section>
-    </section>
-
-	
+</section>

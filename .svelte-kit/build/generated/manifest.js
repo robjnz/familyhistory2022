@@ -24,9 +24,11 @@ const c = [
 	() => import("..\\..\\..\\src\\routes\\ireland.svelte"),
 	() => import("..\\..\\..\\src\\routes\\russian.svelte"),
 	() => import("..\\..\\..\\src\\routes\\ukraine.svelte"),
+	() => import("..\\..\\..\\src\\routes\\canada.svelte"),
 	() => import("..\\..\\..\\src\\routes\\french.svelte"),
 	() => import("..\\..\\..\\src\\routes\\shoah.svelte"),
-	() => import("..\\..\\..\\src\\routes\\usa-j.svelte")
+	() => import("..\\..\\..\\src\\routes\\usa-j.svelte"),
+	() => import("..\\..\\..\\src\\routes\\usa.svelte")
 ];
 
 const d = decodeURIComponent;
@@ -101,14 +103,20 @@ export const routes = [
 	// src/routes/ukraine.svelte
 	[/^\/ukraine\/?$/, [c[0], c[24]], [c[1]]],
 
+	// src/routes/canada.svelte
+	[/^\/canada\/?$/, [c[0], c[25]], [c[1]]],
+
 	// src/routes/french.svelte
-	[/^\/french\/?$/, [c[0], c[25]], [c[1]]],
+	[/^\/french\/?$/, [c[0], c[26]], [c[1]]],
 
 	// src/routes/shoah.svelte
-	[/^\/shoah\/?$/, [c[0], c[26]], [c[1]]],
+	[/^\/shoah\/?$/, [c[0], c[27]], [c[1]]],
 
 	// src/routes/usa-j.svelte
-	[/^\/usa-j\/?$/, [c[0], c[27]], [c[1]]]
+	[/^\/usa-j\/?$/, [c[0], c[28]], [c[1]]],
+
+	// src/routes/usa.svelte
+	[/^\/usa\/?$/, [c[0], c[29]], [c[1]]]
 ];
 
 // we import the root layout/error components eagerly, so that
