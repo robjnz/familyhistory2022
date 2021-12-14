@@ -19,8 +19,9 @@
 		class="bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute 
   transition duration-150 ease-in-out origin-top min-w-32"
 	>
+		
 		<li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-			<g-link class="text-rose-500 hover:text-orange-500" to="/general">General</g-link>
+			<a class="text-rose-500 hover:text-yellow-600" href="/general">General</a>
 		</li>
 
 		<li class="rounded-sm px-3 py-1 hover:bg-gray-100">
