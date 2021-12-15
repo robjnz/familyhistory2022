@@ -29,6 +29,7 @@ const c = [
 	() => import("..\\..\\..\\src\\routes\\french.svelte"),
 	() => import("..\\..\\..\\src\\routes\\shoah.svelte"),
 	() => import("..\\..\\..\\src\\routes\\usa-j.svelte"),
+	() => import("..\\..\\..\\src\\routes\\dna.svelte"),
 	() => import("..\\..\\..\\src\\routes\\usa.svelte")
 ];
 
@@ -119,8 +120,11 @@ export const routes = [
 	// src/routes/usa-j.svelte
 	[/^\/usa-j\/?$/, [c[0], c[29]], [c[1]]],
 
+	// src/routes/dna.svelte
+	[/^\/dna\/?$/, [c[0], c[30]], [c[1]]],
+
 	// src/routes/usa.svelte
-	[/^\/usa\/?$/, [c[0], c[30]], [c[1]]]
+	[/^\/usa\/?$/, [c[0], c[31]], [c[1]]]
 ];
 
 // we import the root layout/error components eagerly, so that

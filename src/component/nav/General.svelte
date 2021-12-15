@@ -25,8 +25,10 @@
 		</li>
 
 		<li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-			<g-link class="text-rose-500 hover:text-orange-500" to="/dna">DNA</g-link>
+			<a class="text-rose-500 hover:text-yellow-600" href="/dna">DNA</a>
 		</li>
+
+		
 
 		<li class="rounded-sm px-3 py-1 hover:bg-gray-100">
 			<g-link class="text-rose-500 hover:text-orange-500" to="/video">Video</g-link>

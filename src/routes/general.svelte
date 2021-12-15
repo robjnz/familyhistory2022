@@ -12,6 +12,15 @@
 	import Cemeteries from '../component/General/Cemeteries.svelte';
 	import Gems from '../component/General/Gems.svelte';
 	import JewishGen from '../component/General/JewishGen.svelte';
+	import Jri from '../component/General/Jri.svelte';
+	import Roots from '../component/General/Roots.svelte';
+	import Simcha from '../component/General/Simcha.svelte';
+	import Mate from '../component/General/Mate.svelte';
+	import Ahnenblatt from '../component/General/Ahnenblatt.svelte';
+	import Convert from '../component/General/Convert.svelte';
+	import Hebrew from '../component/General/Hebrew.svelte';
+	import Shtetl from '../component/General/Shtetl.svelte';
+	import Transkribus from '../component/General/Transkribus.svelte';
 </script>
 
 <svelte:head>
@@ -53,8 +62,33 @@
 		<br />
 		<div class="grid sm:flex gap-4 mt-8">
 			<Cemeteries />
+			<Convert />
 			<Gems />
+		</div>
+
+		<div class="grid sm:flex gap-4 mt-8">
 			<JewishGen />
+			<Jri />
+			<Hebrew />
+		</div>
+
+		<div class="grid sm:flex gap-4 mt-8">
+			<Roots />
+			<Shtetl />
+			<Simcha />
+		</div>
+
+		<div class="grid sm:flex gap-4 mt-8">
+			<Mate />
+		</div>
+
+		<h2 class="ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl">
+			General Family History Resourses
+		</h2>
+		<br />
+		<div class="grid sm:flex gap-4 mt-8">
+			<Ahnenblatt />
+			<Transkribus />
 		</div>
 	</section>
 </section>
