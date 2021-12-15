@@ -1,7 +1,17 @@
 <script context="module">
 	export const prerender = true;
 
-	import Intelius99 from '../component/Usa/Intelius99.svelte';
+	import Ancestry from '../component/General/Ancestry.svelte';
+	import Graves from '../component/General/Graves.svelte';
+	import Mormons from '../component/General/Mormons.svelte';
+	import Find from '../component/General/Find.svelte';
+	import Past from '../component/General/Past.svelte';
+	import Geneanet from '../component/General/Geneanet.svelte';
+	import Heritage from '../component/General/Heritage.svelte';
+	import Prisoners from '../component/General/Prisoners.svelte';
+	import Cemeteries from '../component/General/Cemeteries.svelte';
+	import Gems from '../component/General/Gems.svelte';
+	import JewishGen from '../component/General/JewishGen.svelte';
 </script>
 
 <svelte:head>
@@ -21,7 +31,30 @@
 	<br />
 	<section class="one">
 		<div class="grid sm:flex gap-4 mt-20">
-			<Intelius99 />
+			<Ancestry />
+			<Graves />
+			<Mormons />
+		</div>
+
+		<div class="grid sm:flex gap-4 mt-8">
+			<Find />
+			<Past />
+			<Geneanet />
+		</div>
+
+		<div class="grid sm:flex gap-4 mt-8">
+			<Heritage />
+			<Prisoners />
+		</div>
+
+		<h2 class="ml-8 mt-3 inline-block text-center text-purple-500 text-font-sans text-4xl">
+			General Jewish Family History Resourses
+		</h2>
+		<br />
+		<div class="grid sm:flex gap-4 mt-8">
+			<Cemeteries />
+			<Gems />
+			<JewishGen />
 		</div>
 	</section>
 </section>
