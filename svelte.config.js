@@ -1,10 +1,10 @@
 import { windi } from 'svelte-windicss-preprocess';
-import vercel from '@sveltejs/adapter-vercel';
+import adapter from '@sveltejs/adapter-netlify';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	preprocess: [windi({})],
 	kit: {
-		adapter: vercel(), // currently the adapter does not take any options
+		adapter: adapter(), // currently the adapter does not take any options
 		target: '#svelte'
 	}
 };
