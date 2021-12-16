@@ -100,7 +100,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/canada.svelte-9ccb6324.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "src/routes/netherlands.svelte": {
@@ -112,7 +112,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/ukraine.svelte-f49768ca.css"
+      "assets/pages/ukraine-j.svelte-940df1d1.css"
     ]
   },
   "src/routes/austrian-j.svelte": {
@@ -124,7 +124,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/ukraine.svelte-f49768ca.css"
+      "assets/pages/ukraine-j.svelte-940df1d1.css"
     ]
   },
   "src/routes/newzealand.svelte": {
@@ -160,7 +160,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/ukraine.svelte-f49768ca.css"
+      "assets/pages/ukraine-j.svelte-940df1d1.css"
     ]
   },
   "src/routes/british-j.svelte": {
@@ -184,7 +184,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/canada.svelte-9ccb6324.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "src/routes/italian-j.svelte": {
@@ -196,7 +196,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/canada.svelte-9ccb6324.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "src/routes/russian-j.svelte": {
@@ -208,7 +208,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/canada.svelte-9ccb6324.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "src/routes/ukraine-j.svelte": {
@@ -220,7 +220,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/ukraine.svelte-f49768ca.css"
+      "assets/pages/ukraine-j.svelte-940df1d1.css"
     ]
   },
   "src/routes/austrian.svelte": {
@@ -232,7 +232,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/canada.svelte-9ccb6324.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "src/routes/barbados.svelte": {
@@ -244,7 +244,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/canada.svelte-9ccb6324.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "src/routes/canada-j.svelte": {
@@ -256,7 +256,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/canada.svelte-9ccb6324.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "src/routes/belarus.svelte": {
@@ -268,7 +268,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/canada.svelte-9ccb6324.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "src/routes/belgium.svelte": {
@@ -280,7 +280,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/canada.svelte-9ccb6324.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "src/routes/bermuda.svelte": {
@@ -292,7 +292,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/canada.svelte-9ccb6324.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "src/routes/british.svelte": {
@@ -328,7 +328,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/ukraine.svelte-f49768ca.css"
+      "assets/pages/ukraine-j.svelte-940df1d1.css"
     ]
   },
   "src/routes/ireland.svelte": {
@@ -340,7 +340,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/canada.svelte-9ccb6324.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "src/routes/russian.svelte": {
@@ -366,7 +366,7 @@
       "_Lost-0fbf28cf.js"
     ],
     "css": [
-      "assets/pages/ukraine.svelte-f49768ca.css"
+      "assets/pages/ukraine-j.svelte-940df1d1.css"
     ]
   },
   "src/routes/canada.svelte": {
@@ -378,7 +378,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/canada.svelte-9ccb6324.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "src/routes/french.svelte": {
@@ -390,7 +390,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/canada.svelte-9ccb6324.css"
+      "assets/pages/belarus.svelte-aad99b98.css"
     ]
   },
   "src/routes/shoah.svelte": {
@@ -438,7 +438,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/ukraine.svelte-f49768ca.css"
+      "assets/pages/ukraine-j.svelte-940df1d1.css"
     ]
   },
   "src/routes/usa.svelte": {
@@ -450,7 +450,7 @@
       "_vendor-28470302.js"
     ],
     "css": [
-      "assets/pages/ukraine.svelte-f49768ca.css"
+      "assets/pages/ukraine-j.svelte-940df1d1.css"
     ]
   },
   "_vendor-28470302.js": {
