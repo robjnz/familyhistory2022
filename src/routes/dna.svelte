@@ -4,8 +4,11 @@
 	import Ancestrydna from '../component/Dna/Ancestrydna.svelte';
 	import Painter from '../component/Dna/Painter.svelte';
 	import Familydna from '../component/Dna/Familydna.svelte';
-    	import GedMatch from '../component/Dna/GedMatch.svelte';
-
+	import GedMatch from '../component/Dna/GedMatch.svelte';
+	import Living from '../component/Dna/Living.svelte';
+	import Illatrative from '../component/Dna/Illatrative.svelte';
+	import Myheritage from '../component/Dna/Myheritage.svelte';
+	import Medna from '../component/Dna/Medna.svelte';
 </script>
 
 <svelte:head>
@@ -27,12 +30,18 @@
 		<div class="grid sm:flex gap-4 mt-20">
 			<Ancestrydna />
 			<Painter />
-            <Familydna />
+			<Familydna />
 		</div>
 
-        		<div class="grid sm:flex gap-4 mt-8">
-                <GedMatch />
-                </div>
+		<div class="grid sm:flex gap-4 mt-8">
+			<GedMatch />
+			<Living />
+			<Illatrative />
+		</div>
 
+		<div class="grid sm:flex gap-4 mt-8">
+			<Myheritage />
+			<Medna />
+		</div>
 	</section>
 </section>
