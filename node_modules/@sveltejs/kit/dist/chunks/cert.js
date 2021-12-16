@@ -1,11 +1,12 @@
 import { c as commonjsGlobal } from '../install-fetch.js';
 import require$$1 from 'crypto';
-import 'http';
-import 'https';
-import 'zlib';
-import 'stream';
-import 'util';
-import 'url';
+import 'node:http';
+import 'node:https';
+import 'node:zlib';
+import 'node:stream';
+import 'node:util';
+import 'node:url';
+import 'net';
 
 /**
  * Node.js module for Forge.
